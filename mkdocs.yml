@@ -1,0 +1,216 @@
+# Project information
+site_name: 60portunities
+site_description: Documentação 60pportunities
+site_author: Horacio Vasconcellos
+site_url: https://60pportunities.com.br
+repo_name: documentacao
+repo_url: https://github.com/60pportunities/
+edit_uri: tree/master/docs
+docs_dir: docs
+copyright:  >
+   Copyright &copy; 2024 Documentação
+   <a href="#__consent">Change cookie settings</a>
+extra_css:
+  - styles/app-theme.css
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+  - styles/tablesort.css
+  - styles/60pthemas.css
+extra_javascript:
+  - javascripts/tables.js
+  - javascripts/tablesort.js
+validation:
+  omitted_files: ignore
+  absolute_links: ignore
+  unrecognized_links: ignore
+  anchors: ignore
+theme:
+  icon:
+    repo: fontawesome/brands/git-alt
+  custom_dir: theme
+  highlightjs: true
+  features:
+    - announce.dismiss
+    - commit
+    - content.code.annotation
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+    - version
+    - content.footnote.tooltips
+  favicon: img/favicon.ico
+  name: material
+  palette:
+   # Palette toggle for light mode
+   - media: "(prefers-color-scheme: light)"
+     scheme: default
+     primary: deep purple  # light blue
+     accent: purple        # indigo
+     toggle:
+       icon: material/weather-night
+       name: Azul da cor do mar
+   # Palette toggle for dark mode
+   - media: "(prefers-color-scheme: dark)"
+     scheme: default
+     primary: red        # indigo
+     accent: deep purple # light blue
+     toggle:
+       icon: material/weather-sunny
+       name: Rock and Roll
+plugins:
+  - obsidian-bridge
+  - tags:
+      enabled: true
+  - git-committers:
+      #enterprise_hostname: https://github.com/s60pportunities
+      repository: https://github.com/60pportunities/documentacao
+      branch: main
+      #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+      token:  !!python/object/apply:os.getenv ["GIT_AUTH_TOKEN"]
+  - git-authors
+  - git-revision-date-localized:
+      type: timeago
+      custom_format: "%d. %B %Y"
+      timezone: America/Sao_Paulo
+      locale: pt
+      fallback_to_build_date: false
+      enable_creation_date: true
+      exclude:
+          - index.md
+      enabled: true
+      strict: true
+# - blog:
+#      blog_dir: .
+  - search
+  - autorefs
+#  - mkdocstrings:
+#      handlers:
+#        python:
+#          options:
+#            docstring_style: sphinx
+#  - monorepo
+  - include-markdown:
+      #encoding: ascii
+      preserve_includer_indent: false
+      dedent: false
+      trailing_newlines: true
+      comments: true
+      rewrite_relative_urls: true
+      heading_offset: 0
+      start: <!--start-->
+      end: <!--end-->
+  - table-reader
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      height: auto
+      width: 80%
+  - swagger-ui-tag:
+       background: White
+  - render_swagger
+  - mike
+  - mermaid2:
+      version: 10.0.2
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - obsidian_media_mkdocs
+  - obsidian_callouts
+  - markdown_include.include:
+      base_path: .
+  - admonition
+  - attr_list
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - admonition
+  - abbr
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra:
+  analytics:
+    provider: google
+    property: G-horacio
+  consent:
+    title: Consentimento
+    description: >-
+       Utilizamos cookies para reconhecer as suas repetidas visitas e preferências, bem como
+       para medir a eficácia da nossa documentação e se os usuários
+       encontre o que eles estão procurando. Com o seu consentimento, você está nos ajudando a
+       melhorar nossa documentação.
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/horaciovasconcellos
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/horaciovasconcellos
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Horacio_Junior
+      name: Horacio.Vasconcellos on Twitter
+    - icon: fontawesome/brands/mastodon
+      name: Horaci.Vasconcellos on Mastodon
+    - icon: fontawesome/brands/gitter
+      link: https://gitter.im/squidfunk/mkdocs-material
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/77678117787
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hor%C3%A1cio-correa-t-de-vasconcellos-j%C3%BAnior-b7788467/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/horacio.vasconcellos/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/horacio.vasconcellos
+    - icon: fontawesome/brands/medium
+      link: http://60pportunities.com.br
+    - icon: fontawesome/brands/pied-piper-alt
+      link: https://60pportunities.com.br
+    - icon: fontawesome/brands/product-hunt
+      link: https://www.producthunt.com/@horacio_vasconcellos
+    - icon: fontawesome/brands/slack
+      link: https://gitlab.com/horaciovasconcellos
+    - icon: fontawesome/brands/discord
+      link: http://60pportunities.com.br
+    - icon: fontawesome/solid/paper-plane
+      mailto: horacio.vasconcellos@gmail.com
+#not_in_nav: |
+
+nav:
+   - 'Inicio'                                                        : index.md

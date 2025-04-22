@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "fa26d72f5908acf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d88505f5cd320897",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7cabb71c44c36ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Inteligencia Artificial/Code Smarter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Code Smarter"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eb57fd0a040678f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "98793b6c025ae737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2a7dcde8b986e5b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "48b48c269298a1e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "1d49951a283eeaea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "6ce3b47c7d07997d",
+    "type": "split",
+    "children": [
+      {
+        "id": "775541253dc2873a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f4b8bb54731b39b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bem-vindo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Bem-vindo"
+            }
+          },
+          {
+            "id": "9a73bfe80c35736a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bem-vindo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Bem-vindo"
+            }
+          },
+          {
+            "id": "a8f9448131082ea5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "55d2e95546ce9e20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bem-vindo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Bem-vindo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "d7cabb71c44c36ed",
+  "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Estrutura de Diretórios/Introdução.md",
+    "docs/Gestão Ágil de Projetos/Calendário.md",
+    "docs/Gestão Ágil de Projetos/DevOps.md",
+    "docs/Gestão Ágil de Projetos/Sustentação.md",
+    "docs/Gestão Ágil de Projetos/Transição de Produto.md",
+    "docs/Gestão Ágil de Projetos/Mensagem.md",
+    "docs/Formação de Time/Time.md",
+    "docs/img/devops-ppt.png",
+    "docs/Dados/Introdução.md",
+    "docs/Dados/Abstração de Dados.md",
+    "docs/img/cdc_por_tipo.png",
+    "docs/img/datalakehouse.png",
+    "docs/img/data_lakehouse.png",
+    "arquitetura_bbts_competencia_habilidade_atitude.md",
+    "docs/Formação de Time",
+    "docs/Controle de Versão/Introdução.md",
+    "docs/Inteligencia Artificial/Code Smarter.md",
+    "docs/Processos_Internos/Entrevistas.md",
+    "docs/Dados/Data-Driven.md",
+    "docs/Segurança/Segregação de Função.md",
+    "docs/Teste e Qualidade de Software/Qualidade.md",
+    "Sem título 1.canvas",
+    "Sem título.canvas",
+    "2025-04-21.md",
+    "docs/Segurança",
+    "docs/Gestão Ágil de Projetos/InnerSource.md",
+    "docs/Processos_Internos/Continuous Learning.md",
+    "docs/Processos_Internos/Futurista Alvin Toffler.md",
+    "docs/Processos_Internos/Frases que Marcam.md",
+    "docs/Processos_Internos/Noosfera.md",
+    "docs/Processos_Internos/Paradoxo.md",
+    "docs/Processos_Internos/Vulnerabilidade da Força.md",
+    "agilidade/Intro.md",
+    "docs/img/mdc-003.png",
+    "docs/img/mdc-002.png",
+    "docs/img/mdc-001.png",
+    "docs/img/data-engenharia.png",
+    "docs/img/post_camadaslake_img01.jpg",
+    "docs/img/multicloud.png",
+    "docs/Dados",
+    "docs/Inteligencia Artificial",
+    "docs/Rascunhos",
+    "docs/img/1738362536610.png.crdownload",
+    "docs/Publicações Linkedin",
+    "docs/Biblioteca Virtual",
+    "docs/Licença",
+    "docs/LICENSE.txt",
+    "Canvas Livro.canvas"
+  ]
+}
