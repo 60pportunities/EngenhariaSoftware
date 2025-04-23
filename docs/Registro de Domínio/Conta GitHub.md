@@ -1,24 +1,24 @@
 GitHub é uma plataforma popular para hospedagem e colaboração em projetos de programação, permitindo que desenvolvedores trabalhem juntos de forma eficaz. Criar uma conta no GitHub é um processo simples e rápido. Aqui está um passo a passo para ajudá-lo a começar:
 
-- [ ] Acessando o Site: Primeiro, vá até o site do [GitHub](https://github.com).
-- [ ] Criando uma Conta: Na página inicial, você verá um botão que diz "Sign up" (Inscrever-se). Clique nele para iniciar o processo de registro.
-- [ ] Preenchendo os Dados: Você precisará fornecer algumas informações básicas:
-- [ ] Username (Nome de usuário): Escolha um nome de usuário que você gostaria de usar. Este será seu identificador no GitHub.
-- [ ] Email: Insira um endereço de e-mail válido, pois você precisará confirmá-lo para ativar sua conta.
-- [ ] Password (Senha): Crie uma senha forte para proteger sua conta.
-- [ ] Verificação de Segurança: O GitHub pode pedir que você complete um captcha para verificar que você não é um robô.
-- [ ] Escolhendo um Plano: Após preencher os dados, você será direcionado para escolher um plano. O GitHub oferece várias opções:
+- [ ] **Acessando o Site**: Primeiro, vá até o site do [GitHub](https://github.com).
+- [ ] **Criando uma Conta**: Na página inicial, você verá um botão que diz "Sign up" (Inscrever-se). Clique nele para iniciar o processo de registro.
+- [ ] **Preenchendo os Dados**: Você precisará fornecer algumas informações básicas:
+- [ ] **Username (Nome de usuário)**: Escolha um nome de usuário que você gostaria de usar. Este será seu identificador no GitHub.
+- [ ] **Email**: Insira um endereço de e-mail válido, pois você precisará confirmá-lo para ativar sua conta.
+- [ ] **Password (Senha)**: Crie uma senha forte para proteger sua conta.
+- [ ] **Verificação de Segurança**: O GitHub pode pedir que você complete um captcha para verificar que você não é um robô.
+- [ ] **Escolhendo um Plano**: Após preencher os dados, você será direcionado para escolher um plano. O GitHub oferece várias opções:
 	- [ ] Gratuito: Permite repositórios públicos e privados, ideal para a maioria dos usuários que estão começando.
 	- [ ] Pro: Oferece recursos adicionais, como repositórios privados ilimitados e suporte prioritário.
 	- [ ] Team e Enterprise: Para organizações, com funcionalidades de colaboração e gestão de equipe.
-- [ ] Confirmando o E-mail: Após finalizar o registro, você receberá um e-mail de confirmação. Clique no link contido nesse e-mail para ativar sua conta.
+- [ ] **Confirmando o E-mail**: Após finalizar o registro, você receberá um e-mail de confirmação. Clique no link contido nesse e-mail para ativar sua conta.
 ## Tipos de Repositórios
 Uma vez que sua conta estiver ativa, você poderá criar repositórios. Existem dois tipos principais:
 
-- [ ] Repositórios Públicos: Qualquer pessoa pode ver e contribuir. Ideal para projetos open source ou quando você deseja compartilhar seu trabalho com a comunidade.
-- [ ] Repositórios Privados: Apenas você e as pessoas que você convidar poderão ver o conteúdo. Útil para projetos que requerem confidencialidade.
+- [ ] **Repositórios Públicos**: Qualquer pessoa pode ver e contribuir. Ideal para projetos open source ou quando você deseja compartilhar seu trabalho com a comunidade.
+- [ ] **Repositórios Privados**: Apenas você e as pessoas que você convidar poderão ver o conteúdo. Útil para projetos que requerem confidencialidade.
 
-Perfil no GitHub: Seu perfil no GitHub é a sua identidade na plataforma. Ele inclui informações como:
+**Perfil no GitHub**: Seu perfil no GitHub é a sua identidade na plataforma. Ele inclui informações como:
 
 - [ ] **Nome de Usuário**: O nome que você escolheu no registro.
 - [ ] **Bio**: Uma breve descrição sobre você, onde você pode incluir interesses, especializações ou links para redes sociais.

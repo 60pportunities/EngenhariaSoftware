@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d88505f5cd320897",
+        "id": "4a9190118bd3319d",
         "type": "tabs",
         "children": [
           {
-            "id": "d7cabb71c44c36ed",
+            "id": "6b3386c8622387f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Inteligencia Artificial/Code Smarter.md",
+                "file": "docs/Dados/Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Smarter"
+              "title": "Introdução"
             }
           }
         ]
@@ -169,8 +169,37 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d7cabb71c44c36ed",
+  "active": "6b3386c8622387f5",
   "lastOpenFiles": [
+    "docs/img/dados-ciclo.png",
+    "docs/Certificações/Introdução.md",
+    "docs/Estratégias de Implantação/Estratégias de ERP.md",
+    "docs/index.md",
+    "docs/Computação em Nuvem/Introdução.md",
+    "docs/Certificações/Questionário - GitHub Actions.md",
+    "docs/Certificações/Questionário - GitHub Actions PTB.md",
+    "docs/Certificações/Questionário - GitHub Foundations.md",
+    "docs/Certificações/Questionário - Scrum Professional Developer.md",
+    "docs/Dados/Introdução.md",
+    "docs/Biblioteca Virtual/Link de Livros.md",
+    "docs/Arquitetura de Microsserviços/Gestão de Dados em Microsserviços.md",
+    "docs/Computação em Nuvem",
+    "docs/Desenvolvimento de Software Seguro/Introdução.md",
+    "docs/Rascunhos/Introdução.md",
+    "docs/Rede/Lock-in Vendor.md",
+    "docs/Desenvolvimento de Software Seguro",
+    "docs/Formação de Time/Time.md",
+    "docs/Dados/Abstração de Dados.md",
+    "docs/Dados/Data-Driven.md",
+    "docs/Registro de Domínio/Conta GitHub.md",
+    "docs/Registro de Domínio/Domínio.md",
+    "docs/Registro de Domínio/Pages.md",
+    "docs/Registro de Domínio/Pages no Domínio.md",
+    "docs/Rede/IP Logger.md",
+    "docs/Estrutura de Diretórios/Estruturas Base.md",
+    "docs/img/vendor_lock-in-multi-cloud.svg",
+    "docs/Estrutura de Diretórios/Introdução.md",
+    "docs/Processos_Internos/Continuous Learning.md",
     "site/assets/swagger-ui/oauth2-redirect.html",
     "site/assets/swagger-ui",
     "site/assets/javascripts/swagger-ui-bundle.js.map",
@@ -179,9 +208,6 @@
     "site/assets/javascripts/swagger-ui-standalone-preset.js",
     "site/assets/javascripts/swagger-ui-es-bundle.js.map",
     "site/assets/javascripts/swagger-ui-bundle.js",
-    "site/assets/javascripts/swagger-ui-standalone-preset.js.map",
-    "site/assets/javascripts/swagger-ui-es-bundle-core.js",
-    "site/assets/javascripts/swagger-ui-es-bundle-core.js.map",
     "site/assets/images/favicon.png",
     "site/img/registro-dominio-003.png",
     "site/img/registro-dominio-002.png",
@@ -191,34 +217,8 @@
     "site/img/mdc-003.png",
     "site/img/mdc-002.png",
     "site/img/mdc-001.png",
-    "site/img/innersource-005.png",
-    "docs/index.md",
-    "docs/Estrutura de Diretórios/Introdução.md",
-    "docs/Gestão Ágil de Projetos/Calendário.md",
-    "docs/Gestão Ágil de Projetos/DevOps.md",
-    "docs/Gestão Ágil de Projetos/Sustentação.md",
-    "docs/Gestão Ágil de Projetos/Transição de Produto.md",
-    "docs/Gestão Ágil de Projetos/Mensagem.md",
-    "docs/Formação de Time/Time.md",
-    "docs/Dados/Introdução.md",
-    "docs/Dados/Abstração de Dados.md",
-    "arquitetura_bbts_competencia_habilidade_atitude.md",
-    "docs/Controle de Versão/Introdução.md",
-    "docs/Inteligencia Artificial/Code Smarter.md",
-    "docs/Processos_Internos/Entrevistas.md",
-    "docs/Dados/Data-Driven.md",
-    "docs/Segurança/Segregação de Função.md",
-    "docs/Teste e Qualidade de Software/Qualidade.md",
     "Sem título 1.canvas",
     "Sem título.canvas",
-    "2025-04-21.md",
-    "docs/Gestão Ágil de Projetos/InnerSource.md",
-    "docs/Processos_Internos/Continuous Learning.md",
-    "docs/Processos_Internos/Futurista Alvin Toffler.md",
-    "docs/Processos_Internos/Frases que Marcam.md",
-    "docs/Processos_Internos/Noosfera.md",
-    "docs/Processos_Internos/Paradoxo.md",
-    "docs/Processos_Internos/Vulnerabilidade da Força.md",
     "Canvas Livro.canvas"
   ]
 }

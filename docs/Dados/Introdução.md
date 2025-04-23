@@ -4,6 +4,317 @@ Os dados impulsionam partes significativas de nossas vidas, desde recomendaçõe
 
 O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientados por dados** na busca do aprimoramento de serviços ou venda de produtos ou operações.
 
+## **Data Mess** (Bagunça de Dados)
+É um termo usado informalmente para descrever uma situação onde os dados de uma organização estão em **estado caótico ou bagunçados** — ou seja, desorganizados, mal gerenciados e difíceis de usar de forma eficiente.
+### **Características de um Data mess e uma Possível Solução**
+
+| Características                            | Consequências                                                                                                                                                                                                                                                        | Vamos Resolver?                                                                           |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Múltiplas versões da verdade               | Decisões erradas por causa de dados ruins                                                                                                                                                                                                                            | Definir responsáveis, padrões de qualidade e políticas de atualização.                    |
+| Dados duplicados e redundantes             | Perda de tempo e dinheiro                                                                                                                                                                                                                                            | Usar ferramentas como **ETL** (_Extract, Transform, Load_) ou plataformas de integração.  |
+| Ausência  de padronização                  | Dificuldade para implementar BI, IA ou automação                                                                                                                                                                                                                     | Identificar e remover duplicatas, corrigir inconsistências e preencher lacunas.           |
+| Dados incompletos ou desatualizados        | Problemas de compliance (ex: GPDR(**General Data Protection Regulation** (Europa)), PCI DSS (Payment Card Industry Data Security Standard), LGPD(**Lei Geral de Proteção de Dados** (Brasil)), HIPAA (**Health Insurance Portability and Accountability Act** (EUA)) | Centralizar dados críticos, Mestres e de Referencia  em uma fonte única de verdade.       |
+| Silos de dados                             |                                                                                                                                                                                                                                                                      | Usar validações automáticas e workflows para evitar erros humanos.                        |
+| Falta de governança de dados               |                                                                                                                                                                                                                                                                      | CENTRAL DE CADASTRO: Treinar colaboradores em boas práticas de entrada e gestão de dados. |
+| Falta de ferramentas e processos adequados |                                                                                                                                                                                                                                                                      | Monitorar a qualidade dos dados e ajustar estratégias conforme necessário.                |
+
+Ao desenvolver soluções de dados e análises, um fator determinante para o seu sucesso
+é o **patrocinador do negócio** e o trabalho que você está realizando para atender às suas
+necessidades. 
+
+**Sem entender o verdadeiro destino**, você não pode ter certeza de que o incremento em que está trabalhando o está levando na direção certa. 
+
+Gosto sempre de me reunir com o patrocinador do negócio primeiro, antes de qualquer outra coisa, para ter uma ideia clara da visão e do escopo do que buscamos alcançar.
+
+Para aprimorar seus programas de dados e análises, você precisa garantir que haja uma
+visão compartilhada bem definida. Aqui estão algumas perguntas que precisam ser
+respondidas:
+
+- [ ] Para seus programas de dados e análises, todas as partes interessadas têm uma
+visão compartilhada sobre o que você está tentando alcançar?
+- [ ] Essa visão é definida de forma a servir como uma bússola para a iniciativa geral?
+- [ ] Você definiu claramente o patrocínio com alguém que é apaixonado pelo resultado da
+iniciativa?
+- [ ] A visão define a cadeia de montanhas ou o pico imediatamente à sua frente?
+
+Requer combinação de **tecnologia**, **processos bem definidos** e **pessoas capacitadas**. 
+
+Organizações que priorizam a qualidade dos dados ganham eficiência, reduzem riscos e habilitam insights estratégicos, transformando o caos em um **ativo valioso**.
+
+### Ciclo de vida dos Ativos de Informação
+
+```mermaid
+flowchart
+subgraph C3["Planejar, projetar, gerenciar e manter"]
+A[Criar ou capturar] --> B[Classifico]
+B --> C[Armazene e Proteja]
+C --> D[Pesquiso</br>Accesso</br>Compartilho]
+D --> E[Uso]
+E --> F[Reutilizar]
+E --> G[Reaproveitar]
+E --> H[Destruir]
+E --> I[Reter e Arquivar]
+E --> K[Destruir]
+I --> J[Recuperar]
+J --> K
+end
+```
+#### Centralização dos Cadastros
+O objetivo deste documento é de abordarmos o tema de GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos. 
+
+Gerenciar dados de forma eficiente exige um esforço conjunto, onde cada pessoa traz sua expertise, insights e experiências para enriquecer nossas estratégias.
+
+O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado. 
+
+Cada um de nós lida com diferentes aspectos dos dados em nosso dia a dia – veja o ciclo de vida.
+
+Essa diversidade de perspectivas é o que nos permitirá construir um sistema de GERENCIAMENTO DE DADOS, que seja robusto, flexível e capaz de atender às diversas demandas.
+
+Por isso, convido todos a se engajarem nessa análise prepositiva, compartilhando suas experiências e ideias sobre como podemos aprimorar nossos processos de Gerenciamento de Dados. 
+
+Queremos ouvir suas sugestões sobre como garantir a qualidade dos dados, melhorar nossa governança e explorar novas formas de integrar e utilizar as informações de maneira eficaz.
+
+Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados. 
+
+Junte-se a Modernização de Dados Mestres interseção do MDM/MDG (Master Data Management/Governance) com  Retrieval-Augmented Generation (RAG).
+#### ## ODTA-C
+Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar nossos colaboradores de forma mais assertiva e colaborativa.
+
+| **Letra** | **Objeto**                             | **Razão**                                                           |
+| --------- | -------------------------------------- | ------------------------------------------------------------------- |
+| **O**     | **OMNI** (abrangente, total)           | Omnipresença de dados e informações;                                |
+| **D**     | DATA (informação, análise)             | **D**ados para fundamentar decisões;                                |
+| **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                                   |
+| **A**     | **Assertividade (confiança, clareza)** | **A**ssertividade na comunicação e na execução de tarefas;          |
+| **C**     | **Conexão**                            | **Conexão entre todos os elementos para atingir objetivos comuns.** |
+Assim, abre-se um conceito ou abordagem que integra e unifica dados de diversas fontes e formatos, proporcionando uma visão holística e abrangente das informações disponíveis.
+
+Essa abordagem permite que organizações identifiquem, coletem, analisem e utilizem dados de maneira eficiente, favorecendo uma tomada de decisão mais informada e estratégica.
+
+ODTA-C representa uma abordagem estratégica para a gestão e utilização de dados, visando maximizar o valor das informações disponíveis e impulsionar a eficiência operacional e a inovação nas organizações, aplicando em toda a organização à maneira como os dados são obtidos, rastreados, usados, entregues e descartados.
+
+Dados são um ativo estratégico e devem ser gerenciados. 
+
+Se os dados não forem gerenciados, eles frequentemente acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados.
+
+Os dados exigem administração e responsabilização, este princípio exige que indivíduos sejam designados como **administradores e zeladores dos dados**.
+
+A administração de dados consiste nas pessoas, na organização e nos processos necessários para garantir que os administradores devidamente designados sejam responsáveis pela governança.
+
+### **Movendo dados para um Estado Governado**
+O propósito de executar a Governança de Dados é mover dados de um estado não governado para um estado governado.
+
+Eles raramente são definidos, sua qualidade é desconhecida, suas regras de negócios são inexistentes ou conflitam entre si, e ninguém é responsável pelos dados. 
+
+Dados governados são dados que são confiáveis e compreendidos e pelo qual, alguém é responsável por ambos os dados em si e para abordar questões sobre os dados.
+
+![](../img/dados-ciclo.png)
+### **Tabela de Background-Check**
+A identificação de uma fonte segura para Dados Mestres/Referência e/ou a criação de estruturas de codificação faladas são fundamentais, para a iniciação de um processo de adaptação antes da migração de um sistema de Gestão. Estruturamos o levantamento das informações em QUATRO etapas:
+
+| **Fase**                             | **Objetivo**                                                                                                                                                                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Levantamento de Dados Existentes** | Mapeamento das fontes atuais de dados dentro da organização;                                                                                                                                                              |
+| **Definir Gestores de Dados**        | Estabelecer uma área responsável para a Análise da Qualidade, Definição de Critérios, Designação de um Líder de Dados e a elaboração de um processo de Monitoramento e Revisão para assegurar a continuidade da operação. |
+| **Análise de Qualidade de Dados**    | Avaliar a precisão, completude e consistência dos dados coletados. Isso ajuda a identificar quais informações são confiáveis e quais precisam ser ajustadas ou eliminadas.                                                |
+| **Definição de Critérios**           | Estabelecer critérios claros para a seleção de dados que serão considerados como fontes seguras, levando em conta fatores como frequência de atualização, legitimidade da origem e relevância para a operação.            |
+
+Em um cenário empresarial em constante evolução, a gestão eficaz de informações tornou-se um fator crucial para o sucesso das organizações. No centro dessa transformação, surge a necessidade de uma Central de Cadastro Integrada, que visa otimizar o relacionamento com padrões, responsáveis, interagir fornecedores e aprimorar o atendimento ao cliente.
+
+Não obstante a esta central e com a combinação do Master Data Management/Governance (MDM/MDG) e Inteligência Artificial (IA), poderíamos automatizar o processo de detecção e correção de erros de dados, recomendações de itens duplicados, identificar e mitigar potenciais riscos de conformidade. 
+
+Entende-se neste contexto, que a governança de dados e o MDM/MDG não são idênticos, onde o primeiro estabelece as bases para sua solução MDM e garante que você obtenha o máximo valor.
+
+### **Identificação do Problema**
+Registros com informações faltantes, duplicação de dados, risco de exposição de informações sensíveis, especialmente em conformidade com regulamentações como a LGPD, ausência de controles de acesso adequados, permitindo que usuários não autorizados acessem informações confidenciais, silos de dados (dificuldade em integrar dados de diferentes fontes, resultando em visões fragmentadas das informações), entre outros.
+
+Essa fragmentação de informações causa inconsistências com a análise de dados de atendimento, financeiro e administrativo, dificultando a comunicação com os fornecedores (prestadores de serviço, parceiros) e compromete a eficácia no atendimento ao cliente.
+
+- [ ] Os dados são compartilhados e usados por muitos, para muitos propósitos diferentes. Então, quem é o dono deles? 
+- [ ] Quem toma decisões sobre eles e é responsável quando os dados dão “errado”?
+- [ ] Inexistência de fluxo padrão para o cadastro dos principais dados mestres;
+- [ ] Ausência de padronização descritiva, gerando produtos duplicados ou incompletos;
+- [ ] Ausência da definição de papéis e responsabilidades;
+- [ ] Falta de documentação clara sobre políticas e procedimentos pode levar a erros.
+- [ ] Dificuldades em manter a central em conformidade com leis e regulamentos de proteção de dados.
+- [ ] Dificuldade em gerar relatórios úteis e insights a partir dos dados armazenados.
+- [ ] Várias bases de dados Analíticas e acesso a informações que não refletem a realidade atual da organização.
+
+### Proposta
+A proposta de criação de uma Central de Cadastro ou a sua remodelagem, surge como uma solução eficaz para esses desafios.
+Este espaço dedicado permitirá a centralização (processos de mudança) e padronização das informações (padrões de dados) e responsabilização (indicadores de acurácia e tempo atendimento).
+
+| **Expectativa**           | **Entenda**                                                                                                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Qualidade**             | Auxilia manutenção da qualidade dos dados ao impor padrões, validações e procedimentos de limpeza.                                                                        |
+| **Governança de dados**   | Adotar as políticas e procedimentos definidos pelo Data Product Manager.                                                                                                  |
+| **Agilidade Aumentada**   | Centralização permite a instituição se adapte rapidamente a mudanças nos requisitos de negócios.                                                                          |
+| **Data Flow**             | Fluxo de trabalho definido, registros das mudanças.                                                                                                                       |
+| **Análise de Desempenho** | Centralização dos dados possibilitará análises mais robustas sobre o desempenho dos fornecedores, permitindo à empresa escolher parcerias mais estratégicas e eficientes. |
+| **Aumento da Eficiência** | Com todos os cadastros em um único local, podemos impor padrões, validações e procedimentos de limpeza.                                                                   |
+### **Diferenciação do CSC para uma CC**
+
+| **Função**                  | **Central de Cadastros**                                                                                                                                          | **Centro de Serviço Compartilhado (CSC)**                                                                                                                                   |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Principal**               | Centraliza e gerencia informações cadastrais de clientes, fornecedores, produtos, entre outros. É responsável por manter os dados atualizados e acessíveis.       | Centraliza e padroniza serviços de apoio, como finanças, recursos humanos, entre outros, para várias unidades de uma empresa.                                               |
+| **Foco**                    | Dados e informações. A central de cadastros garante que todas as informações necessárias estejam corretas e disponíveis para diferentes departamentos da empresa. | Processos e serviços. O CSC busca otimizar a eficiência operacional e reduzir custos ao unificar serviços que seriam realizados separadamente por diferentes departamentos. |
+| **Precisão e Consistência** | Reduz erros e duplicidades nos dados.                                                                                                                             | Melhora a produtividade e a qualidade dos serviços.                                                                                                                         |
+|                             | Facilita a obtenção de informações precisas e atualizadas.                                                                                                        | Economiza recursos ao evitar duplicação de esforços                                                                                                                         |
+|                             | Ajuda a empresa a cumprir regulamentações e normas de proteção de dados.                                                                                          | Garante que os processos sejam realizados de maneira uniforme e consistente.                                                                                                |
+| **Similaridades**           |                                                                                                                                                                   |                                                                                                                                                                             |
+| **Centralização**           | Ambos centralizam funções importantes para a empresa, seja de dados ou serviços.                                                                                  |                                                                                                                                                                             |
+|                             | Visam aumentar a eficiência e reduzir custos operacionais.                                                                                                        |                                                                                                                                                                             |
+|                             | Servem como suporte para outras áreas da empresa, permitindo que estas se concentrem em suas atividades principais.                                               |                                                                                                                                                                             |
+### **Plano de Ação**
+A implementação de um plano de ação de Governança de Dados estruturado ajudará a sua organização a gerenciar dados de forma eficaz, garantindo qualidade, segurança e conformidade. Identificação dos processos de cadastros, responsabilização e autorização em dados Mestres/Referência e Transacional.
+
+| **Avaliação dos**                  | **Cadastros – Processos**                                                                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Diagnóstico**                    | Identificamos os principais problemas encontrados durante à análise dos processos atuais e os cadastros.                                                                                                                                                                 |
+| **Mapeamento AS-IS/TO-BE e TO-DO** | Os fluxos atuais de cadastros, identificando os principais problemas ou ocorrências.<br><br>Elaborar os novos fluxos otimizados (TO-BE).                                                                                                                                 |
+| **Papéis e Responsabilidades**     | O fluxo cadastral e suas responsabilidades e quais áreas devem assumir RACI, também quais novas posições devem ser criadas no organograma empresarial.(Treinar ou Agrupar)                                                                                               |
+| **Desenvolver KPI**                | Definir quais serão os indicadores que serão usados para mensurar o novo processo de cadastro.                                                                                                                                                                           |
+| **Desenvolver SLA**                | Definir qual o prazo adequado para a conclusão do processo cadastral, checklist e o workflow.                                                                                                                                                                            |
+| **Ciclo de Vida**                  | Definir quando/como os dados mestres devem ser inativados ou atualizados.                                                                                                                                                                                                |
+| **Regras de Padronização**         | Definição de quais as técnicas de padronização serão adotadas. (NBR, ISO e etc).                                                                                                                                                                                         |
+| **Background-Check**               | Quais as fontes públicas e privadas, que serão utilizadas.                                                                                                                                                                                                               |
+| **Ética e Compliance**             | Componentes essenciais da governança de dados e IA, garantem que as práticas relacionadas à coleta, uso e gestão de dados, bem como ao desenvolvimento e aplicação de sistemas de IA, sejam realizadas de maneira responsável e de acordo com as leis e normas vigentes. |
+### Indicadores
+Os indicadores de uma Central de Cadastro, geralmente, são estipulados pelos pilares (SUGESTÃO):
+
+| **Indicadores Base**        |                                                                                                                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tempo médio**             | Tempo utilizado para inclusão, alteração ou exclusão de um dado mestre ou referência.                                                                                            |
+| **Validade e Conformidade** | Determinar se o valor preenchido corresponde ao padrão do campo, caso não haja o bloqueio Sistemico e/ou Relatório de Exceção.                                                   |
+| **Completude**              | Expresso em percentual, e indica o quão nosso cadastro está completo para as nossas necessidades, através de Relatório de Exceção, caso não haja como efetuar a obrigatoriedade. |
+| **Acurácia e Precisão**     | Avaliação de qualidade de dados, para determinar se aquele dado corresponde a uma entidade real, indicadores pelos usuários NÃO responsáveis pelo PRODUTO.                       |
+#### Background-Check
+Este processo visa acelerar e padronizar a origem das informações a serem inseridas nos sistemas corporativos através de busca e integração com os órgãos ou entidades da administração pública direta ou indireta ou pessoa jurídica de direito privado, que sejam reconhecidamente, detentores "Serviços de Assessoramento” de informações, tais como: 
+
+- [ ] Produtos;
+- [ ] Dados de Referência;
+- [ ] Fiscais;
+- [ ] Financeiros;
+- [ ] Comerciais.
+­
+A tabela Background-Check visa indicar alguns órgãos, para a automatização da central de cadastro, cabendo uma revisão e análise qual seria a melhor fonte de dados, quais os documentos e validações necessárias e o tempo de atualização cadastral de forma automática e a emissão de relatórios de exceção.
+#### Compliance
+
+| **Objeto**                        |                                                                                                                                                                             |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Direito/Jurídico**              | Validação como o Jurídico de normativos necessários (Base Legal sobre TEMPORALIDADE GRANULAR).                                                                              |
+|                                   | Entender as variáveis que podem ser utilizadas e quais não devem ser usadas na criação de modelos.<br><br>Necessidade em documentar e restringir no catálogo.               |
+| **Responsabilidade**              | Assegurar que as ações e decisões tomadas com base em dados e IA, sejam responsáveis e que haja mecanismos para corrigir erros ou injustiças.                               |
+| **Treinamento e Conscientização** | Treinar, Treinar e Treinar objetivando que todos os colaboradores e partes envolvidas estejam cientes das políticas e regulamentos relacionados à governança de dados e IA. |
+####  Ética de Dados
+Podemos definir como práticas relacionadas a dados que buscam preservar a confiança de usuários, funcionários/colaboradores e clientes, bem como abrange as obrigações morais de coletar, proteger.
+
+A ética é domínio de todos, não apenas o pessoal da TI ou de equipes jurídicas e de conformidade.  Os funcionários de toda a organização precisarão levantar, responder e pensar em várias questões éticas envolvendo dados.
+
+À medida que as organizações geram mais dados, adotam novas ferramentas e tecnologias para coletar e analisar dados e encontram novas maneiras de aplicar insights de dados, novos desafios e complicações de privacidade e ética surgirão.
+
+Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição. Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
+#### Padronização
+A padronização de dados elimina a semântica da complexidade envolvendo a coleta, harmonização e compilação de dados.
+
+| **Regras**     | **Entenda**                                                                                                        |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Taxonomia**  | Regras mapeiam colunas e valores de dados do parceiro com dados da empresa.                                        |
+| **Modelagem**  | Regras especificam como agrupar elementos de dados e distribuí-los no sistema organizacional.                      |
+| **Semânticas** | Regras estabelecem o significado dos elementos de dados e como são usados pela empresa para descrever seu domínio. |
+#### Controle de Acesso aos Dados
+O operador é toda pessoa física ou jurídica, de direito público ou privado, que realiza o tratamento de dados em nome do controlador (a quem competem as decisões sobre o tratamento de dados).
+
+O controle de acesso é fundamental da segurança da informação, proporcionando mecanismos e políticas para garantir que apenas indivíduos e sistemas autorizados possam acessar e manipular recursos empresariais.
+
+Cada equipe de domínio, definida na RACI, trata os dados que produz como um PRODUTO, com um proprietário de PRODUTO, um ciclo de vida definido e um foco na entrega de valor para os consumidores desses dados.
+
+#### Desburocratização e Utilização de Dados
+A obtenção de dados de fontes governamentais, como Banco do Brasil, Banco Central do Brasil (BACEN) e Instituto Brasileiro de Geografia e Estatística (IBGE), bem como de empresas renomadas como GS1 e Serasa, é fundamental para a criação de critérios eletrônicos padronizados e que aumentam significativamente a transparência e a confiança.
+
+Fontes governamentais fornecem dados confiáveis e abrangentes que são essenciais para a construção de modelos de análise de crédito robustos.
+
+Como exemplo poderíamos retornar a utilização do BACEN, com as informações de fechamento do cambio. 
+
+O IBGE contribui com dados demográficos e econômicos que ajudam a contextualizar as análises de crédito. 
+
+A Loja do Serpro é outra ferramenta valiosa nesse contexto. Ela oferece serviços completos de consulta de CNPJ, permitindo acesso a informações públicas do Cadastro Nacional de Pessoas Jurídicas.
+
+A Serasa, por sua vez, é uma das principais fontes de informações de crédito no Brasil, oferecendo dados detalhados sobre o histórico de crédito dos consumidores.
+
+A padronização dos critérios eletrônicos baseados nesses dados aumenta a transparência, podendo reduzir a subjetividade, erros humanos na impostação de informações no sistema corporativo.
+
+Em resumo, a integração de dados de fontes confiáveis em um sistema de MDM/G e uma central de cadastro, com critérios eletrônicos padronizados, traz inúmeros benefícios, aumenta a transparência, fortalece a confiança, simplifica processos e torna a análise de crédito mais eficiente.
+
+#### Intregração com Parceiros
+A criação de um Registro de Decisão de Arquitetura (ADR) é essencial para documentar e justificar as decisões arquitetônicas tomadas durante o desenvolvimento de sistemas, especialmente quando se trata de integração com aplicações SaaS e parceiros tecnológicos.
+
+Aqui está um exemplo de como um ADR pode ser estruturado para estabelecer critérios de integração:
+
+|                                                 | **Registro de Decisão de Arquitetura (ADR)**                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Título**                                      | Comunicação Segura entre Duas Empresas (B2B/B2C) para Troca de Informações de Cadastro de Pessoas                                                                                                                                                                                                                             |
+| **Contexto e Problema**                         | As empresas precisam estabelecer um canal de comunicação seguro para trocar informações de cadastros. Esta troca deve garantir a privacidade dos dados, manter a governança e os protocolos de autorização, e ser protegida por um Acordo de Confidencialidade (Non Disclosure Agreement - NDA) assinado por ambas as partes. |
+| **Fatores de Decisão**                          |                                                                                                                                                                                                                                                                                                                               |
+| **Privacidade dos Dados**                       | Conformidade com regulamentações de proteção de dados (e.g., GDPR, LGPD).                                                                                                                                                                                                                                                     |
+| **Segurança**                                   | Garantir que os dados sejam transmitidos e armazenados de forma segura, com perfis de acesso e controlados por tempo;                                                                                                                                                                                                         |
+| **Governança**                                  | Políticas e procedimentos claros para o manuseio dos dados.                                                                                                                                                                                                                                                                   |
+| **Autorização**                                 | Somente pessoal autorizado pode acessar os dados. A instituição poderá solicitar a qualquer tempo, quem acessa e por qual finalidade.                                                                                                                                                                                         |
+| **Proteção Legal**                              | NDA para vincular legalmente ambas as partes à confidencialidade.                                                                                                                                                                                                                                                             |
+| **Opções Consideradas**                         |                                                                                                                                                                                                                                                                                                                               |
+|                                                 |                                                                                                                                                                                                                                                                                                                               |
+| **Integração Direta via API REST (Sincrona)**   | Troca de dados em tempo real, alto controle sobre o fluxo de dados. Limitada a x registros.                                                                                                                                                                                                                                   |
+| **Integração Direta via API REST (Assíncrona)** | Maior flexibilidade e escalabilidade, permite processamento em segundo plano.                                                                                                                                                                                                                                                 |
+| **Detalhes da Implementação**                   |                                                                                                                                                                                                                                                                                                                               |
+| **Criptografia**                                | Uso de TLS/SSL para dados em trânsito.                                                                                                                                                                                                                                                                                        |
+| **Autenticação**                                | Implementação de OAuth 2.0 para autenticação segura.                                                                                                                                                                                                                                                                          |
+| **Autorização**                                 | Controle de acesso baseado em funções (RBAC) para garantir que apenas pessoal autorizado possa acessar a API.                                                                                                                                                                                                                 |
+| **Governança de Dados**                         |                                                                                                                                                                                                                                                                                                                               |
+| **Classificação de Dados**                      | Classificar os dados para determinar a sensibilidade e os requisitos de manuseio.                                                                                                                                                                                                                                             |
+| **Logs de Auditoria**                           | Manter logs de todos os acessos e transações de dados para fins de auditoria.                                                                                                                                                                                                                                                 |
+| **Política de Retenção de Dados**               | Definir e aplicar políticas de retenção de dados.                                                                                                                                                                                                                                                                             |
+| **Monitoramento e Conformidade**                |                                                                                                                                                                                                                                                                                                                               |
+| **Auditorias Regulares**                        | Poderá ser realizada auditorias de segurança regulares para garantir conformidade com as regulamentações de proteção de dados.                                                                                                                                                                                                |
+| **Plano de Resposta a Incidentes**              | Não foi escopo deste trabalho desenvolver um plano de Resposta a Incidentes, por isso, para cada integração, deverá ser desenvolvido e mantido com uma periodicidade não superior a 1(um) ano, um plano de resposta a incidentes para lidar com possíveis violações de dados.                                                 |
+#### Temporalidade de Dados
+A informação deve ser considerada como patrimônio pela empresa, até porque é um ativo de informação a ser protegido, lembrando que os dados pertencem aos titulares.
+
+Deve ter garantida a confidencialidade, disponibilidade e integridade da informação, como pilares da segurança da informação.
+
+A temporalidade dos dados é crucial para a gestão eficaz de dados, especialmente quando se considera a distinção entre dados correntes, intermediários e permanentes. (Análise com o Jurídico).
+
+A Tabela de Temporalidade Documental (TTD) tem por finalidade estabelecer informações sobre o ciclo de vida,  prazo de conservação, frequência de utilização e destinação final de documentos.
+
+A partir da consulta à tabela de temporalidade é possível evitar a eliminação incorreta de documentos e o armazenamento de arquivos que não sejam mais  necessários à organização.
+
+|                   | **Correntes**                           | **Intermediários**                                                                        | **Permanentes**                                                                                |
+| ----------------- | --------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Transacionais** | Recentes e frequentemente acessados.    | Que não são mais usados diariamente, mas ainda são necessários para consultas periódicas. | Dados de transações históricas que precisam ser preservados por razões legais ou de auditoria. |
+| **Referência**    | Frequentemente atualizados e acessados. | Que não são mais atualizados frequentemente, mas ainda são necessários para consultas.    | Históricos que precisam ser preservados.                                                       |
+| **Mestres**       | Frequentemente atualizados e acessados. | Que não são mais atualizados frequentemente, mas ainda são necessários para consultas.    | Históricos que precisam ser preservados.                                                       |
+Usou-se a conceituação de dados vivos, sendo aqueles que estão em uso ativo – **Alta frequência de utilização**, geralmente acessados e modificados frequentemente, por outro lado, são dados que não estão sendo ativamente usados ou modificados, mas ainda precisam ser armazenados para consultas futuras ou conformidade regulatória, mas em ambos os casos necessitam ser protegidos, antes do descarte.
+
+Cabe ressaltar que esta diferença se faz necessária pois envolvem custos de soluções de armazenamento, tempo de guarda longo prazo e/ou discos de baixo custo.
+
+Em suas operações ou processos comerciais diários as EMPRESAS coletam e armazenam registros de vários tipos e em vários formatos diferentes. 
+
+A importância relativa à sensibilidade desses registros também altera e está sujeita ao regime de classificação de segurança de dados da organização.
+
+É importante que esses registros sejam protegidos contra perda, destruição, falsificação, acesso não autorizado e liberação não autorizada, e uma variedade de controles são usados para garantir isso, incluindo backups, controle de acesso e criptografia.
+
+Entretanto, considerando a existência de inúmeras legislações setoriais, bem  como de frequentes alterações na legislação e em normas que regulam a  guarda de documentos,  ao lado da consideração e necessidade de avaliação do prazo de  tempo   de   guarda sob   inúmeros   fatores,   como   por   exemplo:   trabalhista,  previdenciário,  fiscal,  tributário,  além  de  regulamentos  aplicáveis  somente  a determinados  setores,  demonstra-se neste documento e NÃO se fecha o contexto, que o guia abaixo deva ser apenas ORIENTATIVO  e em hipótese alguma servir de amparo para justificar a guarda e/ou a eliminação de documentos.
+
+- [ ]  Instituto Nacional de Proteção de Dados, através do [Guia de Temporalidade e Conservação de Documentos](https://www.inpd.com.br/guia-temporalidade)
+- [ ] Deverá ser estabelecido critérios de retenção de dados transacionais objetivando a migração para um Data Lakehouse, possivelmente de baixo custo.
+- [ ] Normalmente os provedores de nuvem, utilizam modelo de preços, **pay-as-you-go**, onde você paga pelo uso real dos recursos, tipos de armazenamento (objetos ,arquivos etc), volume de dados, redundância/backup e transferência. 
+- [ ] Implementar práticas de otimização, como a exclusão de dados não utilizados e a escolha de tipos de armazenamento mais econômicos para dados menos acessados, podem reduzir **significativamente os custos** de armazenamento.
+- [ ] Defina políticas claras de retenção de dados para eliminar dados desnecessários ou obsoletos. Isso ajuda a reduzir o volume de dados armazenados e, consequentemente, os custos.
+#### **Anonimização**
+A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento. 
+O processo de anonimização, além de evitar a identificação do titular de dados pessoais, deve garantir que o tratamento realizado após a anonimização não implique em uma distorção dos dados reais.
+
+
+## **Plataforma de Dados Robusta**
 O foco principal reside na arquitetura de aplicações de Software como Serviço (SaaS) que lidam com grandes volumes de dados, explorando os benefícios e as considerações de plataformas de dados modernas, especialmente em ambientes de nuvem. 
 
 Uma plataforma de dados robusta, escalável, segregada entre armazenamento e computação, suporte a diferentes tipos de dados (estruturados e semiestruturados), segurança em ambientes multilocatários e novas formas de compartilhamento de dados, deve ser  bem projetada garantirá que os desenvolvedores de aplicativos possam se concentrar no que fazem de melhor — **criar novas experiências de usuário** e **recursos de plataforma para ajudar seus clientes** — sem precisar despender esforços significativos na construção e manutenção de sistemas de dados.

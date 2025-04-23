@@ -40,6 +40,7 @@
 ## **Estrutura de Diretórios**
 
 - [ ] [[docs/Estrutura de Diretórios/Introdução|Introdução]]
+- [ ] [[Estruturas Base]]
 
 ## **Configuração do Desktop**
 
@@ -73,7 +74,6 @@
 
 ## **Controle de Versão**
 
-
 - [ ] [[docs/Controle de Versão/Introdução|Introdução]]
 - [ ] [[Configuração]]
 - [ ] [[Estratégias de Branches]]
@@ -82,6 +82,11 @@
 ## **Observabilidade**
 
 - [ ] [[docs/Observabilidade/Introdução|Introdução]]
+
+## **Computação em Nuvem**
+
+- [ ] [[docs/Computação em Nuvem/Introdução|Introdução]]
+
 ## **Arquitetura e Projeto de Software**
 
 - [ ] Introdução;  
@@ -149,9 +154,9 @@
 - [ ] Testes Automatizados de Modelos de Machine Learning. Implantação (Deploy) de Modelos de Machine Learning.
 ## **Rede**
 
-<div class="mdx-columns3" markdown>
 - [ ]  [[IP Logger]]
-</div>
+- [ ] Lock-in Vendor
+
 ## **Certificações**
 
 ### **GitHub**

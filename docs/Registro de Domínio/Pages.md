@@ -10,7 +10,7 @@ O GitHub Pages é uma funcionalidade do GitHub que permite hospedar sites estát
 - [ ] Clique em "Create repository".
 - [ ] Adicionar Conteúdo
 - [ ] Adicionar Arquivos:
-- [x] No seu repositório, clique em "Add file" e depois em "Create new file".
+- [ ] No seu repositório, clique em "Add file" e depois em "Create new file".
 - [ ] Crie um arquivo chamado index.html. Este será o arquivo principal do seu site.
 - [ ] Adicione algum conteúdo HTML básico.
 - [ ] Após adicionar o conteúdo, clique em "Commit changes".

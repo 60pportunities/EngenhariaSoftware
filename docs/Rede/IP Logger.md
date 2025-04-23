@@ -14,7 +14,7 @@ Entenda que hackers, não são so do mau. Existem os hackers éticos, são espec
 
 ## Links Maliciosos
 
-![](img/hacker-bem-001.png)
+![](../img/hacker-bem-001.png)
 
 Acesso um site de encurtamento de Link, como por exemplo: [IPLOGGER](https://iplogger.org)
 
@@ -33,7 +33,7 @@ Acesso um site de encurtamento de Link, como por exemplo: [IPLOGGER](https://ipl
 - [ ] Instale o Tor Browser para se proteger. [Tor](https://www.torproject.org/download/). 
 - [ ] Ele não impedirá que você seja hackeado, mas dará outras informações de IP.
 
-![](img/hacker-bem-002.png)
+![](../img/hacker-bem-002.png)
 
 - [ ] Verifique o remetente;
 - [ ] Verifique se o link passado é o mesmo, fazendo o `check short url', como por [Exemplo](https://checkshorturl.com).
