@@ -1,17 +1,23 @@
 Estamos adotando o modelo C4 de treinamento, quatro partes que devem ser:
+
 - [ ] Conceitos: Alguns fatos e conceitos teóricos sobre o tema;
 - [ ] Conexões: Fazer com que os participantes se conectem uns com os outros e conectar os participantes com o que eles já podem saber sobre o tópico;
 - [ ] Concretude: Uma atividade ou simulação para vivenciar o tema;
 - [ ] Conclusão: Uma oportunidade para os participantes avaliarem o que aprenderam sobre o tema.
+
 A solicitação do registro de incidentes, estabelece um ponto de contato entre os usuários e a equipe de TI, com a geração de tickets, permitindo um acompanhamento adequado da solicitação, entregando aos clientes informações oportunas e diretas das ações tomadas em relação aos incidentes.
+
 Um dos aspectos mais IMPORTANTES para a rápida resolução é a coleta de informações impostadas ou anexadas pelo Cliente, durante sua abertura.
+
 Nela deverão ser registrados, caminho que o cliente percorreu até o incidente, relatórios de logs ou saídas oriundas a sua identificação ou apontamentos/percepções que achar necessário.
 
 Com estas informações capturadas pelo Cliente e sua resolução pelo atendente, comporão o Banco de Soluções (FAQs) , auxiliarão gestão de incidentes, mudanças e problemas da Organização, acelerando o sua resolução.
 
 # Tudo em um único lugar
 Efetua a integração dos chamados centrada em sua ferramenta de PROJETO.
+
 Utilize a integração de todas as ferramentas com o seu software de comunicação.
+
 Todos as SOLICITAÇÕES DE SERVIÇO, são inseridas no REPOSITÓRIO-DO-PRODUTO, que serão analisadas pelo Product Manager e priorizadas.
 
 ```mermaid
@@ -52,6 +58,7 @@ Nossa Equipe estará atendendo a partir deste momento em dois sistemas distintos
 Todo incidente deverá ser registrado no Sistema  e obedecerá o seguinte fluxo de trabalho.
 #### Nível especializado
 O processo de atendimento começa quando o **cliente** por meio de acesso ao sistema, ele aponta uma interrupção não planejada de um serviço de TI ou uma redução da qualidade de um serviço de TI.
+
 - [ ] A partir deste acionamento, este Ticket, passa para um atendente de **Nivel 1**, que buscará o entendimento da solicitação e assumirá o atendimento.
 - [ ] O atendente de Nível 1, efetuará a análise do Ticket e poderá solicitar as EVIDENCIAS e/ou MAIORES informações, se assim achar necessário ou efetuar o cancelamento da Solicitação, caso os requisitos mínimos não sejam inseridos na solicitação ou que seja identificado uma evolução ou modificação em um item de software.
 - [ ] O primeiro atendente buscará solucionar o incidente, utilizando as informações na **base de conhecimento** da instituição e caso já exista uma solução, aplicará a mesma encerrando o atendimento ou informará ao usuário o numero do FAQ, para que o mesmo o faça. O FAQ deverá ser evidenciado no chamado.
@@ -68,6 +75,7 @@ Ao findar o atendimento, o mesmo deverá produzir um relatório de incidente e f
 |           | Um projeto é *TUDO AQUILO* que precisamos realizar para gerar algo novo ou *mante-lo em funcionamento*: seja uma casa, um sistema informatizado, um estudo/pesquisa, um trabalho de conclusão de curso, uma contratação ou um compra importante.                                                                                                                                       |
 #### Controle de Chamados ao Fornecedor
 As contas serão divididas em dois grandes grupos, sendo Funcionais e Técnicos. 
+
 - [ ] Um chamado aberto no fornecedor, tem que ser OBRIGATORIAMENTE, ser conhecido pelo Usuário Chave/Product Owner e Analista Funcional/Técnico.
 - [ ] Os chamados de suporte não poderão ser realizados em hipótese alguma na conta da Empresa fornecedora de serviço. Para tal utilizem os e-mails criados dois logins “papéis" e conta de e-mail objetivando a abertura e recebimento de notificações de forma única, evidenciando o problema a todos do projeto, para que os mesmos analisem o impacto em seus módulos. As pessoas envolvidas terão obrigatoriamente notificar o responsável pelo MÓDULO.
 
@@ -75,6 +83,7 @@ As contas serão divididas em dois grandes grupos, sendo Funcionais e Técnicos.
 Termo ingles, que concentra as respostas sobre as dúvidas mais comuns dos clientes e/ou atendentes.
 Podemos dizer que é uma ferramenta estratégica de autoatendimento, que tem como objetivo oferecer soluções para perguntas ou incidentes recorrentes e com isso, agilizando a resolução de problemas e de respostas rápidas sem a necessidade de um agente.
 #### Dicas para Criação de um FAQ
+
 - [ ] Oferecer um passo a passo
 - [ ] Realize um bom uso de imagens (que podem associar ao atendente, lembre-se 90% das informações processadas pelo cérebro são visuais);
 - [ ] Caso haja informações adicionais e/ou outros FAQs, crie link para estes documentos, não polua o FAQ.

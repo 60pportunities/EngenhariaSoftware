@@ -34,6 +34,7 @@ Alguns passos comuns nesse processo:
 | **Integração**                                        | Abertura e vinculação no OTRS do Incidente ao Produto, indicando um funcional para a realização do N2.                                                                                                                        |
 
 No cotidiano do funcionário responsável, estão as seguintes atividades de sustentação:
+
 - [ ] Monitorar a satisfação dos usuários em relação aos atendimentos;
 - [ ] Investigar e diagnosticar incidentes;
 - [ ] Aprovar ou rejeitar a correção;

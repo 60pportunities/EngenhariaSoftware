@@ -192,8 +192,6 @@
 - [ ] [[Conta GitHub]]
 - [ ] [[Pages]]
 - [ ] [[Pages no Domínio]]
-
-
 ## **Inteligencia Artificial**
 
 - [ ] [[Code Smarter]]
@@ -219,8 +217,8 @@
 - [ ] [[Link de Livros]]
 ### **Contato**
 
-| ![](../img/contato-qr.png){width="100" height="100"} | Horácio Vasconcellos](https://linktr.ee/horaciovasconcellos)<br>Telefone: (21)99765-2736<br>e-mail: horacio.vasconcellos@gmail.com |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| ![](img/contato-qr.png){width="100" height="100"} | Horácio Vasconcellos](https://linktr.ee/horaciovasconcellos)<br>Telefone: (21)99765-2736<br>e-mail: horacio.vasconcellos@gmail.com |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 
 
 
