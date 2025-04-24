@@ -232,17 +232,20 @@ Este espaço dedicado permitirá a centralização (processos de mudança) e pad
 | **Data Flow**             | Fluxo de trabalho definido, registros das mudanças.                                                                                                                       |
 | **Análise de Desempenho** | Centralização dos dados possibilitará análises mais robustas sobre o desempenho dos fornecedores, permitindo à empresa escolher parcerias mais estratégicas e eficientes. |
 | **Aumento da Eficiência** | Com todos os cadastros em um único local, podemos impor padrões, validações e procedimentos de limpeza.                                                                   |
-#### Definindo padrões de dados
-Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente. O primeiro passo para garantir uma alta qualidade de dados é aplicar lógica aos seus padrões de dados, como usar formatos unificados para endereços e descrições de produtos. Você precisa definir quais tipos de dados podem ser inseridos como valores de atributos. Certifique-se de que cada atributo só possa conter dados em um formato especificado, por exemplo:
 
-| Tipo de dados      | Formatos especificados                |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| ------------------ | ------------------------------------- | ------- | ----- | -------- | ------- | ------- | ---- | ----- | ----- | ------- | -------- | ----- | ----- | -------- | ------------ |
-| Texto numérico     | ^[A-Z]{1,60}$                         |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| Número             | 1.25 OR 3 OR -4.5                     |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| CPF                | `\b\d{3}\.\d{3}\.\d{3}-\d{2}\b`       |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| CNPJ               | `\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b` |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| NCM                | `\b\d{8}\b`                           |         |       |          |         |         |      |       |       |         |          |       |       |          |              |
-| Tipo de Logradouro | `\b(Rua                               | Avenida | Praça | Travessa | Alameda | Estrada | Beco | Largo | Viela | Rodovia | Marginal | Pátio | Campo | Estradão | Corredor)\b` |
+#### Definindo padrões de dados
+Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente. 
+
+O primeiro passo para garantir uma alta qualidade de dados é aplicar lógica aos seus padrões de dados, como usar formatos unificados para endereços e descrições de produtos. Você precisa definir quais tipos de dados podem ser inseridos como valores de atributos. Certifique-se de que cada atributo só possa conter dados em um formato especificado, por exemplo:
+
+| Tipo de dados      | Formatos especificados                                                |
+| ------------------ | --------------------------------------------------------------------- |
+| Texto numérico     | `^[A-Z]{1,60}$`                                                       |
+| Número             | `1.25 OR 3 OR -4.5`                                                   |
+| CPF                | `\b\d{3}\.\d{3}\.\d{3}-\d{2}\b`                                       |
+| CNPJ               | `\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b`                                 |
+| NCM                | `\b\d{8}\b`                                                           |
+| Tipo de Logradouro | `Rua, Avenida, Praça, Travessa, Alameda, Estrada, Beco, Largo, Viela` |
 
 ### **Diferenciação do CSC para uma CC**
 

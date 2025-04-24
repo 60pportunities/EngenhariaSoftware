@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Computação em Nuvem/Introdução.md",
+                "file": "docs/Dados/Abstração de Dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introdução"
+              "title": "Abstração de Dados"
             }
           },
           {
@@ -200,8 +200,11 @@
   },
   "active": "5c92528d1ed0ac39",
   "lastOpenFiles": [
-    "docs/Certificações/GitHub Actions.md",
-    "docs/index.md",
+    "docs/Dados/Data-Driven.md",
+    "docs/Dados/Bit rot.md",
+    "docs/Dados/Introdução.md",
+    "docs/Dados/Abstração de Dados.md",
+    "docs/Computação em Nuvem/Introdução.md",
     "site/assets/swagger-ui/oauth2-redirect.html",
     "site/assets/swagger-ui",
     "site/assets/javascripts/swagger-ui-bundle.js.map",
@@ -222,6 +225,8 @@
     "site/img/sqldeveloper_004.png",
     "site/img/sqldeveloper_003.png",
     "site/img/sqldeveloper_002.png",
+    "docs/Certificações/GitHub Actions.md",
+    "docs/index.md",
     "docs/Rascunhos/Globalização e capitalismo.md",
     "docs/Publicações Linkedin/Um novo espaço - abertura 1980-1989.md",
     "docs/Gestão Ágil de Projetos/Secret-Scan.md",
@@ -230,7 +235,6 @@
     "docs/Dados/Modelagem de Dados.md",
     "docs/Gestão Ágil de Projetos/Métricas.md",
     "docs/Rede/IP Logger.md",
-    "docs/Dados/Introdução.md",
     "docs/Observabilidade/Introdução.md",
     "docs/Rascunhos/Grande Depressão.md",
     "docs/Publicações Linkedin/Globalização e Capitalismo.md",
@@ -242,9 +246,6 @@
     "docs/Rascunhos/Abertura Política.md",
     "docs/Processos_Internos/Paradoxo.md",
     "docs/Processos_Internos/Frases que Marcam.md",
-    "docs/Gestão Ágil de Projetos/Estimativas.md",
-    "docs/Dados/Bit rot.md",
-    "docs/Gestão Ágil de Projetos/Segurança.md",
     "Sem título 1.canvas",
     "Sem título.canvas",
     "Canvas Livro.canvas"

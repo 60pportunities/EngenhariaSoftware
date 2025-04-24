@@ -43,7 +43,7 @@ A **nuvem pública** é um modelo de computação em nuvem onde os recursos (s
 Os usuários **pagam apenas pelo que configuram**, sem necessidade de investir em infraestrutura física.
 
 - [ ] A nuvem pública é **100% operacional** (OPEX), pois os custos são recorrentes e baseados no uso (ex.: pagamento mensal por horas de servidor ou GB armazenados).
-- [ ] 
+
 ##### **Vantagens Financeiras e Operacionais**
 
 | **Característica** | **Descrição**                                                           |
