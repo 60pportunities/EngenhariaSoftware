@@ -1,3 +1,4 @@
+As **entrevistas** são interações estruturadas com objetivos específicos, e sua concepção varia significativamente entre o **entrevistador** e o **entrevistado**. 
 ## **Entrevistador**
 Para garantir que um entrevistado se sinta tranquilo durante uma entrevista técnica, o entrevistador deve adotar uma abordagem estruturada e empática, seguindo estes passos:
 

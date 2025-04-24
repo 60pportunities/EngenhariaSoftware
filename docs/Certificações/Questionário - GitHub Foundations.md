@@ -1,72 +1,72 @@
 
-- [x] A distributed version control system is best described as a system that: `ensures each developer has their own local copy of the entire code repository, including the complete project history and metadata.`
-- [x] A user with the username merlin99 creates a repo named git-examples, an Organization called GitWizards. What would the GitHub repo URL be? `https://github.com/GitWizards/git-examples`
-- [x] Adam West is a project manager for a software development team using GitHub to host their repositories. He wants to analyze the traffic to their project repository and understand where the visitors are coming from and which content is generating the most interest. Which GitHub feature should Adam use to get this information? `Traffic`
-- [x] After 30 minutes of inactivity, a GitHub Codespace will: `time out.`
-- [x] An employee needs to find all issues within organization “Avocado” containing text “404 error” and a “guacamole” label. Which of the following steps would be best to search for these results? `Enter query org: Avocado label:guacamole “404 error” in the search bar. Select “Issues” in the “Filter by” section.`
-- [x] As a GitHub user, where in the Ul can you configure two-factor authentication (2FA) to further secure your account? `Settings Password and Authentication → 2FA`
-- [x] As a repository owner, what actions can you restrict on GitHub Actions? `You can disable GitHub Actions for a repository, or set a policy that configures which Actions and reusable Workflows can be used in the repository`.
-- [x] As a user, what feature can you use to merge proposed changes in a repository on GitHub? `pull requests`
-- [x] As a user, which of the following default labels is used to indicate that a maintainer needs assistance on an issue or pull request? `help wanted`
-- [x] As the owner of your organization, you want to ensure that everyone who is signed in to your corporate network can access the GitHub website without having to sign in again. What type of technology would you use to achieve this?`Single sign-on`
-- [x] Barbara Pewterschmidt is a project manager overseeing a GitHub repository for a software development project. She wants to acknowledge and recognize the top contributors to the project. Where can Barbara view the top 100 contributors to the repository, excluding merge commits and empty commits? `Contributors graph`
-- [x] Bonnie wants to use a template repository as starter code for an assignment in GitHub Classroom. She wants to ensure that she understands any limitations associated with template repositories. What is a limitation of template repositories on GitHub? `They cannot include files stored using Git LFS`.
-- [x] Brian Griffin is a software developer who is interested in contributing to open source projects related to machine learning. He wants to explore repositories in this subject area to find projects to contribute to and discover new solutions. Which feature of GitHub would be most helpful for Brian in this scenario? `Topics`
+- [ ] A distributed version control system is best described as a system that: `ensures each developer has their own local copy of the entire code repository, including the complete project history and metadata.`
+- [ ] A user with the username merlin99 creates a repo named git-examples, an Organization called GitWizards. What would the GitHub repo URL be? `https://github.com/GitWizards/git-examples`
+- [ ] Adam West is a project manager for a software development team using GitHub to host their repositories. He wants to analyze the traffic to their project repository and understand where the visitors are coming from and which content is generating the most interest. Which GitHub feature should Adam use to get this information? `Traffic`
+- [ ] After 30 minutes of inactivity, a GitHub Codespace will: `time out.`
+- [ ] An employee needs to find all issues within organization “Avocado” containing text “404 error” and a “guacamole” label. Which of the following steps would be best to search for these results? `Enter query org: Avocado label:guacamole “404 error” in the search bar. Select “Issues” in the “Filter by” section.`
+- [ ] As a GitHub user, where in the Ul can you configure two-factor authentication (2FA) to further secure your account? `Settings Password and Authentication → 2FA`
+- [ ] As a repository owner, what actions can you restrict on GitHub Actions? `You can disable GitHub Actions for a repository, or set a policy that configures which Actions and reusable Workflows can be used in the repository`.
+- [ ] As a user, what feature can you use to merge proposed changes in a repository on GitHub? `pull requests`
+- [ ] As a user, which of the following default labels is used to indicate that a maintainer needs assistance on an issue or pull request? `help wanted`
+- [ ] As the owner of your organization, you want to ensure that everyone who is signed in to your corporate network can access the GitHub website without having to sign in again. What type of technology would you use to achieve this?`Single sign-on`
+- [ ] Barbara Pewterschmidt is a project manager overseeing a GitHub repository for a software development project. She wants to acknowledge and recognize the top contributors to the project. Where can Barbara view the top 100 contributors to the repository, excluding merge commits and empty commits? `Contributors graph`
+- [ ] Bonnie wants to use a template repository as starter code for an assignment in GitHub Classroom. She wants to ensure that she understands any limitations associated with template repositories. What is a limitation of template repositories on GitHub? `They cannot include files stored using Git LFS`.
+- [ ] Brian Griffin is a software developer who is interested in contributing to open source projects related to machine learning. He wants to explore repositories in this subject area to find projects to contribute to and discover new solutions. Which feature of GitHub would be most helpful for Brian in this scenario? `Topics`
 - [x] Brian wants to use historical charts in his GitHub project to analyze the completion status of tasks over time. Which type of historical chart on GitHub displays the progress of issues over time, showing completed work and remaining tasks? `Burn up chart`
-- [x] Brian, a developer, is working on a private repository for a proprietary project for his company. He wants to organize the repository by adding specific topics relevant to the project's technology stack and functionalities. What is the visibility status of topic names created within a private repository on GitHub? `Topic names created in private repositories are always public`.
-- [x] Brian, a GitHub user, has a repository dedicated to sharing his literary works and book reviews. He wants to make it easier for other users to find his repository and contribute to it. What action should Brian take to achieve this goal? `Adding topics to the repository`.
-- [x] Brian, a software engineer, is setting up a continuous integration (CI) workflow for his project on GitHub. He wants to understand how jobs work within GitHub Actions to streamline the build and testing process efficiently. What is a job in the context of GitHub Actions? `A set of steps executed on the same runner`.
-- [x] By default, what is the initial branch called in a freshly created GitHub repository? `main`
-- [x] Can a gist be converted from public to secret after it has been created on GitHub free account? `No, once a gist is created as public, it cannot be made secret`.
-- [x] Can a threaded comment be marked as an answer in a GitHub discussion? `Yes, threaded comments can be marked as answers`.
-- [x] Can issues or pull requests be filtered based on the most added reaction? `Yes`
-- [x] Can voters change their vote after they have cast it in a poll on GitHub? `No, voters cannot change their vote`.
-- [x] Can you configure GitHub Copilot Individual to exclude certain files from being available to GitHub servers? `No`
-- [x] Can you filter GitHub issues based on milestones? `Yes, GitHub allows filtering of issues based on milestone`.
-- [x] Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error. He wants to undo that specific commit. What should Chris do to undo the mistaken commit while keeping the commit history intact? `git revert <SHA>`
-- [x] Chris Griffin wants to add an existing file to his GitHub repository using the command line. He has already cloned the repository locally on his computer. What command should he use to stage the file for commit? `git add .`
-- [x] Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using git add. Which command should he use to achieve this? `git commit -a`
-- [x] Chris Griffin works for an organization that develops various open-source projects. The organization wants to create a centralized website to provide information about its projects and activities. Which type of GitHub Pages site should Chris create for the organization's centralized website? `Organization site`.
-- [x] Chris has been actively developing a project on GitHub, utilizing GitHub Actions to automate various tasks in his workflow. Recently, he renamed one of the repositories containing actions referenced in his workflows. What consequence does Chris face regarding his workflows? `Workflows using the previous repository name will encounter failures.`
-- [x] Explain the difference between GitHub Desktop and github.com? `GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub, while github.com is the website and cloud-based hosting service for Git repositories.`
-- [x] Explain the difference between GitHub Desktop and github.com? `GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub, while github.com is the website and cloud-based hosting service for Git repositories.`
-- [x] From the list of projects for an organization, how can a user identify a GitHub Projects template? `Use the is: template filter in the search text box.`
-- [x] From the Organization settings, which restrictions can organization owners place on GitHub Actions usage? `Allow actions by Marketplace verified creators. AND Allow actions that use self-hosted runners. AND Allow specified actions.`
-- [x] Gists are actually Git repositories, which means that you can fork or clone any gist, even if you aren't the original author. `True`
-- [x] GIT-GHF What are the two deployment options for GitHub Enterprise? `GitHub Enterprise Server e GitHub Enterprise Cloud`
-- [x] GitHub Actions workflows can be directly triggered by which of the following events? `pushing to a GitHub repository`
-- [x] Glenn is a contributor to a GitHub repository that has been archived by the repository owner. He wants to know what actions he can still perform on the archived repository. Contributors can only fork or star the repository, but they cannot make any other changes.
-- [x] Glenn is considering archiving one of his GitHub repositories because it's no longer actively maintained. However, he wants to understand the implications of archiving before making a decision. What happens to a repository when it is archived on GitHub? `The repository becomes read-only for all users`.
-- [x] Glenn maintains a repository on GitHub for a project that is no longer actively maintained. He wants to make the repository read-only for all users and indicate its inactive status. Which action should he take? `Archive the repository`.
-- [x] Glenn Quagmire is a developer working on a project hosted on GitHub. he has made some changes to the codebase and created a pull request to merge your changes into the main branch. However, the status checks for his pull request are failing. He want to understand more about status checks on GitHub to troubleshoot the issue. What are status checks on GitHub and how are they useful? `They indicate if your commits meet the conditions set for the repository, such as passing continuous integration builds.`
-- [x] Glenn Quagmire is learning how to format text using Markdown for his GitHub README file. Which Markdown syntax should Glenn use to bold the word "FamilyGuy" in his document? `__FamilyGuy__`
-- [x] How are commits related to pull requests? `Commits are made on a branch that can have a linked pull request.`
-- [x] How are settings in `.gitignore` files inherited in a Git repository? `Settings are inherited from parent directories`.
-- [x] How are workflows defined in a GitHub repository? `In the .github/workflows directory.`
-- [x] How can a developer open a GitHub repository in the github.dev editor in a new browser tab? `By pressing > while browsing the repository on GitHub.`
-- [x] How can a gist be copied while preserving its history? `Fork`
-- [x] How can a user choose to receive ongoing updates about a specific activity on GitHub.com? `by customizing the types of notifications you will receive in the future`
-- [x] How can a user create a repository template, and what permissions are required? `With Admin permissions, navigate to Repository settings and select Template Repository.`
-- [x] How can a user highlight a post to the top of the Discussions page? `Pin the discussion`
-- [x] How can branch protection rules contribute to secure development on GitHub? `By enforcing certain workflows for branches, such as requiring code reviews and passing status checks`
-- [x] How can discussions be pinned in GitHub? `You can pin a discussion to a specific category or You can globally pin a discussion above the list of discussions for the repository or organization`.
-- [x] How can Glenn make changes to an archived repository? `By unarchiving the repository first whenever you need to make any changes.`
-- [x] How can labels be used in GitHub repositories? `To categorize issues and pull requests for better organization and filtering.`
-- [x] How can Meg share the filtered view of issues assigned to Brian on GitHub? `By copying the URL generated by GitHub for the filtered view and sending it to Brian.`
-- [x] How can pull request templates be added to a GitHub repository? `By creating a docs folder, or a hidden .github directory in the repository and adding the template file.`
-- [x] How can Tricia access repositories that she's watching on GitHub? `By visiting her watching page at https://github.com/watching`
-- [x] How can users access the Pulse feature on GitHub? `By navigating to the "Insights" tab in the repository and selecting "Pulse."`
-- [x] How can you add a link in a wiki page using Markdown syntax? `[Link Text](URL)`
-- [x] How can you add a new file to a GitHub repository? `Using the 'Add file' button on the repository's main page and choosing 'Create new file' or 'Upload files'.`
-- [x] How can you authenticate GitHub CLI commands for managing projects via the GraphQL API? Run `gh auth login --scopes "project"`
-- [x] How can you classify your repository to help others discover and contribute to your project more easily? `Add relevant topics related to your project's purpose, subject area, or groups of interest.`
-- [x] How can you clone a wiki from a GitHub repository to your local computer? `Using the "git clone" command with the repository's URL followed by ".wiki.git"`.
-- [x] How can you create a new branch in Git using the terminal? `git checkout -b <branch-name>`
-- [x] How can you customize notifications to receive ongoing updates about specific activity on GitHub.com through subscriptions? `By selecting the types of notifications you want to receive or unsubscribing from specific conversations or repository`.
-- [x] How can you easily add files via the GUI to your GitHub Repo? `Using the 'Upload files' button`
-- [x] How can you easily add files via the GUI to your GitHub Repo? `Using the 'Upload files' button`
-- [x] How can you efficiently manage and categorize issues and pull requests in a GitHub project? `By using labels to categorize and filter issues and pull requests.`
-- [x] How can you efficiently manage and categorize issues and pull requests in a GitHub project? `By using labels to categorize and filter issues and pull requests.`
+- [ ] Brian, a developer, is working on a private repository for a proprietary project for his company. He wants to organize the repository by adding specific topics relevant to the project's technology stack and functionalities. What is the visibility status of topic names created within a private repository on GitHub? `Topic names created in private repositories are always public`.
+- [ ] Brian, a GitHub user, has a repository dedicated to sharing his literary works and book reviews. He wants to make it easier for other users to find his repository and contribute to it. What action should Brian take to achieve this goal? `Adding topics to the repository`.
+- [ ] Brian, a software engineer, is setting up a continuous integration (CI) workflow for his project on GitHub. He wants to understand how jobs work within GitHub Actions to streamline the build and testing process efficiently. What is a job in the context of GitHub Actions? `A set of steps executed on the same runner`.
+- [ ] By default, what is the initial branch called in a freshly created GitHub repository? `main`
+- [ ] Can a gist be converted from public to secret after it has been created on GitHub free account? `No, once a gist is created as public, it cannot be made secret`.
+- [ ] Can a threaded comment be marked as an answer in a GitHub discussion? `Yes, threaded comments can be marked as answers`.
+- [ ] Can issues or pull requests be filtered based on the most added reaction? `Yes`
+- [ ] Can voters change their vote after they have cast it in a poll on GitHub? `No, voters cannot change their vote`.
+- [ ] Can you configure GitHub Copilot Individual to exclude certain files from being available to GitHub servers? `No`
+- [ ] Can you filter GitHub issues based on milestones? `Yes, GitHub allows filtering of issues based on milestone`.
+- [ ] Chris Griffin just pushed his latest changes to GitHub but realizes that one of the commits contains a critical error. He wants to undo that specific commit. What should Chris do to undo the mistaken commit while keeping the commit history intact? `git revert <SHA>`
+- [ ] Chris Griffin wants to add an existing file to his GitHub repository using the command line. He has already cloned the repository locally on his computer. What command should he use to stage the file for commit? `git add .`
+- [ ] Chris Griffin wants to include all the changes made to tracked files in his next commit without explicitly staging them using git add. Which command should he use to achieve this? `git commit -a`
+- [ ] Chris Griffin works for an organization that develops various open-source projects. The organization wants to create a centralized website to provide information about its projects and activities. Which type of GitHub Pages site should Chris create for the organization's centralized website? `Organization site`.
+- [ ] Chris has been actively developing a project on GitHub, utilizing GitHub Actions to automate various tasks in his workflow. Recently, he renamed one of the repositories containing actions referenced in his workflows. What consequence does Chris face regarding his workflows? `Workflows using the previous repository name will encounter failures.`
+- [ ] Explain the difference between GitHub Desktop and github.com? `GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub, while github.com is the website and cloud-based hosting service for Git repositories.`
+- [ ] Explain the difference between GitHub Desktop and github.com? `GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub, while github.com is the website and cloud-based hosting service for Git repositories.`
+- [ ] From the list of projects for an organization, how can a user identify a GitHub Projects template? `Use the is: template filter in the search text box.`
+- [ ] From the Organization settings, which restrictions can organization owners place on GitHub Actions usage? `Allow actions by Marketplace verified creators. AND Allow actions that use self-hosted runners. AND Allow specified actions.`
+- [ ] Gists are actually Git repositories, which means that you can fork or clone any gist, even if you aren't the original author. `True`
+- [ ] GIT-GHF What are the two deployment options for GitHub Enterprise? `GitHub Enterprise Server e GitHub Enterprise Cloud`
+- [ ] GitHub Actions workflows can be directly triggered by which of the following events? `pushing to a GitHub repository`
+- [ ] Glenn is a contributor to a GitHub repository that has been archived by the repository owner. He wants to know what actions he can still perform on the archived repository. Contributors can only fork or star the repository, but they cannot make any other changes.
+- [ ] Glenn is considering archiving one of his GitHub repositories because it's no longer actively maintained. However, he wants to understand the implications of archiving before making a decision. What happens to a repository when it is archived on GitHub? `The repository becomes read-only for all users`.
+- [ ] Glenn maintains a repository on GitHub for a project that is no longer actively maintained. He wants to make the repository read-only for all users and indicate its inactive status. Which action should he take? `Archive the repository`.
+- [ ] Glenn Quagmire is a developer working on a project hosted on GitHub. he has made some changes to the codebase and created a pull request to merge your changes into the main branch. However, the status checks for his pull request are failing. He want to understand more about status checks on GitHub to troubleshoot the issue. What are status checks on GitHub and how are they useful? `They indicate if your commits meet the conditions set for the repository, such as passing continuous integration builds.`
+- [ ] Glenn Quagmire is learning how to format text using Markdown for his GitHub README file. Which Markdown syntax should Glenn use to bold the word "FamilyGuy" in his document? `__FamilyGuy__`
+- [ ] How are commits related to pull requests? `Commits are made on a branch that can have a linked pull request.`
+- [ ] How are settings in `.gitignore` files inherited in a Git repository? `Settings are inherited from parent directories`.
+- [ ] How are workflows defined in a GitHub repository? `In the .github/workflows directory.`
+- [ ] How can a developer open a GitHub repository in the github.dev editor in a new browser tab? `By pressing > while browsing the repository on GitHub.`
+- [ ] How can a gist be copied while preserving its history? `Fork`
+- [ ] How can a user choose to receive ongoing updates about a specific activity on GitHub.com? `by customizing the types of notifications you will receive in the future`
+- [ ] How can a user create a repository template, and what permissions are required? `With Admin permissions, navigate to Repository settings and select Template Repository.`
+- [ ] How can a user highlight a post to the top of the Discussions page? `Pin the discussion`
+- [ ] How can branch protection rules contribute to secure development on GitHub? `By enforcing certain workflows for branches, such as requiring code reviews and passing status checks`
+- [ ] How can discussions be pinned in GitHub? `You can pin a discussion to a specific category or You can globally pin a discussion above the list of discussions for the repository or organization`.
+- [ ] How can Glenn make changes to an archived repository? `By unarchiving the repository first whenever you need to make any changes.`
+- [ ] How can labels be used in GitHub repositories? `To categorize issues and pull requests for better organization and filtering.`
+- [ ] How can Meg share the filtered view of issues assigned to Brian on GitHub? `By copying the URL generated by GitHub for the filtered view and sending it to Brian.`
+- [ ] How can pull request templates be added to a GitHub repository? `By creating a docs folder, or a hidden .github directory in the repository and adding the template file.`
+- [ ] How can Tricia access repositories that she's watching on GitHub? `By visiting her watching page at https://github.com/watching`
+- [ ] How can users access the Pulse feature on GitHub? `By navigating to the "Insights" tab in the repository and selecting "Pulse."`
+- [ ] How can you add a link in a wiki page using Markdown syntax? `[Link Text](URL)`
+- [ ] How can you add a new file to a GitHub repository? `Using the 'Add file' button on the repository's main page and choosing 'Create new file' or 'Upload files'.`
+- [ ] How can you authenticate GitHub CLI commands for managing projects via the GraphQL API? Run `gh auth login --scopes "project"`
+- [ ] How can you classify your repository to help others discover and contribute to your project more easily? `Add relevant topics related to your project's purpose, subject area, or groups of interest.`
+- [ ] How can you clone a wiki from a GitHub repository to your local computer? `Using the "git clone" command with the repository's URL followed by ".wiki.git"`.
+- [ ] How can you create a new branch in Git using the terminal? `git checkout -b <branch-name>`
+- [ ] How can you customize notifications to receive ongoing updates about specific activity on GitHub.com through subscriptions? `By selecting the types of notifications you want to receive or unsubscribing from specific conversations or repository`.
+- [ ] How can you easily add files via the GUI to your GitHub Repo? `Using the 'Upload files' button`
+- [ ] How can you easily add files via the GUI to your GitHub Repo? `Using the 'Upload files' button`
+- [ ] How can you efficiently manage and categorize issues and pull requests in a GitHub project? `By using labels to categorize and filter issues and pull requests.`
+- [ ] How can you efficiently manage and categorize issues and pull requests in a GitHub project? `By using labels to categorize and filter issues and pull requests.`
 - [x] How can you ensure that pull requests for a specific repository area are not merged unless approved by certain users or teams? `Use a `CODEOWNERS` file and enable required reviews`.
 - [x] How can you ensure that the CODEOWNERS file itself is protected against unauthorized changes? `Define the repository owner as the owner of the CODEOWNERS file`.
 - [x] How can you ensure that your favorite discussion stays at the top? `Pin it`.

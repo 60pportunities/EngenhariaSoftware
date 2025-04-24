@@ -53,8 +53,6 @@ _**Os maiores problemas do mundo são as maiores oportunidades de negócios do m
 _**Não temos que buscar a perfeição… temos que buscar progresso.Enquanto você estiver progredindo isso eh mais do que perfeitos.**_
 ## [Conserte o meio ambiente, não as pessoas](https://www.jasonacox.com/wordpress/wp-content/uploads/2018/11/DOES_forum_OrgDesign_112016.pdf)
 
-  
-
 ## Lei de Linus
 A Lei de Linus (Linus' Law) é uma lei epigramática formulada pelo hacker Eric S. Raymond.
 
@@ -73,8 +71,8 @@ Formuladas na década de 70 pelos professores Meir Lehman e László Bélády, �
 
 Um software deve ser continuamente adaptado, senão torna-se aos poucos, cada vez menos satisfatório. (Mudança contínua)
   
-- [x] Complexidade crescente, eu entendo como refatora.
-- [x] Crescimento Contínuo, Auto regulação, Qualidade diminuindo e etc.
+- [ ] Complexidade crescente, eu entendo como refatora.
+- [ ] Crescimento Contínuo, Auto regulação, Qualidade diminuindo e etc.
 
 ## Lei da Mudança Contínua
 Um sistema de software precisa ser constantemente adaptado para se manter relevante e satisfatório.

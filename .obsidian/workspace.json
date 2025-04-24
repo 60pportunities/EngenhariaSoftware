@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Dados/Introdução.md",
+                "file": "docs/Certificações/Questionário - GitHub Foundations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introdução"
+              "title": "Questionário - GitHub Foundations"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Parquet",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +103,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,8 +198,23 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "48b48c269298a1e3",
+  "active": "5c92528d1ed0ac39",
   "lastOpenFiles": [
+    "docs/Certificações/Questionário - Scrum Professional Developer.md",
+    "docs/Biblioteca Virtual/Link de Livros.md",
+    "docs/Arquitetura de Microsserviços/Gestão de Dados em Microsserviços.md",
+    "docs/Desenvolvimento de Software Seguro/Cognitive-Driven Development.md",
+    "docs/Processos_Internos/Entrevistas.md",
+    "docs/Processos_Internos/Frases que Marcam.md",
+    "docs/Processos_Internos/Futurista Alvin Toffler.md",
+    "docs/Processos_Internos/Noosfera.md",
+    "docs/img/innersource-003.png.sb-b8ea829a-890RKo",
+    "docs/img/innersource-004.png.sb-b8ea829a-467bCm",
+    "docs/img/innersource-004.png",
+    "docs/Processos_Internos/Paradoxo.md",
+    "docs/Processos_Internos/Vulnerabilidade da Força.md",
+    "docs/Processos_Internos/Continuous Learning.md",
+    "docs/Dados/Introdução.md",
     "docs/Dados/Data-Driven.md",
     "docs/Dados/Abstração de Dados.md",
     "site/assets/swagger-ui/oauth2-redirect.html",
@@ -211,8 +225,6 @@
     "site/assets/javascripts/swagger-ui-standalone-preset.js",
     "site/assets/javascripts/swagger-ui-es-bundle.js.map",
     "site/assets/javascripts/swagger-ui-bundle.js",
-    "site/assets/javascripts/swagger-ui-standalone-preset.js.map",
-    "site/assets/javascripts/swagger-ui-es-bundle-core.js",
     "site/assets/images/favicon.png",
     "site/img/vendor_lock-in-multi-cloud.svg",
     "site/img/sqldeveloper_git_003.png",
@@ -222,9 +234,7 @@
     "site/img/sqldeveloper_005.png",
     "site/img/sqldeveloper_004.png",
     "site/img/sqldeveloper_003.png",
-    "site/img/sqldeveloper_002.png",
     "docs/Dados/Bit rot.md",
-    "docs/Dados/Introdução.md",
     "docs/Computação em Nuvem/Introdução.md",
     "docs/Certificações/GitHub Actions.md",
     "docs/index.md",
@@ -232,20 +242,10 @@
     "docs/Publicações Linkedin/Um novo espaço - abertura 1980-1989.md",
     "docs/Gestão Ágil de Projetos/Secret-Scan.md",
     "docs/Gestão Ágil de Projetos/Padronização de Escrita.md",
-    "docs/Processos_Internos/Noosfera.md",
     "docs/Dados/Modelagem de Dados.md",
     "docs/Gestão Ágil de Projetos/Métricas.md",
     "docs/Rede/IP Logger.md",
     "docs/Observabilidade/Introdução.md",
-    "docs/Rascunhos/Grande Depressão.md",
-    "docs/Publicações Linkedin/Globalização e Capitalismo.md",
-    "docs/Processos_Internos/Futurista Alvin Toffler.md",
-    "docs/Gestão Ágil de Projetos/DevOps.md",
-    "docs/Rascunhos/Democratização da tecnologia.md",
-    "docs/Rascunhos/Crise do Software.md",
-    "docs/Ferramentas Tecnológicas/Algumas Ferramentas.md",
-    "docs/Rascunhos/Abertura Política.md",
-    "docs/Processos_Internos/Paradoxo.md",
     "Sem título 1.canvas",
     "Sem título.canvas",
     "Canvas Livro.canvas"

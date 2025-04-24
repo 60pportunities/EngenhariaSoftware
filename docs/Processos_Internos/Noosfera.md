@@ -106,7 +106,7 @@ Qual é a parte mais desafiadora do desenvolvimento de software na sua organiza�
 | Ferramentas e Processos          | Utiliza ferramentas comuns de gerenciamento de código-fonte e colaboração, como GitHub ou GitLab, para facilitar o trabalho conjunto.                                |
 
 ## Regras da Casa
-![](../img/innersource-003.png){width="300" height="300" style="display: block; margin: 0 auto"}
+![](../img/innersource-003.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 Uma diretriz de contribuição fornece documentação **CLARA**, sobre como um colaborador pode contribuir, bem como formaliza as responsabilidades dos desenvolvedores que aceitam alterações de código em seu projeto.
 
@@ -155,6 +155,7 @@ Como uma organização, você pode ter certeza de que qualquer código não púb
 ![](../img/innersource-005.png){width="300" height="200" style="display: block; margin: 0 auto"}
 
 - [ ] Forneça um repositório de TEMPLATES com exemplos:
+
 	- [ ] README(s);
 	- [ ] Modelos de problemas e solicitações de pull;
 	- [ ] Arquivos CONTRIBUTING;
@@ -180,12 +181,14 @@ Como uma organização, você pode ter certeza de que qualquer código não púb
 
 ## Quais problemas o InnerSource resolve?
 A InnerSource incentiva e recompensa a colaboração e a reutilização de código com qualquer pessoa.
+
 Imagine duas equipes na mesma empresa entregando softwares separados, com o software de uma equipe dependendo do da outra.
+
 Em organizações tradicionais, somente a equipe **anfitriã** pode alterar seu código. Outras equipes devem enviar solicitações e esperar até que sua importância seja reconhecida. Com a InnerSource, uma equipe externa que precisa urgentemente de uma mudança pode codificá-la ela mesma, com a orientação da equipe anfitriã.
+
 O InnerSource se aplica ao mesmo tipo de situação em que uma equipe consumidora não consegue obter o que precisa por meio de solicitação de recurso. O InnerSource fornece uma maneira para as equipes obterem os benefícios de **wait it out, workaround e escalar sem as desvantagens associadas**.
 
 - [ ] A equipe convidada ou colaborador solicita um recurso da equipe anfitriã.
-
 - [ ] O proprietário do produto garante que as histórias de usuário que representam a solicitação de recurso sejam criadas, seja por membros da equipe convidada ou da equipe anfitriã. (Sprint - Jake Knapp)
 - [ ] Essas histórias devem descrever o recurso solicitado em termos aceitáveis ​​para a equipe convidada.
 - [ ] Elas também listam quaisquer detalhes da equipe anfitriã sobre como o recurso deve ser entregue para que o trabalho seja aceito.
@@ -196,9 +199,8 @@ A **InnerSource** também fornece uma melhoria geral à cultura de ENGENHARIA po
 - [ ] Seu cerne, estão quatro princípios que formam a base de qualquer instância bem-sucedida da InnerSource. Esses princípios têm inspiração em projetos de código aberto bem-sucedidos e são necessários para que a InnerSource alcance os benefícios descritos anteriormente.
 ### Os princípios são:
 
-- [ ] Abertura: Os projetos devem ser detectáveis ​​e bem documentados por meio dos arquivos README.md e CONTRIBUTING.md na raiz do repositório.
-
-- [ ] Transparência: Equipes convidadas possam contribuir significativamente para um projeto, a equipe anfitriã deve ser transparente . Isso significa que as equipes convidadas devem ser capazes de ter uma compreensão de:
+- [ ] **Abertura**: Os projetos devem ser detectáveis ​​e bem documentados por meio dos arquivos README.md e CONTRIBUTING.md na raiz do repositório.
+- [ ] **Transparência**: Equipes convidadas possam contribuir significativamente para um projeto, a equipe anfitriã deve ser transparente . Isso significa que as equipes convidadas devem ser capazes de ter uma compreensão de:
 - [ ] O projeto/repositório e sua direção;
 - [ ] Requisitos de recursos pendentes;
 - [ ] Progresso nos requisitos de recursos;
@@ -293,7 +295,6 @@ O código padronizado é um texto em linguagem computacional que você pode reut
 
 ## Consumerização
 <p align="justify">Os softwares ERPs, acumulam, tecnologias e funcionalidades para atender uma grandiosidade empresarial (indo contra os cenários atuais com os processos ágeis – Lean IT, SCRUM e etc.), que por muitas vezes não aplicáveis a instituição e/ou adotam tecnologias, que foram abandonadas pelo mercado ou não amigáveis ou com raros profissionais, por exemplo o FORMS, OAF, PEOPLECODE e etc.</p>
-
 Esta claro com esta pesquisa, que a diferença entre software **corporativo** e **consumidor** necessita diminuir e que os **consumidores**, usam softwares mais envolventes e intuitivos: iFOOD, UBER, LinkedIn, WhatsApp e etc., sendo óbvio, as perguntas:
 
 - [ ] Como diminuir este hiato entre estas camadas ou diminuir esta sensação?
@@ -314,11 +315,11 @@ Esta claro com esta pesquisa, que a diferença entre software **corporativo** e 
 |**Exemplo Prático**|Simplificar o processo de deploy com uma CLI intuitiva.|Criar um portal interno para provisionar ambientes de teste em um clique.|Publicar um tutorial viral no YouTube sobre uma nova API.|Usar dados de cycle time e satisfação para priorizar melhorias em ferramentas.|
 
 - [ ] **DevEx vs. Platform Engineering**:
-    - DevEx foca na **experiência subjetiva** do desenvolvedor (ex.: facilidade de uso), enquanto Platform Engineering é sobre **infraestrutura técnica** (ex.: pipelines de CI/CD).
-    - Ambos são internos, mas Platform Engineering é mais técnico e operacional.  
+    - [ ] DevEx foca na **experiência subjetiva** do desenvolvedor (ex.: facilidade de uso), enquanto Platform Engineering é sobre **infraestrutura técnica** (ex.: pipelines de CI/CD).
+    - [ ] Ambos são internos, mas Platform Engineering é mais técnico e operacional.  
 - [ ] **DevRel vs. DevEx**:
-    - DevRel é **externo** (comunidade), enquanto DevEx é **interno** (equipes da empresa).
-    - DevRel busca **advocacy**; DevEx busca **eficiência**.
+    - [ ] DevRel é **externo** (comunidade), enquanto DevEx é **interno** (equipes da empresa).
+    - [ ]  DevRel busca **advocacy**; DevEx busca **eficiência**.
 - [ ] **SPACE Framework**:
-    - É um **modelo de medição** que pode ser aplicado a DevEx, Platform Engineering ou DevRel para avaliar eficácia.
-    - Combina métricas quantitativas (ex.: cycle time) e qualitativas (ex.: satisfação).
+    - [ ] É um **modelo de medição** que pode ser aplicado a DevEx, Platform Engineering ou DevRel para avaliar eficácia.
+    - [ ] Combina métricas quantitativas (ex.: cycle time) e qualitativas (ex.: satisfação).

@@ -11,7 +11,13 @@
 - [ ] Política do Ganha a Ganha;
 - [ ] CAIRREIRA DRIVE DEVELOPMENT (Temoq eur trazer tudo para a nossa carreira e não para o produto)
 - [ ] Commenting For Better Reach (CFBR): O CFBR, também conhecido como “Commenting For Better Reach” é uma estratégia de usada por usuários ou empresas para comentar as postagens de outras pessoas para melhorar seu próprio alcance e visibilidade.
-
+- [ ] As coisas lá no nível de bagunça estão associados com a distância entre o lugar onde a coisa deveria estar e o lugar onde ele está de fato.
+- [ ] O arquiteto de muitas formas ajuda o time a definir uma organização ou seja qual é o lugar certo de cada coisa e e depois de definir o lugar certo de cada coisa tentar ajudar o time a colocar as coisas.
+- [ ] Os principais bloqueadores associados ao InnerSource foram a cultura organizacional (pensamento em silos), falta de tempo para contribuir, falta de conscientização geral e falta de adesão da gestão intermediária.
+<p align="justify">O dono de um projeto de software é a pessoa que tem o direito exclusivo, reconhecido pela comunidade em geral, de distribuir versões modificadas.</p>
+- [ ] **Criar um projeto**: um mantenedor desde seu início e o mantenedor ainda está ativo;
+- [ ] **Propriedade do projeto** passada a você pelo proprietário anterior (isso às vezes é conhecido como "passar o bastão").
+- [ ] **Adquirir propriedade** de um projeto é observar que ele precisa de trabalho e que o proprietário desapareceu ou perdeu o interesse.
 ### Pilares da Codificação/Tenha em Mente
 
 - [ ] O melhor código é aquele que não precisa ser escrito;
@@ -32,11 +38,4 @@
 - [ ] Duração da sessão;
 - [ ] DAU (Daily Active Users) e MAU (Monthly Active Users);
   
-As coisas lá no nível de bagunça estão associados com a distância entre o lugar onde a coisa deveria estar e o lugar onde ele está de fato.
-
-O arquiteto de muitas formas ajuda o time a definir uma organização ou seja qual é o lugar certo de cada coisa e e depois de definir o lugar certo de cada coisa tentar ajudar o time a colocar as coisas.
-<p align="justify">Os principais bloqueadores associados ao InnerSource foram a cultura organizacional (pensamento em silos), falta de tempo para contribuir, falta de conscientização geral e falta de adesão da gestão intermediária.</p>
-<p align="justify">O dono de um projeto de software é a pessoa que tem o direito exclusivo, reconhecido pela comunidade em geral, de distribuir versões modificadas.</p>
-- [ ] **Criar um projeto**: um mantenedor desde seu início e o mantenedor ainda está ativo;
-- [ ] **Propriedade do projeto** passada a você pelo proprietário anterior (isso às vezes é conhecido como "passar o bastão").
-- [ ] **Adquirir propriedade** de um projeto é observar que ele precisa de trabalho e que o proprietário desapareceu ou perdeu o interesse.
+    - [ ] 

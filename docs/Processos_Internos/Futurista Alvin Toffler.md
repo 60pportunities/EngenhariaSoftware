@@ -111,9 +111,9 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 
 #### Gentileza gera Gentileza - José Datrino, também conhecido com o Profeta Gentileza.
 
-|                                 |                              |
-| ------------------------------- | ---------------------------- |
-| ![](../img/equilibrio-001.jpeg) | ![](img/equilibrio-002.jpeg) |
+|                                 |                                 |
+| ------------------------------- | ------------------------------- |
+| ![](../img/equilibrio-001.jpeg) | ![](../img/equilibrio-002.jpeg) |
 
   
   #### **Catalisando uma Revolução Cultural ("eu" para o "nós")**
@@ -123,7 +123,6 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] Sair de apresentações solo para um concerto harmonizado;
 - [ ] Reuniões e discussões devem engrandecer assistência e a cooperação;
 - [ ] Talvez esta mudança de paradigma do "eu" para o "nós" possa revolucionar a cultura de trabalho, tornando-a mais inclusiva, solidária e bem-sucedida.
-
 #### Como preconizado no Scrum
 
 - [ ] A formação de times e organizações multifuncionais e de alto desempenho, onde pessoas de várias funções, conhecimentos se envolvem umas com as outras em um espírito de ajuda e cooperação, ou seja, quando fomentamos o sucesso uns dos outros, inadvertidamente lançamos as bases para o nosso próprio sucesso.
@@ -165,7 +164,6 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 #### Gestão de riscos e resiliência organizacional
 
 - [ ] Construção de uma verdadeira arquitetura da resiliência, com pilares como: **Agilidade, Planos de continuidade e Diversificação**.
-
 #### Liderança Inclusiva e Diversidade
 
 - [ ] Capacitar para a inclusão (**racismo, sexismo, homofobia, etarismo**);
