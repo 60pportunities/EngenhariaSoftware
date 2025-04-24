@@ -60,7 +60,6 @@ Necessidade em se adotar critérios para o cadastramento de NCM
 | **Consolidação** | Criação de um **golden records**, os sistemas de origem alimentam dados em um hub central para golden records.    |
 | **Coexistência** | Cria um hub de dados consolidado que então alimenta registros atualizados de volta para as fontes.                |
 ### Por que achamos de suma importância?
-
 Tem que ser um espécie de protocolo de comunicação que traz diversos benefícios e oportunidades, como seguem:
 
 - [ ] Precisão na identificação do Gestor do Dado;

@@ -14,9 +14,7 @@ O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientad
 | Terceira             | Desenvolvimento de infraestrutura das telecomunicações e transporte; integração entre economia e política;                                                                                 | Automatização             |
 | Quarta               | Tecnologias para automação e troca de dados – ela se caracteriza, por um conjunto de tecnologias que permitem a fusão do mundo físico, digital e biológico.                                | Personalizando a Produção |
 
-  
-
-![](img/historicorevolucaoindustrial.png){width="600" height="450" style="display: block; margin: 0 auto" }
+![](../img/historicorevolucaoindustrial.png){width="600" height="450" style="display: block; margin: 0 auto" }
 
   “Com cada revolução industrial, houve uma revolução de aprendizagem correspondente que na época, parecia proibitivamente cara. No entanto, o custo de manter o status quo no passado era o custo da oportunidade perdida que, em muitos casos, era uma fortuna.” — Jesse Martin
 ## Dado é o novo Petróleo
@@ -1057,7 +1055,7 @@ Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratég
 
   
 
-- [ ] Arquiteturas de data lakehouse podem atingir a conformidade com ACID ( atômica, consistente, isolamento e durabilidade ) na presença de leitores e escritores simultâneos, aproveitando formatos de arquivo como [ORC , Parquet e Avro](https://www.astera.com/pt/type/blog/avro-vs-parquet-is-one-better-than-the-other/).
+	- [ ] Arquiteturas de data lakehouse podem atingir a conformidade com ACID ( atômica, consistente, isolamento e durabilidade ) na presença de leitores e escritores simultâneos, aproveitando formatos de arquivo como [ORC , Parquet e Avro](https://www.astera.com/pt/type/blog/avro-vs-parquet-is-one-better-than-the-other/).
 - [ ] ORC e ​​Parquet usam um formato de armazenamento em colunas, permitindo acesso e modificação eficientes de colunas específicas, mantendo a integridade dos dados por meio de arquivos de metadados.
 - [ ] vro é um formato popular de serialização de dados que pode ser usado para definir a estrutura de dados armazenada em um formato em colunas , como Parquet ou ORC , permitindo armazenamento e recuperação de dados mais eficientes.
 - [ ] Os data-frames oferecem uma abstração de tabela com vários operadores de transformação, muitos dos quais são mapeados para álgebra relacional.
