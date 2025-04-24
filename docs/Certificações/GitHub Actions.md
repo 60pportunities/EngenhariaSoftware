@@ -3821,12 +3821,12 @@ Agora, vamos dar uma olhada em como melhorar suas Ações.
 ## Improve the user experience of your actions
 Ao criar uma ação para seu uso pessoal ou compartilhá-la com o maior público, é importante tornar a experiência do usuário a mais simples e agradável possível. Portanto, o uso de sua Ação pode ter uma boa experiência do usuário se você seguir regras básicas. Aqui estão algumas:
 
-- [x] Qualquer ação deve ter um README claro e completo, idealmente escrito em inglês
-- [x] Forneça exemplos de como usar sua ação (trechos YAML)
-- [x] Considere também fornecer fluxos de trabalho de amostra abrangentes. Um trecho de código às vezes omite mostrar o que acontece antes e depois
-- [x] Simplifique seu uso com parâmetros explícitos e de nome curto, mas também com valores padrão
-- [x] Se você criar uma ação docker, mesmo que ofereça uma imagem de contêiner pronta para o usuário, forneça o arquivo Dockerfile para permitir que as pessoas vejam o que ele contém e para permitir que reconstruam a imagem do seu lado
-- [x] Considere, dependendo da complexidade da sua ação, fornecer um modo DEBUG/VERBOSE para exibir mais detalhes se ocorrerem problemas de configuração
+- [ ] Qualquer ação deve ter um README claro e completo, idealmente escrito em inglês
+- [ ] Forneça exemplos de como usar sua ação (trechos YAML)
+	- [x] Considere também fornecer fluxos de trabalho de amostra abrangentes. Um trecho de código às vezes omite mostrar o que acontece antes e depois
+- [ ] Simplifique seu uso com parâmetros explícitos e de nome curto, mas também com valores padrão
+- [ ] Se você criar uma ação docker, mesmo que ofereça uma imagem de contêiner pronta para o usuário, forneça o arquivo Dockerfile para permitir que as pessoas vejam o que ele contém e para permitir que reconstruam a imagem do seu lado
+- [ ] Considere, dependendo da complexidade da sua ação, fornecer um modo DEBUG/VERBOSE para exibir mais detalhes se ocorrerem problemas de configuração
 - [x] Se sua ação gerar arquivos, exponha um parâmetro para permitir que o usuário especifique o nome e o caminho do arquivo gerado
 
 Existem outras boas práticas, que exigem algum esforço, mas cujo valor agregado, por menor que seja, melhora muito o uso da sua ação.
@@ -4017,11 +4017,11 @@ A primeira categoria está relacionada aos elementos técnicos. É aceito que to
 
 A segunda categoria contém os elementos técnicos reutilizáveis por outros fluxos de trabalho/projetos: pacotes ou bibliotecas que são baixados automaticamente por alguns projetos que os referenciam. Esses elementos específicos, que devem ser baixáveis por outros fluxos de trabalho, serão salvos em outro serviço do GitHub: Pacotes do GitHub. Isso é o equivalente a outros produtos com os quais você pode estar familiarizado, como Nexus, Artifactory ou Azure DevOps Artifacts. Os seguintes formatos são suportados:
 
-- [x] Pacotes NuGet, usados por projetos .NET
-- [x] Maven para projetos Java
-- [x] NPM para projetos JavaScript
-- [x] Gradle para projetos Java
-- [x] RubyGems para projetos Ruby
+- [ ] Pacotes NuGet, usados por projetos .NET
+- [ ] Maven para projetos Java
+- [ ] NPM para projetos JavaScript
+- [ ] Gradle para projetos Java
+- [ ] RubyGems para projetos Ruby
 
 E mais do que isso, o GitHub Packages oferece um registro de contêiner docker.
 
@@ -4029,8 +4029,8 @@ Assim, dependendo do tipo de item gerado e seu uso, você pode usar o GitHub Art
 
 ### Publication of an artifact
 A publicação de um artefato é extremamente simples e consiste em usar a ação actions/upload-artifact. Esta requer apenas dois parâmetros:
-- [x] path: o(s) arquivo(s) ou pasta(s) a serem incluídos no arquivo zip gerado
-- [x] name: o nome do arquivo Zip gerado
+- [ ] path: o(s) arquivo(s) ou pasta(s) a serem incluídos no arquivo zip gerado
+- [ ] name: o nome do arquivo Zip gerado
 
 ```
 - name: Archiving the binaries of the application
@@ -4271,19 +4271,19 @@ Apesar de algumas limitações, o Act analisa os arquivos YAML e tenta reproduzi
 No GitHub Actions, o tempo que os logs e artefatos ficam armazenados por padrão depende do tipo de item e do plano de conta que você está utilizando.
 
 - [x] Logs:
-Armazenamento: Os logs de execução dos jobs (logs de cada execução de um fluxo de trabalho) são armazenados pelo GitHub por 90 dias.
 
-Acessibilidade: Você pode acessar os logs de execução de qualquer job ou execução do fluxo de trabalho enquanto os logs estiverem dentro desse período de retenção. Após esse período, os logs são excluídos automaticamente.
+	Armazenamento: Os logs de execução dos jobs (logs de cada execução de um fluxo de trabalho) são armazenados pelo GitHub por 90 dias.
 
-- [x]  Artefatos:
-Armazenamento: Os artefatos (arquivos gerados durante o fluxo de trabalho, como binários, logs ou pacotes de build) têm uma retenção padrão de 90 dias.
+	Acessibilidade: Você pode acessar os logs de execução de qualquer job ou execução do fluxo de trabalho enquanto os logs estiverem dentro desse período de retenção. Após esse período, os logs são excluídos automaticamente.
 
-Acessibilidade: Assim como os logs, os artefatos podem ser acessados e baixados enquanto estiverem dentro do período de retenção de 90 dias. Após esse período, eles são automaticamente excluídos.
+- [ ]  Artefatos:
 
-Limitação de Tamanho: Além disso, há uma limitação de tamanho para artefatos individuais (50 GB por artefato), e um máximo de 100 GB no total por conta para artefatos armazenados.
+	Armazenamento: Os artefatos (arquivos gerados durante o fluxo de trabalho, como binários, logs ou pacotes de build) têm uma retenção padrão de 90 dias.
+	Acessibilidade: Assim como os logs, os artefatos podem ser acessados e baixados enquanto estiverem dentro do período de retenção de 90 dias. Após esse período, eles são automaticamente excluídos.
+	Limitação de Tamanho: Além disso, há uma limitação de tamanho para artefatos individuais (50 GB por artefato), e um máximo de 100 GB no total por conta para artefatos armazenados.
+- [ ] Exceções e Personalizações:
 
-- [x] Exceções e Personalizações:
-Alterar o Tempo de Retenção de Artefatos: Você pode personalizar a retenção dos artefatos usando a opção retention-days no arquivo de workflow. Isso permite definir um tempo de retenção menor ou maior, mas não pode exceder 90 dias.
+	Alterar o Tempo de Retenção de Artefatos: Você pode personalizar a retenção dos artefatos usando a opção retention-days no arquivo de workflow. Isso permite definir um tempo de retenção menor ou maior, mas não pode exceder 90 dias.
 
 
 ## Improve the performance of your workflows
@@ -4294,9 +4294,9 @@ Outro ponto importante, dependendo da sua conta do GitHub, o custo do final do m
 ### Improving Actions
 Ações são as bases dos fluxos de trabalho. Existem tantas possibilidades de Ações que não podemos cobrir tudo sobre otimização, mas existem regras gerais para manter seus fluxos de trabalho saudáveis.
 
-- [x] Desabilite (se: ${{ false }}) ou comente ações que não agregam valor ao seu fluxo de trabalho
-- [x] Prefira fluxos de trabalho em execução no Linux, a geração da máquina virtual subjacente sendo um pouco mais rápida
-- [x] Paralelize etapas por meio de trabalhos ou matrizes quando não tiverem dependências entre si
+- [ ] Desabilite (se: ${{ false }}) ou comente ações que não agregam valor ao seu fluxo de trabalho
+- [ ] Prefira fluxos de trabalho em execução no Linux, a geração da máquina virtual subjacente sendo um pouco mais rápida
+- [ ] Paralelize etapas por meio de trabalhos ou matrizes quando não tiverem dependências entre si
 
 O último ponto, quando seu fluxo de trabalho requer o download e a instalação de várias ferramentas e/ou utilitários, usar uma ação do Docker pode melhorar muito o tempo de execução do fluxo de trabalho, ainda mais, se a imagem do Docker da Ação foi gerada upstream. Este ponto de desempenho, embelezado com um exemplo factual, é abordado em detalhes no capítulo "Criar uma ação do Docker".
 
@@ -4331,17 +4331,17 @@ A grande maioria dos projetos de TI, independentemente da linguagem de programa�
 
 No entanto, o GitHub Actions oferece uma solução elegante para responder a esse problema: um recurso de cache persistente. Essa solução inclui a adição da ação actions/cache dentro do seu fluxo de trabalho que salva e recupera elementos automaticamente de/para um cache persistente localizado nos servidores do GitHub. Essa ação deve ser inserida no início do fluxo de trabalho antes da resolução da dependência. Ele opera da seguinte forma:
 
-- [x] Durante a primeira execução do fluxo de trabalho, a ação Cache não encontra um cache que atenda ao critério
-- [x]  O fluxo de trabalho então baixa as dependências normalmente por meio da ferramenta de resolução de dependência
-- [x] A ação Cache injeta uma etapa no final de um fluxo de trabalho (pós-etapas) que salva os arquivos no cache
-- [x] O fluxo de trabalho para
+- [ ] Durante a primeira execução do fluxo de trabalho, a ação Cache não encontra um cache que atenda ao critério
+- [ ]  O fluxo de trabalho então baixa as dependências normalmente por meio da ferramenta de resolução de dependência
+- [ ] A ação Cache injeta uma etapa no final de um fluxo de trabalho (pós-etapas) que salva os arquivos no cache
+- [ ] O fluxo de trabalho para
 
 Na próxima execução do fluxo de trabalho:
 
-- [x] A ação Cache encontra um cache que corresponde ao critério. Ele baixa o cache localmente e o coloca na pasta de destino
-- [x] A ação cache define uma variável "cache-hit" como true para indicar que um cache foi encontrado
-- [x]  A ferramenta de resolução de dependência não precisa baixar arquivos porque eles já estão presentes localmente
-- [x] A ação Cache injeta uma etapa no final do fluxo de trabalho, mas não salva os arquivos no cache porque a variável cache-hit é true. O cache é considerado já atualizado
+- [ ] A ação Cache encontra um cache que corresponde ao critério. Ele baixa o cache localmente e o coloca na pasta de destino
+- [ ] A ação cache define uma variável "cache-hit" como true para indicar que um cache foi encontrado
+- [ ]  A ferramenta de resolução de dependência não precisa baixar arquivos porque eles já estão presentes localmente
+- [ ] A ação Cache injeta uma etapa no final do fluxo de trabalho, mas não salva os arquivos no cache porque a variável cache-hit é true. O cache é considerado já atualizado
 
 A implementação é extremamente simples, pois basta colocar a ação no início do fluxo de trabalho, especificar a(s) pasta(s) para fazer backup e dar um nome ao cache.
 
@@ -4455,8 +4455,8 @@ Longe de ser exaustivo, este capítulo tem como objetivo compartilhar as princip
 ## The secrets management
 Os "segredos" discutidos aqui se referem a duas coisas que geralmente andam de mãos dadas:
 
-- [x] Informações confidenciais (senha, certificado, string de conexão, chave)
-- [x] Segredos GitHub: a funcionalidade que permite que você armazene essas informações críticas em uma variável segura
+- [ ] Informações confidenciais (senha, certificado, string de conexão, chave)
+- [ ] Segredos GitHub: a funcionalidade que permite que você armazene essas informações críticas em uma variável segura
 
 A primeira boa prática referente a informações confidenciais é estritamente nunca, de forma alguma, escrever esses dados sensíveis no código-fonte, pela simples razão de que qualquer pessoa com acesso ao seu repositório (seja porque o repositório é público ou acessível por um colaborador) pode recuperar esses dados. Uma vez que o segredo é armazenado no histórico de commits, torna-se difícil apagá-lo. Isso permanece tecnicamente viável com comandos como "git rebase -i", mas pode ter consequências infelizes se outra pessoa já usa a versão atual do código-fonte. No próximo push/merge de um ou outro, podem ocorrer erros. Portanto, prefira a vigilância ou crie o hábito de nunca escrever um segredo no código-fonte.
 
@@ -4514,9 +4514,9 @@ O agente pode ser comprometido de fora e por pessoas com acesso ao repositório,
 
 Portanto, é essencial considerar seu agente e a máquina em que está instalado como potencialmente vulneráveis. Algumas boas práticas permitem reduzir o risco em tais casos:
 
-- [x] Instale o agente com os menores privilégios. Não instale com direitos de administrador; você evitará que ele possa assumir o controle total do servidor em que está localizado
-- [x] Limite o acesso à rede desta máquina. Se o agente não tiver motivo para acessar a rede, não permita que ele o faça, e se o acesso a certos recursos precisar ser feito (por exemplo, um servidor de produção, um banco de dados), abra essas rotas de rede exclusivamente.
-- [x] Não use um agente para vários repositórios (possível com contas do GitHub Enterprise) e não instale vários agentes de vários repositórios na mesma máquina. Existe o risco de "ataque à cadeia de suprimentos" em que, por meio de um repositório corrompido, um fluxo de trabalho pode sair de sua pasta de trabalho e potencialmente acessar/modificar o código-fonte de outro fluxo de trabalho executado por um segundo agente na mesma máquina.
+- [ ] Instale o agente com os menores privilégios. Não instale com direitos de administrador; você evitará que ele possa assumir o controle total do servidor em que está localizado
+- [ ] Limite o acesso à rede desta máquina. Se o agente não tiver motivo para acessar a rede, não permita que ele o faça, e se o acesso a certos recursos precisar ser feito (por exemplo, um servidor de produção, um banco de dados), abra essas rotas de rede exclusivamente.
+- [ ] Não use um agente para vários repositórios (possível com contas do GitHub Enterprise) e não instale vários agentes de vários repositórios na mesma máquina. Existe o risco de "ataque à cadeia de suprimentos" em que, por meio de um repositório corrompido, um fluxo de trabalho pode sair de sua pasta de trabalho e potencialmente acessar/modificar o código-fonte de outro fluxo de trabalho executado por um segundo agente na mesma máquina.
 
 A solução ideal seria implantar agentes em contêineres, mas infelizmente, o GitHub não fornece esses agentes em contêineres. Cabe a você fazer essa tarefa, mas tutoriais podem ser facilmente encontrados online. Fique atento novamente; é melhor ter controle total sobre a imagem de contêiner gerada.
 
@@ -4556,12 +4556,12 @@ Importante: Se antes era possível usar esse hash curto de identificador para re
 
 Um pequeno resumo de pontos de vigilância a serem lembrados sobre o uso de Ações de terceiros:
 
-- [x] Não confie em nenhuma ação
-- [x] Sempre dê uma olhada em seu código-fonte
-- [x] Limite o uso de ações de terceiros nos fluxos de trabalho implantados por meio de agentes auto-hospedados
-- [x] Se tal uso for necessário, seja ainda mais vigilante
-- [x] Prefira o uso do hash para referenciar uma ação, mesmo que isso signifique não obter os patches/evoluções automaticamente
-- [x] O ideal é bifurcar a ação e usar apenas a versão clonada. Certamente, você não terá atualizações, mas terá total controle sobre o código-fonte da ação e, acima de tudo, dificilmente verá a ação desaparecer porque o autor decidiu fazer isso (não subestime).
+- [ ] Não confie em nenhuma ação
+- [ ] Sempre dê uma olhada em seu código-fonte
+- [ ] Limite o uso de ações de terceiros nos fluxos de trabalho implantados por meio de agentes auto-hospedados
+- [ ] Se tal uso for necessário, seja ainda mais vigilante
+- [ ] Prefira o uso do hash para referenciar uma ação, mesmo que isso signifique não obter os patches/evoluções automaticamente
+- [ ] O ideal é bifurcar a ação e usar apenas a versão clonada. Certamente, você não terá atualizações, mas terá total controle sobre o código-fonte da ação e, acima de tudo, dificilmente verá a ação desaparecer porque o autor decidiu fazer isso (não subestime).
 
 ### Keep up with the good security practices
 O GitHub Actions evolui dia a dia, e devido à sua complexidade, os possíveis maus usos da solução são numerosos, por isso é impossível listar todos e/ou todos os conhecidos.
@@ -4863,11 +4863,11 @@ Depois de ver todas essas ferramentas, vamos configurar um fluxo de trabalho par
 ## The Workflow
 O fluxo de trabalho consiste em várias etapas:
 
-- [x] Análise estática, ou seja, todas as verificações que podem ser feitas antes mesmo da compilação (idealmente para serem executadas no momento de uma solicitação de pull): SCA + SAST + linter + credscan
-- [x] Compilação e empacotamento
-- [x] Implantação no ambiente de teste
-- [x] Análise dinâmica (teste de desempenho e teste de penetração): DAST
-- [x] Implantação na produção
+- [ ] Análise estática, ou seja, todas as verificações que podem ser feitas antes mesmo da compilação (idealmente para serem executadas no momento de uma solicitação de pull): SCA + SAST + linter + credscan
+- [ ] Compilação e empacotamento
+- [ ] Implantação no ambiente de teste
+- [ ] Análise dinâmica (teste de desempenho e teste de penetração): DAST
+- [ ] Implantação na produção
 
 Observe que o fluxo de trabalho paraleliza as etapas quando possível e, em seguida, adiciona dependências para que todos os testes sejam aprovados antes de passar para a próxima etapa.
 
@@ -5049,11 +5049,11 @@ runs-on: self-hosted
 Às vezes, você precisa distribuir software dentro da sua empresa ou para terceiros. O fluxo de trabalho a seguir usa o exemplo de um Azure Agente de produto DevOps (uma alternativa ao GitHub/Gitlab) e o empacota como um contêiner, publicado na Internet.
 O fluxo de trabalho a seguir faz várias coisas:
 
-- [x] Executa análise DevSecOps para verificar vulnerabilidades de segurança
-- [x] Compila e empacota vários contêineres em várias plataformas (Windows e Linux)
-- [x] Produz manifestos de implantação (HELM Chart dedicado à implantação em um cluster Kubernetes)
-- [x] Gera um site de documentação
-- [x] Executa testes de integração
+- [ ] Executa análise DevSecOps para verificar vulnerabilidades de segurança
+- [ ] Compila e empacota vários contêineres em várias plataformas (Windows e Linux)
+- [ ] Produz manifestos de implantação (HELM Chart dedicado à implantação em um cluster Kubernetes)
+- [ ] Gera um site de documentação
+- [ ] Executa testes de integração
 
 ## The Workflow
 Este fluxo de trabalho tem quase 900 linhas, então cobriremos apenas certos detalhes e a apresentação das etapas. O código-fonte inteiro pode ser encontrado aqui: https://github.com/clemlesne/blue-agent/blob/main/.github/workflows/pipeline.yaml
@@ -5117,9 +5117,9 @@ steps:
 
 Então vêm os passos finais:
 
-- [x] publicar e atualizar o Docker Hub
-- [x] publicar um Helm chart que facilitará a implantação de artefatos em clusters Kubernetes
-- [x] atualizar e publicar um site de documentação
+- [ ] publicar e atualizar o Docker Hub
+- [ ] publicar um Helm chart que facilitará a implantação de artefatos em clusters Kubernetes
+- [ ] atualizar e publicar um site de documentação
 
 Este fluxo de trabalho é interessante porque representa excelência quando você quer publicar um componente open-source, garantindo a segurança dos componentes, documentação atualizada e também considerando a experiência do usuário com facilidades de implantação (aqui uma imagem de contêiner e um manifesto Helm opcional).
 
@@ -5130,19 +5130,18 @@ Ao ler o livro, sinta-se à vontade para olhar os apêndices, que contêm difere
 
 Desejo que você se divirta brincando com essas Ações e espero que você automatize com sucesso todos os tipos de tarefas ou coisas.
 
-
 ## Usando HashiCorp Vault no GitHub
 Poderíamos ter usado o **Azure Key Vault**, mas o que queremos é demonstrar  o uso do OpenID Connect (OIDC).
 Ao **centralizar a configuração e o acesso aos segredos**, você aprenderá a estabelecer um fluxo de trabalho seguro e eficiente para gerenciar
 informações confidenciais.
 OIDC é um padrão aberto para autenticação e autorização seguras e padronizadas de usuários. Ao confiar em provedores de identidade bem estabelecidos, como Auth0, Okta,GitHub, Google ou Microsoft Entra ID (antigo Azure Active Directory), o OIDC permite que aplicativos clientes autentiquem usuários sem a necessidade de gerenciar credenciais de usuário diretamente. O OIDC tem alguns componentes para você se familiarizar:
 
-- [x] **Aplicativo cliente**: Aplicativo inicia o processo de autenticação e interage com o provedor de identidade;
-- [x] **Provedor de identidade**: Um serviço confiável que autentica usuários e fornece informações relacionadas à identidade para aplicativos clientes;
-- [x] **Servidor de autorização**: O servidor manipula solicitações de autenticação e autorização de aplicativos clientes.
-- [x] **Token de identidade**: Um JSON Web Token (JWT) que contém declarações de identidade sobre o usuário autenticado.
-- [x] **Token de acesso**: Um token que autoriza aplicativos clientes a acessar recursos protegidos em nome do usuário autenticado.
-- [x] **Escopo**: Quando um aplicativo cliente solicita autenticação usando OIDC, ele pode especificar o escopo de acesso desejado para o usuário autenticado.
+- [ ] **Aplicativo cliente**: Aplicativo inicia o processo de autenticação e interage com o provedor de identidade;
+- [ ] **Provedor de identidade**: Um serviço confiável que autentica usuários e fornece informações relacionadas à identidade para aplicativos clientes;
+- [ ] **Servidor de autorização**: O servidor manipula solicitações de autenticação e autorização de aplicativos clientes.
+- [ ] **Token de identidade**: Um JSON Web Token (JWT) que contém declarações de identidade sobre o usuário autenticado.
+- [ ] **Token de acesso**: Um token que autoriza aplicativos clientes a acessar recursos protegidos em nome do usuário autenticado.
+- [ ] **Escopo**: Quando um aplicativo cliente solicita autenticação usando OIDC, ele pode especificar o escopo de acesso desejado para o usuário autenticado.
 
 ![](../img/github_oidc.png)
 
@@ -5160,28 +5159,28 @@ Exemplos de código e respostas aos exercícios estão no repositório principal
 
 As Ações podem ser encontradas em:
 
-- [x] Hello World: https://github.com/60pportunities/github-action-hello
-- [x] Generate Release: https://github.com/60pportunities/github-action-generate-relnotes
-- [x] Pandoc: https://github.com/60pportunities/github-action-pandoc
-- [x] CredScanning:https://github.com/60pportunities/github-action-composite-credscanning
+- [ ] Hello World: https://github.com/60pportunities/github-action-hello
+- [ ] Generate Release: https://github.com/60pportunities/github-action-generate-relnotes
+- [ ] Pandoc: https://github.com/60pportunities/github-action-pandoc
+- [ ] CredScanning:https://github.com/60pportunities/github-action-composite-credscanning
 
 ## Recursos recomendados
 
 Aqui estão alguns recursos que recomendo para aprofundar o uso do GitHub Actions:
 
 A documentação oficial: https://docs.github.com/en/actions • O blog oficial do GitHub: https://github.blog/
-- [x] O GitHub Actions Toolkit: https://github.com/actions/toolkit
-- [x] O action github-script que permite interagir facilmente com o GitHub em qualquer fluxo de trabalho: https://github.com/actions/github- script
-- [x] O Changelog do GitHub https://github.blog/changelog/
-- [x] Os fóruns do GitHub: https://github.community, Você encontrará ajuda, mas principalmente muitas informações ou recursos que o GitHub não julgou relevantes para indicar na documentação.
-- [x] The Awesome List: uma lista de Actions consideradas as mais relevantes ou de melhor qualidade https://github.com/sdras/awesome-actions. Ler o código-fonte deles permitirá que você aprenda muito sobre boas práticas
-- [x] O blog da equipe de segurança do GitHub: https:// securitylab.github.com/advisories
+- [ ] O GitHub Actions Toolkit: https://github.com/actions/toolkit
+- [ ] O action github-script que permite interagir facilmente com o GitHub em qualquer fluxo de trabalho: https://github.com/actions/github- script
+- [ ] O Changelog do GitHub https://github.blog/changelog/
+- [ ] Os fóruns do GitHub: https://github.community, Você encontrará ajuda, mas principalmente muitas informações ou recursos que o GitHub não julgou relevantes para indicar na documentação.
+- [ ] The Awesome List: uma lista de Actions consideradas as mais relevantes ou de melhor qualidade https://github.com/sdras/awesome-actions. Ler o código-fonte deles permitirá que você aprenda muito sobre boas práticas
+- [ ] O blog da equipe de segurança do GitHub: https:// securitylab.github.com/advisories
 
 Alguns exemplos muito úteis de fluxos de trabalho para implantar na Nuvem:
 
-- [x] Azure: https://github.com/Azure/actions-workflow-samples
-- [x] AWS: https://github.com/actions/starter-workflows/blob/master/ci/aws.yml
-- [x] GCP: https://github.com/google-github-actions/setup-gcloud
+- [ ] Azure: https://github.com/Azure/actions-workflow-samples
+- [ ] AWS: https://github.com/actions/starter-workflows/blob/master/ci/aws.yml
+- [ ] GCP: https://github.com/google-github-actions/setup-gcloud
 
 Com o passar dos meses, outros recursos certamente surgirão, e você completará sua própria lista de recursos favoritos.
 
