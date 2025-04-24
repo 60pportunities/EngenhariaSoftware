@@ -61,6 +61,7 @@ A Lei de Linus (Linus' Law) é uma lei epigramática formulada pelo hacker Eric 
 “Dados olhos suficientes, todos os erros são óbvios." (Given enough eyeballs, all bugs are shallow)
 ## Lei de Conway
 A forma como uma empresa é organizada – seus processos, sua comunicação, e sua divisão de equipes – influencia diretamente a arquitetura do software produzido.
+
 Quando a organização projeta uma solução, ela inevitavelmente vai reproduzir as estruturas de comunicação vigentes dentro dela — para o bem e para o mal.
 
 Se a comunicação entre as equipes da organização for complicada, a comunicação entre as camadas do software provavelmente também será difícil, proporcionando uma experiência ruim para o usuário.
