@@ -69,7 +69,7 @@ Um projeto típico tem os seguintes tipos de pessoas:
 - [ ] **Proprietário**: A(s) pessoa(s) que tem(têm) propriedade administrativa sobre a organização ou repositório (nem sempre o mesmo que o autor original)
 - [ ] **Mantenedores**: Colaboradores responsaveis por conduzir a visão e gerenciar os aspectos organizacionais do projeto (eles tambem podem ser autores ou proprietarios do projeto).
 - [ ] **Colaboradores**: Todos que contribuíram com algo para o projeto
-- [x] **Membros da Comunidade**: Pessoas que usam o projeto. Eles podem ser ativos em conversas ou expressar sua opinião sobre a direção do projeto;
+- [ ] **Membros da Comunidade**: Pessoas que usam o projeto. Eles podem ser ativos em conversas ou expressar sua opinião sobre a direção do projeto;
 #### Documentação
 Esses arquivos geralmente são listados no nível superior de um repositório.
 
@@ -80,7 +80,7 @@ Esses arquivos geralmente são listados no nível superior de um repositório.
 - [ ] **Outra documentação**: Pode haver documentação adicional, como tutoriais, orientações ou políticas de governança e etc.
 #### Discussões
 
-- [x] **Solicitações de pull**: Onde as pessoas discutem e revisam alterações que estão em andamento, seja para melhorar a linha de código de um colaborador, o uso da gramática, o uso de imagens, etc.
+- [ ] **Solicitações de pull**: Onde as pessoas discutem e revisam alterações que estão em andamento, seja para melhorar a linha de código de um colaborador, o uso da gramática, o uso de imagens, etc.
 - [ ] **Fóruns de discussão ou listas de discussão**: Podem usar esses canais para tópicos de conversação (por exemplo, "Como eu…" ou "O que você acha sobre…" em vez de relatórios de bugs ou solicitações de recursos).
 - [ ] **Canal de bate-papo síncrono**: Slack ou Teams.
 #### Analise o Projeto
@@ -136,7 +136,7 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] **Compartilhe Conhecimento (CC)**: Compartilhe conhecimento e experiências abertamente para ajudar a equipe a crescer junto.
 - [ ] **Reconhecimento e Esforços(RE)**: Reconheça e aprecie os esforços feitos pelos membros da equipe para serem úteis.
 - [ ] **Melhoria Contínua (MC)**: Incentive cada membro da equipe a sugerir melhorias que possam tornar o fluxo de trabalho mais eficiente e benéfico.
-#### "Noção de Justiça"
+#### Noção de Justiça
 
 - [ ] Um ambiente é degradado, quando *regras* não são seguidas;
 - [ ] **Os fins não justificam os meios**: mais importante do que definir métricas de sucesso para a sua empresa é o que você coloca em prática pra atingir esses resultados.
@@ -184,17 +184,13 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] **Cultura de confiança** ganha força e a avaliação passa a ser baseada no que é entregue, não nas horas "logadas" no computador;
 - [ ] **Quando todo mundo está engajado, bem cuidado e focado no que realmente importa, a distância deixa de ser um problema e vira oportunidade**.
 #### Time
-Um jogador que faz um time grande é mais valioso do que um grande jogador.
-Perder-se no grupo para o bem do grupo, isso é trabalho em equipe.
-John Wooden (ex-técnico de basquete do UCLA Bruins)
-
-### Princípios da InnerSource
-Plataformas de gerenciamento de código-fonte desempenham um papel crítico no desenvolvimento de software moderno, fornecendo um repositório central para armazenar, gerenciar e versionar código-fonte e documentação, bem como colaborar com o desenvolvimento de aplicações.
+- [ ] Um jogador que faz um time grande é mais valioso do que um grande jogador.
+- [ ] Perder-se no grupo para o bem do grupo, isso é trabalho em equipe.
 
 ### Quem pode ver o quê?
-A **transparência** desempenha um papel vital em promover a colaboração e encorajar a participação.
-O projeto deve ser estruturado para permitir que o maior número possível de indivíduos contribuam, sendo assim, é importante reconhecer que certas restrições e considerações que podem impedir que tudo seja abertamente acessível dentro da empresa.
-Isso pode envolver a configuração de diferentes repositórios ou controles de acesso com base na sensibilidade do código, tipo de projeto ou funções individuais dentro da organização.
+- [ ] A **transparência** desempenha um papel vital em promover a colaboração e encorajar a participação.
+- [ ] O projeto deve ser estruturado para permitir que o maior número possível de indivíduos contribuam, sendo assim, é importante reconhecer que certas restrições e considerações que podem impedir que tudo seja abertamente acessível dentro da empresa.
+- [ ] Isso pode envolver a configuração de diferentes repositórios ou controles de acesso com base na sensibilidade do código, tipo de projeto ou funções individuais dentro da organização.
 
 #### Security-First
 
@@ -262,8 +258,9 @@ END AS geracao,
 count(*)
 FROM xxbbtsgate.vw_people_x_ebs
 -->
-###  "Não seja um Grande Líder"
+###  Não seja um Grande Líder
 Um líder geralmente se foca em inspirar e guiar as pessoas, enquanto um chefe se concentra mais em exercer autoridade e gerenciar resultados.
+
 Muitas vezes, as pessoas podem ser boas em ambos os aspectos, mas a forma como lideram pode variar.
 
 | Grande Lider        | Entenda                                                                                                                                                                                                                                                      |

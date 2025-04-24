@@ -6,7 +6,7 @@
 - [ ] [[Código de Conduta]]
 - [ ] [[Notas]]
 - [ ] [[Políticas]]
-- [ ] [[Segurança]]
+- [ ] [[docs/Configuração/Segurança]]
 ## **Processos Internos**
 
 - [ ] [[Entrevistas]]
@@ -34,8 +34,13 @@
 - [ ] [[Calendário]] Sugestão
 - [ ] [[Roadmap de Produtos]]
 - [ ] [[Ferramentas para Projetos]]
-- [ ] Estimativas
-- [ ] Métricas
+- [ ] [[Decisão Arquitetural]]
+- [ ] [[Padronização de Escrita]]
+- [ ] [[Dívida Técnica]]
+- [ ] [[docs/Gestão Ágil de Projetos/Segurança|Segurança]]
+- [ ] [[Secret-Scan]]
+- [ ] [[Estimativas]]
+- [ ] [[Métricas]]
 
 ## **Estrutura de Diretórios**
 
@@ -60,9 +65,10 @@
 ## **Dados**
 
 - [ ] [[docs/Dados/Introdução|Introdução]]
-- [ ] [[Data-Driven]];
+- [ ] [[Data-Driven]]
+- [ ] [[Bit rot]]
 - [ ] Abstração de Dados; 
-- [ ] Modelagem Conceitual de Dados;  
+- [ ] [[Modelagem de Dados]]
 - [ ] Fundamentos de Projeto de Banco de Dados;  
 - [ ] Projeto Conceitual de Banco de Dados;   
 - [ ] Projeto Lógico de Banco de Dados;   
@@ -155,7 +161,7 @@
 ## **Rede**
 
 - [ ]  [[IP Logger]]
-- [ ] Lock-in Vendor
+- [ ] [[Lock-in Vendor]]
 
 ## **Certificações**
 
@@ -169,22 +175,15 @@
 - [ ] [[Questionário - GitHub Actions]]
 - [ ] [[Questionário - Scrum Professional Developer]]
 
-### **SAP**
-<div class="mdx-columns3" markdown>
-</div>
-
 ## **Estratégias de Implantação**
 
 - [ ] [[Estratégias de ERP]]
 - [ ] [[Estratégias de Soluções Internas]]
+- [ ] [[Feature Flag]]
 
 ## **Ferramentas Tecnológicas**
 
-- [ ] Controle de Versão
-- [ ] Build Tools
-- [ ] IDEs/Editores de Código
-- [ ] Contêineres e Virtualização
-- [ ] Frameworks
+- [ ] Algumas Ferramentas
 
 ## **Registro de Domínio**
 
