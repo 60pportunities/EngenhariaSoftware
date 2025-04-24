@@ -8,7 +8,7 @@ As três principais áreas problemáticas nas quais nos concentramos no relatór
 - [x] Os problemas da cadeia de fornecimento de software com componentes subjacentes de terceiros (especialmente software de código aberto, também conhecido como OSS) aumentaram significativamente;
 - [x] Dívida Técnica (DT) tornou-se o maior obstáculo para fazer quaisquer alterações nas bases de código existentes;
 
-![](img/ISO-25010-Quality-Characteristics-img.png)
+![](../img/ISO-25010-Quality-Characteristics-img.png)
 
 ## Padrões de qualidade de software – ISO/IEC 5055:2021
 A ISO/IEC 5055:2021 é uma norma ISO para medir a estrutura interna de um produto de software em quatro fatores críticos para os negócios: **Segurança, Confiabilidade, Eficiência de Desempenho e Manigurabilidade**.
@@ -40,7 +40,7 @@ Estamos vendo mais defensores da qualidade do código DevOps em equipes de desen
 
 As equipes de desenvolvimento estão levando a sério a qualidade do código DevOps e construindo qualidade e segurança no ciclo de vida do desenvolvimento de software. DevOps e DevSecOps estão sendo cada vez mais adotados pelas equipes de TI corporativas para apertar o ciclo de feedback entre TI, operações e clientes.
 
-![](img/devops-toolchain-img.png)
+![](../img/devops-toolchain-img.png)
 
 ### Regras de codificação para fornecer software resiliente e escalável
 Os Padrões de Qualidade de Código para Confiabilidade, Eficiência de Desempenho, Segurança e Manutenibilidade são compostos por um conjunto de pontos fracos de software (CWEs) para mitigar o código-fonte.
@@ -82,7 +82,7 @@ Um estudo da [McKinsey de 2022](https://www.mckinsey.com/capabilities/mckinsey-d
 Enquanto isso, uma pesquisa de 2024 com executivos e profissionais de tecnologia descobriu que, para mais de 50% das empresas, a dívida técnica é responsável por mais de um quarto do orçamento total de TI, bloqueando inovações viáveis ​​se não for abordada.
 
 
-![](img/devops-toolchain-img.png)
+![](../img/devops-toolchain-img.png)
 
 
 https://www.it-cisq.org/use-cases/devops-code-quality/

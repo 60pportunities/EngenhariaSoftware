@@ -127,7 +127,7 @@ Um único servidor Prometheus pode ingerir milhões de amostras por segundo.
   
   
 
-![](img/prometheus-architecture.png){width="600" height="300" style="display: block; margin: 0 auto"}
+![](../img/prometheus-architecture.png){width="600" height="300" style="display: block; margin: 0 auto"}
 
   
 

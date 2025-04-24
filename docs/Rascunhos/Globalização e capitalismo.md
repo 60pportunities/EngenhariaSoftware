@@ -1,5 +1,5 @@
 <p align="justify">Anos anos 1990, a internet começou a transformar radicalmente o cenário dos projetos de software. O surgimento da web como uma plataforma global levou ao desenvolvimento de novos tipos de software, incluindo navegadores, servidores web e, eventualmente, aplicações web. A conectividade global proporcionada pela internet também possibilitou o surgimento de modelos de desenvolvimento colaborativo, como o software de código aberto, que permitiu que desenvolvedores de todo o mundo trabalhassem juntos em projetos de software.</p>
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [x] 1990: A Microsoft envia o Windows 3.0. Compatível com programas DOS, a primeira versão bem-sucedida do Windows finalmente ofereceu desempenho bom o suficiente para satisfazer os usuários de PC.
 - [x] O Photoshop é lançado. Criado pelos irmãos John e Thomas Knoll, o Photoshop era um programa de edição de imagens e o programa de software mais popular publicado pela Adobe Systems.
@@ -9,7 +9,7 @@
 - [x] 1990: Notepad – Incluído no Windows 1.0, um editor de texto básico.
 
 ## 1991: RAD (Rapid Application Development)
-![](img/livro-015.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-015.png){width="400" height="500" style="display: block; margin: 0 auto"}
 <p align="justify">O desenvolvimento rápido de aplicativos, geralmente abreviado como RAD, refere-se a uma metodologia de desenvolvimento de software adaptável e focada no desenvolvimento acelerado de aplicativos por meio de várias iterações e rodadas rápidas de feedback.</p>
 
 <p align="justify">Começando com as ideias de Barry Boehm e outros, James Martin desenvolveu a abordagem de desenvolvimento rápido de aplicativos durante a década de 1980 na IBM e finalmente a formalizou publicando um livro em 1991, Rapid Application Development.</p>
@@ -47,7 +47,7 @@ Limitações: Pode ser difícil de aplicar em projetos grandes e complexos devid
 - [x] 1994: SilkTest – Ferramenta para automação de testes de interface gráfica.
 
 ## 1994: DSDM(Dynamic Systems Development Method)
-![](img/livro-014.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-014.png){width="400" height="500" style="display: block; margin: 0 auto"}
 O DSDM foi criado em 1994 como uma alternativa ao método de Desenvolvimento Rápido de Aplicações (RAD). O DSDM foi a primeira estrutura ágil a incorporar recursos de gerenciamento de projetos
 O DSDM não é um método tradicional, mas sim um framework de controles, com o objetivo de entregar soluções rapidamente.
 Define um processo e um conjunto de produtos, mantidos num nível alto para permitir a adaptação a qualquer ambiente técnico e de negócios.
@@ -98,7 +98,7 @@ Não prescreve técnicas específicas, mas oferece caminhos sugeridos para imple
 <p align="justify">O DSDM é um framework ágil que se concentra na entrega rápida de valor ao negócio. Ao aplicar os seus princípios, técnicas e processos, as equipas podem criar sistemas que satisfazem as necessidades dos utilizadores e que podem evoluir em conjunto com o negócio. A ênfase na colaboração, no envolvimento dos utilizadores e na entrega iterativa e incremental, permite que os projetos sejam bem-sucedidos num ambiente de constante mudança. A obra também destaca a importância da adaptação do método para diferentes contextos, como e-business ou ambientes offshore.</p>
 
 ## 1995: SCRUM
-![](img/livro-006.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-006.png){width="400" height="500" style="display: block; margin: 0 auto"}
 <p align="justify">O Scrum foi inserido pela primeira vez em um artigo publicado pela The Harvard Business Review,, em 1986. A obra foi realizada por Hirotaka Takeuchi e Ikujiro Nonaka, nomeado de "The New New Product Development Game", que traduzido para o português significa "O Novo Jogo de Desenvolvimento de Novos Produtos".</p>
 
 <p align="justify">Essa metáfora de "novo jogo" utilizada pelos autores, foi com o intuito de descrever uma abordagem de desenvolvimento e de gerenciamento de projetos ou de produtos. Além disso, os autores utilizaram a estratégia baseado no jogo de Rugby.</p>
@@ -159,7 +159,7 @@ O Scrum pode ser escalado e aplicado em grandes organizações, abordando temas 
 <p align="justify">O sucesso do Scrum depende de um planejamento flexível, da autonomia da equipe, da liderança servidora, da adaptação contextual e, acima de tudo, do compromisso com a entrega contínua de valor. Ao aplicar os conceitos e técnicas apresentados, as organizações podem aumentar a eficiência, a qualidade e a satisfação de seus clientes e usuários.</p>
 
 ## 1996: XP (Extreme Programming)
-![](img/livro-005.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-005.png){width="400" height="500" style="display: block; margin: 0 auto"}
 A agilidade é apresentada como uma resposta à necessidade de adaptabilidade em projetos de software.
 
 - [x] Simplicidade e Colaboração: A essência do XP é caracterizada pela simplicidade e pela colaboração intensa entre os membros da equipe e o cliente. A comunicação aberta e o feedback contínuo são elementos-chave.

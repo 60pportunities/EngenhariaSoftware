@@ -1644,7 +1644,7 @@ O fato de os agentes gerenciados pelo GitHub (GitHub hosted runners) serem hospe
 
 Se isso não é um problema para a maioria dos fluxos de trabalho, incluindo fluxos de trabalho de compilação (CI) que geralmente não precisam de nenhuma conexão específica, isso pode ser muito diferente para fluxos de trabalho de implantação. De fato, é comum que redes corporativas sejam fechadas para qualquer acesso externo por motivos de segurança; portanto, um agente de implantação externo (por estar na nuvem) seria bloqueado, conforme mostrado no diagrama a seguir:
 
-![](img/github-runners-network.png)
+![](../img/github-runners-network.png)
 
 Devido a essa restrição de rede, alguns casos de uso em que os agentes do GitHub não atendem à necessidade ou em que a equipe de rede/segurança proíbe seu uso. A resposta para esse problema é o uso de agentes "auto-hospedados".
 
@@ -1658,7 +1658,7 @@ O GitHub fornece agentes (chamados de "hosted runners" ou "managed agents") que 
 
 Para muitos cenários possíveis em que os agentes padrão não são suficientes, existe uma solução: os "self-hosted runners", agentes que você mesmo gerencia.
 
-![](img/github-runners-network-01.png)
+![](../img/github-runners-network-01.png)
 
 ## Adding a new agent
 Os agentes auto-hospedados têm a vantagem de serem mais flexíveis e são livres do ponto de vista da licença. Ainda assim, eles têm um custo de manutenção, pois é sua responsabilidade garantir que eles estejam atualizados (a versão do agente do GitHub) e em servidores continuamente protegidos/corrigidos. Também devemos adicionar o custo implícito do servidor onde o agente está instalado (por exemplo, licença do sistema operacional, equipamento, eletricidade) e garantir a resiliência da plataforma, o que pode implicar ter vários servidores. Apesar desse custo, os agentes auto-hospedados geralmente fazem parte da solução em projetos corporativos.
@@ -5144,7 +5144,7 @@ OIDC é um padrão aberto para autenticação e autorização seguras e padroniz
 - [x] **Token de acesso**: Um token que autoriza aplicativos clientes a acessar recursos protegidos em nome do usuário autenticado.
 - [x] **Escopo**: Quando um aplicativo cliente solicita autenticação usando OIDC, ele pode especificar o escopo de acesso desejado para o usuário autenticado.
 
-![](img/github_oidc.png)
+![](../img/github_oidc.png)
 
 Observação: Ao integrar o OIDC com o GitHub Actions, você pode aproveitar os mecanismos de autenticação fornecidos por provedores de identidade confiáveis
 JWKS é uma maneira padronizada de representar um conjunto de chaves criptográficas em um formato JSON.
@@ -5483,7 +5483,7 @@ GitHub Actions vai além de apenas DevOps e permite que você execute fluxos de 
 
 GitHub fornece máquinas virtuais do Linux, Windows e macOS para executar seus fluxos de trabalho, ou você pode hospedar seus próprios executores auto-hospedados na sua própria infraestrutura de dados ou na nuvem.
 
-![](img/github-actions-diagram.png){width="600" height="450" style="display: block; margin: 0 auto"}
+![](../img/github-actions-diagram.png){width="600" height="450" style="display: block; margin: 0 auto"}
 
 ### GitHub Actions Custo
 O GitHub Actions é gratuito se uma ou ambas as duas condições a seguir forem atendidas:
@@ -5522,7 +5522,7 @@ Existem dois tipos de itens pelos quais você paga com o GitHub Action:
 
 Observação: Eles só podem funcionar quando executados pelo mecanismo do GitHub.
 
-![](img/github-actions-001.png){width="600" height="450" style="display: block; margin: 0 auto"}
+![](../img/github-actions-001.png){width="600" height="450" style="display: block; margin: 0 auto"}
 
 ## Por que usar o GitHub Actions?
 À medida que as práticas de desenvolvimento de software continuam a evoluir, a automação se tornou cada vez mais crítica para melhorar a eficiência, reduzir erros e agilizar processos.
@@ -5750,7 +5750,7 @@ A sintaxe `cron` tem cinco campos separados por um espaço, e cada campo represe
 
 As variáveis de ambiente padrão definidas pelo GitHub estão disponíveis em todas as etapas de um fluxo de trabalho.
 
-![](img/github-actions-002a.png){width="600" height="450" style="display: block; margin: 0 auto"}
+![](../img/github-actions-002a.png){width="600" height="450" style="display: block; margin: 0 auto"}
 
 #### Defina os gatilhos do fluxo de trabalho
 No seu novo arquivo YAML, comece definindo os eventos que devem disparar seu fluxo de trabalho. Para este exemplo, configuraremos o fluxo de trabalho para ser executado em cada solicitação push e pull para o branch principal.
@@ -6063,7 +6063,7 @@ on:
       - cron: '0 12 ***'
 ```
 
-![](img/github-actions-workflow.png){width="600" height="450" style="display: block; margin: 0 auto"}
+![](../img/github-actions-workflow.png){width="600" height="450" style="display: block; margin: 0 auto"}
 
 ### [Categorias dos Fluxos de Trabalho](https://github.com/actions/starter-workflows)
 

@@ -1,9 +1,9 @@
 ### 2009:DevOps
-![](img/livro-009.png){width="400" height="400" style="display: block; margin: 0 auto"}
+![](../img/livro-009.png){width="400" height="400" style="display: block; margin: 0 auto"}
 Origem: Surgiu como uma resposta à fragmentação entre as equipes de desenvolvimento (Dev) e operações (Ops), criando uma colaboração mais integrada.
 Características: Integra o desenvolvimento de software com operações, focando em automação de processos, integração contínua (CI) e entrega contínua (CD).
 Limitações: Exige forte mudança cultural e adaptação de processos para ser efetivo.
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [x] 2009: o Minecraft permite que os jogadores construam torres e joguem desafios.
 - [x] Em 2008, "Satoshi Nakamoto", provavelmente um pseudônimo, publica Bitcoin: A Peer-to-Peer Electronic Cash System , descrevendo o uso de redes peer-to-peer para gerar uma "criptomoeda".

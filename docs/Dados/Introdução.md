@@ -5,7 +5,7 @@ Os dados impulsionam partes significativas de nossas vidas, desde recomendaçõe
 O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientados por dados** na busca do aprimoramento de serviços ou venda de produtos ou operações.
 ## Revolução Industrial
 
-![](img/revolucaoindustrial.png){width="600" height="450" style="display: block; margin: 0 auto" }
+![](../img/revolucaoindustrial.png){width="600" height="450" style="display: block; margin: 0 auto" }
 
 | Revolução Industrial | Motivo                                                                                                                                                                                     | Resumo                    |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
@@ -307,7 +307,7 @@ A ética é domínio de todos, não apenas o pessoal da TI ou de equipes jurídi
 
 Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição. Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
 
-![](img/dados-eticos-001.png)
+![](../img/dados-eticos-001.png)
 
 #### De onde vieram os dados?
 
@@ -1050,7 +1050,7 @@ Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratég
 
   
 
-![](img/data_lakehouse.png){width="650" height="950" style="display: block; margin: 0 auto"}
+![](../img/data_lakehouse.png){width="650" height="950" style="display: block; margin: 0 auto"}
 
   
 
@@ -1065,7 +1065,7 @@ Da perspectiva comercial, Delta Lake, Iceberg e Hudi(Hadoop Upsert/Delete/Increm
 
 O Hive LLAP ( Low Latency Analytical Processing ) também pode ser usado como um data lakehouse armazenando dados em um sistema de armazenamento baseado em nuvem ou Hadoop e criando tabelas no Hive que mapeiam os dados.
 
-![](img/datalakehouse.png)
+![](../img/datalakehouse.png)
 
   
 
@@ -1102,7 +1102,7 @@ As alterações feitas em um registro específico em um banco de dados e permite
 
 Observação: as ferramentas CDC emitem eventos de alteração de forma assíncrona, o que significa que, no momento em que você executa uma consulta para obter o estado completo da linha, essa linha pode já ter sido mutada novamente.
   
-![](img/cdc_por_tipo.png)
+![](../img/cdc_por_tipo.png)
 
   ## Metadados do Evento
 - [ ] O tipo de uma alteração (inserir, atualizar, excluir)
@@ -1169,7 +1169,7 @@ Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratég
 - [ ] Data Warehouse é projetado para armazenar dados refinados, estruturados e relacionais com um esquema projetado no início. Onde os dados são armazenados em um formato estruturado.
 - [ ] Data lake é projetada para armazenar dados não estruturados, não refinados e não relacionais com um esquema projetado no final. Usado principalmente para ciência de dados e análises avançadas para aprendizado de máquina e IA, pois permite a conexão de vários tipos de dados de diversas fontes.
 
-![](img/data_lakehouse.png){width="650" height="950" style="display: block; margin: 0 auto"}
+![](../img/data_lakehouse.png){width="650" height="950" style="display: block; margin: 0 auto"}
 
 - [ ] Arquiteturas de data lakehouse podem atingir a conformidade com ACID ( atômica, consistente, isolamento e durabilidade ) na presença de leitores e escritores simultâneos, aproveitando formatos de arquivo como [ORC , Parquet e Avro](https://www.astera.com/pt/type/blog/avro-vs-parquet-is-one-better-than-the-other/).
 - [ ] ORC e ​​Parquet usam um formato de armazenamento em colunas, permitindo acesso e modificação eficientes de colunas específicas, mantendo a integridade dos dados por meio de arquivos de metadados.
@@ -1182,7 +1182,7 @@ Da perspectiva comercial, Delta Lake, Iceberg e Hudi(Hadoop Upsert/Delete/Increm
 
 O Hive LLAP ( Low Latency Analytical Processing ) também pode ser usado como um data lakehouse armazenando dados em um sistema de armazenamento baseado em nuvem ou Hadoop e criando tabelas no Hive que mapeiam os dados.
 
-![](img/datalakehouse.png)
+![](../img/datalakehouse.png)
 
 ## Data Warehouse x Data Lake x Data Lakehouse: Visão Geral
 
@@ -1212,7 +1212,7 @@ Para tirar vantagem, as organizações de TI precisam primeiro reinventar a form
 Observação: as ferramentas CDC emitem eventos de alteração de forma assíncrona, o que significa que, no momento em que você executa uma consulta para obter o estado completo da linha, essa linha pode já ter sido mutada novamente.
   
 
-![](img/cdc_por_tipo.png)
+![](../img/cdc_por_tipo.png)
 
 ## Metadados do Evento
   

@@ -111,9 +111,9 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 
 #### Gentileza gera Gentileza - José Datrino, também conhecido com o Profeta Gentileza.
 
-|                              |                              |
-| ---------------------------- | ---------------------------- |
-| ![](img/equilibrio-001.jpeg) | ![](img/equilibrio-002.jpeg) |
+|                                 |                              |
+| ------------------------------- | ---------------------------- |
+| ![](../img/equilibrio-001.jpeg) | ![](img/equilibrio-002.jpeg) |
 
   
   #### **Catalisando uma Revolução Cultural ("eu" para o "nós")**

@@ -6,7 +6,7 @@
 Origem: O método Kanban foi adaptado do gerenciamento de produção industrial (Toyota), e começou a ser utilizado em desenvolvimento de software na década de 2000.
 Características: Foco na visualização do fluxo de trabalho, limitando o número de tarefas em progresso e otimizando a entrega contínua.
 Limitações: Pode ser difícil de adotar sem uma cultura de melhoria contínua e foco em fluxo de trabalho eficiente.
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [x] 2000: Google Sheets (início como parte de Writely) – A versão inicial das planilhas baseadas na web começou a surgir, mais tarde evoluindo para Google Sheets como parte do Google Docs em 2006.
 - [x] 2000: Basecamp – Um dos primeiros softwares de gerenciamento de projetos baseado na web.
@@ -53,7 +53,7 @@ Variabilidade no ritmo leva a incerteza e dificuldade em planejar.
 - [x] Falta de confiança e comunicação aberta.
 - [x] Acumulação de dívida técnica e má qualidade de código.
 
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [x] 2001: BitTorrent, um serviço de compartilhamento de arquivos peer-to-peer, é lançado pela BitTorrent, Inc.
 - [x] O Mac OS X é lançado.
@@ -77,12 +77,12 @@ Variabilidade no ritmo leva a incerteza e dificuldade em planejar.
 Baseado nos princípios do Lean Manufacturing (Toyota), o Lean Software Development foi introduzido por Mary e Tom Poppendieck.
 - [x] Características: Foco em eliminar desperdícios, melhorar a eficiência e fornecer valor contínuo ao cliente.
 - [x] Limitações: Exige um comprometimento com a eliminação de desperdícios, o que pode ser difícil para empresas que já têm processos estabelecidos.
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
-- [x] 2003: Blue Prism – Fundado no Reino Unido, é considerado o pioneiro em RPA empresarial, introduzindo o conceito de “trabalhadores digitais”.
+- [ ] 2003: Blue Prism – Fundado no Reino Unido, é considerado o pioneiro em RPA empresarial, introduzindo o conceito de “trabalhadores digitais”.
 - [ ] 2003: Lean Software Development, Mary e Tom Poppendieck, sete princípios "lean" fundamentais, adaptam-nos para o mundo do desenvolvimento de software e mostram como eles podem servir como base para abordagens de desenvolvimento ágil que funcionam.
-- [x] 2004: Em 2004, o Google é a primeira grande empresa da Web a lançar uma ação negociada publicamente desde os dias de euforia do boom das pontocom.
-- [x] 2004: HP Quality Center (anteriormente TestDirector) – Uma plataforma robusta para gestão de testes e qualidade.
+- [ ] 2004: Em 2004, o Google é a primeira grande empresa da Web a lançar uma ação negociada publicamente desde os dias de euforia do boom das pontocom.
+- [ ] 2004: HP Quality Center (anteriormente TestDirector) – Uma plataforma robusta para gestão de testes e qualidade.
 
 ## 2003: BDD (Behavior-Driven Development)
 - [x] Criadores: Dan North (inicialmente), mais tarde com contribuições de outros como Aslak Hellesøy
@@ -119,7 +119,7 @@ Baseado nos princípios do Lean Manufacturing (Toyota), o Lean Software Developm
 
 O BDD também envolve uma forma de colaboração, focada na comunicação e no entendimento compartilhado do valor do software para o negócio. Ao seguir esses princípios, as equipes de desenvolvimento podem construir software de maior qualidade, que atenda melhor às necessidades dos usuários e stakeholders.
 
-![](img/livro-007.png){width="400" height="400" style="display: block; margin: 0 auto"}
+![](../img/livro-007.png){width="400" height="400" style="display: block; margin: 0 auto"}
 
 ## 2005: ATDD (Acceptance Test-Driven Development)
 - [x] Criadores: Alistair Cockburn, com contribuições de outros, como Ron Jeffries
@@ -127,7 +127,7 @@ O BDD também envolve uma forma de colaboração, focada na comunicação e no e
 - [x] Contexto: O ATDD compartilha algumas semelhanças com o BDD, mas seu foco está na criação de testes de aceitação antes de iniciar o desenvolvimento, com ênfase no entendimento das expectativas do cliente. O conceito foi introduzido por Alistair Cockburn em 2005, em conjunto com outras práticas ágeis. ATDD envolve a colaboração entre clientes, desenvolvedores e testadores para definir claramente os critérios de aceitação de uma funcionalidade e garantir que esses critérios sejam atendidos.
 
 No ATDD, os testes de aceitação geralmente são mais detalhados e orientados para o comportamento funcional do sistema em um nível mais alto, enquanto o BDD foca na especificação do comportamento do software a partir de exemplos.
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [x] 2005: Kit inicial Arduino
 - [x] Hadoop é um projeto de software de código aberto desenvolvido inicialmente pelo Google como um meio de extrair resultados de pesquisa de grandes quantidades de dados não estruturados, como dados encontrados na web.

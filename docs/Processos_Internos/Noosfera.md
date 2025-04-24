@@ -106,7 +106,7 @@ Qual é a parte mais desafiadora do desenvolvimento de software na sua organiza�
 | Ferramentas e Processos          | Utiliza ferramentas comuns de gerenciamento de código-fonte e colaboração, como GitHub ou GitLab, para facilitar o trabalho conjunto.                                |
 
 ## Regras da Casa
-![](img/innersource-003.png){width="300" height="300" style="display: block; margin: 0 auto"}
+![](../img/innersource-003.png){width="300" height="300" style="display: block; margin: 0 auto"}
 
 Uma diretriz de contribuição fornece documentação **CLARA**, sobre como um colaborador pode contribuir, bem como formaliza as responsabilidades dos desenvolvedores que aceitam alterações de código em seu projeto.
 
@@ -152,7 +152,7 @@ Como uma organização, você pode ter certeza de que qualquer código não púb
 
 - [ ] Forneça os fluxos de trabalho que as equipes possam usar para criar um modelo;
 
-![](img/innersource-005.png){width="300" height="200" style="display: block; margin: 0 auto"}
+![](../img/innersource-005.png){width="300" height="200" style="display: block; margin: 0 auto"}
 
 - [ ] Forneça um repositório de TEMPLATES com exemplos:
 	- [ ] README(s);

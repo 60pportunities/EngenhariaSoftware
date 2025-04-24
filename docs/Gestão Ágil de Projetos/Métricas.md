@@ -30,7 +30,7 @@ O Standish Group, responsável por elaborar o relatório CHAOS, propôs em 2018 
 - [x] O que essa tríade define, na verdade, é o sucesso do gerenciamento do projeto.
 - [x] Todo projeto começa com uma ideia, uma necessidade ou uma oportunidade.
 </div>
-![](img/chaos_projetos_ti_2015.png)
+![](../img/chaos_projetos_ti_2015.png)
 
 ## The Standish Group 202x Chaos Report
 Em 2020, com 25 anos de dados e mais de 50.000 projetos em seu banco de dados, os dados contam uma história diferente. Resumindo, os dados mostram que para ter sucesso com software você deve:
@@ -47,7 +47,7 @@ Olhando para trás, para 1999, o Standish Group chamou o gerente de projeto de �
 - [x] Time;
 - [x] Ambiente.
 </div>
-![](img/chaos_report_2020.png)
+![](../img/chaos_report_2020.png)
 
 ## Melhore a Solução/Tempo dos Projetos
 Ter um bom patrocinador, boa equipe e bom local são as únicas coisas que precisamos melhorar e desenvolver, para melhorar o desempenho do projeto.
@@ -70,7 +70,7 @@ Somos convocados para estimar custos e prazos para o período seguinte, logicame
 - [x] E para colocar qualquer exemplo: Os orçamentos e a previsibilidade colocam GORDURA.
 </div>
 
-![](img/agile_vs_waterfall.png)
+![](../img/agile_vs_waterfall.png)
 
 - [ ] Por qualquer critério, um projeto de TI apresenta um risco significativo de ultrapassar o **tempo, o custo ou o escopo**.
 
@@ -87,7 +87,7 @@ Somos convocados para estimar custos e prazos para o período seguinte, logicame
 ## [Taxas de falha 268% mais altas em projetos de software ágeis](https://www.engprax.com/post/268-higher-failure-rates-for-agile-software-projects-study-finds)
 Um estudo composto por 600 engenheiros de software do Reino Unido e dos EUA descobriu que os projetos que adotam as práticas do Manifesto Ágil têm 268% mais probabilidade de falhar do que aqueles que fazem o oposto.
 
-![](img/agile_falha_estudo.png)
+![](../img/agile_falha_estudo.png)
 
 - [x] O Manifesto Ágil existe há mais de 21 anos, mas continua a existir uma lacuna na investigação empírica quanto ao impacto real dos seus valores na indústria, apesar de pesquisas recentes terem descoberto que 81% dos decisores empresariais no Reino Unido e 89% nos EUA estão preocupados com a entrega pontual de projetos de software em suas organizações.
 - [x] Projetos nos quais o engenheiro de software relatou sentir-se psicologicamente seguro para discutir e resolver problemas rapidamente quando eles surgiram tiveram 87% mais chances de sucesso aqueles que não o fizeram.
@@ -115,11 +115,11 @@ Maximizando o Sucesso do Projeto" aborda a evolução na definição de sucesso 
 
 <p align="justify">Para calcular o NPSS Global, pegamos os 48% dos projetos classificados como bem-sucedidos e subtraímos os 12% classificados como fracasso, para uma pontuação geral do NPSS de 36.</p>
 
-![](img/Project_Success_Report_Final_2024-01.png)
+![](../img/Project_Success_Report_Final_2024-01.png)
 
 <p align="justify">Quando questionados sobre quais perspectivas contribuem para a determinação do sucesso, os entrevistados da pesquisa indicaram que os beneficiários pretendidos do projeto devem obter o dobro da parcela de influência em comparação com outras funções, destacando a importância da centralidade no cliente.</p>
 
-![](img/Project_Success_Report_Final_2024-02.png)
+![](../img/Project_Success_Report_Final_2024-02.png)
 
 ### NPSS por indústria, tipo de projeto e fonte de financiamento
 

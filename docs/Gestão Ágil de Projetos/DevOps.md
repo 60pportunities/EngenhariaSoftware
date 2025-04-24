@@ -1,4 +1,4 @@
-![](img/devops-ppt.png)
+![](../img/devops-ppt.png)
 
 Interface entre os DEV e o OPS = Ticket de serviço  
 

@@ -405,7 +405,7 @@
         theme:
           icon:
             repo: fontawesome/brands/git-alt
-          logo: img/logo.jpeg
+          logo: ../mg/logo.jpeg
           custom_dir: theme
           highlightjs: true
           features:
@@ -418,7 +418,7 @@
             - search.suggest
             - version
             - content.footnote.tooltips
-          favicon: img/favicon.ico
+          favicon: ../img/favicon.ico
           name: material
           palette:
            # Palette toggle for light mode
@@ -615,27 +615,27 @@
 
         Exemplo: Abra um script PL/SQL ou SQL em um editor SQL Developer e pressione Ctrl-Shift-C para verificar seu código em relação às diretrizes PL/SQL e SQL do Trivadis.
 
-        ![](img/sqldeveloper_002.png)
+![](../img/sqldeveloper_002.png)
 
         Navegue pelos problemas usando as teclas do cursor para destacar a seção de código relacionada no editor vinculado.
 
-        ![](img/sqldeveloper_003.png)
+![](../img/sqldeveloper_003.png)
 
         Encaixe a janela de saída db* CODECOP em sua posição favorita no SQL Developer e clique na guia de relatório para revelar algumas métricas adicionais. Abra o relatório em um navegador externo para imprimir ou salvar o relatório.
 
-        ![](img/sqldeveloper_004.png)
+![](../img/sqldeveloper_004.png)
 
-        ### Configurar Centro de Atualização
-        Clique no Ajuda no  menu e selecione Check for Updates…. Pressione o Adicionar  botão para registrar o centro de atualização `http://update.salvis.com/`. Se você tiver problemas para definir as configurações de  proxy, porque sua empresa requer alguma autenticação adicional ou similar, sugiro baixar db* CODECOP para SQL Developer aqui e usar a Install From Local File opção.
+### Configurar Centro de Atualização
+Clique no Ajuda no  menu e selecione Check for Updates…. Pressione o Adicionar  botão para registrar o centro de atualização `http://update.salvis.com/`. Se você tiver problemas para definir as configurações de  proxy, porque sua empresa requer alguma autenticação adicional ou similar, sugiro baixar db* CODECOP para SQL Developer aqui e usar a Install From Local File opção.
 
-        ![](img/sqldeveloper_005.png)
+![](../img/sqldeveloper_005.png)
 
         ## Banco de Dados de Terceiros
         Você pode configurar o SQL Developer para acessar outros banco de dados bastando baixar o drivers JDBCs de  cada banco de dados que desejar utilizar.
 
-        ![](img/sqldeveloper_006.png)
+![](../img/sqldeveloper_006.png)
 
-    === "SQL DataModeler"
+=== "SQL DataModeler"
 
     === "Lazydocker"
 

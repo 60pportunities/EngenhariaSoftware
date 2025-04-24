@@ -1,4 +1,4 @@
-![](img/git-devops-002.png){width="300" height="300" style="display: block; margin: 0 auto"}
+![](../img/git-devops-002.png){width="300" height="300" style="display: block; margin: 0 auto"}
 ## Detecção de segredos
 Existem ótimas ferramentas de código aberto disponíveis para automatizar a tarefa de digitalizar seu código para segredos codificados no início do SDLC, para que você possa pegá-los antes da produção.
 
@@ -69,7 +69,7 @@ Pode incluir tudo, desde servidores e armazenamento até redes e balanceadores d
 
 Usar o código para gerenciar sua infraestrutura garante que seus ambientes sejam consistentes e que as alterações sejam previsíveis e controladas.
 
-![](img/git-devops-001.png){width="300" height="300" style="display: block; margin: 0 auto"}
+![](../img/git-devops-001.png){width="300" height="300" style="display: block; margin: 0 auto"}
 
 ## Security Incident and Event Management (SIEM)
  Essas ferramentas ajudam você a entender o que está acontecendo em seu sistema, identificar problemas à medida que surgem e tomar medidas corretivas prontamente.

@@ -1,23 +1,23 @@
 <p align="justify">A década de 1980 marcou um ponto de inflexão significativo na história dos projetos de software, com a popularização dos computadores pessoais. Isso democratizou o acesso à tecnologia e criou uma nova onda de inovação no desenvolvimento de software. Empresas como Microsoft e Apple começaram a desenvolver sistemas operacionais e aplicações que se tornaram fundamentais para o uso diário dos computadores. Durante este período, o conceito de engenharia de software começou a ganhar popularidade, trazendo uma abordagem mais disciplinada e sistemática para o desenvolvimento de software.</p>
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
-- [x] Em 1980, foi aprovada a documentação da linguagem de programação Ada, criada em homenagem a Ada Lovelace, considerada a primeira programadora do mundo.
-- [x] 1980: PMBOK (Project Management Body of Knowledge): Criado pelo PMI na década de 1980, com a primeira edição publicada em 1996, como um guia de boas práticas para gerenciamento de projetos.
-- [X] 1980: A IA começa a se revitalizar com a introdução de Redes Neurais Artificiais (RNAs);
-- [x] 1980: A Commodore lança o computador doméstico VIC-20 como sucessor do computador pessoal Commodore PET.
-- [x] Em 1980, Tim Berners-Lee, do laboratório de física do CERN, cria o Enquire, um sistema de hipertexto em rede usado para gerenciamento de projetos, mas com ambições muito maiores.
+- [ ] Em 1980, foi aprovada a documentação da linguagem de programação Ada, criada em homenagem a Ada Lovelace, considerada a primeira programadora do mundo.
+- [ ] 1980: PMBOK (Project Management Body of Knowledge): Criado pelo PMI na década de 1980, com a primeira edição publicada em 1996, como um guia de boas práticas para gerenciamento de projetos.
+- [ ] 1980: A IA começa a se revitalizar com a introdução de Redes Neurais Artificiais (RNAs);
+- [ ] 1980: A Commodore lança o computador doméstico VIC-20 como sucessor do computador pessoal Commodore PET.
+- [ ] Em 1980, Tim Berners-Lee, do laboratório de física do CERN, cria o Enquire, um sistema de hipertexto em rede usado para gerenciamento de projetos, mas com ambições muito maiores.
 - [X] 1981: A IBM lança o IBM PC;
-- [X] 1981: O sistema operacional MS-DOS da Microsoft é lançado,MS-DOS, ou Microsoft Disk Operating System, o software básico para o recém-lançado IBM PC, é o início de uma longa parceria entre a IBM e a Microsoft, que Bill Gates e Paul Allen fundaram apenas seis anos antes.
-- [x] 1980s: Introdução do paradigma Cliente-Servidor, promovendo a separação entre consumidores de serviços e provedores.
-- [x] 1981: A Sony apresenta as primeiras unidades de disquete e disquetes de 3 ½ polegadas.
-- [x] Joyce Worley Katz, Arnie Katz e Bill Kunkel co-fundaram a Electronic Games , a primeira revista de videogame dos Estados Unidos.
-- [x] O IBM PC revolucionou a computação empresarial ao se tornar o primeiro PC a ganhar ampla adoção pela indústria.
-- [x] A France Telecom oferece terminais Minitel gratuitos para cada assinante de telefone, lançando a primeira "Web" em massa.
-- [x] 1982: A revista TIME altera sua tradição anual de nomear um "Homem do Ano", escolhendo, em vez disso, nomear o computador pessoal como sua "Máquina do Ano".
-- [x] Mitch Kapor desenvolve o Lotus 1-2-3, um conjunto de software para o IBM PC baseado em um processador de texto, planilha e banco de dados.
-- [x] A Sun Microsystems é fundada.A Sun ajudou a consolidar o modelo de uma estação de trabalho com uma interface Ethernet, bem como gráficos de alta resolução e o sistema operacional UNIX.
-- [x]  O “Friendly Robotic Educational Device” (FRED), projetado para crianças de 6 a 15 anos, nunca chegou ao mercado.
-- [x] 1982: Multiplan – Desenvolvido pela Microsoft, inicialmente lançado para sistemas CP/M e mais tarde para MS-DOS, mas perdeu espaço para concorrentes como Lotus 1-2-3.
+- [ ] 1981: O sistema operacional MS-DOS da Microsoft é lançado,MS-DOS, ou Microsoft Disk Operating System, o software básico para o recém-lançado IBM PC, é o início de uma longa parceria entre a IBM e a Microsoft, que Bill Gates e Paul Allen fundaram apenas seis anos antes.
+- [ ] 1980s: Introdução do paradigma Cliente-Servidor, promovendo a separação entre consumidores de serviços e provedores.
+- [ ] 1981: A Sony apresenta as primeiras unidades de disquete e disquetes de 3 ½ polegadas.
+- [ ] Joyce Worley Katz, Arnie Katz e Bill Kunkel co-fundaram a Electronic Games , a primeira revista de videogame dos Estados Unidos.
+- [ ] O IBM PC revolucionou a computação empresarial ao se tornar o primeiro PC a ganhar ampla adoção pela indústria.
+- [ ] A France Telecom oferece terminais Minitel gratuitos para cada assinante de telefone, lançando a primeira "Web" em massa.
+- [ ] 1982: A revista TIME altera sua tradição anual de nomear um "Homem do Ano", escolhendo, em vez disso, nomear o computador pessoal como sua "Máquina do Ano".
+- [ ] Mitch Kapor desenvolve o Lotus 1-2-3, um conjunto de software para o IBM PC baseado em um processador de texto, planilha e banco de dados.
+- [ ] A Sun Microsystems é fundada.A Sun ajudou a consolidar o modelo de uma estação de trabalho com uma interface Ethernet, bem como gráficos de alta resolução e o sistema operacional UNIX.
+- [ ]  O “Friendly Robotic Educational Device” (FRED), projetado para crianças de 6 a 15 anos, nunca chegou ao mercado.
+- [ ] 1982: Multiplan – Desenvolvido pela Microsoft, inicialmente lançado para sistemas CP/M e mais tarde para MS-DOS, mas perdeu espaço para concorrentes como Lotus 1-2-3.
 - [x] 1983: ADB (Advanced Debugging Tool) – Primeira ferramenta de depuração amplamente usada em sistemas Unix, essencial para testes iniciais.
 - [x] 1983: C++, Objetivo-C;
 - [X] Em 1983, a IBM lançou o DB2, um banco de dados relacional que se tornaria um dos líderes do mercado, inicialmente voltado para mainframes e sistemas corporativos de grande porte.
@@ -85,7 +85,7 @@
 <p align="justify">Embora o modelo iterativo já existisse em teoria, a descrição de Barry W. Boehm o formalizou ao integrar ciclos iterativos e gerenciamento de riscos. Com uma abordagem dinâmica e flexível para o desenvolvimento de software, basicamente, divide o projeto em pequenos ciclos (iterações), onde cada iteração resulta em uma versão funcional do produto que pode ser avaliada e aprimorada.</p>
 
 ## 1980-Final dos Anos: Prototipação
-![](img/livro-016.png){width="200" height="200" style="display: block; margin: 0 auto"}
+![](../img/livro-016.png){width="200" height="200" style="display: block; margin: 0 auto"}
 
 <p align="justify">A prototipação, nasce em resposta à crescente complexidade dos sistemas de software e às limitações dos métodos tradicionais de desenvolvimento, como o Modelo em Cascata. Durante esse período, as demandas por sistemas mais interativos e adaptados às necessidades do usuário começaram a crescer, especialmente em áreas como design de interfaces gráficas e desenvolvimento de sistemas de informação.</p>
 
@@ -98,7 +98,7 @@
 A prototipação dá-se basicamente com a comunicação que ocorre através de uma reunião com todos os envolvidos, a fim de definir objetivos gerais do software e identificar quais requisitos já estão bem conhecidos, e esquematizar as áreas que realmente necessitam de uma definição mais ampla.
 
 ## Incremental - Final dos anos 1980 e 1990
-![](img/livro-004.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-004.png){width="400" height="500" style="display: block; margin: 0 auto"}
 
 Desenvolvido para superar as limitações do Waterfall, o modelo Incremental envolve a construção do sistema de forma gradual e por partes (incrementos). O software é desenvolvido em pequenos módulos que vão sendo entregues ao longo do tempo. Cada módulo acrescenta mais funcionalidades.
 
@@ -111,4 +111,4 @@ Ao contrário do modelo incremental, o desenvolvimento do software ocorre integr
 
 Entendi que não há um autor, porem podemos dizer que segue a junção dos modelos apresentados por Winston Royce, Barry Boehm e Tom Gilb.
 
-![](img/livro-017.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-017.png){width="400" height="500" style="display: block; margin: 0 auto"}

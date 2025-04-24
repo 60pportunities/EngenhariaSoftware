@@ -1,6 +1,6 @@
 <p align="justify">Desde o surgimento dos primeiros computadores, os projetos de software têm desempenhado um papel crucial na evolução da tecnologia e na forma como interagimos com o mundo digital. Nos primeiros dias da computação, os projetos de software eram frequentemente limitados a programas simples e específicos, desenvolvidos por pioneiros da computação que trabalhavam com máquinas enormes e de capacidade limitada. Essas iniciativas iniciais eram marcadas por uma abordagem artesanal, onde cada linha de código tinha que ser meticulosamente escrita e testada.</p>
 <p align="justify">Com o avanço da tecnologia, especialmente durante as décadas de 1950 e 1970, o desenvolvimento de software começou a se expandir, tanto em termos de complexidade quanto de importância.</p>
-![](img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
+![](../img/linha-do-tempo.png){width="600" height="20" style="display: block; margin: 0 auto"}
 
 - [X] 1950: Alan Turing publica o famoso artigo "Computing Machinery and Intelligence";
 - [x] Década de 50, surgiram as linguagens de 1ª geração, programação lógica (abstração do hardware), linguagens montadoras como assembler (ainda exigiam conhecimentos do hardware), ênfase em cálculos matemáticos. Linguagens: Fortran, Lisp e Algol 58.
@@ -53,7 +53,7 @@ As indústrias começaram, incorretamente, a ver o **desenvolvimento de software
 <p align="justify">Fundada em 1969, nos Estados Unidos, Project Management Institute (PMI),  por um grupo de profissionais que reconheceu a necessidade de uma abordagem mais estruturada e eficiente para gerenciar projetos, que estavam se tornando cada vez mais complexos à medida que as indústrias e tecnologias evoluíam.</p>
 O PMI é uma organização global dedicada à prática e ao desenvolvimento da Gestão de Projetos.
 
-![](img/livro-001.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-001.png){width="400" height="500" style="display: block; margin: 0 auto"}
 
 ## 1970: Modelo Cascata: A Primeira Estrutura Formal
 "Acredito nesse conceito, mas a implementação descrita acima é arriscada e convida ao fracasso." -  Winston Royce.
@@ -133,7 +133,7 @@ Quando essas limitações começam a impactar a eficiência e a entrega de valor
 ## Modelo em V (V-Model)
 Seria a evolução do modelo em cascata, onde a validação ocorre ao longo de todo o desenvolvimento. Cada etapa da esquerda corresponde a uma validação na direita. Veja que o fluxo é um enorme V, fazendo jus ao nome.
 
-![](img/livro-002.png){width="400" height="500" style="display: block; margin: 0 auto"}
+![](../img/livro-002.png){width="400" height="500" style="display: block; margin: 0 auto"}
 
 - [X] 1977: A Apple Computer, fundada por Steve Jobs e Steve Wozniak, lança o Apple II; Lançamento do Apple II, primeiro projeto de computador pessoal da Apple Computers, baseado no Apple I, protótipo criado por Steve Jobs na garagem de sua casa.
 - [X] 1977: A Commodore lança o Commodore PET;

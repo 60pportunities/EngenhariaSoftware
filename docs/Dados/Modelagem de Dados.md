@@ -176,7 +176,7 @@ O cache é uma das maneiras mais eficazes de melhorar o desempenho do seu sistem
 Conceder a qualquer conta ou processo de usuário apenas os privilégios que são essencialmente vitais para executar as funções pretendidas.
 
 **Observação**: Nos ERPs (e-Business Suite e Peoplesoft) TODOS devem solicitar a Equipe da Jailma o acesso ao PRODUTO. Isso envolve CUSTO e AUDITORIA.
-![](img/cap-010-001.png){width="400" height="250" style="display: block; margin: 0 auto"}
+![](../img/cap-010-001.png){width="400" height="250" style="display: block; margin: 0 auto"}
 
 ### Padrões de Gerenciamento de Estratégias/[Tempo de vida de uma Feature Flag](https://www.objective.com.br/insights/feature-flags/)
 
@@ -209,13 +209,13 @@ São um conjunto de diretrizes de configuração criadas para garantir instalaç
 - [x] Oracle Base é o diretório inicial do banco de dados para proprietários de instalação do Oracle Database e o local do arquivo de log para proprietários do Oracle Grid Infrastructure.
 - [x] Oracle Universal Installer configura os diretórios iniciais do Oracle usando essas convenções do Oracle Optimal Flexible Architecture.
 
-![](img/cap-010-002.png){width="800" height="500" style="display: block; margin: 0 auto"}
+![](../img/cap-010-002.png){width="800" height="500" style="display: block; margin: 0 auto"}
 
 ## Identificadores no Banco de Dados Oracle
  <p align="justify">Identificadores são fundamentais para a configuração, administração e operação do Oracle Database, pois ajudam a distinguir entre diferentes instâncias e bancos de dados em um ambiente de servidor Oracle.</p>
  <p align="justify">Configurar esses identificadores corretamente é crucial para garantir a conectividade adequada dos clientes e a operação eficiente do banco de dados.</p>
 
-![](img/60opt-oracle.png){width="800" height="500" style="display: block; margin: 0 auto"}
+![](../img/60opt-oracle.png){width="800" height="500" style="display: block; margin: 0 auto"}
 
 ## Dados contêiner e Banco de dados conectável
 Oracle pode funcionar como um “banco de dados contêiner multilocatário”, também conhecido como CDB. Este CDB pode incluir zero ou mais “bancos de dados conectáveis” ou PDBs.
@@ -235,7 +235,7 @@ Oracle pode funcionar como um “banco de dados contêiner multilocatário”, t
 
 <p align="justify">A clonagem a quente de PDBs é uma técnica em que seu PDB de origem permanece no modo leitura-gravação enquanto você o clona.</p>
 
-![](img/clone_pdb.png){width="400" height="450" style="display: block; margin: 0 auto"}
+![](../img/clone_pdb.png){width="400" height="450" style="display: block; margin: 0 auto"}
 
 ## Schema e Usuários?
 ### Usuário
@@ -292,12 +292,12 @@ Um monolito modular possui regras rígidas para integridade de dados:
 
 <p align="justify">No entanto, quanto mais tabelas você tiver, mais difícil será mantê-las isoladas entre os módulos. Você pode melhorar isso adicionando isolamento lógico entre tabelas.</p>
 
-![](img/cap-010-004.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-004.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 ### Separate schema
 <p align="justify">Agrupar tabelas relacionadas no banco de dados é uma forma de introduzir isolamento lógico. Você pode implementar isso usando esquemas de banco de dados. Cada módulo possui um esquema exclusivo contendo as tabelas do módulo.</p>
 
-![](img/cap-010-005.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-005.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 ### Separate database
 <p align="justify">é mover os dados de cada módulo para bancos de dados separados. Esta abordagem tem mais restrições do que o isolamento de dados usando esquemas. Este é o caminho a seguir se você precisar de regras rígidas de isolamento de dados entre módulos. Mas a desvantagem é a maior complexidade operacional. Você precisa gerenciar a infraestrutura de vários bancos de dados.</p>
@@ -306,7 +306,7 @@ Um monolito modular possui regras rígidas para integridade de dados:
 
 Podemos levar mais longe o isolamento dos dados do módulo?
 
-![](img/cap-010-006.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-006.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 ### Different persistence
 <p align="justify">Quem disse que você precisa usar o mesmo tipo de banco de dados para todos os módulos? Os bancos de dados relacionais são incríveis e resolvem uma ampla gama de problemas.</p>
@@ -325,19 +325,19 @@ O sistema cresce com o tempo e os requisitos estão em constante mudança.
 
 <p align="justify">Segundo Fowler, os contextos limitados definem os limites explícitos entre os módulos e separam as responsabilidades. Este é um dos maiores desafios na migração para microsserviços. A identificação de bons limites entre módulos garantam que os microsserviços se concentrem estritamente em um Domínio de problema.</p>
 
-![](img/cap-010-007.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-007.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 <p align="justify">Uma das principais ferramentas contidas no design estratégico, o Bounded Context ou Contexto Delimitado, nos apoia a lidar com grandes modelos de domínio, estabelecendo limites ao dividi-los em contextos menores, criando inter-relacionamento explícito entre eles.</p>
 
 ## Design Tático
 <p align="justify">Agrupa um conjunto de ferramentas a serem utilizados na construção do seu modelo de domínio, aplicados em um único contexto delimitado, refinando o resultado do trabalho realizado através das ferramentas de Design Estratégico.</p>
 
-![](img/cap-010-008.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-008.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 ### Domain Models ou Modelo de domínio
 <p align="justify">O conhecimento estruturado do problema a ser resolvido com o software, representando o vocabulário e conceitos-chave do domínio, identificando os relacionamentos entre todas as entidades, atuando como uma ferramenta de comunicação, em conjunto com a linguagem ubíqua(Linguagem comum, compartilhada entre toda a equipe, indiferente do seu papel no projeto. A fim de reduzir o enigma exposto pelo James Shore no texto abaixo).</p>
 
-![](img/cap-010-009.png){width="400" height="300" style="display: block; margin: 0 auto"}
+![](../img/cap-010-009.png){width="400" height="300" style="display: block; margin: 0 auto"}
 
 ### Tudo junto e misturado
 <p align="justify">O usuário que possui esse esquema recebe todos os objetos de um banco de dados, como Tabelas, Indices, Programas e Schedulers;</p>
@@ -406,7 +406,7 @@ O código customizado deve ser desenvolvido de acordo com os padrões publicados
         * Homogêneo   - Quando acessa outros bancos de dados Oracle    (xxxEBS,xxxFOLHA,xxxBDS,xxxAPPXXX)
         * Heterogêneo – Quando acessam outros tipos de bancos de dados (xxxODBC)
 
-![](img/oracle_transp_gate.gif){width="400" height="350" style="display: block; margin: 0 auto"}
+![](../img/oracle_transp_gate.gif){width="400" height="350" style="display: block; margin: 0 auto"}
 
 * A ideia era NÃO trazer dados de uma instancia, diminuir o numero de database links, o que facilitaria a clonagem, pois teríamos um único ponto de comunicação.
 
@@ -417,7 +417,7 @@ Porem todos deveriam avaliar as queries e hintar os objetos com `/*+ DRIVING_SIT
 #### [Banco de Dados Rosa](https://www.salvis.com/blog/2018/07/18/the-pink-database-paradigm-pinkdb-2/)
 <p align="justify">É uma arquitetura de aplicativo para aplicativos centrados em banco de dados, ou seja, quando essas APIs é chamadas, o trabalho do banco de dados chamadas a SQL e PL/SQL, são todos executados por meio deste usuário. As APIs nunca fariam CRUDs diretos em uma tabela, mas simplesmente chamariam programas PL/SQL para fazer esse trabalho.</p>
 
-![](img/PinkDB.webp){width="230" height="230" style="display: block; margin: 0 auto"}
+![](../img/PinkDB.webp){width="230" height="230" style="display: block; margin: 0 auto"}
 
 Um aplicativo que implementa PinkDB possui os seguintes recursos:
 
