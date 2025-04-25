@@ -1,6 +1,6 @@
 Na última década, assistimos a um crescimento exponencial do volume de dados, impulsionado por avanços na conectividade sem fio, nuvem, proliferação de dispositivos de Internet das Coisas (IoT) e Inteligência Artificial.
 
-Os dados impulsionam partes significativas de nossas vidas, desde recomendações até sistemas de inteligência artificial que identificam tratamentos médicos mais eficazes. 
+Os dados impulsionam partes significativas de nossas vidas, desde recomendações até sistemas de inteligência artificial que identificam tratamentos médicos mais eficazes.
 
 O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientados por dados** na busca do aprimoramento de serviços ou venda de produtos ou operações.
 ## Revolução Industrial
@@ -41,6 +41,7 @@ Porem cada vez menos empresas consideraram sistematicamente e começaram a abord
 | Upstream   | Atividades de busca, identificação e localização das fontes de óleo, e ainda o transporte deste óleo extraído até as refinarias, onde será processado. Resumindo, são as atividades de exploração, perfuração e produção. | Coleta e geração de dados. Isso inclui a captura de dados de várias fontes, como sensores, dispositivos IoT, transações de clientes, redes sociais, etc.                                                                |
 | Midstream  | São as matérias-primas (hidrocarbonetos) são transformadas em produtos prontos para uso específico (gasolina, diesel, querosene, GLP, nafta, óleo lubrificante, …). São as atividades de refino.                          | Transporte, armazenamento e processamento inicial. Isso pode incluir a transferência de dados para data centers, armazenamento em nuvem, e o processamento inicial para limpeza e organização dos dados.                |
 | Downstream | O transporte dos produtos da refinaria até os locais de consumo. Resume-se no transporte, distribuição e comercialização dos derivados do petróleo.                                                                       | Análise, refino e distribuição dos dados. Isso inclui a análise de dados para obter insights, a criação de relatórios, dashboards, e a distribuição desses insights para as partes interessadas para tomada de decisão. |
+
 ## Negócio e suas queixas
 
 <div class="mdx-columns2" markdown>
@@ -92,9 +93,9 @@ Porem cada vez menos empresas consideraram sistematicamente e começaram a abord
 
 Ao desenvolver soluções de dados e análises, um fator determinante para o seu sucesso
 é o **patrocinador do negócio** e o trabalho que você está realizando para atender às suas
-necessidades. 
+necessidades.
 
-**Sem entender o verdadeiro destino**, você não pode ter certeza de que o incremento em que está trabalhando o está levando na direção certa. 
+**Sem entender o verdadeiro destino**, você não pode ter certeza de que o incremento em que está trabalhando o está levando na direção certa.
 
 Gosto sempre de me reunir com o patrocinador do negócio primeiro, antes de qualquer outra coisa, para ter uma ideia clara da visão e do escopo do que buscamos alcançar.
 
@@ -109,7 +110,7 @@ visão compartilhada sobre o que você está tentando alcançar?
 iniciativa?
 - [ ] A visão define a cadeia de montanhas ou o pico imediatamente à sua frente?
 
-Requer combinação de **tecnologia**, **processos bem definidos** e **pessoas capacitadas**. 
+Requer combinação de **tecnologia**, **processos bem definidos** e **pessoas capacitadas**.
 
 Organizações que priorizam a qualidade dos dados ganham eficiência, reduzem riscos e habilitam insights estratégicos, transformando o caos em um **ativo valioso**.
 
@@ -132,21 +133,21 @@ J --> K
 end
 ```
 #### Centralização dos Cadastros
-O objetivo deste documento é de abordarmos o tema de GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos. 
+O objetivo deste documento é de abordarmos o tema de GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
 
 Gerenciar dados de forma eficiente exige um esforço conjunto, onde cada pessoa traz sua expertise, insights e experiências para enriquecer nossas estratégias.
 
-O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado. 
+O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado.
 
 Cada um de nós lida com diferentes aspectos dos dados em nosso dia a dia – veja o ciclo de vida.
 
 Essa diversidade de perspectivas é o que nos permitirá construir um sistema de GERENCIAMENTO DE DADOS, que seja robusto, flexível e capaz de atender às diversas demandas.
 
-Por isso, convido todos a se engajarem nessa análise prepositiva, compartilhando suas experiências e ideias sobre como podemos aprimorar nossos processos de Gerenciamento de Dados. 
+Por isso, convido todos a se engajarem nessa análise prepositiva, compartilhando suas experiências e ideias sobre como podemos aprimorar nossos processos de Gerenciamento de Dados.
 
 Queremos ouvir suas sugestões sobre como garantir a qualidade dos dados, melhorar nossa governança e explorar novas formas de integrar e utilizar as informações de maneira eficaz.
 
-Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados. 
+Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados.
 
 Junte-se a Modernização de Dados Mestres interseção do MDM/MDG (Master Data Management/Governance) com  Retrieval-Augmented Generation (RAG).
 #### ODTA-C
@@ -159,13 +160,14 @@ Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar 
 | **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                                   |
 | **A**     | **Assertividade (confiança, clareza)** | **A**ssertividade na comunicação e na execução de tarefas;          |
 | **C**     | **Conexão**                            | **Conexão entre todos os elementos para atingir objetivos comuns.** |
+
 Assim, abre-se um conceito ou abordagem que integra e unifica dados de diversas fontes e formatos, proporcionando uma visão holística e abrangente das informações disponíveis.
 
 Essa abordagem permite que organizações identifiquem, coletem, analisem e utilizem dados de maneira eficiente, favorecendo uma tomada de decisão mais informada e estratégica.
 
 ODTA-C representa uma abordagem estratégica para a gestão e utilização de dados, visando maximizar o valor das informações disponíveis e impulsionar a eficiência operacional e a inovação nas organizações, aplicando em toda a organização à maneira como os dados são obtidos, rastreados, usados, entregues e descartados.
 
-Dados são um ativo estratégico e devem ser gerenciados. 
+Dados são um ativo estratégico e devem ser gerenciados.
 
 Se os dados não forem gerenciados, eles frequentemente acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados.
 
@@ -176,7 +178,7 @@ A administração de dados consiste nas pessoas, na organização e nos processo
 ### **Movendo dados para um Estado Governado**
 O propósito de executar a Governança de Dados é mover dados de um estado não governado para um estado governado.
 
-Eles raramente são definidos, sua qualidade é desconhecida, suas regras de negócios são inexistentes ou conflitam entre si, e ninguém é responsável pelos dados. 
+Eles raramente são definidos, sua qualidade é desconhecida, suas regras de negócios são inexistentes ou conflitam entre si, e ninguém é responsável pelos dados.
 
 Dados governados são dados que são confiáveis e compreendidos e pelo qual, alguém é responsável por ambos os dados em si e para abordar questões sobre os dados.
 
@@ -193,7 +195,7 @@ A identificação de uma fonte segura para Dados Mestres/Referência e/ou a cria
 
 Em um cenário empresarial em constante evolução, a gestão eficaz de informações tornou-se um fator crucial para o sucesso das organizações. No centro dessa transformação, surge a necessidade de uma Central de Cadastro Integrada, que visa otimizar o relacionamento com padrões, responsáveis, interagir fornecedores e aprimorar o atendimento ao cliente.
 
-Não obstante a esta central e com a combinação do Master Data Management/Governance (MDM/MDG) e Inteligência Artificial (IA), poderíamos automatizar o processo de detecção e correção de erros de dados, recomendações de itens duplicados, identificar e mitigar potenciais riscos de conformidade. 
+Não obstante a esta central e com a combinação do Master Data Management/Governance (MDM/MDG) e Inteligência Artificial (IA), poderíamos automatizar o processo de detecção e correção de erros de dados, recomendações de itens duplicados, identificar e mitigar potenciais riscos de conformidade.
 
 Entende-se neste contexto, que a governança de dados e o MDM/MDG não são idênticos, onde o primeiro estabelece as bases para sua solução MDM e garante que você obtenha o máximo valor.
 
@@ -202,7 +204,7 @@ Registros com informações faltantes, duplicação de dados, risco de exposiç�
 
 Essa fragmentação de informações causa inconsistências com a análise de dados de atendimento, financeiro e administrativo, dificultando a comunicação com os fornecedores (prestadores de serviço, parceiros) e compromete a eficácia no atendimento ao cliente.
 
-- [ ] Os dados são compartilhados e usados por muitos, para muitos propósitos diferentes. Então, quem é o dono deles? 
+- [ ] Os dados são compartilhados e usados por muitos, para muitos propósitos diferentes. Então, quem é o dono deles?
 - [ ] Quem toma decisões sobre eles e é responsável quando os dados dão “errado”?
 - [ ] Inexistência de fluxo padrão para o cadastro dos principais dados mestres;
 - [ ] Ausência de padronização descritiva, gerando produtos duplicados ou incompletos;
@@ -232,7 +234,7 @@ Este espaço dedicado permitirá a centralização (processos de mudança) e pad
 | **Aumento da Eficiência** | Com todos os cadastros em um único local, podemos impor padrões, validações e procedimentos de limpeza.                                                                   |
 
 #### Definindo padrões de dados
-Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente. 
+Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente.
 
 O primeiro passo para garantir uma alta qualidade de dados é aplicar lógica aos seus padrões de dados, como usar formatos unificados para endereços e descrições de produtos. Você precisa definir quais tipos de dados podem ser inseridos como valores de atributos. Certifique-se de que cada atributo só possa conter dados em um formato especificado, por exemplo:
 
@@ -282,7 +284,7 @@ Os indicadores de uma Central de Cadastro, geralmente, são estipulados pelos pi
 | **Completude**              | Expresso em percentual, e indica o quão nosso cadastro está completo para as nossas necessidades, através de Relatório de Exceção, caso não haja como efetuar a obrigatoriedade. |
 | **Acurácia e Precisão**     | Avaliação de qualidade de dados, para determinar se aquele dado corresponde a uma entidade real, indicadores pelos usuários NÃO responsáveis pelo PRODUTO.                       |
 #### Background-Check
-Este processo visa acelerar e padronizar a origem das informações a serem inseridas nos sistemas corporativos através de busca e integração com os órgãos ou entidades da administração pública direta ou indireta ou pessoa jurídica de direito privado, que sejam reconhecidamente, detentores "Serviços de Assessoramento” de informações, tais como: 
+Este processo visa acelerar e padronizar a origem das informações a serem inseridas nos sistemas corporativos através de busca e integração com os órgãos ou entidades da administração pública direta ou indireta ou pessoa jurídica de direito privado, que sejam reconhecidamente, detentores "Serviços de Assessoramento” de informações, tais como:
 
 - [ ] Produtos;
 - [ ] Dados de Referência;
@@ -348,9 +350,9 @@ A obtenção de dados de fontes governamentais, como Banco do Brasil, Banco Cent
 
 Fontes governamentais fornecem dados confiáveis e abrangentes que são essenciais para a construção de modelos de análise de crédito robustos.
 
-Como exemplo poderíamos retornar a utilização do BACEN, com as informações de fechamento do cambio. 
+Como exemplo poderíamos retornar a utilização do BACEN, com as informações de fechamento do cambio.
 
-O IBGE contribui com dados demográficos e econômicos que ajudam a contextualizar as análises de crédito. 
+O IBGE contribui com dados demográficos e econômicos que ajudam a contextualizar as análises de crédito.
 
 A Loja do Serpro é outra ferramenta valiosa nesse contexto. Ela oferece serviços completos de consulta de CNPJ, permitindo acesso a informações públicas do Cadastro Nacional de Pessoas Jurídicas.
 
@@ -410,7 +412,7 @@ Usou-se a conceituação de dados vivos, sendo aqueles que estão em uso ativo �
 
 Cabe ressaltar que esta diferença se faz necessária pois envolvem custos de soluções de armazenamento, tempo de guarda longo prazo e/ou discos de baixo custo.
 
-Em suas operações ou processos comerciais diários as EMPRESAS coletam e armazenam registros de vários tipos e em vários formatos diferentes. 
+Em suas operações ou processos comerciais diários as EMPRESAS coletam e armazenam registros de vários tipos e em vários formatos diferentes.
 
 A importância relativa à sensibilidade desses registros também altera e está sujeita ao regime de classificação de segurança de dados da organização.
 
@@ -420,16 +422,16 @@ Entretanto, considerando a existência de inúmeras legislações setoriais, bem
 
 - [ ]  Instituto Nacional de Proteção de Dados, através do [Guia de Temporalidade e Conservação de Documentos](https://www.inpd.com.br/guia-temporalidade)
 - [ ] Deverá ser estabelecido critérios de retenção de dados transacionais objetivando a migração para um Data Lakehouse, possivelmente de baixo custo.
-- [ ] Normalmente os provedores de nuvem, utilizam modelo de preços, **pay-as-you-go**, onde você paga pelo uso real dos recursos, tipos de armazenamento (objetos ,arquivos etc), volume de dados, redundância/backup e transferência. 
+- [ ] Normalmente os provedores de nuvem, utilizam modelo de preços, **pay-as-you-go**, onde você paga pelo uso real dos recursos, tipos de armazenamento (objetos ,arquivos etc), volume de dados, redundância/backup e transferência.
 - [ ] Implementar práticas de otimização, como a exclusão de dados não utilizados e a escolha de tipos de armazenamento mais econômicos para dados menos acessados, podem reduzir **significativamente os custos** de armazenamento.
 - [ ] Defina políticas claras de retenção de dados para eliminar dados desnecessários ou obsoletos. Isso ajuda a reduzir o volume de dados armazenados e, consequentemente, os custos.
 #### **Anonimização**
-A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento. 
+A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento.
 O processo de anonimização, além de evitar a identificação do titular de dados pessoais, deve garantir que o tratamento realizado após a anonimização não implique em uma distorção dos dados reais.
 
 
 ## **Plataforma de Dados Robusta**
-O foco principal reside na arquitetura de aplicações de Software como Serviço (SaaS) que lidam com grandes volumes de dados, explorando os benefícios e as considerações de plataformas de dados modernas, especialmente em ambientes de nuvem. 
+O foco principal reside na arquitetura de aplicações de Software como Serviço (SaaS) que lidam com grandes volumes de dados, explorando os benefícios e as considerações de plataformas de dados modernas, especialmente em ambientes de nuvem.
 
 Uma plataforma de dados robusta, escalável, segregada entre armazenamento e computação, suporte a diferentes tipos de dados (estruturados e semiestruturados), segurança em ambientes multilocatários e novas formas de compartilhamento de dados, deve ser  bem projetada garantirá que os desenvolvedores de aplicativos possam se concentrar no que fazem de melhor — **criar novas experiências de usuário** e **recursos de plataforma para ajudar seus clientes** — sem precisar despender esforços significativos na construção e manutenção de sistemas de dados.
 ## **Visão Acadêmica**
@@ -547,7 +549,7 @@ As arquiteturas de integração de dados tornam-se canais para coletar e fornece
 ### **Arquitetura Integração de Dados**
 A economia digital colocou mais demanda por serviços de dados dentro de uma organização, sobrecarregando a TI para fornecer esses serviços, acarretando uma proliferação de integrações não governadas na verdade piora na entrega e manutenção da mesma.
 
-Arquiteturas de integração de dados consistem em múltiplas tecnologias que também podem ser alinhadas a outras áreas, como gerenciamento de dados ou governança de dados. 
+Arquiteturas de integração de dados consistem em múltiplas tecnologias que também podem ser alinhadas a outras áreas, como gerenciamento de dados ou governança de dados.
 As arquiteturas de integração de dados tornam-se canais para coletar e fornecer insights sobre processos e dados de negócios.
 A integração de dados geralmente é uma tarefa dentro de um projeto maior, sendo um método que fornece dados que podem suportar algum conjunto de requisitos de negócios, objetivando uma melhorara na eficiência geral das organizações comerciais e técnicas, validando efetivamente seus pipelines e resultados de dados e análises.
 Uma arquitetura de integração auxuliará a organizar as integrações em um ambiente coerente e estruturado.
@@ -616,7 +618,7 @@ Os catálogos de dados armazenam metadados, tanto operacionais quanto comerciais
 Independentemente de quão altamente disponível um sistema seja, qualquer aplicativo de produção precisa ter planos de recuperação de desastres, pois alta disponibilidade e recuperação de desastres não são mutuamente exclusivas.
 ## Integração
 A implementação dependerá das funções e recursos da ferramenta, que deveriam ter sido avaliados.
-  
+
 - [ ] Qual a melhor forma de implementar o CDC e onde?
 - [ ] Como lidamos com dados atrasados/duplicados?
 - [ ] Em caso de falha do pipeline, o processo deve ser executado novamente ou precisa continuar de onde falhou? Quais verificações de integridade de dados são necessárias?
@@ -641,7 +643,7 @@ A implementação dependerá das funções e recursos da ferramenta, que deveria
 | Replicação           | Método que pega os dados da origem e os copia diretamente para o destino especificado.                                                                                                                                                                                                                                                                                                                                                                             |
 ## Armazenamentos de dados e modelos de dados
 Do ponto de vista da integração de dados, os armazenamentos de dados podem servir a várias finalidades. Eles podem ser uma área central que armazena todos os dados de origem em vários formatos, armazenamentos intermediários para dados processados, armazenamentos temporários para integrações e agregações temporárias ou o produto de dados final em que os dados estão prontos para serem consumidos pelos usuários finais.
-  
+
 - [ ] Os dados residirão em uma tabela existente ou em uma nova tabela?
 - [ ] Como os dados serão usados?
 - [ ] Existem preocupações com a segurança dos dados/informações de identificação pessoal (LGPF, GPDR, HIPAA)?
@@ -653,7 +655,7 @@ O desenvolvimento da ingestão de dados é a base para a extração de dados de 
 ## Monitorar/Suporte
 Métricas bem definidas podem ser aproveitadas para avaliar a qualidade dos dados. Métricas operacionais sobre tempo de atividade, tempo defuncionamento, tempo para resolver problemas e monitoramento proativo de possíveis problemas também podem ser coletadas.
 Os aspectos de administração podem exigir a integração de novas administrações e suporte ao conhecimento de novas ferramentas de integração e metodologias de desenvolvimento, como implantação rápida. Existem duas áreas distintas de administração de suporte: a administração de infraestrutura, operações e aplicativos e a administração dos pipelines de integração e aplicativos relacionados.
-  
+
 ```mermaid
 
 flowchart LR
@@ -673,7 +675,7 @@ id3 --> id4(Consumo</br>de dados)
 ## Plataforma de Dados
 Implantar a plataforma de dados significa abrir as válvulas para permitir a entrada dos dados (lote/streaming).
 Essa deve ser a última etapa da implantação e deve ser feita no final do provisionamento da plataforma de processamento/ingestão.
-  
+
 - [ ] Verifique se o armazenamento de dados é provisionado com políticas de capacidade/acesso a dados.
 - [ ] Verifique se um agente de streaming está provisionado e pronto.
 - [ ] Verifique as qualidade dos dados são implantadas;
@@ -707,7 +709,7 @@ Essa deve ser a última etapa da implantação e deve ser feita no final do prov
 - [ ] Hora de restaurar os serviços;
 - [ ] Taxa de falha de alteração
 
-## Automação  
+## Automação
 
 ## Avaliando as opções de arquitetura para bancos de dados multicloud
 As arquiteturas centradas em dados multicloud são complexas.
@@ -719,7 +721,7 @@ No contexto de arquiteturas multicloud, é útil entender a distinção entre "h
 
 ![](../img/multicloud.png)
 
-## Data Lake  
+## Data Lake
 - [ ] **Transient/Staging**: Camada onde os dados são recebidos e armazenados em seu formato original.
 - [ ] **Bronze/Raw**: Camada onde os dados são transformados para um formato padronizado e carregados no data lake.
 - [ ] **Silver/Trusted**: Camada onde os dados são limpos, corrigidos e enriquecidos com metadados.
@@ -732,7 +734,7 @@ No contexto de arquiteturas multicloud, é útil entender a distinção entre "h
 - [ ] **Construtores de Plataforma de Dados**: Um segmento da equipe de TI com diversas habilidades de dados, dependendo da maturidade da empresa.
 - [ ] **Consumidores de Dados**: Analistas e operadores que usam dados para otimizar os negócios, tomar decisões e definir estratégias.
 ## Data Mesh (Zhamak Dehghani)
-<p align="justify">O gerenciamento é conduzido no nível da unidade, onde os indivíduos mais familiarizados com os dados em suas respectivas áreas determinam os métodos de processamento ideais. Sua proximidade com os dados e familiaridade com os requisitos permitem que eles garantam sua qualidade.</p>  
+<p align="justify">O gerenciamento é conduzido no nível da unidade, onde os indivíduos mais familiarizados com os dados em suas respectivas áreas determinam os métodos de processamento ideais. Sua proximidade com os dados e familiaridade com os requisitos permitem que eles garantam sua qualidade.</p>
 Responsabilidade das unidades individuais que produzem os dados.
 
 <p align="justify">Capacitar equipes de domínio para assumir a responsabilidade por seus próprios produtos de dados e garantir que os princípios de governança, como qualidade e segurança de dados, sejam respeitados.</p>
@@ -825,7 +827,7 @@ A malha de dados (Data Mesh) aborda essas dimensões, fundadas em quatro princí
 - [ ] **Dados não estruturados**: São dados de postagens em mídias sociais, e-mails, white papers ou chats de ajuda que são difíceis de categorizar.
 
 ## Algumas definições
-  
+
 | Definição         | Entenda                                                                                                                                                                                                                                                    |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Elemento de Dados | É uma unidade de dados, que possui significado preciso ou semântica precisa. Por definição, um elemento de dados é indivisível. Número de conta, um nome, data de nascimento e etc.                                                                        |
@@ -951,8 +953,8 @@ A malha de dados (Data Mesh) aborda essas dimensões, fundadas em quatro princí
 
 </div>
 
-  
-  
+
+
 
 ```mermaid
 
@@ -982,7 +984,7 @@ F --> H0
 
 ```
 
-  
+
 
 ## Data Mesh vs. Data Fabric
 
@@ -1016,7 +1018,7 @@ F --> H0
 
 </div>
 
-  
+
 
 ![](../img/data-engenharia.png)
 
@@ -1029,7 +1031,7 @@ F --> H0
 - [ ] Interoperabilidade: Capaz de suportar diferentes tecnologias e padrão para facilitar integração.
 - [ ] Replicabilidade: Processos como ingestão de dados, transformação e monitoramento devem ser automatizados para reduzir erros e aumentar a eficiência.
 - [ ] Segurança e Governança: Proteção de dados, rastreabilidade e conformidade regulatória são fundamentais e não podem ficar de fora.
-## Componentes Importantes  
+## Componentes Importantes
 
 - [ ] Sources: Pontos de origem dos dados, como bancos de dados transacionais, APIs, logs.
 - [ ] Ingestion: Ferramentas para capturar e transferir dados de fontes para ambiente de armazenamento.
@@ -1045,15 +1047,15 @@ F --> H0
 ## Lakehouse: A convergência de data warehousing, Ciência de Dados e Governança de Dados
 
 Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratégias de otimização de dados em data lakehouses podem fornecer às organizações uma vantagem competitiva em governança de dados, análise de dados e ciência de dados.
-  
+
 - [ ] Data Warehouse é projetado para armazenar dados refinados, estruturados e relacionais com um esquema projetado no início. Onde os dados são armazenados em um formato estruturado.
 - [ ] Data lake é projetada para armazenar dados não estruturados, não refinados e não relacionais com um esquema projetado no final. Usado principalmente para ciência de dados e análises avançadas para aprendizado de máquina e IA, pois permite a conexão de vários tipos de dados de diversas fontes.
 
-  
+
 
 ![](../img/data_lakehouse.png){width="650" height="950" style="display: block; margin: 0 auto"}
 
-  
+
 
 	- [ ] Arquiteturas de data lakehouse podem atingir a conformidade com ACID ( atômica, consistente, isolamento e durabilidade ) na presença de leitores e escritores simultâneos, aproveitando formatos de arquivo como [ORC , Parquet e Avro](https://www.astera.com/pt/type/blog/avro-vs-parquet-is-one-better-than-the-other/).
 - [ ] ORC e ​​Parquet usam um formato de armazenamento em colunas, permitindo acesso e modificação eficientes de colunas específicas, mantendo a integridade dos dados por meio de arquivos de metadados.
@@ -1068,11 +1070,11 @@ O Hive LLAP ( Low Latency Analytical Processing ) também pode ser usado como um
 
 ![](../img/datalakehouse.png)
 
-  
+
 
 ## Data Warehouse x Data Lake x Data Lakehouse: Visão Geral
 
-  
+
 
 | Tipo de solução                           | Data warehouse                                                     | Data lake                                                      | Data lakehouse                                                        |
 | ----------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -1093,7 +1095,7 @@ Os trabalhos de replicação em lote e os procedimentos manuais de script de ext
 
 As alterações feitas em um registro específico em um banco de dados e permitem que os consumidores de eventos tomem medidas com base nessas informações, permitindo uma ampla gama de casos de uso , como ETL em tempo real (propagando os dados atualizados em armazenamentos de dados downstream, como data warehouses, bancos de dados analíticos ou índices de pesquisa de texto completo), troca de dados de microsserviços ou registro de auditoria.
 
-  
+
 
 | Evento                   | Entenda                                                                                                                                                 |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1102,7 +1104,7 @@ As alterações feitas em um registro específico em um banco de dados e permite
 | Somente de identificação | Eles apenas descrevem qual registro no banco de dados de origem foi afetado por uma alteração.                                                          |
 
 Observação: as ferramentas CDC emitem eventos de alteração de forma assíncrona, o que significa que, no momento em que você executa uma consulta para obter o estado completo da linha, essa linha pode já ter sido mutada novamente.
-  
+
 ![](../img/cdc_por_tipo.png)
 
   ## Metadados do Evento
@@ -1132,7 +1134,7 @@ Observação: as ferramentas CDC emitem eventos de alteração de forma assíncr
 - [ ] Migrando dados e introduzindo novos recursos ao mesmo tempo
 - [ ] Ofuscação adequada de dados de identificação pessoal do usuário
 - [ ] "Mobilidade" de um conjunto de dados que contém dados de usuário e IDs de usuário ofuscados
-  
+
 ## Estratégia de teste de migração de dados
 
 - [ ] Auditoria Pré-migração: **Examine** os dados em sistemas legados e tabelas de banco de dados para identificar problemas como inconsistências, duplicatas, corrupção ou incompletude. Isso pode evitar complicações durante a migração real na produção e ajuda a preparar dados de teste realistas.
@@ -1149,7 +1151,7 @@ Observação: as ferramentas CDC emitem eventos de alteração de forma assíncr
 
 Nesse contexto, tanto a regulamentação europeia (EU AI Act) quanto o Projeto de lei brasileiro (PL 2338/23) compartilham princípios comuns ao tratar da governança de IA, com foco na transparência, privacidade, uso ético, combate à discriminação e mitigação de vieses.
 
-O objetivo vai além de simplesmente garantir o cumprimento das leis: trata-se de alinhar a IA aos valores da organização, promovendo uma cultura de responsabilidade no uso desses sistemas.  
+O objetivo vai além de simplesmente garantir o cumprimento das leis: trata-se de alinhar a IA aos valores da organização, promovendo uma cultura de responsabilidade no uso desses sistemas.
 
 - [ ] A ética, nesse contexto, é indispensável, abrangendo desde a análise crítica dos resultados gerados pela IA até o combate a vieses que possam estar incorporados nos algoritmos.
 - [ ] A transparência, mesmo que a empresa não seja responsável pelo desenvolvimento dos sistemas de IA que utiliza, é imperativo que seus operadores compreendam como essas ferramentas funcionam e como devem ser utilizadas de maneira adequada.
@@ -1166,7 +1168,7 @@ O objetivo vai além de simplesmente garantir o cumprimento das leis: trata-se d
 
 # Lakehouse: A convergência de data warehousing, Ciência de Dados e Governança de Dados
 Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratégias de otimização de dados em data lakehouses podem fornecer às organizações uma vantagem competitiva em governança de dados, análise de dados e ciência de dados.
-  
+
 - [ ] Data Warehouse é projetado para armazenar dados refinados, estruturados e relacionais com um esquema projetado no início. Onde os dados são armazenados em um formato estruturado.
 - [ ] Data lake é projetada para armazenar dados não estruturados, não refinados e não relacionais com um esquema projetado no final. Usado principalmente para ciência de dados e análises avançadas para aprendizado de máquina e IA, pois permite a conexão de vários tipos de dados de diversas fontes.
 
@@ -1174,7 +1176,7 @@ Os formatos de arquivo abertos subjacentes, como Parquet e Avro , e as estratég
 
 - [ ] Arquiteturas de data lakehouse podem atingir a conformidade com ACID ( atômica, consistente, isolamento e durabilidade ) na presença de leitores e escritores simultâneos, aproveitando formatos de arquivo como [ORC , Parquet e Avro](https://www.astera.com/pt/type/blog/avro-vs-parquet-is-one-better-than-the-other/).
 - [ ] ORC e ​​Parquet usam um formato de armazenamento em colunas, permitindo acesso e modificação eficientes de colunas específicas, mantendo a integridade dos dados por meio de arquivos de metadados.
-- [ ] Avro é um formato popular de serialização de dados que pode ser usado para definir a estrutura de dados armazenada em um formato em colunas , como Parquet ou ORC , permitindo armazenamento e recuperação de dados mais eficientes.  
+- [ ] Avro é um formato popular de serialização de dados que pode ser usado para definir a estrutura de dados armazenada em um formato em colunas , como Parquet ou ORC , permitindo armazenamento e recuperação de dados mais eficientes.
 - [ ] Os data-frames oferecem uma abstração de tabela com vários operadores de transformação, muitos dos quais são mapeados para álgebra relacional.
 - [ ] Os data lakehouse é sua conformidade com o ACID , que complementa a governança de dados e os regulamentos de privacidade (por exemplo, gerenciamento de dados mestres (MDM), GDPR) ao fornecer uma maneira confiável e eficiente de atualizações e exclusões em nível de registro.
 - [ ] A arquitetura do data lakehouse difere dos sistemas tradicionais de data lake e warehouse porque inclui metadados, cache e camadas de indexação sobre o armazenamento de dados.
@@ -1187,7 +1189,7 @@ O Hive LLAP ( Low Latency Analytical Processing ) também pode ser usado como um
 
 ## Data Warehouse x Data Lake x Data Lakehouse: Visão Geral
 
-  
+
 
 | Tipo de solução                           | Data warehouse                                                     | Data lake                                                      | Data lakehouse                                                        |
 | ----------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -1209,28 +1211,28 @@ Para tirar vantagem, as organizações de TI precisam primeiro reinventar a form
 | Completos                | Sempre que algo muda em um registro em um armazenamento de dados de origem, esse evento de alteração conterá o estado completo desse registro.          |
 | Delta                    | Eles não contêm o estado completo do registro representado, mas apenas aquelas colunas ou campos cujo valor realmente mudou, bem como o id do registro. |
 | Somente de identificação | Eles apenas descrevem qual registro no banco de dados de origem foi afetado por uma alteração.                                                          |
-  
+
 Observação: as ferramentas CDC emitem eventos de alteração de forma assíncrona, o que significa que, no momento em que você executa uma consulta para obter o estado completo da linha, essa linha pode já ter sido mutada novamente.
-  
+
 
 ![](../img/cdc_por_tipo.png)
 
 ## Metadados do Evento
-  
+
 - [ ] O tipo de uma alteração (inserir, atualizar, excluir)
 - [ ] Carimbo de data e hora em que o evento ocorreu
 - [ ] Nome do banco de dados, esquema e tabela de origem
 - [ ]  ID da transação
 - [ ] Posição do evento no log de transações do banco de dados de origem
 - [ ] A consulta que desencadeia uma alteração
-  
+
 # Plataforma de integração como serviço (iPaaS)
 É um modelo de software baseado em nuvem para integrar dados de várias aplicações em uma única solução. Atualmente, a maioria das organizações tem diversas aplicações que lidam com vários aspectos dos processos de negócios e operações de TI.
 
 O objetivo da ferramenta é facilitar a comunicação entre as diversas soluções que uma empresa utiliza, com o fim de eliminar a necessidade de desenvolver códigos complexos ou contratar serviços especializados.
 
 Uma plataforma de integração pode servir para diversos propósitos, como:
-  
+
 - [ ] Facilitar a interoperabilidade;
 - [ ] Viabilizar a automatização de processos e fluxos de trabalho;
 - [ ] Facilitar a transferência e sincronização de dados entre sistemas;
@@ -1252,7 +1254,7 @@ Uma plataforma de integração pode servir para diversos propósitos, como:
 - [ ] Cumpra as leis aplicáveis ​​sobre privacidade e proteção de dados (GPDR/LGPD): Consulte seu gerente de produto ou stakeholders e, se necessário, a equipe DPO da organização para determinar se a migração de dados envolve quaisquer dados de usuário regulamentados e se etapas adicionais precisam ser tomadas.
 - [ ] Os usuários devem conseguir acessar todos os recursos do software sem problemas após a conclusão da migração.
 - [ ] Você quer evitar qualquer inconveniência para os usuários do sistema, sejam eles clientes B2C ou funcionários de organizações que usam o sistema.
-  
+
 ## Desafios da migração de dados
 
 - [ ] Manipulando grandes conjuntos de dados
@@ -1262,7 +1264,7 @@ Uma plataforma de integração pode servir para diversos propósitos, como:
 - [ ] Migrando dados e introduzindo novos recursos ao mesmo tempo
 - [ ] Ofuscação adequada de dados de identificação pessoal do usuário
 - [ ] "Mobilidade" de um conjunto de dados que contém dados de usuário e IDs de usuário ofuscados
-  
+
 ## Estratégia de teste de migração de dados
 
 - [ ] Auditoria Pré-migração: **Examine** os dados em sistemas legados e tabelas de banco de dados para identificar problemas como inconsistências, duplicatas, corrupção ou incompletude. Isso pode evitar complicações durante a migração real na produção e ajuda a preparar dados de teste realistas.
@@ -1273,7 +1275,7 @@ Uma plataforma de integração pode servir para diversos propósitos, como:
 - [ ] Teste as interfaces entre os dados migrados em aplicativos e outros serviços com os quais eles interagem.
 - [ ] Teste o desempenho para garantir que ele esteja no mesmo nível (ou seja, mais rápido que) o do sistema legad
 - [ ] **Execute** testes estáticos e funcionais em cada ambiente de teste;
-- [ ] **Verifique** se os dados parecem bons, se tudo funciona e se não há travamentos em cada preparação separadamente. 
+- [ ] **Verifique** se os dados parecem bons, se tudo funciona e se não há travamentos em cada preparação separadamente.
 # Taxonomia de eventos de alteração de dados
 
 Eventos Completos

@@ -1,8 +1,8 @@
-O IP Logger é um encurtador de URL com análises avançadas do tráfego através das suas ligações, dos visitantes da sua loja online, blogue ou sítio Web. 
+O IP Logger é um encurtador de URL com análises avançadas do tráfego através das suas ligações, dos visitantes da sua loja online, blogue ou sítio Web.
 
-Com os serviços online do IPLogger, pode encontrar o seu próprio endereço IP, encontrar a localização do endereço IP e seguir a localização exacta de qualquer dispositivo móvel ou PC, verificar o URL para redireccionamentos ocultos por razões de segurança. 
+Com os serviços online do IPLogger, pode encontrar o seu próprio endereço IP, encontrar a localização do endereço IP e seguir a localização exacta de qualquer dispositivo móvel ou PC, verificar o URL para redireccionamentos ocultos por razões de segurança.
 
-Existem várias formas de recolher análises detalhadas e rastrear o endereço IP: ligações curtas, um pixel invisível, uma ferramenta única de geo-logger e utilizar o rastreador de URL. 
+Existem várias formas de recolher análises detalhadas e rastrear o endereço IP: ligações curtas, um pixel invisível, uma ferramenta única de geo-logger e utilizar o rastreador de URL.
 
 Pode utilizar a armadilha de IP de forma totalmente legal utilizando a nossa tecnologia patenteada exclusiva para recolher o consentimento do utilizador 
 
@@ -30,7 +30,7 @@ Acesso um site de encurtamento de Link, como por exemplo: [IPLOGGER](https://ipl
 
 ## Como se proteger
 
-- [ ] Instale o Tor Browser para se proteger. [Tor](https://www.torproject.org/download/). 
+- [ ] Instale o Tor Browser para se proteger. [Tor](https://www.torproject.org/download/).
 - [ ] Ele não impedirá que você seja hackeado, mas dará outras informações de IP.
 
 ![](../img/hacker-bem-002.png)

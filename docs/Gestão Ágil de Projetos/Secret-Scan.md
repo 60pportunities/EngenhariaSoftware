@@ -4,26 +4,27 @@ Existem ótimas ferramentas de código aberto disponíveis para automatizar a ta
 
 Relacionei abaixo algumas das ferramentas instaladas em meu computador:
 
-- [x] [Pre-commit](https://pre-commit.com/)
+- [ ] [Pre-commit](https://pre-commit.com/)
       - [ ] O pre-commit é uma ferramenta de gerenciamento de hooks para Git, e pode ser configurada para realizar secret scanning antes de commits. Existem diversos hooks de secret scanning como o detect-secrets e o truffleHog que podem ser integrados com pre-commit.
       - [ ] brew install pre-commit
-- [x] [TruffleHog](https://github.com/trufflesecurity/trufflehog)
-	- [x] Escaneia repositórios Git em busca de chaves de API e outros segredos sensíveis, usando técnicas como a análise de histórico Git para procurar strings que correspondem a padrões de segredos (como tokens, senhas, etc.).
-    - [x] brew install pre-commit
-- [x] [Gitleaks](https://github.com/gitleaks/gitleaks)
+- [ ] [TruffleHog](https://github.com/trufflesecurity/trufflehog)
+	- [ ] Escaneia repositórios Git em busca de chaves de API e outros segredos sensíveis, usando técnicas como a análise de histórico Git para procurar strings que correspondem a padrões de segredos (como tokens, senhas, etc.).
+    - [ ] brew install pre-commit
+- [ ] [Gitleaks](https://github.com/gitleaks/gitleaks)
      - [x] É uma ferramenta para escanear repositórios Git e identificar segredos sensíveis. Ele permite realizar varreduras tanto em commits passados quanto em alterações no código.
     - [ ] brew install gitleaks
-- [x] [Ddetect-secrets](https://github.com/Yelp/detect-secrets)
-    - [x] É uma ferramenta criada pela empresa Yelp para encontrar segredos em repositórios de código. Ele faz uma verificação para encontrar segredos sensíveis no código, usando detecção de padrões baseados em regex.
+- [ ] [Ddetect-secrets](https://github.com/Yelp/detect-secrets)
+    - [ ] É uma ferramenta criada pela empresa Yelp para encontrar segredos em repositórios de código. Ele faz uma verificação para encontrar segredos sensíveis no código, usando detecção de padrões baseados em regex.
     - [ ] brew install detect-secrets
-- [x] [Credential-Manager](https://github.com/git-ecosystem/git-credential-manager)
+- [ ] [Credential-Manager](https://github.com/git-ecosystem/git-credential-manager)
     - [ ] Ele tem como objetivo fornecer uma experiência de autenticação consistente e segura, incluindo autenticação multifator, para todos os principais serviços e plataformas de hospedagem de controle de origem.
     - [ ] brew install --cask git-credential-manager
 ## Configuração Básica
-- [x] No repositório do projeto git, execute:  `pre-commit install`;
-- [x] pre-commit sample-config > .pre-commit-config.yaml
-- [x] detect-secrets scan > .secrets.baseline
-- [x] pre-commit run --all-files
+
+- [ ] No repositório do projeto git, execute:  `pre-commit install`;
+- [ ] pre-commit sample-config > .pre-commit-config.yaml
+- [ ] detect-secrets scan > .secrets.baseline
+- [ ] pre-commit run --all-files
 
 
 ```
@@ -48,7 +49,6 @@ repos:
 ```
 Observação: Para aprender mais acesse [Featured Hooks](https://pre-commit.com/hooks.html)
 
-
 ## Software Composition Analysis  (SCA)
 As ferramentas de verificação de vulnerabilidades de código aberto - também conhecidas como Análise de Composição de Software - podem ajudá-lo a identificar vulnerabilidades e outros problemas em suas dependências de código aberto.
 
@@ -58,9 +58,9 @@ Cabe lembrar que ao utilizar o GitHub, você irá validar através do Dependabot
 
 Para este contexto, resolvi instalar e configurar a `OSV-Scanner`, onde demonstro como efetuar a instalação.
 
-- [x] brew install go
-- [x] brew install osv-scanner
-- [x] osv-scanner --recursive .
+- [ ] brew install go
+- [ ] brew install osv-scanner
+- [ ] osv-scanner --recursive .
 
 ## Infraestrutura como código (IaC)
 Prática que envolve o uso de código para gerenciar e provisionar sua infraestrutura.

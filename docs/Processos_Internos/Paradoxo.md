@@ -12,7 +12,7 @@ Neste caso, duas hipóteses, igualmente válidas poderiam acontecer:
 
 - [ ] O nariz de Pinóquio não cresce. Então ele disse uma mentira, portanto, o nariz deve crescer;
 - [ ] O nariz de Pinóquio cresce. Então ele disse uma verdade, portanto, o nariz dele não tinha motivo para ter crescido.
-  
+
 ## Paradoxo da Escolha
 
 **Barry Schwartz** - Um maior número de escolhas concede-nos mais liberdade. No entanto, demasiadas opções limitam-nos a capacidade de decisão.
@@ -70,7 +70,7 @@ Ao adicionar força de trabalho para um projeto de desenvolvimento de software j
 Formuladas na década de 70 pelos professores Meir Lehman e László Bélády, é uma série de princípios que ajudam a entender a evolução de sistemas de software. Entre as oito leis de Lehman, duas são particularmente cruciais: a lei da “Mudança Contínua” e a lei da “Complexidade Crescente”.
 
 Um software deve ser continuamente adaptado, senão torna-se aos poucos, cada vez menos satisfatório. (Mudança contínua)
-  
+
 - [ ] Complexidade crescente, eu entendo como refatora.
 - [ ] Crescimento Contínuo, Auto regulação, Qualidade diminuindo e etc.
 

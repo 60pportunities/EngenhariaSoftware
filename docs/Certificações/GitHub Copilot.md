@@ -2,9 +2,9 @@ O GitHub Copilot representa uma mudança monumental na forma como o código é e
 
 O GitHub Copilot é um assistente de programação baseado em IA desenvolvido pelo GitHub em parceria com a OpenAI.
 
-O GitHub Copilot não é apenas uma ferramenta; ele está transformando o conceito de programação em pares. 
-A engenharia de prompts é a prática de estruturar comandos ou instruções para obter os melhores resultados possíveis de modelos de IA generativa. 
-A qualidade das sugestões geradas pelo GitHub Copilot depende diretamente da clareza dos prompts fornecidos. 
+O GitHub Copilot não é apenas uma ferramenta; ele está transformando o conceito de programação em pares.
+A engenharia de prompts é a prática de estruturar comandos ou instruções para obter os melhores resultados possíveis de modelos de IA generativa.
+A qualidade das sugestões geradas pelo GitHub Copilot depende diretamente da clareza dos prompts fornecidos.
 Prompts bem elaborados ajudam a IA a entender melhor o contexto do problema, resultando em saídas mais úteis e precisas.
 
 | Ideia da IA                | Entenda                                                               |
@@ -27,8 +27,8 @@ Prompts bem elaborados ajudam a IA a entender melhor o contexto do problema, res
 | **ChatGPT**                          | OpenAI             | Gerar texto, responder perguntas e realizar tarefas de linguagem natural          | Público geral, desenvolvedores       | Conversação natural, suporte a múltiplos idiomas, customização via prompts         | API OpenAI, aplicativos personalizados     | Suporte virtual, criação de conteúdo, tutoriais interativos                  |
 | **GitHub Copilot**                   | Microsoft (GitHub) | Sugerir código em tempo real com base em contexto                                 | Desenvolvedores                      | Autocompletar código, suporte a múltiplas linguagens, integração com editores      | VS Code, Visual Studio, JetBrains          | Aceleração de codificação, redução de bugs, aprendizado de novas tecnologias |
 
-  
-  
+
+
 
 - [x] https://learn.microsoft.com/pt-br/training/modules/get-started-github-copilot/?wt.mc_id=1reg_24497_webpage_reactor
 

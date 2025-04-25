@@ -1,8 +1,7 @@
 ## Saga Pattern
-
 O padrão Saga é uma maneira de gerenciar transações distribuídas em sistemas, onde uma série de transações menores são realizadas e podem ser revertidas caso algo falhe.
 
-  
+
 
 ```mermaid
 
@@ -16,7 +15,7 @@ participant C as Serviço C
 
 participant T as Serviço de Transações
 
-  
+
 
 S->>T: Iniciar Transação
 
@@ -38,7 +37,7 @@ T->>S: Confirma Conclusão
 
 Em caso de falha em um dos serviços, há um processo de compensação para reverter as ações anteriores:
 
-  
+
 
 ```mermaid
 
@@ -52,7 +51,7 @@ participant T as Serviço de Transações
 
 participant R as Reversão
 
-  
+
 
 S->>T: Iniciar Transação
 
@@ -68,13 +67,12 @@ R->>S: Confirma Reversão
 
 ```
 
-  
+
 
 ## CQRS (Command Query Responsibility Segregation)
-
 O CQRS separa as responsabilidades de leitura e escrita. Os comandos são usados para alterar o estado, enquanto as consultas (queries) são usadas para leitura.
 
-  
+
 
 ```mermaid
 
@@ -88,7 +86,7 @@ participant R as Serviço de Leitura
 
 participant DB as Banco de Dados
 
-  
+
 
 C->>S: Enviar Comando
 
@@ -98,7 +96,7 @@ DB->>S: Confirma Modificação
 
 S->>C: Resposta ao Comando
 
-  
+
 
 C->>R: Enviar Consulta
 
@@ -110,13 +108,12 @@ R->>C: Retorna Resposta
 
 ```
 
-  
+
 
 ## Event Sourcing
-
 Event Sourcing envolve armazenar todos os eventos que alteram o estado do sistema, ao invés de armazenar o estado atual. O sistema reconstruí o estado através desses eventos.
 
-  
+
 
 ```mermaid
 
@@ -128,7 +125,7 @@ participant ES as Event Store
 
 participant S as Serviço
 
-  
+
 
 C->>S: Enviar Comando
 
@@ -142,7 +139,7 @@ ES->>S: Evento Armazenado
 
 S->>C: Resposta ao Cliente
 
-  
+
 
 C->>S: Consultar Estado
 
@@ -157,10 +154,9 @@ S->>C: Retorna Estado
 ```
 
 ## Arquitetura Orientada a Eventos (Event-Driven Architecture - EDA)
-
 Na Arquitetura Orientada a Eventos, o sistema reage aos eventos em vez de realizar chamadas diretas entre os serviços.
 
-  
+
 
 ```mermaid
 
@@ -172,7 +168,7 @@ participant E as Event Bus
 
 participant C as Consumer
 
-  
+
 
 P->>E: Publica Evento
 
@@ -182,21 +178,20 @@ C->>C: Processa Evento
 
 ```
 
-  
+
 
 Aqui, o Publisher envia eventos para um barramento de eventos (Event Bus), que então entrega esses eventos aos consumidores interessados.
 
-  
+
 
 ## Transações Distribuídas
-
 Em um sistema distribuído, as transações podem ser complexas devido à latência e à falha de serviços. Aqui, você pode usar abordagens como o Two-Phase Commit (2PC) ou o Three-Phase Commit (3PC).
 
-  
+
 
 ### Two-Phase Commit (2PC):
 
-  
+
 
 ```mermaid
 
@@ -208,7 +203,7 @@ participant S1 as Serviço 1
 
 participant S2 as Serviço 2
 
-  
+
 
 C->>S1: Solicitar Prepare
 
@@ -231,10 +226,8 @@ C->>C: Transação Concluída
 ```
 
 ### Compensação de Transações
-
 Quando há falha em uma transação e a reversão das etapas anteriores é necessária, pode-se usar a compensação para desfazer as ações.
 
-  
 
 ```mermaid
 
@@ -244,7 +237,7 @@ participant T as Serviço de Transações
 
 participant S as Serviço
 
-  
+
 
 T->>S: Enviar Comando A
 

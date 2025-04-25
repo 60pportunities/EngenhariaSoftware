@@ -1,10 +1,10 @@
-No contexto de metodologias ágeis, como Scrum, as **sprints** são ciclos de trabalho iterativos e curtos, geralmente variando de uma a quatro semanas, destinados a entregar incrementos de valor tangíveis. 
+No contexto de metodologias ágeis, como Scrum, as **sprints** são ciclos de trabalho iterativos e curtos, geralmente variando de uma a quatro semanas, destinados a entregar incrementos de valor tangíveis.
 
 A padronização do calendário dessas sprints é crucial para otimizar a eficiência, a colaboração e a previsibilidade dos projetos. Abaixo, destacam-se os principais motivos para estabelecer essa estruturação:
 ## **Previsibilidade e Planejamento Eficiente**
-Um calendário padronizado define claramente o início e o fim de cada sprint, permitindo que a equipe alinhe expectativas e priorize tarefas com antecedência. 
+Um calendário padronizado define claramente o início e o fim de cada sprint, permitindo que a equipe alinhe expectativas e priorize tarefas com antecedência.
 
-Isso reduz a incerteza e facilita a estimativa de prazos, evitando conflitos de agenda e sobrecarga de trabalho. 
+Isso reduz a incerteza e facilita a estimativa de prazos, evitando conflitos de agenda e sobrecarga de trabalho.
 
 **Por exemplo**: Sprints fixas de duas semanas criam um ritmo previsível, ajudando o Product Owner a refinar o backlog de forma consistente.
 
@@ -14,7 +14,7 @@ Em projetos complexos, com múltiplas equipes , um calendário unificado garante
 Sem sincronia, o risco de retrabalho e descompasso nas entregas aumenta significativamente.
 
 ## **Gestão Eficaz de Recursos e Envolvimento de Stakeholders**
-Com datas fixas para cerimônias como _Sprint Planning_, _Review_ e _Retrospective_, os membros da equipe e stakeholders podem planejar sua participação com antecedência. 
+Com datas fixas para cerimônias como _Sprint Planning_, _Review_ e _Retrospective_, os membros da equipe e stakeholders podem planejar sua participação com antecedência.
 
 Isso assegura maior engajamento nas revisões de progresso e decisões estratégicas, além de otimizar a alocação de recursos humanos e técnicos.
 

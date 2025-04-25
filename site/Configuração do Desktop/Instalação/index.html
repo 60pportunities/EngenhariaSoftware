@@ -34,7 +34,7 @@ $ Lighthouse
 $ JUnit
 $ Mockito
 </code></pre></div> <h2 id=cobertura-de-codigo>Cobertura de Código<a class=headerlink href=#cobertura-de-codigo title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ JaCoCo
-</code></pre></div> <h2 id=container>Container<a class=headerlink href=#container title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ Docker 
+</code></pre></div> <h2 id=container>Container<a class=headerlink href=#container title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ Docker
 $ Docker Compose
 </code></pre></div> <h2 id=monitoramento>Monitoramento<a class=headerlink href=#monitoramento title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ Prometheus
 $ Grafana
@@ -42,15 +42,15 @@ $ SigNoz
 </code></pre></div> <h2 id=git>Git<a class=headerlink href=#git title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ brew install git          #
 $ brew install git-flow     #
 $ brew install git-lfs      #
-$ brew install git-secrets  # 
-$ brew install gitleaks     # senhas,chaves API, tokens repositório   
-$ brew install pre-commit   #  
+$ brew install git-secrets  #
+$ brew install gitleaks     # senhas,chaves API, tokens repositório
+$ brew install pre-commit   #
 $ brew install osv-scanner  # Vulnerabilidades dependências do seu projeto
 $ brew install gh           # GitHub CLI
 $ brew install act          # GitHub Actions CLI
 </code></pre></div> <h2 id=maven>Maven<a class=headerlink href=#maven title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ brew install maven        #
 </code></pre></div> <h2 id=python>Python<a class=headerlink href=#python title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-$ brew install python       #    
+$ brew install python       #
 $ brew install python3      #
 </code></pre></div> <h2 id=pip>Pip<a class=headerlink href=#pip title="Permanent link">¶</a></h2> <div class=highlight><pre><span></span><code>$ pip list                         #
 $ pip install -r requirements.txt  #
@@ -96,15 +96,15 @@ document$.subscribe(() => { lightbox.reload() });
                     iFrameID.style.height = full_height;
                 }
             }
-        
+
             let iframe_id_list = []
             var iframes = document.getElementsByClassName("swagger-ui-iframe");
-            for (var i = 0; i < iframes.length; i++) { 
+            for (var i = 0; i < iframes.length; i++) {
                 iframe_id_list.push(iframes[i].getAttribute("id"))
             }
-        
+
             let ticking = true;
-            
+
             document.addEventListener('scroll', function(e) {
                 if (!ticking) {
                     window.requestAnimationFrame(()=> {
@@ -124,9 +124,9 @@ document$.subscribe(() => { lightbox.reload() });
                     ticking = true;
                 }
             });
-        
+
             const dark_scheme_name = "slate"
-            
+
             window.scheme = document.body.getAttribute("data-md-color-scheme")
             const options = {
                 attributeFilter: ['data-md-color-scheme'],

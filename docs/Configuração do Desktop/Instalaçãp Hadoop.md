@@ -6,7 +6,7 @@
 
 > hadoop version
 
-  
+
 
 ```
 
@@ -28,14 +28,14 @@ This command was run using /opt/homebrew/Cellar/hadoop/3.4.1/libexec/share/hadoo
 
 cd /opt/homebrew/Cellar/hadoop/3.4.1/libexec/etc/hadoop/
 
-  
+
 
 hadoop-env.sh
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
 
-  
-  
+
+
 
 core-site.xml
 
@@ -51,8 +51,8 @@ core-site.xml
 
 </configuration>
 
-  
-  
+
+
 
 hdfs-site.xml
 
@@ -68,11 +68,11 @@ hdfs-site.xml
 
 </configuration>
 
-  
+
 
 mapred-site.xml
 
-  
+
 
 <configuration>
 
@@ -94,11 +94,11 @@ mapred-site.xml
 
 </configuration>
 
-  
+
 
 yarn-site.xml
 
-  
+
 
 <configuration>
 
@@ -120,8 +120,8 @@ yarn-site.xml
 
 </configuration>
 
-  
-  
+
+
 
 > hadoop namenode -format
 

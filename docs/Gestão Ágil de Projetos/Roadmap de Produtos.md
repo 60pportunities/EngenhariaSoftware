@@ -34,7 +34,6 @@ Portanto, sua elaboração é não apenas necessária, mas crítica para o suces
 
 ##### Objetivo Principal: [Ex: Liderança de mercado em X]
 
-
 | Trimestre | Iniciativa                  | Métrica de Sucesso       | Dados de Apoio            |
 | --------- | --------------------------- | ------------------------ | ------------------------- |
 | Q1        | Lançamento do Módulo A      | +15% de retenção         | Pesquisa com 200 clientes |
@@ -61,7 +60,7 @@ excludes weekends
 
 %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
-  
+
 
 section Desenvolvimento
 
@@ -180,7 +179,7 @@ Os testes automatizados desempenham um papel crítico no processo de CI por vár
 - [ ] **Ambiente de teste consistente**: testes automatizados são executados em um ambiente consistente, reduzindo a probabilidade de discrepâncias entre execuções de teste e garantindo um processo de validação confiável.
 - [ ] **Colaboração aprimorada**: com testes automatizados em vigor, os membros da equipe podem ter mais confiança na estabilidade da base de código, facilitando a colaboração em novos recursos e correções de bugs.
 
-  
+
 
 Existem vários tipos de testes que você pode incorporar em seus fluxos de trabalho de CI, dependendo dos requisitos do seu projeto e do nível de validação necessário:
 
@@ -193,7 +192,7 @@ Existem vários tipos de testes que você pode incorporar em seus fluxos de trab
 A cobertura de código é uma métrica importante que mede a porcentagem do seu código que é executada durante o teste.
 
 Ela ajuda os desenvolvedores a identificar áreas do código que podem não ser testadas adequadamente e exigem testes adicionais para garantir a correção e a confiabilidade.
-  
+
 ### Introdução à Cobertura de Código
 A cobertura de código é uma métrica que quantifica o grau em que o código-fonte de um programa é testado por um conjunto de testes específico.
 
@@ -257,7 +256,7 @@ Certifique-se de criar um ambiente dedicado para cada estágio do seu pipeline d
 | **Benefício Principal**    | Identificação precoce de problemas de integração e qualidade do código | Liberação mais rápida e controlada para produção, com menos risco de falhas | Entrega contínua, com mudanças sendo rapidamente disponibilizadas para os usuários |
 | **Foco**                   | Automatizar testes e integração de código                              | Garantir que o código esteja pronto para produção a qualquer momento        | Automatizar todo o processo, incluindo o deploy em produção                        |
 | **Exemplo de Workflow**    | Desenvolvedor envia código → Testes e integração contínuos             | Código aprovado → Pré-produção → Aprovação manual → Deploy em produção      | Código aprovado → Deploy automático em produção                                    |
-  
+
 
 ```mermaid
 
@@ -275,7 +274,7 @@ participant UserAcceptTest as User Acceptance Test
 
 participant Release as Release
 
-  
+
 
 %% Continuous Integration (CI)
 
@@ -327,7 +326,7 @@ end
 
 ```
 
-  
+
 # Termos
 
 

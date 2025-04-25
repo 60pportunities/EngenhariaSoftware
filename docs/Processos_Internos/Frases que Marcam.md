@@ -29,7 +29,7 @@
 - [ ] [Eric Evans e os padrões sugeridos no DDD](https://domainlanguage.com/ddd/reference/)?
 - [ ] [O que Martin Fowler escreveu em Refactoring](https://martinfowler.com/books/refactoring.html)
 - [ ] [Ironico a origem do termo cascata é frequentemente citado como sendo um artigo publicado em 1970 por W. W. Royce](https://agile.pub/assuntos-diversos/a-grande-mentira-do-waterfall/)
-  
+
 ### Métricas
 - [ ] [Dora Métrics](https://dora.dev/)
 - [ ] [Se for falar de Métricas, como Chidamber & Kemerer chegaram no seu conjunto de métricas](https://www.aivosto.com/project/help/pm-oo-ck.html)?
@@ -37,5 +37,5 @@
 - [ ] Taxa de rotatividade (churn rate);
 - [ ] Duração da sessão;
 - [ ] DAU (Daily Active Users) e MAU (Monthly Active Users);
-  
-    - [ ] 
+
+    - [ ]

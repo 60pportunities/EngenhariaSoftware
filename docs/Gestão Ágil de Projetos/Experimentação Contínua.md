@@ -1,6 +1,6 @@
 A **Experimentação Contínua (EC)** é uma abordagem sistemática para testar hipóteses, validar suposições e iterar rapidamente em produtos de software, visando melhorar continuamente a experiência do usuário, a eficiência operacional e o valor de negócio.
 
-Adota um ciclo de **construir-medir-aprender**, permitindo que equipes ajustem estratégias com base em dados reais. 
+Adota um ciclo de **construir-medir-aprender**, permitindo que equipes ajustem estratégias com base em dados reais.
 
 Essa metodologia é essencial em ambientes ágeis e de inovação, como startups e empresas de tecnologia.
 
@@ -17,7 +17,7 @@ Essa metodologia é essencial em ambientes ágeis e de inovação, como startups
 ### **Dados como Base**
 
 - **Métricas objetivas**: Uso de ferramentas como Google Analytics ou A/B testing
-- **Decisões baseadas em evidências**, não em opiniões.    
+- **Decisões baseadas em evidências**, não em opiniões.
 ### **Autonomia das Equipes**
 
 - Times multifuncionais (devs, designers, product managers) têm liberdade para propor e executar testes.
@@ -31,15 +31,15 @@ Essa metodologia é essencial em ambientes ágeis e de inovação, como startups
 ### **Feature Flags**
 
 - Liberação progressiva de funcionalidades para grupos específicos (ex.: 10% dos usuários).
-- Permite rollback rápido em caso de problemas.    
+- Permite rollback rápido em caso de problemas.
 ### **Prototipagem Rápida**
 
 - Ferramentas como Figma ou Marvel para testar UX antes do desenvolvimento.
-    
+
 ### **Análise de Comportamento**
 
 - Heatmaps (Hotjar), gravações de sessão e funis de conversão (Mixpanel).
-    
+
 
 ## **Benefícios**
 
@@ -54,7 +54,7 @@ Essa metodologia é essencial em ambientes ágeis e de inovação, como startups
 ### **Alinhamento com o Mercado**
 
 - Produtos evoluem conforme as necessidades reais dos usuários.
-    
+
 
 ### **Cultura Inovadora**
 
@@ -74,14 +74,14 @@ Essa metodologia é essencial em ambientes ágeis e de inovação, como startups
 
 ## **Em resumo**
 
-A Experimentação Contínua transforma o desenvolvimento de software em um processo dinâmico e orientado a dados. 
+A Experimentação Contínua transforma o desenvolvimento de software em um processo dinâmico e orientado a dados.
 
-Empresas como Google, Airbnb e Spotify já adotaram essa abordagem para manterem-se competitivas. 
+Empresas como Google, Airbnb e Spotify já adotaram essa abordagem para manterem-se competitivas.
 
 A chave está em equilibrar velocidade com rigor científico, garantindo que cada teste gere aprendizados válidos e acionáveis.
 
 - [ ] Definir métricas-chave (KPIs).
-- [ ] Escolher ferramentas de análise.    
+- [ ] Escolher ferramentas de análise.
 - [ ] Começar com testes pequenos e escalar gradualmente.
 
 

@@ -12,7 +12,7 @@
    - [ ] Features: Divisões práticas de Épicos, com entregas de maior porte e visibilidade clara de progresso. 
    - [ ] PBIs (Product Backlog Items): Representam funcionalidades detalhadas e prontas para serem desenvolvidas. 
    - [ ] Tarefas: Para decompor PBIs em atividades técnicas, o que é necessário para realizar o PBI. 
-   
+
 Essa organização proporciona clareza e flexibilidade ao time, garantindo que o esforço esteja concentrado nas entregas prioritárias. 
 
 #### **Abordagem Iterativa e Incremental** 

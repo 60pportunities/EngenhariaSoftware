@@ -29,7 +29,7 @@
 ## Publicações
 
 - [ ] [REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629)
-  
+
 ## Dicas
 
 - [ ] [LumaAI](https://lumalabs.ai/genie?view=create)
@@ -91,7 +91,7 @@
 - [ ] [Slack Team](https://firstcontributions.github.io/assets/Readme/join-slack-team.png)
 - [ ] [License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 - [ ] [Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)
-- [ ] [CodeTriage](https://www.codetriage.com/roshanjossey/first-contributions)  
+- [ ] [CodeTriage](https://www.codetriage.com/roshanjossey/first-contributions)
 
 ## Github
 
@@ -172,14 +172,14 @@
 - [ ] [Profile Readme](https://rahuldkjain.github.io/gh-profile-readme-generator/)
 - [ ] [Profile Header Generator](https://leviarista.github.io/github-profile-header-generator/)
 - [ ] [Octocat](https://myoctocat.com/build-your-octocat/)
-- [ ] [Receba as últimas notícias sobre desenvolvedores e código aberto](https://github.com/explore)  
+- [ ] [Receba as últimas notícias sobre desenvolvedores e código aberto](https://github.com/explore)
 # Métricas
 - [ ] [DevEx](https://queue.acm.org/detail.cfm?id=3595878)
 - [ ] [Space](https://www.swarmia.com/blog/space-framework/?utm_term=the%20space%20framework&utm_campaign=HD-Swarmia-Search-ROW-Generic-Blog&utm_source=adwords&utm_medium=ppc&hsa_acc=6644081770&hsa_cam=21882015818&hsa_grp=169933363893&hsa_ad=721798181502&hsa_src=g&hsa_tgt=kwd-2169789345580&hsa_kw=the%20space%20framework&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToWtJmPS5VzaGFenBwIhMK4GXARSX3MVKnrFDRczFzFUeOVu-s-U9acaAjuLEALw_wcB)
 - [ ] [Dora Metrics](https://dora.dev/guides/dora-metrics-four-keys/)
 - [ ] [DevRel](https://roadmap.sh/devrel)
 - [ ] [InnerSource](https://innersourcecommons.org/pt-br/)
-  
+
 |                                   Links                                   |
 | :-----------------------------------------------------------------------: |
 |                 [.NET Fiddle](https://dotnetfiddle.net/)                  |
@@ -235,11 +235,11 @@
 |                    [WordPress](https://wordpress.org/)                    |
 |               [XML Sitemaps](https://www.xml-sitemaps.com/)               |
 
-  
+
 
 ## 📝 IDEs y editores de código
 
-  
+
 
 | Links |
 | :----------:|
@@ -261,7 +261,7 @@
 
 ## 🔤 Linguagens de Programação
 
-  
+
 
 | Links |
 | :----------: |

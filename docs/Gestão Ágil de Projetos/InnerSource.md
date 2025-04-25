@@ -10,25 +10,25 @@ O termo "InnerSource" foi cunhado por Tim O'Reilly em 2000, ganhando força com 
 - [ ] **Colaboração Assíncrona:** Discussões abertas via ferramentas como wikis e fóruns.
 - [ ] **Governança Meritocrática:** Contribuições avaliadas por mérito, não hierarquia.
 
-Empresas como SAP, Microsoft, Google e PayPal integraram o InnerSource em suas culturas. A Microsoft, por exemplo, adotou o "One Engineering System" para unificar equipes. 
+Empresas como SAP, Microsoft, Google e PayPal integraram o InnerSource em suas culturas. A Microsoft, por exemplo, adotou o "One Engineering System" para unificar equipes.
 
 Ferramentas como GitHub Enterprise e GitLab facilitaram a gestão de contribuições, enquanto métricas como "Pull Requests" internos tornaram-se indicadores de produtividade.
 
 A resistência à mudança foi um obstáculo significativo. Empresas tradicionais enfrentaram:
 
 - [ ] **Protecionismo de Equipes:** Medo de perda de controle sobre projetos.
-- [ ] **Questões de Propriedade Intelectual:** Equilíbrio entre compartilhamento e segurança.  
+- [ ] **Questões de Propriedade Intelectual:** Equilíbrio entre compartilhamento e segurança.
 
 Soluções incluíram programas de incentivo, documentação clara e "campeões" de InnerSource para promover a cultura.
 
-Hoje, o InnerSource expande-se para áreas como documentação colaborativa e integração com DevOps. 
+Hoje, o InnerSource expande-se para áreas como documentação colaborativa e integração com DevOps.
 
 A pandemia acelerou sua adoção, já que equipes remotas exigem transparência e autonomia. Tendências futuras incluem:
 
 - [ ] **Inteligência Artificial:** Ferramentas de IA para moderar contribuições.
 - [ ] **Globalização de Talentos:** Colaboração entre filiais internacionais.
-    
-O InnerSource democratiza a inovação corporativa. 
+
+O InnerSource democratiza a inovação corporativa.
 
 Ao aprender com o passado e abraçar a abertura, as organizações não apenas aceleram o desenvolvimento técnico, mas também cultivam um legado de cooperação que ecoa as grandes revoluções colaborativas da história.
 
@@ -118,4 +118,3 @@ O InnerSource Commons cataloga padrões para ajudar a implementar o InnerSource 
 - [ ]  A implementação do InnerSource requer tempo, paciência e persistência.
 - [ ]  O InnerSource pode coexistir com outras iniciativas como Agile.
 - [ ]  O InnerSource Commons é um recurso valioso para quem procura implementar o InnerSource.
-

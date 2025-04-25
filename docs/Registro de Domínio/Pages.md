@@ -15,7 +15,7 @@ O GitHub Pages é uma funcionalidade do GitHub que permite hospedar sites estát
 - [ ] Adicione algum conteúdo HTML básico.
 - [ ] Após adicionar o conteúdo, clique em "Commit changes".
 - [ ] Por exemplo:
-  
+
 ```
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -43,7 +43,7 @@ O GitHub Pages é uma funcionalidade do GitHub que permite hospedar sites estát
 - [ ] Adicionar Mais Páginas: Crie novos arquivos HTML (por exemplo, sobre.html, contato.html) e vincule-os no seu index.html para navegar entre as páginas.
 - [ ] Atualizando o Conteúdo
 - [ ] Para atualizar seu site, faça alterações nos arquivos no repositório e faça novos commits. O GitHub Pages automaticamente refletirá essas mudanças no site.
-  
+
 **Observação**:
 
 - [ ] A configuração básica seria esta, porem iremos utilizar o conceito de DaC (Doc as Code);

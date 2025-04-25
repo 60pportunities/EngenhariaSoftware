@@ -10,7 +10,7 @@ A primeira tarefa do time é decidir qual vai ser a unidade de código que será
 
 Intrisc Complex Point (ou Ponto de Complexidade Intrínseca) no Cognitive-Driven Development.
 
-Aqui não existe regra, o objetivo do Cognitive-Driven Development (CDD) não é achar uma composição de Ponto de Complexidade Intrínseca (ICP) que forme uma métrica perfeita. 
+Aqui não existe regra, o objetivo do Cognitive-Driven Development (CDD) não é achar uma composição de Ponto de Complexidade Intrínseca (ICP) que forme uma métrica perfeita.
 
 A ideia é que a equipe, considerando suas características, encontre os ICP que façam sentido para aquele contexto.
 

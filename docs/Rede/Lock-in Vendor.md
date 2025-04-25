@@ -1,4 +1,4 @@
-Refere-se a uma situação em que uma empresa se torna dependente de um fornecedor específico, tornando difícil ou caro mudar para um concorrente. 
+Refere-se a uma situação em que uma empresa se torna dependente de um fornecedor específico, tornando difícil ou caro mudar para um concorrente.
 
 O aprisionamento tecnológico se refere a uma situação em que o custo de se trocar um fornecedor por outro diferente é tão alto que o cliente fica basicamente preso ao fornecedor original.
 ## Como evitar ou mitigar os riscos

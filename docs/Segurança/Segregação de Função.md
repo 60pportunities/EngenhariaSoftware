@@ -1,4 +1,4 @@
-A **Segregação de Funções** (Segregation of Duties - SoD), é um princípio de controle interno que visa **minimizar riscos de fraudes, erros e conflitos de interesse** ao distribuir responsabilidades críticas entre diferentes indivíduos ou equipes. 
+A **Segregação de Funções** (Segregation of Duties - SoD), é um princípio de controle interno que visa **minimizar riscos de fraudes, erros e conflitos de interesse** ao distribuir responsabilidades críticas entre diferentes indivíduos ou equipes.
 
 A ideia central é garantir que nenhuma pessoa tenha controle exclusivo sobre todas as etapas de um processo crítico, criando um sistema de **verificação cruzada** e **equilíbrio de poder**.
 
@@ -9,15 +9,14 @@ Essa prática é fundamental em áreas como finanças, operações, TI e complia
 | **Financeiro** | Um funcionário aprova despesas e emite pagamentos.         | Separar quem **aprova despesas** de quem **emite pagos**.                    |
 | **TI**         | Um administrador cria usuários e aprova acesso a sistemas. | Dividir funções entre **criação de usuários** e **aprovação de permissões**. |
 | **Estoque**    | Um colaborador gerencia inventário e registra perdas.      | Separar **gestão física do estoque** de **registro contábil**.               |
-
 #### **Princípios Básicos da SoD**
 
-1. **Separação entre Autorização, Execução e Registro**:
-    - Quem **autoriza** uma transação não deve ser o mesmo que a **executa** ou **registra** (ex.: compras, pagamentos).
-2. **Separação entre Custódia e Controle**:
-    - Quem tem acesso físico ou lógico a ativos (dinheiro, dados) não deve ser responsável por sua contabilização.
-3. **Revisão Independente**:
-    - Auditorias periódicas por terceiros para validar a integridade dos processos.
+- [ ] **Separação entre Autorização, Execução e Registro**:
+	- [ ] Quem **autoriza** uma transação não deve ser o mesmo que a **executa** ou **registra** (ex.: compras, pagamentos).
+- [ ] **Separação entre Custódia e Controle**:
+	- [ ] Quem tem acesso físico ou lógico a ativos (dinheiro, dados) não deve ser responsável por sua contabilização.
+- [ ] **Revisão Independente**:
+	- [ ] Auditorias periódicas por terceiros para validar a integridade dos processos.
 #### **Controle de Acesso**
 O controle de acesso autentica usuários verificando várias credenciais de login, incluindo nomes de usuários e senhas, PINs, varreduras biométricas e tokens de segurança.
 
@@ -63,5 +62,3 @@ A autorização é um lugar onde controlamos o acesso, decidindo o que uma pesso
 	- [ ] Exemplo: um usuário pode fazer upload de arquivos com um limite de até 10 GB por mês.
 - [ ] **Agosto Controle de acesso baseado em tarefas (TBAC)**: O acesso é concedido com base nas tarefas que o usuário precisa executar.
 	- [ ] Exemplo: Um usuário pode aprovar um documento somente se fizer parte da cadeia de tarefas de aprovação.
-
-·

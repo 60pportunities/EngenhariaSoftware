@@ -95,7 +95,7 @@ Aliás, você até pode usar essas imperfeições a seu favor.
 - [ ] Abandonar a vergonha é o melhor caminho para aceitar por completo as suas imperfeições. Vergonha é o medo de expor as próprias vulnerabilidades.
 - [ ] Por isso, se você quer usar as suas imperfeições a seu favor, você precisa deixar a vergonha de lado.
 - [ ] Muitas vezes, o sentimento de vergonha é muito mais doloroso do que o fato do qual você está se envergonhando.
-  
+
 Os problemas que criamos na nossa cabeça são muito mais poderosos do que os problemas que enfrentamos na vida real.
 
 - [ ] Na sabedoria popular, nós dizemos que os adolescentes se preocupam muito com o que os outros pensam deles.

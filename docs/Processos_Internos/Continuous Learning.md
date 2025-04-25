@@ -125,7 +125,7 @@ flowchart TD
 
 id7(Container) --> id701(Docker) & id702(Orquestração)
 
-  
+
 
 subgraph Orquestradores
 
@@ -322,9 +322,9 @@ id1006 --> Cultura
 ```
 
 
-  
+
 #### Documentação
-  
+
 
 
 
@@ -530,7 +530,7 @@ checkout develop
 merge main
 
 ```
-  
+
 
 ```
 name: CI/CD - GitFlow Go App
@@ -639,7 +639,7 @@ commit id: "Release"
 └── tests/ # Testes unitários
 ```
 
-  
+
 
 ```
 
@@ -650,25 +650,25 @@ FROM golang:1.21
 
 WORKDIR /app
 
-  
+
 
 # Copia os arquivos do projeto
 
 COPY . .
 
-  
+
 
 # Baixa as dependências
 
 RUN go mod tidy
 
-  
+
 
 # Compila a aplicação
 
 RUN go build -o main .
 
-  
+
 
 # Define o comando de execução
 
@@ -676,8 +676,8 @@ CMD ["/app/main"]
 
 ```
 
-  
-  
+
+
 
 ```
 name: CI - Go App

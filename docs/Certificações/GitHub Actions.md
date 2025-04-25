@@ -5,7 +5,7 @@ Também abordaremos alguns casos de uso e cenários comuns em que o GitHub Actio
 Ao final, você terá uma sólida compreensão dos conceitos fundamentais por trás do GitHub Actions e uma perspectiva clara sobre como ele pode beneficiar seus projetos de desenvolvimento.
 Esta base preparará o cenário para a exploração aprofundada do GitHub Actions nos capítulos subsequentes, onde nos aprofundaremos em tópicos mais avançados e implementações práticas.
 
-  
+
 
 | **Aspecto**                | **Continuous Integration (CI)**                                        | **Continuous Delivery (CD)**                                                | **Continuous Deployment (CD)**                                                     |
 | -------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -10375,4 +10375,3 @@ This appendix provides a curated list of useful GitHub Actions and integrations 
 - [x] snyk/actions: Scans your dependencies for vulnerabilities using Snyk, a popular open-source security platform.Repository: https://github.com/snyk/actions
 - [x] SonarCloud/github-action: Integrates SonarCloud, a cloud- based code quality and security analysis platform, into your GitHub Actions workflows.Repository: https://github.com/SonarCloud/github-action
 - [x] stale/stale: Automatically marks issues and pull requests as stale after a period of inactivity, and eventually closes them if no further activity occurs. Repository: https://github.com/stale/stale
-

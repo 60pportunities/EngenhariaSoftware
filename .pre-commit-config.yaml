@@ -1,0 +1,30 @@
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v5.0.0
+      hooks:
+          - id: trailing-whitespace
+          - id: end-of-file-fixer
+          - id: check-yaml
+            exclude: mkdocs.yml
+          - id: check-added-large-files
+
+    - repo: https://github.com/Yelp/detect-secrets
+      rev: v1.5.0
+      hooks:
+          - id: detect-secrets
+            args:
+                - '--baseline'
+                - '.secrets.baseline'
+                - 'package.lock.json|node_modules/.*'
+            stages: [commit]  # Executa apenas no estágio de commit
+            always_run: true  # Garante que o hook sempre será executado
+    - repo: https://github.com/google/osv-scanner
+      rev: v1.9.2  # Certifique-se de usar a versão mais recente
+      hooks:
+          - id: osv-scanner
+            args:
+                - '--recursive'  # Escaneia recursivamente os diretórios
+                - '--json'       # Saída no formato JSON (opcional, para integração com outras ferramentas)
+                - '.'            # Diretório atual como alvo
+            stages: [commit, push]  # Executa no estágio de commit e push
+            always_run: true        # Garante que o hook sempre será executado

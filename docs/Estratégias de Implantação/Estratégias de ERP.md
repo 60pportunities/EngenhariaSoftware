@@ -30,7 +30,7 @@ Implementação de um ERP **do zero**, sem sistemas legados ou processos existe
 - [ ] Sistema completamente novo (sem reaproveitar o legado).
    - [ ] **Início fresco**: A empresa não possui ERP anterior ou opta por ignorar processos legados.
 - [ ]  Ideal para empresas que querem transformar seus processos.
-  - [ ] **Flexibilidade**: Permite adotar as melhores práticas do mercado e configurar o sistema de forma ideal.  
+  - [ ] **Flexibilidade**: Permite adotar as melhores práticas do mercado e configurar o sistema de forma ideal.
 - [ ] Usado com frequência em projetos de **SAP S/4HANA Cloud ou On-Premise**.
 - [ ] **Menor complexidade técnica**: Não há necessidade de integração com sistemas antigos ou migração massiva de dados.
 - [ ] Processos otimizados desde o início.
@@ -44,7 +44,7 @@ Implementação de um ERP **do zero**, sem sistemas legados ou processos existe
 
 #### **Brownfield (Terreno "Usado")**
 Implementação que **migra ou atualiza** um sistema ERP existente, preservando dados, processos ou integrações legadas.
-    
+
 - [ ] **Integração com legado**: Requer compatibilidade com sistemas antigos, dados históricos ou personalizações.
 - [ ]  **Complexidade técnica**: Desafios como migração de dados, treinamento de usuários e adaptação de processos.
 - [ ] **Foco em evolução**: Melhoria incremental, não reinvenção total.

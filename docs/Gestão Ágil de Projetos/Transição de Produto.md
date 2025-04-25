@@ -1,4 +1,4 @@
-A transição de software para a equipe de sustentação é uma etapa crítica no ciclo de vida do desenvolvimento de software. 
+A transição de software para a equipe de sustentação é uma etapa crítica no ciclo de vida do desenvolvimento de software.
 
 Essa transição geralmente envolve uma série de atividades para garantir que o projeto seja entregue com sucesso e que a equipe de sustentação possa assumir a responsabilidade pela operação contínua do software.
 

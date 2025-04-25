@@ -1,12 +1,12 @@
 Em 2022, foi realizado uma pesquisa que estimou o custo da má qualidade de software nos EUA, aponta um crescimento para pelo menos US$ 2,41 trilhões, mas não em proporções semelhantes  às vistas em 2020.
 
-A Dívida Técnica (TD) acumulada de software cresceu para ~![US$ 1,52 trilhão](pdf/cpsq-report-nov-22-2.pdf)
+A Dívida Técnica (TD) acumulada de software cresceu para ~![US$ 1,52 trilhão](../pdf/cpsq-report-nov-22-2.pdf)
 
 As três principais áreas problemáticas nas quais nos concentramos no relatório deste ano são:
 
-- [x] As perdas por crimes cibernéticos devido a vulnerabilidades de software;
-- [x] Os problemas da cadeia de fornecimento de software com componentes subjacentes de terceiros (especialmente software de código aberto, também conhecido como OSS) aumentaram significativamente;
-- [x] Dívida Técnica (DT) tornou-se o maior obstáculo para fazer quaisquer alterações nas bases de código existentes;
+- [ ] As perdas por crimes cibernéticos devido a vulnerabilidades de software;
+- [ ] Os problemas da cadeia de fornecimento de software com componentes subjacentes de terceiros (especialmente software de código aberto, também conhecido como OSS) aumentaram significativamente;
+- [ ] Dívida Técnica (DT) tornou-se o maior obstáculo para fazer quaisquer alterações nas bases de código existentes;
 
 ![](../img/ISO-25010-Quality-Characteristics-img.png)
 
@@ -31,9 +31,10 @@ O custo para consertar problemas estruturais de qualidade constitui o principal 
 
 A medida expressa o custo da qualidade do software em termos que uma empresa pode entender estimando custos futuros de manutenção corretiva para remediar defeitos estruturais no código.
 
-O CISQ entrevistou desenvolvedores em várias organizações para estimar quanto tempo levaria para corrigir cada uma das fraquezas em um código bem construído. As estimativas forneceram valores padrão para o esforço para corrigir cada fraqueza. Para calcular a Dívida Técnica, ajustamos o valor padrão para cada ocorrência de uma fraqueza específica por fatores que afetam a dificuldade de corrigi-la, como a complexidade do componente, sua exposição ao resto do sistema, etc. Os esforços ajustados para cada ocorrência são somados para produzir um esforço total de correção para essa fraqueza. O esforço total de correção para as fraquezas em uma característica de qualidade é somado para criar um esforço de correção para essa característica. Finalmente, os esforços de correção para as quatro características de qualidade são somados para produzir a medida da Dívida Técnica.
+O CISQ entrevistou desenvolvedores em várias organizações para estimar quanto tempo levaria para corrigir cada uma das fraquezas em um código bem construído. As estimativas forneceram valores padrão para o esforço para corrigir cada fraqueza. Para calcular a Dívida Técnica, ajustamos o valor padrão para cada ocorrência de uma fraqueza específica por fatores que afetam a dificuldade de corrigi-la, como a complexidade do componente, sua exposição ao resto do sistema, etc.
 
-###
+Os esforços ajustados para cada ocorrência são somados para produzir um esforço total de correção para essa fraqueza. O esforço total de correção para as fraquezas em uma característica de qualidade é somado para criar um esforço de correção para essa característica. Finalmente, os esforços de correção para as quatro características de qualidade são somados para produzir a medida da Dívida Técnica.
+
 A modernização de TI continua a ser uma prioridade para reduzir o custo, aumentar a flexibilidade e melhorar a resiliência do software.
 
 Estamos vendo mais defensores da qualidade do código DevOps em equipes de desenvolvimento, e a gerência tem os dados sobre o custo do software de baixa qualidade e motivação que precisa para fornecer a cobertura aérea e o suporte para priorizar a qualidade do código DevOps.
@@ -85,13 +86,9 @@ Enquanto isso, uma pesquisa de 2024 com executivos e profissionais de tecnologia
 ![](../img/devops-toolchain-img.png)
 
 
-https://www.it-cisq.org/use-cases/devops-code-quality/
 
 ![](https://www.iso.org/standard/65378.html)
-![](pdf/formal-14-01-03.pdf)
-
-https://www.it-cisq.org/cisq-supplements-isoiec-25000-series-with-automated-quality-characteristic-measures/
-
+![](../pdf/formal-14-01-03.pdf)
 
 ### Pontos de Função Automatizados
 O padrão Automated Function Point (AFP) é usado para automatizar o dimensionamento funcional de aplicações de software orientadas a transações.
@@ -102,18 +99,18 @@ Quando necessário, os julgamentos subjetivos dos elementos de função foram re
 
 As organizações podem aplicar Pontos de Função Automatizados para medir o tamanho de um produto de software. Juntamente com outras medidas selecionadas, os pontos de função podem ser usados nas seguintes atividades:
 
-- [x] Análise de qualidade e produtividade de software
-- [x] Estimar os custos e recursos necessários para o desenvolvimento, aprimoramento e manutenção de software
-- [x] Calibrar métodos de estimativa em relação aos resultados de estimativas anteriores
-- [x] Contratação e gestão de contratos com integradores e terceirizados
-- [x] Normalização de dados usados em comparações de software
-- [x] Determinar o tamanho de um pacote de aplicativo comprado (COTS ou sistema personalizado) dimensionando toda a funcionalidade incluída no pacote
-- [x] Permitir aos usuários determinar o ROI de um aplicativo dimensionando a funcionalidade que corresponda especificamente aos requisitos de sua organização
+- [ ] Análise de qualidade e produtividade de software
+- [ ] Estimar os custos e recursos necessários para o desenvolvimento, aprimoramento e manutenção de software
+- [ ] Calibrar métodos de estimativa em relação aos resultados de estimativas anteriores
+- [ ] Contratação e gestão de contratos com integradores e terceirizados
+- [ ] Normalização de dados usados em comparações de software
+- [ ] Determinar o tamanho de um pacote de aplicativo comprado (COTS ou sistema personalizado) dimensionando toda a funcionalidade incluída no pacote
+- [ ] Permitir aos usuários determinar o ROI de um aplicativo dimensionando a funcionalidade que corresponda especificamente aos requisitos de sua organização
 
 ### Pontos de realce automatizados
 Automated Enhancement Points é uma medida padrão do tamanho do software a ser usado na análise de produtividade e no dimensionamento das atividades de manutenção de software.
 
-Acesse o padrão OMG aqui: ![Automated Enhancement Points](pdf/formal-17-04-03.pdf)
+Acesse o padrão OMG aqui: ![Automated Enhancement Points](../pdf/formal-17-04-03.pdf)
 
 Os Pontos de Aprimoramento Automatizados Melhoram a medição do tamanho do software para uso na análise de produtividade, medindo o tamanho funcional e não funcional do software.
 
@@ -121,9 +118,9 @@ Este é um avanço significativo no dimensionamento automatizado de software que
 
 Com esses dois padrões de análise de pontos de função e dimensionamento de software, as organizações podem:
 
-- [x] Realize a qualidade de software e análise de produtividade;
-- [x] Permitir que os usuários determinem o ROI de um aplicativo, dimensionando a funcionalidade que corresponde especificamente aos requisitos de suas organizações;
-- [x] Calibrar métodos de estimativa em relação aos resultados de estimativas anteriores;
-- [x] Medir e gerir contratos e acordos com integradores e terceirizados de sistemas;
-- [x] Normalizar os dados usados em benchmarks de software;
-- [x] Determinar o tamanho de um pacote de aplicativo comprado (COTS ou sistema personalizado) dimensionando todo o código incluído no pacote;
+- [ ] Realize a qualidade de software e análise de produtividade;
+- [ ] Permitir que os usuários determinem o ROI de um aplicativo, dimensionando a funcionalidade que corresponde especificamente aos requisitos de suas organizações;
+- [ ] Calibrar métodos de estimativa em relação aos resultados de estimativas anteriores;
+- [ ] Medir e gerir contratos e acordos com integradores e terceirizados de sistemas;
+- [ ] Normalizar os dados usados em benchmarks de software;
+- [ ] Determinar o tamanho de um pacote de aplicativo comprado (COTS ou sistema personalizado) dimensionando todo o código incluído no pacote;

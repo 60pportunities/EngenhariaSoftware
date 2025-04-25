@@ -11,14 +11,14 @@ Existem diferentes benefícios de uma revisão de código:
 - [ ] Verificar cobertura de testes;
 - [ ] Avaliar clareza, legibilidade e documentação;
 
-O que você deve procurar em uma revisão de código? 
+O que você deve procurar em uma revisão de código?
 - [ ] Design: isso se integra bem com o resto do sistema e as interações de diferentes componentes fazem sentido
 - [ ] Funcionalidade: isso muda o que o desenvolvedor pretendia
 - [ ] Complexidade: este código é mais complexo do que deveria ser;
 - [ ] Nomeação: nomear é significativo e claro?
 - [ ] Testes: são diferentes tipos de testes usados adequadamente, cobertura de código
 - [ ] Estilo: segue as diretrizes de estilo
-- [ ] Mensagens: Padronizadas 
+- [ ] Mensagens: Padronizadas
 
 Aqui estão algumas boas práticas ao fazer uma revisão de código:
 
@@ -28,7 +28,7 @@ Aqui estão algumas boas práticas ao fazer uma revisão de código:
 - [ ] Tente entender o que mudou - cada linha. Se necessário, leia-o várias vezes, classe por classe.
 - [ ] Comente com gentileza. Nunca mencione a pessoa (você), sempre se concentre nas mudanças como perguntas ou sugestões e deixe pelo menos um comentário positivo. Explique o "porquê" em seus comentários e sugira como melhorá-lo.
 - [ ] Aprove o PR quando for bom o suficiente. Não se esforce pela perfeição, mas mantenha altos padrões. Não seja um detalhista.
-- [ ] Torne as avaliações gerenciáveis em tamanho. Devemos limitar o número de linhas de código para revisão em uma revisão. Nossos cérebros não podem processar tanta informação de uma só vez. 
+- [ ] Torne as avaliações gerenciáveis em tamanho. Devemos limitar o número de linhas de código para revisão em uma revisão. Nossos cérebros não podem processar tanta informação de uma só vez.
 - [ ] O número ideal de LOC é de 200 a 400 linhas do núcleo de uma só vez, o que geralmente é de 60 a 90 minutos.
 
 #### Exemplo
@@ -45,7 +45,7 @@ Aqui estão algumas boas práticas ao fazer uma revisão de código:
    - [ ] Especialistas em domínios técnicos relevantes
 
 ##### **Checklist de Revisão**
-    
+
    - [ ] O código está limpo e legível?
    - [ ] Há testes automatizados cobrindo os novos casos?
    - [ ] O impacto em outras partes do sistema foi considerado?
@@ -54,7 +54,7 @@ Aqui estão algumas boas práticas ao fazer uma revisão de código:
    - [ ] Segue os padrões do repositório (lint, formatação, convenções)?
 
 ##### **Discussões e Feedback**
-    
+
    - [ ] Feedback deve ser construtivo e orientado a aprendizado.
    - [ ] O autor pode responder, discutir ou ajustar conforme necessário.
    - [ ] O objetivo é chegar a um consenso técnico.

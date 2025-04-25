@@ -2,14 +2,14 @@
 
 Mais projetos de software deram errado por falta de tempo no calendário do que por todas as outras causas combinadas. Por que essa causa de desastre é tão comum?
 
-- [x] Nossas técnicas de estimativa são mal desenvolvidas;
-- [x] Confundimos falaciosamente esforço com progresso, escondendo a suposição de que homens e meses são intercambiáveis.
-- [x] O progresso do cronograma é mal monitorado;
-- [x] Quando o atraso no cronograma é reconhecido, a resposta natural (e tradicional) é adicionar mão de obra;
+- [ ] Nossas técnicas de estimativa são mal desenvolvidas;
+- [ ] Confundimos falaciosamente esforço com progresso, escondendo a suposição de que homens e meses são intercambiáveis.
+- [ ] O progresso do cronograma é mal monitorado;
+- [ ] Quando o atraso no cronograma é reconhecido, a resposta natural (e tradicional) é adicionar mão de obra;
 
 Somos mais otimistas do que realistas.
 
-- [x] "Desta vez com certeza vai rodar" ou "Acabei de encontrar o último bug".
+- [ ] "Desta vez com certeza vai rodar" ou "Acabei de encontrar o último bug".
 - [ ] É assim que escrever, experimentar, "trabalhar fora" são disciplinas essenciais para o teórico.
 - [ ] O programador constrói a partir de puro pensamento: conceitos e representações muito flexíveis dos mesmos.
 - [ ] São muitas tarefas ou junções, logo, a probabilidade de que cada um dê certo torna-se extremamente pequena.
@@ -89,10 +89,10 @@ Um estudo composto por 600 engenheiros de software do Reino Unido e dos EUA desc
 
 ![](../img/agile_falha_estudo.png)
 
-- [x] O Manifesto Ágil existe há mais de 21 anos, mas continua a existir uma lacuna na investigação empírica quanto ao impacto real dos seus valores na indústria, apesar de pesquisas recentes terem descoberto que 81% dos decisores empresariais no Reino Unido e 89% nos EUA estão preocupados com a entrega pontual de projetos de software em suas organizações.
-- [x] Projetos nos quais o engenheiro de software relatou sentir-se psicologicamente seguro para discutir e resolver problemas rapidamente quando eles surgiram tiveram 87% mais chances de sucesso aqueles que não o fizeram.
-- [x] Os projetos onde os requisitos foram baseados com precisão em um problema do mundo real tiveram 54% mais chances de sucesso do que aqueles que não o fizeram.
-- [x] As seguintes práticas de engenharia de software tiveram os seguintes aumentos nas taxas de sucesso em comparação com quando não são usadas:
+- [ ] O Manifesto Ágil existe há mais de 21 anos, mas continua a existir uma lacuna na investigação empírica quanto ao impacto real dos seus valores na indústria, apesar de pesquisas recentes terem descoberto que 81% dos decisores empresariais no Reino Unido e 89% nos EUA estão preocupados com a entrega pontual de projetos de software em suas organizações.
+- [ ] Projetos nos quais o engenheiro de software relatou sentir-se psicologicamente seguro para discutir e resolver problemas rapidamente quando eles surgiram tiveram 87% mais chances de sucesso aqueles que não o fizeram.
+- [ ] Os projetos onde os requisitos foram baseados com precisão em um problema do mundo real tiveram 54% mais chances de sucesso do que aqueles que não o fizeram.
+- [ ] As seguintes práticas de engenharia de software tiveram os seguintes aumentos nas taxas de sucesso em comparação com quando não são usadas:
 
 | Prática de engenharia       | Aumento no sucesso ao usar versus não usar a prática (%) |
 | ----------          | ----------                                               |

@@ -30,7 +30,7 @@ merge hotfix/security
 ```
 #### **GitHub Flow**
 
-  
+
 ```mermaid
 gitGraph
 commit id: "Initial commit"
@@ -46,7 +46,7 @@ commit id: "Deploy to prod"
 
 #### **GitLab FLOW**
 
-  
+
 ```mermaid
 gitGraph
 commit id: "Initial commit"

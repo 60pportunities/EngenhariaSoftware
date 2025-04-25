@@ -1,4 +1,4 @@
-“Modernizando dados com propósito estratégico” é um relatório do MIT Technology Review Insights patrocinado pela Thoughtworks. 
+“Modernizando dados com propósito estratégico” é um relatório do MIT Technology Review Insights patrocinado pela Thoughtworks.
 
 Os dados se tornaram um componente cada vez mais crítico para o sucesso dos negócios.
 
@@ -70,7 +70,7 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 - [ ] Melhorar a acurácia das informações;
 - [ ] Unificar as empresas, sistemas e catálogos;
 - [ ] Auxiliar nas incorporações e consolidações de estoques;
-  
+
 Quando avaliamos a qualidade de nossos cadastros precisamos construir métricas, que permitam entender o atual cenário dos nossos dados.
 
 - [ ] **VALIDADE E CONFORMIDADE** : A validade determina se o valor preenchido corresponde ao padrão do campo. Isto é, por exemplo, teremos, apenas, valores monetários no campo “Renda”.
@@ -84,7 +84,7 @@ Quando avaliamos a qualidade de nossos cadastros precisamos construir métricas,
 | **Elemento de Dados** | É uma unidade de dados, que possui significado preciso ou semântica precisa. Por definição, um elemento de dados é indivisível. Número de conta, um nome, data de nascimento e etc.                                                                        |
 | **Domínio de Dados**  | Definido pelo usuário que representa o significado funcional de uma coluna com base nos dados da coluna ou no nome da coluna. Exemplos: número de Previdência Social, número do cartão de crédito e ID de e-mail. (Atributos, Relacionamento e Hirarquia). |
 | **Metadados**         | São dados que fornecem informações sobre outros dados.                                                                                                                                                                                                     |
-## Pontos Chaves 
+## Pontos Chaves
 
 - [ ] Modelo de Dados
 - [ ] Qualidade dos Dados
@@ -96,7 +96,7 @@ Quando avaliamos a qualidade de nossos cadastros precisamos construir métricas,
 
 ## Padronização da Descrição do Materia;l
 ### Código de Materiais
-Definir as políticas e regras relacionadas à manutenção do cadastro de materiais. 
+Definir as políticas e regras relacionadas à manutenção do cadastro de materiais.
 Centralização do cadastramento, abrangência, incorporações, homologação, saneamento dos estoques, gerenciamento de requisitos, processos para controle e auditoria, bem como responsabilidades funcionais.
 Em termos da identificação, o princípio mais importante que costumamos destacar no manual PDM é que “a finalidade do código é identificar, e não catalogar”, pois temos constatado que o equivoco mais usual é codificar os materiais por aplicação, no entanto aprendemos que “diferentes aplicações não determinam diferentes códigos”.
 Enfim, para identificar corretamente, o código deve possuir os seguintes atributos:

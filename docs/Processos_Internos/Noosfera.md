@@ -66,7 +66,7 @@ Qual é a parte mais desafiadora do desenvolvimento de software na sua organiza�
 ![](../img/innersource-002.jpg){width="300" height="200" style="display: block; margin: 0 auto"}
 
 - [ ] A transparência melhora a colaboração e permite que qualquer pessoa na empresa veja quando um projeto está saindo dos trilhos e ajude a corrigi-lo.
-  
+
 ## O que precisa MUDAR?
 
 - [ ] Informações que a documentação fornece - Leia;
@@ -218,7 +218,7 @@ A InnerSource pede documentação e transparência tanto no código quanto nas d
 
 - [ ] Padrões, processos e documentação são elementos importantes de colaboração que permitem que várias equipes produzam código para um projeto compartilhado.
 - [ ] Compartilhar padrões, processos e documentação junto com o próprio código os torna explícitos, bem como fáceis de consumir e manter.
-- [ ] Controle de versão, painéis de mensagens e outras ferramentas preservam um registro do que aconteceu e de quem contribuiu. A transparência e o acesso aberto que eles criam garantem visibilidade e, portanto, permitem o devido crédito por realizações em projetos da InnerSource.  
+- [ ] Controle de versão, painéis de mensagens e outras ferramentas preservam um registro do que aconteceu e de quem contribuiu. A transparência e o acesso aberto que eles criam garantem visibilidade e, portanto, permitem o devido crédito por realizações em projetos da InnerSource.
 - [ ] Colaboradores, committers confiáveis ​​e donos de produtos mantêm mais discussões sobre projetos para colaborar na busca de soluções.
 - [ ] A contribuição de outros donos de produtos incorpora conhecimento valioso sobre seus usuários, o histórico de seus projetos, obstáculos a serem observados e outras coisas. Isso faz com que a comunicação extra valha a pena.
 - [ ] A equipe técnica geralmente sai da faculdade ou de outros programas de treinamento com habilidades em programação e, talvez, engenharia e gerenciamento de projetos.
@@ -316,7 +316,7 @@ Esta claro com esta pesquisa, que a diferença entre software **corporativo** e 
 
 - [ ] **DevEx vs. Platform Engineering**:
     - [ ] DevEx foca na **experiência subjetiva** do desenvolvedor (ex.: facilidade de uso), enquanto Platform Engineering é sobre **infraestrutura técnica** (ex.: pipelines de CI/CD).
-    - [ ] Ambos são internos, mas Platform Engineering é mais técnico e operacional.  
+    - [ ] Ambos são internos, mas Platform Engineering é mais técnico e operacional.
 - [ ] **DevRel vs. DevEx**:
     - [ ] DevRel é **externo** (comunidade), enquanto DevEx é **interno** (equipes da empresa).
     - [ ]  DevRel busca **advocacy**; DevEx busca **eficiência**.

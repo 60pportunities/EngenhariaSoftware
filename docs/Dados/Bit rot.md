@@ -1,4 +1,4 @@
-Por definição, bit rot, seria a deterioração lenta do desempenho e da integridade dos dados armazenados em mídias de armazenamento . 
+Por definição, bit rot, seria a deterioração lenta do desempenho e da integridade dos dados armazenados em mídias de armazenamento .
 
 Também é conhecida pelos nomes de apodrecimento de dados, decaimento de dados e corrupção silenciosa. Quando ocorre, a deterioração de bits causa a corrupção dos dados, o que pode afetar negativamente sua acessibilidade ou utilidade.
 ## Prevenindo a Corrupção de Dados

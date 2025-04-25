@@ -33,7 +33,7 @@ G & E--> id2((Encerramento</br>Ticket))
 ```
 
 Efetua a leitura dos PRODUTOS que a PAT (Personal Access Token) tem acesso e salva através de um serviço no ORDS, as informações a serem consumidas pelo PowerBI.
-  
+
 ```mermaid
 
 flowchart LR
@@ -74,7 +74,7 @@ Ao findar o atendimento, o mesmo deverá produzir um relatório de incidente e f
 | Projeto   | Um projeto é um esforço temporário (deve ter datas de início e fim definidas) que tem como finalidade um resultado único e possui recursos delimitados (força de trabalho, materiais que serão utilizados, infraestrutura, verbas e prazos, colaboram para que não falte mão de obra para concluir o projeto ou que ele exceda a verba disponível).                                    |
 |           | Um projeto é *TUDO AQUILO* que precisamos realizar para gerar algo novo ou *mante-lo em funcionamento*: seja uma casa, um sistema informatizado, um estudo/pesquisa, um trabalho de conclusão de curso, uma contratação ou um compra importante.                                                                                                                                       |
 #### Controle de Chamados ao Fornecedor
-As contas serão divididas em dois grandes grupos, sendo Funcionais e Técnicos. 
+As contas serão divididas em dois grandes grupos, sendo Funcionais e Técnicos.
 
 - [ ] Um chamado aberto no fornecedor, tem que ser OBRIGATORIAMENTE, ser conhecido pelo Usuário Chave/Product Owner e Analista Funcional/Técnico.
 - [ ] Os chamados de suporte não poderão ser realizados em hipótese alguma na conta da Empresa fornecedora de serviço. Para tal utilizem os e-mails criados dois logins “papéis" e conta de e-mail objetivando a abertura e recebimento de notificações de forma única, evidenciando o problema a todos do projeto, para que os mesmos analisem o impacto em seus módulos. As pessoas envolvidas terão obrigatoriamente notificar o responsável pelo MÓDULO.
@@ -91,7 +91,7 @@ Podemos dizer que é uma ferramenta estratégica de autoatendimento, que tem com
 - [ ] Peça para que avalie o FAQ, sempre que possível.
 ## Solicitação de Serviço ou Projeto(NOVA DEMANDA)
 
-- [ ] Ao receber uma **NOVA DEMANDA**, a **EQUIPE RESPONSÁVEL** (SCRUM MASTER, PRODUCT MANAGER/OWNER e TIME) pelo **PRODUTO**, deverá efetuar a análise e priorização da mesma. 
+- [ ] Ao receber uma **NOVA DEMANDA**, a **EQUIPE RESPONSÁVEL** (SCRUM MASTER, PRODUCT MANAGER/OWNER e TIME) pelo **PRODUTO**, deverá efetuar a análise e priorização da mesma.
 - [ ] Para a PRIORIZAÇÃO deverá ser utilizada a MATRIZ - GUT (Gravidade, Urgência e Tendência) – **PRODUCT BACKLOG**.
 - [ ] O **TIME DO PRODUTO** (DEV, SCRUM MASTER, PO), analisará a DEMANDA e efeturá o entendimento, devendo criar a especificação funcional/não-funcional, histórias e critérios de aceitação. As histórias devem ser priorizadas para no mínimo 2(Duas) sprints. Os critérios de aceitação(DoD), devem ser **DEFINIDOS** e **ACORDADOS** pelo **TIME**.
 - [ ] As histórias deverão ser **PONTUADAS** em seu **TAMANHO**. Este **TAMANHO** deverá ser expresso em **HORAS**. Se o PO/STAKEHOLDER aprovar a especificação, prazo, deverá ser alocada a SPRINT-PLANNING, caso contrário deverá ser retomada o processo. Deverá ser levado em consideração **NÃO** só o desenvolvimento da **SOLUÇÃO**, bem como os **TESTES UNITÁRIOS**. - SPRINT-PLANNING/READY TO DEV
@@ -113,4 +113,3 @@ Podemos dizer que é uma ferramenta estratégica de autoatendimento, que tem com
 - [ ] Caso seja um concurrent ou job, o usuário deverá fornecedor o ID, da solicitação, a saída do concurrent e o log do concurrent;
 
 **Observação**: Caso a Responsabilidade não evidencie a Localidade
-

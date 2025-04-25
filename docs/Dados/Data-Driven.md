@@ -1,4 +1,4 @@
-"Data-Driven" (orientado por dados) refere-se à abordagem de tomar decisões estratégicas e operacionais com base na **análise de dados concretos**, em vez de depender apenas de intuição, experiência ou suposições. 
+"Data-Driven" (orientado por dados) refere-se à abordagem de tomar decisões estratégicas e operacionais com base na **análise de dados concretos**, em vez de depender apenas de intuição, experiência ou suposições.
 
 Empresas data-driven coletam, processam e interpretam dados de diversas fontes (como transações, sensores, redes sociais, CRM, ERP, etc.) para identificar padrões, tendências e insights que orientam ações mais precisas e eficientes.
 ## **Elementos-chave do Data-Driven**

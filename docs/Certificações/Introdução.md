@@ -8,7 +8,8 @@
 | **Foco em competência aplicada**: comprova que o profissional domina o uso do software em cenários reais.                       | **Foco em conhecimento teórico**: indica familiaridade com conceitos, mas não necessariamente proficiência prática.                               |
 
 ## **Capacitação**
-A capacitação dos colaboradores é **essencial** para garantir que a certificação seja alcançada e mantida. 
+A capacitação dos colaboradores é **essencial** para garantir que a certificação seja alcançada e mantida.
+
 - [ ] **Certificações exigem conhecimento profundo**: Funcionários bem treinados entendem funcionalidades avançadas, configurações e melhores práticas do software, o que é crítico para passar em exames práticos (ex.: certificações Cisco CCNA).
 - [ ]  **Redução de erros**: Equipes capacitadas evitam falhas durante auditorias ou testes de conformidade, aumentando as chances de aprovação na certificação.
 - [ ] Treinamentos garantem que os funcionários sigam protocolos padronizados, como políticas de segurança ou workflows do software, essenciais para atender aos critérios da certificação.

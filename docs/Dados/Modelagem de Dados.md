@@ -51,9 +51,9 @@ Em resumo - IMPACT:
 
 <p align="justify">A modelagem de sistemas envolve a definição da arquitetura, componentes e interação entre diferentes partes de uma aplicação ou sistema. Em relação a bancos de dados, a modelagem envolve:</p>
 
-- [x] Escolha do tipo de banco de dados: relacional (SQL) ou NoSQL, dependendo das necessidades do sistema
-- [x] Modelo de dados: definir como os dados serão armazenados, as tabelas, relacionamentos entre elas, normalização, etc;
-- [x] Integração com serviços: como o banco de dados se comunicará com os diferentes serviços, incluindo operações CRUD (Create, Read, Update, Delete) eficientes.
+- [ ] Escolha do tipo de banco de dados: relacional (SQL) ou NoSQL, dependendo das necessidades do sistema
+- [ ] Modelo de dados: definir como os dados serão armazenados, as tabelas, relacionamentos entre elas, normalização, etc;
+- [ ] Integração com serviços: como o banco de dados se comunicará com os diferentes serviços, incluindo operações CRUD (Create, Read, Update, Delete) eficientes.
 
 ## Escala de Banco de Dados
 <p align="justify">A escalabilidade de bancos de dados é fundamental para garantir que o sistema consiga lidar com o aumento da carga de trabalho, seja em termos de volume de dados ou número de requisições.</p>
@@ -69,10 +69,10 @@ Em resumo - IMPACT:
 
 Saber quando ir além do escalonamento vertical é crucial. Fique atento a estes indicadores:
 
-- [x] Os custos estão crescendo mais rápido do que sua base de usuários;
-- [x] Você precisa de melhor redundância e tolerância a falhas;
-- [x] O tempo de inatividade da sua implantação está afetando as operações comerciais;
-- [x] O maior tamanho de instância disponível está se aproximando de 70% de utilização;
+- [ ] Os custos estão crescendo mais rápido do que sua base de usuários;
+- [ ] Você precisa de melhor redundância e tolerância a falhas;
+- [ ] O tempo de inatividade da sua implantação está afetando as operações comerciais;
+- [ ] O maior tamanho de instância disponível está se aproximando de 70% de utilização;
 
 ## Escalonamento Horizontal (Horizontal Scaling)
 <p align="justify">Escalonamento horizontal ou scaling out envolve adicionar mais servidores para distribuir a carga de trabalho. Em vez de aumentar a capacidade de um único servidor, você adiciona mais servidores para que a carga seja compartilhada entre várias instâncias. Esse tipo de escalonamento é essencial para lidar com sistemas de alta demanda e crescimento.</p>
@@ -81,10 +81,10 @@ Saber quando ir além do escalonamento vertical é crucial. Fique atento a estes
 
 A escala horizontal oferece vários benefícios importantes:
 
-- [x] Melhor tolerância a falhas por meio de redundância;
-- [x] Capacidade de lidar com mais usuários simultâneos;
-- [x] Implantações contínuas com tempo de inatividade zero;
-- [x] Escalonamento econômico (reduza a escala quando o tráfego estiver baixo);
+- [ ] Melhor tolerância a falhas por meio de redundância;
+- [ ] Capacidade de lidar com mais usuários simultâneos;
+- [ ] Implantações contínuas com tempo de inatividade zero;
+- [ ] Escalonamento econômico (reduza a escala quando o tráfego estiver baixo);
 
 
 ## Réplicas de Leitura
@@ -94,25 +94,25 @@ A escala horizontal oferece vários benefícios importantes:
 
 <p align="justify">Quando você executa uma consulta em uma réplica, você não está competindo com gravações no seu banco de dados primário. Ao implementar réplicas de leitura, considere:</p>
 
-- [x] Latência:
-    - [x] A localização geográfica afeta a latência;
-    - [x] Pequeno atraso entre o banco de dados primário e as réplicas;
-- [x] Sincronização:
-    - [x] O atraso na replicação afeta a atualização dos dados;
-    - [x] O volume de gravação afeta a velocidade de replicação
+- [ ] Latência:
+    - [ ] A localização geográfica afeta a latência;
+    - [ ] Pequeno atraso entre o banco de dados primário e as réplicas;
+- [ ] Sincronização:
+    - [ ] O atraso na replicação afeta a atualização dos dados;
+    - [ ] O volume de gravação afeta a velocidade de replicação
 
 ## Views Materializadas
 <p align="justify">Uma view materializada é uma visão persistente de uma consulta SQL, cujos resultados são armazenados em uma tabela real no banco de dados.</p>
 <p align="justify">Podemos dizer que é um conjunto de dados pré-computado armazenado como uma tabela. Diferentemente das views que computam seus resultados a cada consulta, as views materializadas armazenam seus resultados.Isso as torna muito mais rápidas de consultar, mas introduz um novo desafio:</p>
 
-- [x] Mantê-las atualizadas;
-- [x] Requer mais espaço em disco, pois os resultados das consultas são armazenados fisicamente.
+- [ ] Mantê-las atualizadas;
+- [ ] Requer mais espaço em disco, pois os resultados das consultas são armazenados fisicamente.
 
 As visualizações materializadas se destacam em:
 
-- [x] Consultas analíticas complexas, pois os dados já estão pré-calculados e armazenados, evitando cálculos repetitivos;
-- [x] Reduz a carga no banco de dados, pois a consulta não precisa ser reprocessada a cada requisição.
-- [x] Dados desnormalizados para visualizações específicas
+- [ ] Consultas analíticas complexas, pois os dados já estão pré-calculados e armazenados, evitando cálculos repetitivos;
+- [ ] Reduz a carga no banco de dados, pois a consulta não precisa ser reprocessada a cada requisição.
+- [ ] Dados desnormalizados para visualizações específicas
 
 ## Armazenamento em cache
 O cache é uma das maneiras mais eficazes de melhorar o desempenho do seu sistema.
@@ -126,11 +126,11 @@ O cache é uma das maneiras mais eficazes de melhorar o desempenho do seu sistem
 
 </p>Em vez de processar tudo de forma síncrona, você pode enfileirar o trabalho para mais tarde. Esse padrão funciona especialmente bem para operações como:</p>
 
-- [x] Processando arquivos enviados;
-- [x] Envio de e-mails e notificações;
-- [x] Geração de relatórios;
-- [x] Atualizando índices de pesquisa;
-- [x] Executando operações em lote;
+- [ ] Processando arquivos enviados;
+- [ ] Envio de e-mails e notificações;
+- [ ] Geração de relatórios;
+- [ ] Atualizando índices de pesquisa;
+- [ ] Executando operações em lote;
 
 ## Gerenciando Banco de Dados
 ### Fluxos
@@ -204,10 +204,10 @@ Quais seriam as ferramentas para começar?
 ## [Oracle Optimal Flexible Architecture (OFA)](https://docs.oracle.com/en/database/oracle/oracle-database/19/ladbi/optimal-flexible-architecture-file-path-examples.html#GUID-BB3EE4F7-50F4-4A2D-8A0D-96B7CC44029B)
 São um conjunto de diretrizes de configuração criadas para garantir instalações Oracle bem organizadas, o que simplifica a administração, o suporte e a manutenção.
 
-- [x] Oracle Database oferece suporte a vários Oracle Homes.
-- [x] Oracle Inventory (oraInventory) armazena um inventário de todos os softwares instalados no sistema.
-- [x] Oracle Base é o diretório inicial do banco de dados para proprietários de instalação do Oracle Database e o local do arquivo de log para proprietários do Oracle Grid Infrastructure.
-- [x] Oracle Universal Installer configura os diretórios iniciais do Oracle usando essas convenções do Oracle Optimal Flexible Architecture.
+- [ ] Oracle Database oferece suporte a vários Oracle Homes.
+- [ ] Oracle Inventory (oraInventory) armazena um inventário de todos os softwares instalados no sistema.
+- [ ] Oracle Base é o diretório inicial do banco de dados para proprietários de instalação do Oracle Database e o local do arquivo de log para proprietários do Oracle Grid Infrastructure.
+- [ ] Oracle Universal Installer configura os diretórios iniciais do Oracle usando essas convenções do Oracle Optimal Flexible Architecture.
 
 ![](../img/cap-010-002.png){width="800" height="500" style="display: block; margin: 0 auto"}
 
@@ -220,14 +220,14 @@ São um conjunto de diretrizes de configuração criadas para garantir instalaç
 ## Dados contêiner e Banco de dados conectável
 Oracle pode funcionar como um “banco de dados contêiner multilocatário”, também conhecido como CDB. Este CDB pode incluir zero ou mais “bancos de dados conectáveis” ou PDBs.
 
-- [x] Um PDB é uma coleção de esquemas e objetos que atuam como um banco de dados “normal” para aplicativos;
-- [x] Dentro do CDB existem dois contêineres:
-    - [x] Raiz, denominada CDB$ROOT. Contém metadados Oracle e usuários comuns.
-    - [x] SEED PDB, denominado PDB$SEED. Este é um modelo que pode ser usado para criar novos PDBs. Você não pode adicionar ou modificar objetos neste PDB.
-- [x] Você pode, mas os benefícios de usar esta arquitetura são:
-    - [x] Melhor uso de recursos : PDBs e CDBs usam recursos no servidor de forma mais eficaz em comparação com VMs (que duplicam o sistema operacional) e bancos de dados separados (que não compartilham processos);
-    - [x] Movimentação mais fácil de dados e código : se você precisar mover um banco de dados conectável de um banco de dados contêiner para outro, isso é bastante fácil;
-    - [x] Gerenciamento e monitoramento mais fáceis : para administradores, aplicar patches, atualizações, monitorar o banco de dados, realizar backups e outras tarefas são muito mais fáceis.
+- [ ] Um PDB é uma coleção de esquemas e objetos que atuam como um banco de dados “normal” para aplicativos;
+- [ ] Dentro do CDB existem dois contêineres:
+    - [ ] Raiz, denominada CDB$ROOT. Contém metadados Oracle e usuários comuns.
+    - [ ] SEED PDB, denominado PDB$SEED. Este é um modelo que pode ser usado para criar novos PDBs. Você não pode adicionar ou modificar objetos neste PDB.
+- [ ] Você pode, mas os benefícios de usar esta arquitetura são:
+    - [ ] Melhor uso de recursos : PDBs e CDBs usam recursos no servidor de forma mais eficaz em comparação com VMs (que duplicam o sistema operacional) e bancos de dados separados (que não compartilham processos);
+    - [ ] Movimentação mais fácil de dados e código : se você precisar mover um banco de dados conectável de um banco de dados contêiner para outro, isso é bastante fácil;
+    - [ ] Gerenciamento e monitoramento mais fáceis : para administradores, aplicar patches, atualizações, monitorar o banco de dados, realizar backups e outras tarefas são muito mais fáceis.
 
 ## Como fazer CI/CD em uma Pipeline de Banco de Dados
 ### Copia/CLone/PDBs e CDBs
@@ -240,12 +240,12 @@ Oracle pode funcionar como um “banco de dados contêiner multilocatário”, t
 ## Schema e Usuários?
 ### Usuário
 
-- [x] É uma conta através da qual você pode se conectar ao banco de dados.(CREATE SESSION)
-- [x] Possui um nome de usuário e uma senha e está associado a um ESQUEMA.
-- [x] São usados ​​para autenticar e autorizar o acesso ao banco de dados.
-- [x] Podem possuir objetos de banco de dados, como tabelas, views, procedures e etc.
-- [x] Podem receber privilégios para acessar objetos pertencentes a outros usuários.
-- [x] Realizar operações dentro do esquema atribuído e em objetos aos quais receberam acesso.
+- [ ] É uma conta através da qual você pode se conectar ao banco de dados.(CREATE SESSION)
+- [ ] Possui um nome de usuário e uma senha e está associado a um ESQUEMA.
+- [ ] São usados ​​para autenticar e autorizar o acesso ao banco de dados.
+- [ ] Podem possuir objetos de banco de dados, como tabelas, views, procedures e etc.
+- [ ] Podem receber privilégios para acessar objetos pertencentes a outros usuários.
+- [ ] Realizar operações dentro do esquema atribuído e em objetos aos quais receberam acesso.
 
 **Observação**: Não é prática comum ter um único usuário possuindo vários esquemas. Em vez disso, normalmente você criaria usuários separados para cada esquema para manter o isolamento e gerenciar as permissões de maneira mais eficaz.
 
@@ -271,21 +271,21 @@ Oracle pode funcionar como um “banco de dados contêiner multilocatário”, t
 
 Existem quatro abordagens de isolamento de dados para monólitos modulares:
 
-- [x] Separate table;
-- [x] Separate schema;
-- [x] Separate database;
-- [x] Different persistence;
+- [ ] Separate table;
+- [ ] Separate schema;
+- [ ] Separate database;
+- [ ] Different persistence;
 
 ## Isolamento de dados
 Um monolito modular possui regras rígidas para integridade de dados:
 
-- [x] Cada módulo só pode acessar suas próprias tabelas;
-- [x] Sem compartilhamento de tabelas ou objetos entre módulos;
-- [x] Joins só são permitidas entre tabelas do mesmo módulo;
-- [x] Os módulos dentro de um monólito modular devem ser independentes. Cada módulo lida com seus próprios dados. Outros módulos podem acessar esses dados usando a API pública do módulo.
+- [ ] Cada módulo só pode acessar suas próprias tabelas;
+- [ ] Sem compartilhamento de tabelas ou objetos entre módulos;
+- [ ] Joins só são permitidas entre tabelas do mesmo módulo;
+- [ ] Os módulos dentro de um monólito modular devem ser independentes. Cada módulo lida com seus próprios dados. Outros módulos podem acessar esses dados usando a API pública do módulo.
 
-- [x] Quais são os benefícios deste design?
-      - [x] Manter os módulos isolados uns dos outros promove modularidade e baixo acoplamento. Torna mais fácil introduzir novas alterações no sistema. Há menos efeitos colaterais indesejados quando os componentes estão fracamente acoplados.
+- [ ] Quais são os benefícios deste design?
+      - [ ] Manter os módulos isolados uns dos outros promove modularidade e baixo acoplamento. Torna mais fácil introduzir novas alterações no sistema. Há menos efeitos colaterais indesejados quando os componentes estão fracamente acoplados.
 
 ### Separate table
 <p align="justify">As tabelas para todos os módulos residem dentro de um banco de dados. Não é fácil determinar quais tabelas pertencem a qual módulo. Estou mencionando essa abordagem apenas por uma questão de integridade.</p>
@@ -320,8 +320,8 @@ O sistema cresce com o tempo e os requisitos estão em constante mudança.
 
 <p align="justify">O primeiro passo para passar de um monólito para microsserviços é identificar os Contexto Delimitado (Contexto Delimitado é um padrão central no Design Orientado a Domínio).</p>
 
-- [x] [Usando análise de domínio para modelar microsserviços](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis)
-- [x] [Contexto Limidatos - Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
+- [ ] [Usando análise de domínio para modelar microsserviços](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis)
+- [ ] [Contexto Limidatos - Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
 
 <p align="justify">Segundo Fowler, os contextos limitados definem os limites explícitos entre os módulos e separam as responsabilidades. Este é um dos maiores desafios na migração para microsserviços. A identificação de bons limites entre módulos garantam que os microsserviços se concentrem estritamente em um Domínio de problema.</p>
 
@@ -342,8 +342,8 @@ O sistema cresce com o tempo e os requisitos estão em constante mudança.
 ### Tudo junto e misturado
 <p align="justify">O usuário que possui esse esquema recebe todos os objetos de um banco de dados, como Tabelas, Indices, Programas e Schedulers;</p>
 
-- [x] **Separar Dados e Índices em Tablespaces Diferentes**: Isso envolve colocar tabelas e índices em tablespaces separados. Isso pode ajudar na administração do espaço e no desempenho de consultas, especialmente em casos onde há diferentes padrões de acesso aos dados e índices.
-- [x] **Criação de Tablespaces de LOBs dedicados**  : Criar tablespaces dedicados exclusivamente para armazenar LOBs pode permitir um gerenciamento mais granular do espaço de armazenamento e facilitar a realização de operações de manutenção e backup específicas para LOBs.
+- [ ] **Separar Dados e Índices em Tablespaces Diferentes**: Isso envolve colocar tabelas e índices em tablespaces separados. Isso pode ajudar na administração do espaço e no desempenho de consultas, especialmente em casos onde há diferentes padrões de acesso aos dados e índices.
+- [ ] **Criação de Tablespaces de LOBs dedicados**  : Criar tablespaces dedicados exclusivamente para armazenar LOBs pode permitir um gerenciamento mais granular do espaço de armazenamento e facilitar a realização de operações de manutenção e backup específicas para LOBs.
 
 ### [Smart Database Paradigm (SmartDB)](https://www.salvis.com/blog/2018/08/28/smartdb-as-of-2018-08-21/)
 __Qualquer sistema de TI que utilize um banco de dados deve fazer o máximo possível do seu processamento dentro do Banco de Dados e o mínimo possível do seu processamento nas outras camadas__.
@@ -352,13 +352,14 @@ __Qualquer sistema de TI que utilize um banco de dados deve fazer o máximo poss
 
  <p align="justify">O usuário que possui esse esquema vazio recebe exatamente e apenas executa privilégios em um conjunto bem definido de subprogramas PL/SQL que foram projetados para ser a API do back-end do aplicativo que o banco de dados hospeda para o mundo externo.</p>
 
-![](img/cesuc_padrao_oracle_001.png){width="800" height="500" style="display: block; margin: 0 auto"}
+![](../img/padrao_oracle_001.png){width="800" height="500" style="display: block; margin: 0 auto"}
 
 ### Esquema
-- [x] É uma coleção de objetos de banco de dados (como tabelas, visualizações, índices, sequências, etc.) que pertencem a um usuário específico.
-- [x] Contêiner lógico para objetos de banco de dados.
-- [x] Associado a uma conta de usuário, que é usada para conectar-se ao banco de dados e acessar os objetos dentro desse esquema.
-- [x] É um namespace para objetos de banco de dados e fornece uma maneira de organizar e gerenciar objetos dentro do banco de dados.
+
+- [ ] É uma coleção de objetos de banco de dados (como tabelas, visualizações, índices, sequências, etc.) que pertencem a um usuário específico.
+- [ ] Contêiner lógico para objetos de banco de dados.
+- [ ] Associado a uma conta de usuário, que é usada para conectar-se ao banco de dados e acessar os objetos dentro desse esquema.
+- [ ] É um namespace para objetos de banco de dados e fornece uma maneira de organizar e gerenciar objetos dentro do banco de dados.
 
 ### Oracle e-Business Suite
 #### Versão 11/11i
@@ -374,15 +375,17 @@ __Qualquer sistema de TI que utilize um banco de dados deve fazer o máximo poss
 
 <p align="justify">A arquitetura de banco de dados do Oracle E-Business Suite é altamente complexa e envolve vários esquemas de banco de dados para diferentes módulos e componentes da aplicação.</p>
 
-![](img/visao_apps.png){width="800" height="500" style="display: block; margin: 0 auto"}
+![](../img/visao_apps.png){width="800" height="500" style="display: block; margin: 0 auto"}
 
-  | Schema               | Definição                                                 |
-  | -----                | --------                                                  |
-  | SYS e SYSTEM         | Estes esquemas são parte do banco de dados Oracle em si e são usados para armazenar metadados do sistema, como informações sobre usuários, privilégios, estrutura do banco de dados, etc. |
-  | APPS                 | É o esquema principal usado pelo Oracle E-Business Suite. Ele contém objetos compartilhados e dados para vários módulos e componentes da aplicação. |
-  | Módulos Funcionais   | Cada módulo funcional do Oracle E-Business Suite geralmente tem seu próprio schema de banco de dados. |
-  | Schemas Customizados | Iniciam-se por XXEMPRESA e são esquemas de banco de dados adicionais para personalizações e extensões feitas pelos usuários, desenvolvedores ou consultores. |
-  | Outros Esquemas      | Outros esquemas no banco de dados do Oracle E-Business Suite para fins específicos, como auditoria, armazenamento de dados temporários, etc. |
+
+
+| Schema               | Definição                                                                                                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SYS e SYSTEM         | Estes esquemas são parte do banco de dados Oracle em si e são usados para armazenar metadados do sistema, como informações sobre usuários, privilégios, estrutura do banco de dados, etc. |
+| APPS                 | É o esquema principal usado pelo Oracle E-Business Suite. Ele contém objetos compartilhados e dados para vários módulos e componentes da aplicação.                                       |
+| Módulos Funcionais   | Cada módulo funcional do Oracle E-Business Suite geralmente tem seu próprio schema de banco de dados.                                                                                     |
+| Schemas Customizados | Iniciam-se por XXEMPRESA e são esquemas de banco de dados adicionais para personalizações e extensões feitas pelos usuários, desenvolvedores ou consultores.                              |
+| Outros Esquemas      | Outros esquemas no banco de dados do Oracle E-Business Suite para fins específicos, como auditoria, armazenamento de dados temporários, etc.                                              |
 
 #### Custom Applications
 O código customizado deve ser desenvolvido de acordo com os padrões publicados pela Oracle e o que chamamos de `CEMLI`.
@@ -393,22 +396,22 @@ O código customizado deve ser desenvolvido de acordo com os padrões publicados
 
 **Observação** :
 
-- [x] Tenho ORIENTADO todos os schemas nascidos e criados pela Instituição, mesmo FORA do Schema/Usuario da Instancia e-Business, sejam préfixados com `XXEMPRESA`, que identificaria que são CUSTOMIZADOS.
-- [x] Todas as conexões de Banco de Dados Oracle, são obtidas através do servidor: `\\Servidor\tn$`;
+- [ ] Tenho ORIENTADO todos os schemas nascidos e criados pela Instituição, mesmo FORA do Schema/Usuario da Instancia e-Business, sejam préfixados com `XXEMPRESA`, que identificaria que são CUSTOMIZADOS.
+- [ ] Todas as conexões de Banco de Dados Oracle, são obtidas através do servidor: `\\Servidor\tn$`;
 
 #### Gateway de Banco de Dados (xxGATE)
 <p align="justify">Gateway pode ser classificado como “portal”, ele é considerado uma passagem entre dois ambientes distintos. Para que este portal pudesse fazer isso, seria necessário a criação de DBLINKs, que é um objeto criado em um esquema que possibilita o acesso a objetos de outro banco de dados.</p>
 
-* Diminuir o tempo de liberação e clonagem;
-    * Todos os schemas possuiam database link, logo demora em ajustar os acessos;
-    * Controle de Acesso e Password das instancias;
-    * Permitir de um único banco de dados Principal (Oracle), acessar o MySQL, SQL Server, PostgreSQL através do Transparente-Gateway.
-        * Homogêneo   - Quando acessa outros bancos de dados Oracle    (xxxEBS,xxxFOLHA,xxxBDS,xxxAPPXXX)
-        * Heterogêneo – Quando acessam outros tipos de bancos de dados (xxxODBC)
+- [ ] Diminuir o tempo de liberação e clonagem;
+	- [ ] Todos os schemas possuiam database link, logo demora em ajustar os acessos;
+	- [ ] Controle de Acesso e Password das instancias;
+	- [ ] Permitir de um único banco de dados Principal (Oracle), acessar o MySQL, SQL Server, PostgreSQL através do Transparente-Gateway.
+		- [ ] Homogêneo   - Quando acessa outros bancos de dados Oracle    (xxxEBS,xxxFOLHA,xxxBDS,xxxAPPXXX)
+		- [ ] Heterogêneo – Quando acessam outros tipos de bancos de dados (xxxODBC)
 
 ![](../img/oracle_transp_gate.gif){width="400" height="350" style="display: block; margin: 0 auto"}
 
-* A ideia era NÃO trazer dados de uma instancia, diminuir o numero de database links, o que facilitaria a clonagem, pois teríamos um único ponto de comunicação.
+- [ ] A ideia era NÃO trazer dados de uma instancia, diminuir o numero de database links, o que facilitaria a clonagem, pois teríamos um único ponto de comunicação.
 
 <p align="justify">Esta conexão é conhecida como Sistema de Banco de Bados Distribuídos e pode ser Homogêneo - quando acessa outros bancos de dados Oracle - e Heterogêneo - quando acessam outros tipos de bancos de dados.</p>
 
@@ -421,17 +424,17 @@ Porem todos deveriam avaliar as queries e hintar os objetos com `/*+ DRIVING_SIT
 
 Um aplicativo que implementa PinkDB possui os seguintes recursos:
 
-- [x] O usuário conectado não possui objetos de banco de dados. O usuário connect é usado por componentes do aplicativo fora do banco de dados para interagir com o banco de dados.(100% idêntico ao SmartDB)
-- [x] O usuário conectado tem acesso apenas a objetos de API. O usuário conectado não deve ter privilégios para acessar objetos que não fazem parte da API, por exemplo, através de SELECT ANY TABLEprivilégios ou similares.
-- [x] A API consiste em objetos e visualizações armazenados;O acesso é concedido com base no princípio dos privilégios mínimos. A API consiste em objetos e visualizações armazenados, mas não em tabelas.
-- [x] Os dados são processados ​​por operações baseadas em conjunto. Menos loops, mais SQL baseado em conjuntos.
+- [ ] O usuário conectado não possui objetos de banco de dados. O usuário connect é usado por componentes do aplicativo fora do banco de dados para interagir com o banco de dados.(100% idêntico ao SmartDB)
+- [ ] O usuário conectado tem acesso apenas a objetos de API. O usuário conectado não deve ter privilégios para acessar objetos que não fazem parte da API, por exemplo, através de SELECT ANY TABLEprivilégios ou similares.
+- [ ] A API consiste em objetos e visualizações armazenados;O acesso é concedido com base no princípio dos privilégios mínimos. A API consiste em objetos e visualizações armazenados, mas não em tabelas.
+- [ ] Os dados são processados ​​por operações baseadas em conjunto. Menos loops, mais SQL baseado em conjuntos.
 
 #### Diferenças para SmartDB
 SmartDB tem como alvo PL/SQL e, portanto, foca em bancos de dados Oracle. A API no SmartDB consiste apenas em unidades PL/SQL. Sem exceções. PinkDB permite visualizações.
 
-![](img/cesuc_padrao_oracle_003.png){width="400" height="350" style="display: block; margin: 0 auto"}
+![](../img/padrao_oracle_003.png){width="400" height="350" style="display: block; margin: 0 auto"}
 
-* Liquibase é uma biblioteca independente de banco de dados de código aberto para rastrear, gerenciar e aplicar alterações no esquema do banco de dados.
+- [ ] Liquibase é uma biblioteca independente de banco de dados de código aberto para rastrear, gerenciar e aplicar alterações no esquema do banco de dados.
 
 ## Segurança no Banco De Dados
 A escolha de se utilizar a autenticação com ORDS OAuth ou Kong API Gateway depende de vários fatores, incluindo requisitos específicos do seu projeto, infraestrutura existente e preferências da equipe de desenvolvimento. A segurança de dados é a prática de proteger as informações digitais contra o acesso não autorizado, a distorção ou o furto ao longo de todo o ciclo de vida. A complexidade cria uma superfície de ataque mais ampla, tornando-se um desafio para o monitoramento e a segurança.

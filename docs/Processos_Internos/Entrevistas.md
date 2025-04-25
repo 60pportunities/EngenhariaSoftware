@@ -1,11 +1,11 @@
-As **entrevistas** são interações estruturadas com objetivos específicos, e sua concepção varia significativamente entre o **entrevistador** e o **entrevistado**. 
+As **entrevistas** são interações estruturadas com objetivos específicos, e sua concepção varia significativamente entre o **entrevistador** e o **entrevistado**.
 ## **Entrevistador**
 Para garantir que um entrevistado se sinta tranquilo durante uma entrevista técnica, o entrevistador deve adotar uma abordagem estruturada e empática, seguindo estes passos:
 
 - [ ] **Forneça opções de perguntas**: Permitir que os candidatos escolham entre algumas perguntas pode reduzir a ansiedade e permitir que demonstrem suas melhores habilidades.
 - [ ] **Quebra-gelo inicial**: Cumprimente calorosamente e inicie com uma conversa casual, mantendo o um tom amigável e sorriso genuíno para estabelecer confiança.
 - [ ] **Clareza no processo**: Explique o formato da entrevista: duração, etapas e objetivos.
-- [ ] **Ambiente acolhedor**: 
+- [ ] **Ambiente acolhedor**:
 	- [ ] **Presencial**: Ofereça água, certifique-se de que a sala esteja silenciosa e bem iluminada.
 	- [ ] **Remoto**: Verifique a conexão, áudio e ferramentas antes de começar.
 - [ ] **Comunicação Aberta**
@@ -14,7 +14,7 @@ Para garantir que um entrevistado se sinta tranquilo durante uma entrevista téc
 - [ ] **Abordagem colaborativa**
 	- [ ] Trate a resolução de problemas como uma atividade conjunta: _“Vamos explorar juntos como resolver isso.”_
 	- [ ] Permita flexibilidade: aceite linguagens ou ferramentas que o candidato prefira (se aplicável).
-- [ ] **Feedback positivo**    
+- [ ] **Feedback positivo**
 	- [ ] Reconheça progressos, mesmo parciais: _“Você identificou bem o ponto crítico. Vamos ver como implementar?”_
 	- [ ] Normalize erros: _“Não se preocupe em acertar de primeira; queremos entender seu raciocínio.”_
 - [ ] **Gestão da ansiedade**
@@ -101,4 +101,3 @@ Para garantir que um entrevistado se sinta tranquilo durante uma entrevista téc
 | Lidere pelo exemplo                  | Liderar pelo exemplo é um dos caminhos mais eficazes para criar uma cultura organizacional positiva. Quando os líderes demonstram comprometimento, ética e trabalho em equipe, os colaboradores tendem a seguir esse exemplo, elevando os padrões gerais da equipe.                                                                                                                                                              |
 | Mostre empatia                       | A empatia é um ingrediente fundamental para um bom relacionamento interpessoal. Quando os líderes demonstram compreensão e consideração pelas dificuldades e necessidades dos membros da equipe, eles criam um ambiente mais humano e acolhedor.                                                                                                                                                                                 |
 | Seja transparente                    | A transparência é crucial para construir um ambiente de confiança. Quando os líderes compartilham informações importantes, tomam decisões de forma aberta e comunicam os desafios enfrentados pela organização, eles incentivam a participação e o engajamento da equipe.                                                                                                                                                        |
-

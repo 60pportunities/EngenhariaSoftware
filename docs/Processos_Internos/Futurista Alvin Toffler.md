@@ -1,5 +1,5 @@
 Os analfabetos do século 21 não serão aqueles que não sabem ler e escrever, mas aqueles que não sabem aprender, desaprender e reaprender.
-  
+
 ### **Aprender, desaprender e reaprender**
 #### Geração B-Alpha
 
@@ -49,7 +49,7 @@ Conforme descrito pelo Rockwood Leadership Institute , envolve :
 - [ ] Demandas conflitantes;
 - [ ] [Lista de verificação de esgotamento](https://governingopen.com/resources/signs-of-burnout-checklist.html).
 
-#### Seja feliz  
+#### Seja feliz
 
 - [ ] Descanse e recarregue as energias;
 - [ ] Tire os fins de semana para relaxar e rejuvenescer;
@@ -57,7 +57,7 @@ Conforme descrito pelo Rockwood Leadership Institute , envolve :
 
 #### Por que contribuir para o código aberto
 Contribuir com o código aberto pode ser uma maneira gratificante de aprender, ensinar e adquirir experiência em praticamente qualquer habilidade que você possa imaginar.
-  
+
 - [ ] Melhore as habilidades existentes;
 - [ ] Conheça pessoas interessadas em coisas semelhantes;
 - [ ] Encontre mentores e ensine outros;
@@ -104,7 +104,7 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] Mantenha as solicitações curtas e diretas.
 - [ ] Não tem problema fazer perguntas (mas seja paciente!).
 - [ ] Acima de tudo, mantenha a classe.
-  
+
 ### Contribua com o guia.de.código.aberto
 
 - [ ] [Guia de código Aberto](https://github.com/github/opensource.guide/blob/main/_articles/how-to-contribute.md)
@@ -115,7 +115,7 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 | ------------------------------- | ------------------------------- |
 | ![](../img/equilibrio-001.jpeg) | ![](../img/equilibrio-002.jpeg) |
 
-  
+
   #### **Catalisando uma Revolução Cultural ("eu" para o "nós")**
 
 - [ ] À medida que navegamos no cenário de TI, nesta rápida evolução, frequentemente nos encontramos na busca incessante de ficar à frente, com tecnologias de ponta e metodologias inovadoras (TRAM)
@@ -196,7 +196,7 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] Todos os repositórios devem ser seu próprio silo;
 - [ ] O acesso para saber que cada repositório existe é concedido apenas individualmente pela alta gerência;
 - [ ] **Repositórios sensíveis**: aqueles cujo lançamento tem impacto no mercado ou é uma infraestrutura central com implicações de segurança;
-  
+
 ### Lberte-se
 
 | Tipo                                                                             | Área |
@@ -237,12 +237,12 @@ root ((Document as Code DAC))
     MNT (Mentorias)
     BLG (Blogs)
 ```
-  
+
   <!--
 Baby Boomers 314 - 1946 AND 1964 Baby Boomers
 Geração X 1281 - 1965 AND 1980 Geração X
 Geração Y (Millennials) 1496 - 1981 AND 1996 Geração Y (Millennials)
-Geração Z 122 - 1997 AND 2012 Geração Z  
+Geração Z 122 - 1997 AND 2012 Geração Z
 
 SELECT
 CASE

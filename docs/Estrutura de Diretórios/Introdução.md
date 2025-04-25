@@ -46,7 +46,7 @@ No contexto de gerenciamento de ativos digitais, podemos definir como a inclusã
 |                 | MKDOCS       |            |                 |              |          |           |             |
 |                 |              | PROJETO-A  |                 |              |          |           |             |
 ## Estruturas Base
-Ao longo da atividade da Tecnologia da Informação, inúmeros foram as explicações para a elaboração de uma estutura BASE de caminhos ou diretórios. 
+Ao longo da atividade da Tecnologia da Informação, inúmeros foram as explicações para a elaboração de uma estutura BASE de caminhos ou diretórios.
 No Linux, a organização segue o **Filesystem Hierarchy Standard (FHS)**, que define padrões para hierarquia de pastas.
 No Windows, a organização é mais flexível, mas há convenções comuns, que serão exemplificadas.
 Os repositórios Git seguem convenções para organização de código e colaboração, mas apenas o diretório .git, possui uma estrutura. Repositórios remotos (GitHub, GitLab, SVN) ou de dados (como bancos de dados) seguem algum tipo de padrão em função do fornecedor ou produto.
@@ -73,7 +73,7 @@ Aqui estão as melhores práticas, a meu ver,  para nomear arquivos no **Window
 | **Letras minúsculas**    | Padronize para evitar conflitos (especialmente em sistemas mistos).                             |
 | **Versões e números**    | Versionamento Semantico                                                                         |
 | **Comprimento máximo**   | Não ultrapasse de **255 bytes**                                                                 |
-Exemplo: 
+Exemplo:
 
 - [ ] relatorio_vendas_YYYY-MM-DD_SEMVER.pdf
 - [ ] XXXXX_folha_de_ponto_YYYY-MM-DD_SEMVER.pdf

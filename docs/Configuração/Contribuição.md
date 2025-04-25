@@ -12,7 +12,6 @@
 | ![Teams](https://img.shields.io/badge/Microsoft_Teams-6264A7?style=for-the-badge&logo=microsoft-teams&logoColor=white) | ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white) | ![Instagram](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)         | ![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)         |                                                                                                                            |                                                                                                                                                   |
 
 ## Como Contribuir
-
 <p align="justify">Do latim contribuĕre, «contribuir». Preferencialmente utilizamos neste contexto o transitivo direto, com efeito de "ter parte em (um dado resultado)" ou "ajudar ou participar na execução de (algo)".</p>
 ## Convenções de notação e conformidade
 As palavras-chave “DEVE”, “NÃO DEVE”, “EXIGIDO”, “DEVE”, “NÃO DEVE”, “DEVE”, “NÃO DEVE”, “RECOMENDADO”, “NÃO RECOMENDADO”, “PODE” e “OPCIONAL” na especificação devem ser interpretados conforme descrito em BCP 14 [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119) [RFC8174](https://datatracker.ietf.org/doc/html/rfc8174) quando, e somente quando, aparecem em todas as letras maiúsculas.
@@ -46,17 +45,18 @@ Comentar seu código é outra maneira de tornar o código legível.
 <p align="justify">Erros e/ou exceções fazem parte do código. Trata-se de identificar, capturar e responder adequadamente a quaisquer erros. É um aspecto crítico da escrita de código confiável. Diretrizes para lidar com erros e exceções de forma consistente em toda a base de código, garantindo relatórios de erros e registros adequados. De acordo com a resposta, crie um log para desenvolvedores e notifique o usuário sobre a solicitação malsucedida. Essa é uma maneira de tornar seu código à prova de erros.</p>
 
 ### Indentação e Formatação
+
 - [ ] Um código bem formatado não requer muita atenção para ser processado. Como os desenvolvedores trabalharam com esse recuo.
 
 - [ ] Isso faz com que os desenvolvedores leiam o código com mais facilidade. Você pode usar ferramentas como o - [x]- [x]Prettier- [x]- [x] para deixar o código bem formatado de acordo com a linguagem de programação.
 
 ## Estrutura de pastas
-<p align="justify">AUma estrutura de pastas bem projetada é essencial para manter uma base de código limpa e escalável , melhorando a colaboração entre os membros da equipe e aprimorando a eficiência geral do desenvolvimento. Existem diferentes tipos de estruturas de pastas comumente usadas, incluindo a estrutura:</p>
+<p align="justify">Uma estrutura de pastas bem projetada é essencial para manter uma base de código limpa e escalável , melhorando a colaboração entre os membros da equipe e aprimorando a eficiência geral do desenvolvimento. Existem diferentes tipos de estruturas de pastas comumente usadas, incluindo a estrutura:</p>
 
 - [ ] Baseada em Componentes;
 - [ ] Baseada em Recursos;
 - [ ] Baseada em Domínio.
-  
+
 ## Aplicativo de Teste
 <p align="justify">Você pode criar um plano de teste que descreva o objetivo, a cobertura do teste, as técnicas de teste e os cronogramas. Isso ajudará a classificar a maioria das coisas antes mesmo de iniciar o teste.</p>
 

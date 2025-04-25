@@ -9,149 +9,149 @@
 - [ ] You're exploring the differences between enabling SAML Single Sign-On (SSO) for a single organization versus for all organizations within an enterprise account. What is a key difference between these two approaches? `SAML SSO for a single organization allows for different Identity Providers (IdPs) for each organization, whereas enabling it for all organizations mandates a single IdP for the entire enterprise.`
 - [ ] How can a self-hosted runner be integrated into a specific GitHub repository? `Access the repository settings, navigate to Actions then Runners, and follow the setup instructions to download, configure, and initiate the self-hosted runner software.`
 
-  
+
 
 
 - [ ] What is the purpose of enterprise policies within GitHub Enterprise Cloud? `Enterprise policies establish uniform guidelines across all organizations within an enterprise, ensuring consistent governance and eliminating individual organization policy variations.`
 
-  
+
 
 
 - [ ] Which package managers and formats does GitHub Packages support? `RubyGems for Ruby,NuGet for .NET, npm for JavaScript, Maven for Java`
 
-  
-  
+
+
 
 
 - [ ] As an IT administrator implementing GitHub for your company's development processes, you're integrating GitHub Enterprise Cloud with your identity management. How are user accounts provisioned with Enterprise Managed Users? `User accounts are provisioned by the enterprise's IdP, with access provided to GitHub Enterprise Cloud.`
 
-  
-  
+
+
 
 
 - [ ] What are the security concerns associated with using self-hosted runners for public repositories? `Breaching the runner's sandbox environment., Storing harmful data persistently., Execution of malicious programs on the host machine.,Disclosure of the network environment.`
 
-  
+
 
 
 - [ ] As the administrator of a GitHub Organization, you aim to ensure that all users authenticate using the company's identity provider. Which option should you implement to integrate corporate authentication? `Setup SAML SSO`
 
-  
-  
+
+
 - [ ] As a DevOps engineer tasked with setting up a collaborative environment for your company's software development projects, you're considering GitHub solutions. What is GitHub Enterprise Server primarily designed for? `A self-hosted platform for software development within your enterprise.`
 
 - [ ] Is it possible to create nested teams within a GitHub organization, and how are they typically used? `Yes, nested teams are supported and commonly used to mirror an organization's internal structure.`
 
-  
-  
+
+
 
 As an IT manager implementing GitHub Enterprise Cloud with Enterprise Managed Users, you need to understand how usernames and profile information are managed. Which statement accurately reflects this process? `Usernames and profile information are set through the enterprise's IdP and cannot be changed by the users.`
 
-  
+
 
 Who is authorized to manage billing information within a GitHub organization? `Owner and Billing Manager`
 
-  
+
 
 In your role as an organization owner, you need to promote a team member to a higher role within your GitHub organization. How can you accomplish this task? `By navigating to the organization's settings, selecting Members, and then adjusting the member's role from the list.`
 
-  
-  
+
+
 
 You're evaluating the scope of GitHub Support to address various issues. Which of the following issues can GitHub Support help resolve? `Identifying and verifying the causes of suspected errors, Assistance with GitHub account and billing queries , Installing and using Advanced Security`
 
-  
-  
+
+
 
 What are the default permissions of a member in a GitHub organization? `Members can create private repositories (subject to the organization's policy) and participate in projects within the organization to which they are granted access.`
 
-  
+
 
 Which GitHub plan includes the feature to use secret scanning in private repositories? `Any GitHub Enterprise plan with a GHAS license`
 
-  
-  
+
+
 
 As a project manager overseeing your development team's use of GitHub Enterprise, you're addressing the needs of managed users who wish to contribute to projects outside of the enterprise. What must these users do to participate in external projects? ` Managed users are not allowed to contribute to public resources, and they need a separate personal account for this purpose.`
 
-  
-  
+
+
 
 As an administrator tasked with overseeing your organization's use of GitHub Advanced Security, you're evaluating the different levels of support available to assist with its installation and usage. Which is the minimum level of support that provides help specifically for Advanced Security? `GitHub Enterprise Support`
 
-  
+
 
 As a project manager exploring collaborative platforms for your development team, you're evaluating GitHub for managing your projects. What is the primary purpose of creating a GitHub organization? `To allow businesses and open-source projects to collaborate across many projects at once with advanced security and administrative features.`
 
-  
+
 
 How is authentication to GitHub Packages typically performed? `By using a Personal Access Token (PAT) with the necessary scope.`
 
-  
+
 
 How can a GitHub organization simplify access management and enhance collaboration among its members? `By creating nested teams that reflect the organization's structure, with cascading access permissions and mentions.`
 
-  
-  
+
+
 
 You're tasked with enhancing the security of your organization's GitHub Enterprise Cloud environment. You're considering enabling SAML Single Sign-On (SSO). What are the key implications of this action? `SAML SSO allows organization owners to control and secure access to organization resources.`
 
-  
+
 
 How can an organization admin set default permissions for new members in a GitHub organization? `In the organization's settings, under the Access section, choose Member privileges, then select a permissions level under Base permissions and confirm the change.`
 
-  
-  
+
+
 
 How can an organization improve the security of their GitHub Actions workflows? `By adopting practices like secure handling of secrets and regularly reviewing audit logs for anomalies.`
 
-  
-  
+
+
 
 Is it possible to upload container images to GitHub Packages? `Yes, GitHub Packages supports the hosting of container images.`
 
-  
+
 
 You decide to utilize a GitHub feature that visualizes a repository's ecosystem of packages. What is this feature called that displays both the dependencies of the project and the projects dependent upon it? `GitHub dependency graph`
 
-  
+
 
 Which type of runners should be utilized for GitHub Actions when an IP allow list is active for your enterprise? `Self-hosted runners or specific GitHub-hosted runners with defined static IP ranges.`
 
-  
+
 
 How can you ensure communication between your self-hosted or specific GitHub-hosted runners and GitHub when an IP allow list is active? `Include your runners' IP addresses or ranges in the enterprise's IP allow list settings.`
 
-  
+
 
 Where can GitHub Enterprise Server be deployed? `On-premises data center or to a public cloud service (e.g., AWS, GCP, Azure)`
 
-  
+
 
 What is the primary purpose of the audit log for organization admins within a GitHub organization? `The audit log enables organization admins to track and review actions performed by members, providing critical insights for security and compliance monitoring.`
 
-  
+
 
 As a systems administrator tasked with enhancing your company's development infrastructure, you're considering implementing GitHub Enterprise Server. Which of the following is a key feature of GitHub Enterprise Server? `Runs on your infrastructure and governed by access and security controls you define.`
 
-  
+
 
 Who is authorized to edit a team within a GitHub organization? `Team maintainers or organization admins`
 
-  
+
 
 Which GitHub Support level provides SLA and written support in English 24/7? `GitHub Premium Support`
 
-  
+
 
 As an administrator setting up a new project in your GitHub organization, you're considering involving external experts as collaborators. How does the role of an outside collaborator differ from that of a member within your organization? `Outside collaborators are assigned access on a repository-by-repository basis, while members may have broader permissions within the organization depending on their role.`
 
-  
+
 
 What is the main difference between visible and secret teams in a GitHub organization? `Visible teams are open to all organization members, while secret teams are private, only seen by team members and owners.`
 
-  
-  
+
+
 
 What are the implications of deploying within a single organization compared to multiple organizations on platforms like GitHub? `Multiple organizations increase operational flexibility but come with higher complexity and potential cost.
 
@@ -159,12 +159,12 @@ A single organization simplifies administrative overhead but may not provide suf
 
 `
 
-  
+
 
 What is the primary purpose of enterprise accounts in GitHub Enterprise Cloud? `To provide administrators with a single point of visibility and management across multiple organizations.`
 
-  
-  
+
+
 
 What is the default spending limit for GitHub Actions on monthly-billed accounts? `The default spending limit is $0, preventing additional usage beyond the included amounts.`
 

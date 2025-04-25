@@ -38,14 +38,15 @@ Qualquer pessoa solicitada a interromper o comportamento inaceitável deve obede
 Se um membro da comunidade se envolver em comportamento inaceitável, os organizadores da comunidade podem tomar qualquer ação que considerem apropriada, até mesmo um banimento temporário ou expulsão permanente da comunidade sem aviso prévio (e sem reembolso no caso de um evento pago).
 ## Diretrizes de denúncia
 Se você estiver sujeito ou testemunhar um comportamento naceitável, ou tiver qualquer outra preocupação, notifique um organizador da comunidade o mais rápido possível. s60pportunities@gmail.com.
-- [x] [Políticas](politicas/reporting_guidelines)
+
+- [ ] [Políticas](politicas/reporting_guidelines)
 
 Além disso, os organizadores da comunidade estão disponíveis para ajudar os membros da comunidade a se envolverem com as autoridades locais ou para ajudar aqueles que vivenciam comportamento inaceitável a se sentirem seguros. No contexto de eventos presenciais, os organizadores também fornecerão escoltas conforme desejado pela pessoa que está sofrendo.
 ## Abordando queixas
 Se você acha que foi falsa ou injustamente acusado de violar este Código de Conduta, você deve notificar o 60pportunities com uma descrição concisa de sua queixa. Sua reclamação será tratada de acordo com nossas políticas governamentais existentes
 
-- [x] [Politicas](politicas/politicas)
-- [x] [Notas](politicas/notas)
+- [ ] [Politicas](politicas/politicas)
+- [ ] [Notas](politicas/notas)
 ## Escopo
 Esperamos que todos os participantes da comunidade (colaboradores, pagos ou não; patrocinadores; e outros convidados) cumpram este Código de Conduta em todos os locais da comunidade - on-line e pessoalmente - bem como em todas as comunicações individuais relativas aos negócios da comunidade.
 Este código de conduta e seus procedimentos relacionados também se aplicam a comportamentos inaceitáveis ​​que ocorrem fora do escopo das atividades da comunidade quando tal comportamento tem o potencial de afetar adversamente a segurança e o bem-estar dos membros da comunidade.

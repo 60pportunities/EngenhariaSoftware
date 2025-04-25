@@ -27,8 +27,8 @@ Fred Brooks, em 1975, com sua publicação **The Mythical Man-month** cita conce
 - [ ] **Feature Teams**, multidisciplinar com um Líder Técnico, de no máximo 10 pessoas;
 - [ ] **Principal causa de fiasco de projetos - COMUNICAÇÃO**;
 
-E **Harlan Mills**, enfatiza que a programação deveria ser um processo público, e que expor todo o trabalho pra todo mundo ajuda o controle de qualidade. 
-Cunha o conceito de **"Integridade conceitual"**, sendo o mais importante a se considerar em design de sistemas. 
+E **Harlan Mills**, enfatiza que a programação deveria ser um processo público, e que expor todo o trabalho pra todo mundo ajuda o controle de qualidade.
+Cunha o conceito de **"Integridade conceitual"**, sendo o mais importante a se considerar em design de sistemas.
 
 É melhor um sistema omitir certas features e melhorias, mas refletir apenas um conjunto de idéias de design
 
@@ -43,7 +43,7 @@ Em 1990, surge então o termo SCRUM, ele foi retirado do Livro Wicked Problems, 
 E foi nesse mesmo livro que seus autores, DeGrace e Stahl, batizaram essa nova forma de trabalhar de “Scrum“.
 
 
-A **agilidade organizacional** é a capacidade de uma empresa se adaptar rapidamente a mudanças, entregar valor de forma iterativa e responder às necessidades do mercado e dos clientes. 
+A **agilidade organizacional** é a capacidade de uma empresa se adaptar rapidamente a mudanças, entregar valor de forma iterativa e responder às necessidades do mercado e dos clientes.
 
 Surgiu como resposta à rigidez de modelos tradicionais (como o _waterfall_), priorizando colaboração, flexibilidade e aprendizado contínuo. Seus pilares incluem:
 
@@ -56,126 +56,79 @@ Surgiu como resposta à rigidez de modelos tradicionais (como o _waterfall_), p
 
 O _Manifesto Ágil_ (2001) estabelece 12 princípios, resumidos em quatro valores centrais:
 
-1. **Indivíduos e interações** sobre processos e ferramentas.
-2. **Software funcionando** sobre documentação extensiva.
-3. **Colaboração com o cliente** sobre negociação de contratos.
-4. **Responder a mudanças** sobre seguir um plano fixo.
+- [ ] **Indivíduos e interações** sobre processos e ferramentas.
+- [ ] **Software funcionando** sobre documentação extensiva.
+- [ ] **Colaboração com o cliente** sobre negociação de contratos.
+- [ ] **Responder a mudanças** sobre seguir um plano fixo.
 
 ### **Frameworks Ágeis Mais Utilizados**
 
 #### **Scrum**
 
-- **Foco:** Gerenciamento de projetos complexos via ciclos curtos (_sprints_).
-    
-- **Papéis:** _Product Owner_, _Scrum Master_, Time de Desenvolvimento.
-    
-- **Artefatos:** _Product Backlog_, _Sprint Backlog_, Incremento.
-    
-- **Eventos:** _Sprint Planning_, _Daily Scrum_, _Sprint Review_, _Retrospectiva_.
-    
-
+- [ ] **Foco:** Gerenciamento de projetos complexos via ciclos curtos (_sprints_).
+- [ ] **Papéis:** _Product Owner_, _Scrum Master_, Time de Desenvolvimento.
+- [ ] **Artefatos:** _Product Backlog_, _Sprint Backlog_, Incremento.
+- [ ] **Eventos:** _Sprint Planning_, _Daily Scrum_, _Sprint Review_, _Retrospectiva_.
 #### **Kanban**
 
-- **Foco:** Visualização do fluxo de trabalho e limitação de tarefas em progresso.
-    
-- **Práticas:** Quadro Kanban (To Do, Doing, Done), métricas como _Lead Time_ e _Cycle Time_.
-    
+- [ ] **Foco:** Visualização do fluxo de trabalho e limitação de tarefas em progresso.
+- [ ] **Práticas:** Quadro Kanban (To Do, Doing, Done), métricas como _Lead Time_ e _Cycle Time_.
 
 #### **SAFe (Scaled Agile Framework)**
 
-- **Foco:** Escalar agilidade para grandes organizações.
-    
-- **Níveis:** Equipe, Programa, Portfolio.
-    
-- **Mecanismos:** _PI Planning_ (Planejamento de Incremento de Programa), _Agile Release Train_.
-    
-
+- [ ] **Foco:** Escalar agilidade para grandes organizações.
+- [ ] **Níveis:** Equipe, Programa, Portfolio.
+- [ ] **Mecanismos:** _PI Planning_ (Planejamento de Incremento de Programa), _Agile Release Train_.
 #### **LeSS (Large Scale Scrum)**
 
-- **Foco:** Aplicação do Scrum em múltiplas equipes com mínima burocracia.
+- [ ] **Foco:** Aplicação do Scrum em múltiplas equipes com mínima burocracia.
 
 ### **BizDev e a Estratégia Ágil**
-
 O **BizDev (Business Development)** alinha-se à agilidade ao buscar oportunidades de crescimento de forma dinâmica e orientada a dados. Em contextos ágeis:
 
-- **Integração com Product Management:** Definição de _roadmaps_ estratégicos que balanceiam inovação e demanda do mercado.
-    
-- **Parcerias Ágeis:** Modelos flexíveis de colaboração com parceiros, usando MVPs para validar hipóteses comerciais.
-    
-- **Exemplo:** Uma empresa de e-commerce que testa parcerias com influenciadores via campanhas curtas, medindo ROI em tempo real.
-
+- [ ] **Integração com Product Management:** Definição de _roadmaps_ estratégicos que balanceiam inovação e demanda do mercado.
+- [ ] **Parcerias Ágeis:** Modelos flexíveis de colaboração com parceiros, usando MVPs para validar hipóteses comerciais.
+- [ ] **Exemplo:** Uma empresa de e-commerce que testa parcerias com influenciadores via campanhas curtas, medindo ROI em tempo real.
 ### **DevOps: A Engrenagem da Entrega Contínua**
-
 O **DevOps** é um pilar técnico da agilidade, eliminando gargalos entre desenvolvimento e operações:
 
-- **CI/CD (_Continuous Integration/Continuous Delivery_):** Automação de testes e implantações, reduzindo erros e acelerando _time-to-market_.
-    
-- **Infraestrutura como Código:** Ferramentas como Terraform ou Ansible permitem replicação ágil de ambientes.
-    
-- **Monitoramento Proativo:** Soluções como Prometheus e New Relic garantem estabilidade pós-implantação.
-    
-- **Sinergia com Scrum/Kanban:** Pipelines DevOps são integrados a sprints para entregas semanais ou diárias.
+- [ ] **CI/CD (_Continuous Integration/Continuous Delivery_):** Automação de testes e implantações, reduzindo erros e acelerando _time-to-market_.
+- [ ] **Infraestrutura como Código:** Ferramentas como Terraform ou Ansible permitem replicação ágil de ambientes.
+- [ ] **Monitoramento Proativo:** Soluções como Prometheus e New Relic garantem estabilidade pós-implantação.
+- [ ] **Sinergia com Scrum/Kanban:** Pipelines DevOps são integrados a sprints para entregas semanais ou diárias.
 
 ###  **InnerSource: Colaboração sem Silos**
-
 O **InnerSource** aplica práticas de código aberto internamente, fortalecendo a cultura ágil:
 
-- **Repositórios Compartilhados:** Plataformas como GitLab ou GitHub Enterprise permitem contribuições transversais.
-    
-- **Revisão por Pares:** Equipes de diferentes áreas revisam código, promovendo padrões técnicos unificados.
-    
-- **Exemplo:** Um banco onde equipes de segurança e desenvolvimento colaboram em uma biblioteca de autenticação interna.
-    
-- **Impacto na Agilidade:** Redução de duplicação de esforços e aceleração do desenvolvimento de features.
+- [ ] **Repositórios Compartilhados:** Plataformas como GitLab ou GitHub Enterprise permitem contribuições transversais.
+- [ ] **Revisão por Pares:** Equipes de diferentes áreas revisam código, promovendo padrões técnicos unificados.
+- [ ] **Exemplo:** Um banco onde equipes de segurança e desenvolvimento colaboram em uma biblioteca de autenticação interna.
+- [ ] **Impacto na Agilidade:** Redução de duplicação de esforços e aceleração do desenvolvimento de features.
 
 
 ### **Experimentação Contínua: Validação no Mundo Real**
-
 A **Experimentação Contínua** é a prática de testar hipóteses rapidamente, alinhada a ciclos ágeis:
 
-- **MVPs (_Minimum Viable Products_):** Versões simplificadas para validar demanda.
-    
-- **Testes A/B:** Comparação de variações de funcionalidades ou interfaces.
-    
-- _Feature Flags_: Liberação gradual de features para mitigar riscos.
-    
-- **Ferramentas:** Optimizely (testes A/B), LaunchDarkly (_feature flags_).
-    
-- **Conexão com Scrum:** Experimentos são priorizados no _Product Backlog_ e validados em sprints.
-
+- [ ]  **MVPs (_Minimum Viable Products_):** Versões simplificadas para validar demanda.
+- [ ] **Testes A/B:** Comparação de variações de funcionalidades ou interfaces.
+- [ ] _Feature Flags_: Liberação gradual de features para mitigar riscos.
+- [ ] **Ferramentas:** Optimizely (testes A/B), LaunchDarkly (_feature flags_).
+- [ ] **Conexão com Scrum:** Experimentos são priorizados no _Product Backlog_ e validados em sprints.
 ### **Integração dos Conceitos em um Ecossistema Ágil**
-
 A combinação de **BizDev, DevOps, InnerSource e Experimentação Contínua** cria um ciclo virtuoso:
 
-1. **BizDev** identifica oportunidades estratégicas.
-    
-2. **DevOps** viabiliza entregas rápidas e estáveis.
-    
-3. **InnerSource** otimiza a colaboração técnica.
-    
-4. **Experimentação Contínua** valida decisões com dados.
-    
-
-- **Exemplo Prático:** Uma fintech lança um novo serviço de pagamento:
-    
-    - BizDev propõe parcerias com marketplaces.
-        
-    - Equipes usam InnerSource para reutilizar módulos de segurança existentes.
-        
-    - DevOps automatiza a implantação em múltiplas regiões.
-        
-    - Testes A/B definem a interface ideal para conversão de usuários.
-        
-
+- [ ] **BizDev** identifica oportunidades estratégicas.
+- [ ] **DevOps** viabiliza entregas rápidas e estáveis.
+- [ ] **InnerSource** otimiza a colaboração técnica.
+- [ ] **Experimentação Contínua** valida decisões com dados.
+- [ ]  **Exemplo Prático:** Uma fintech lança um novo serviço de pagamento:
+- [ ] BizDev propõe parcerias com marketplaces.
+- [ ] Equipes usam InnerSource para reutilizar módulos de segurança existentes.
+- [ ] DevOps automatiza a implantação em múltiplas regiões.
+- [ ] estes A/B definem a interface ideal para conversão de usuários.
 ### **Desafios na Implementação**
 
-- **Resistência Cultural:** Silos departamentais e aversão a mudanças.
-    
-- **Complexidade em Escala:** Frameworks como SAFe exigem alto alinhamento entre equipes.
-    
-- **Maturidade Técnica:** DevOps e InnerSource dependem de competências em automação e governança.
-    
-- **Métrica Errada:** Focar em "velocity" (velocidade) em vez de valor entregue ao cliente.
-    
-
-
+- [ ] **Resistência Cultural:** Silos departamentais e aversão a mudanças.
+- [ ] **Complexidade em Escala:** Frameworks como SAFe exigem alto alinhamento entre equipes.
+- [ ] **Maturidade Técnica:** DevOps e InnerSource dependem de competências em automação e governança.
+- [ ] **Métrica Errada:** Focar em "velocity" (velocidade) em vez de valor entregue ao cliente.

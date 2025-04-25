@@ -48,4 +48,3 @@ Uma interface visual para exibir gráficos com o total de despesas por categoria
 - [x] [GPTEngineer](https://gptengineer.app/)
 - [x] [Banco de Dados Supabase](https://supabase.com/)
 </div>
-

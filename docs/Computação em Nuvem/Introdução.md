@@ -38,7 +38,7 @@ A ideia central da computação em nuvem remonta à **década de 1960**, com vi
 
 ### **Modelos de Cloud**
 ##### **Public Cloud**
-A **nuvem pública** é um modelo de computação em nuvem onde os recursos (servidores, armazenamento, redes, etc.) são disponibilizados por um **provedor terceirizado** via internet, sendo compartilhados entre múltiplos clientes ("multi-tenancy"). 
+A **nuvem pública** é um modelo de computação em nuvem onde os recursos (servidores, armazenamento, redes, etc.) são disponibilizados por um **provedor terceirizado** via internet, sendo compartilhados entre múltiplos clientes ("multi-tenancy").
 
 Os usuários **pagam apenas pelo que configuram**, sem necessidade de investir em infraestrutura física.
 
@@ -56,7 +56,7 @@ Os usuários **pagam apenas pelo que configuram**, sem necessidade de investir e
 - [ ] **Foco no core business**: A empresa não precisa gerenciar infraestrutura, apenas consumir serviços
 
 ##### **Hybrid Cloud**
-A **Nuvem Híbrida** é um ambiente de computação em nuvem que combina infraestrutura **local (on-premises)**, **nuvem privada** (geralmente dedicada a um único cliente) e **nuvem pública**, permitindo que dados e aplicações sejam compartilhados entre elas. 
+A **Nuvem Híbrida** é um ambiente de computação em nuvem que combina infraestrutura **local (on-premises)**, **nuvem privada** (geralmente dedicada a um único cliente) e **nuvem pública**, permitindo que dados e aplicações sejam compartilhados entre elas.
 O objetivo é equilibrar controle, segurança, custos e flexibilidade, usando cada ambiente para cargas de trabalho específicas.
 ##### **Vantagens Financeiras e Operacionais**
 
