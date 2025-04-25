@@ -1285,3 +1285,5 @@ Você pode Excluir
 { "exclude": { "files": ".*\\.test\\.js|mock_.*", // Regex para ignorar arquivos "lines": "password=test" // Ignora linhas específicas } }
 ```
 detect-secrets scan --baseline .secrets.baseline
+
+https://google.github.io/osv-scanner/supported-languages-and-lockfiles/#supported-artifacts

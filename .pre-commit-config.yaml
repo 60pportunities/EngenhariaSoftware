@@ -16,7 +16,7 @@ repos:
                 - '--baseline'
                 - '.secrets.baseline'
                 - 'package.lock.json|node_modules/.*'
-            stages: [commit]  # Executa apenas no estágio de commit
+            stages: [pre-commit]  # Executa apenas no estágio de commit
             always_run: true  # Garante que o hook sempre será executado
     - repo: https://github.com/google/osv-scanner
       rev: v1.9.2  # Certifique-se de usar a versão mais recente
@@ -26,5 +26,5 @@ repos:
                 - '--recursive'  # Escaneia recursivamente os diretórios
                 - '--json'       # Saída no formato JSON (opcional, para integração com outras ferramentas)
                 - '.'            # Diretório atual como alvo
-            stages: [commit, push]  # Executa no estágio de commit e push
+            stages: [pre-commit, pre-push]  # Executa no estágio de commit e push
             always_run: true        # Garante que o hook sempre será executado
