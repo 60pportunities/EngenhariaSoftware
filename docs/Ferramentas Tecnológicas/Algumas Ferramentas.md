@@ -1,5 +1,6 @@
 ## Ferramentas Básicas
 ### Plataformas de Desenvolvimento
+
 <div class="mdx-columns2" markdown>
 - [x] Azure-Devops
 - [x] Jenkins
@@ -7,11 +8,13 @@
 - [x] Gitlab
 </div>
 ### Sistema de Controle de Versão
+
 <div class="mdx-columns3" markdown>
 - [x] Git
 - [x] Jujutsu
 </div>
 ### Configuration Management
+
 <div class="mdx-columns3" markdown>
 - [x] Ansible
 - [x] Chef
@@ -209,17 +212,17 @@
 
 ## Docker
 
-- [x] brew install lazydocker
+- [ ] brew install lazydocker
 
 ## Algumas configurações
 <p align="justify">Manter todas as configurações dos aplicativos no diretório de configuração(conf) é essencial para garantir a centralização e a padronização das informações, facilitando ajustes e atualizações de forma rápida e segura. Isso permite também uma gestão eficiente e evita problemas de inconsistência nos ambientes de desenvolvimento, teste e produção. Além disso, ao manter as configurações bem organizadas, a manutenção e a escalabilidade dos sistemas tornam-se mais ágeis e confiáveis.</p>
 
 !!! note "Facilitadores"
 
-    === "gitconfig"
-        Em `$HOME_USER\conf\soft\git\gitconfig`, estruture as informações necessárias para multiplas contas, mensagens padronizadas e hooks que servirão para todos os repositórios.
+#### "gitconfig"
+Em `$HOME_USER\conf\soft\git\gitconfig`, estruture as informações necessárias para multiplas contas, mensagens padronizadas e hooks que servirão para todos os repositórios.
 
-        ```
+```
         .gitconfig_provedor_empresa (Ex: .gitconfig_azure_60pportunities, .gitconfig_github_60pportunities)
         .
         ├── allowed_signers
@@ -335,11 +338,11 @@
          pg = "!f() { /Users/horaciovasconcellos/bin/git-pg; } f;"
          bp = big-picture
          staash = stash --all
-        ```
+```
 
-        Foram criados `grupos` com blocos de configurações que agrupam opções relacionadas dentro do arquivo de configuração do Git. Cada grupo começa com uma seção, identificada por um nome entre colchetes []. Dentro dessa seção, você pode definir várias opções que são específicas para esse grupo.
+Foram criados `grupos` com blocos de configurações que agrupam opções relacionadas dentro do arquivo de configuração do Git. Cada grupo começa com uma seção, identificada por um nome entre colchetes []. Dentro dessa seção, você pode definir várias opções que são específicas para esse grupo.
 
-        ```
+```
         [github]
             url =        # Url
             token =      # Token de Acesso
@@ -363,21 +366,21 @@
             token =          # Token de Acesso
             organizacao =    # Nome da Organização
             version =        # Versão das APIs
-        ```
+```
 
-    === "MkDocs"
-        Para instalar o python, utilize o comando:
+####  "MkDocs"
+Para instalar o python, utilize o comando:
 
-        - [x] brew install python ou brew install python3
-        - [x] sudo pip install --upgrade pip
+- [x] brew install python ou brew install python3
+- [x] sudo pip install --upgrade pip
 
-        Pegue todos as plugins relacionados ao Mkdocs, acima e crie um arquivo de texto, com o nome de `requirements.txt`.
+Pegue todos as plugins relacionados ao Mkdocs, acima e crie um arquivo de texto, com o nome de `requirements.txt`.
 
         Efetue a instalação através do comando: `pip install -r requirements.txt`.
 
-        Exemplo de arquivo mkdocs.yml:
+Exemplo de arquivo mkdocs.yml:
 
-        ```
+```
         # Project information
         site_name: XXXXXXXXXXXXXXXXXX
         site_description: Descrição XXXXXXXXXXXXXXXXXX
@@ -579,49 +582,49 @@
         #not_in_nav: |
 
         nav:
-           - 'Inicio'                                                        :
-              - 'Licença'                                                    : 'LICENSE.md'
-              - 'Changelog'                                                  : 'CHANGELOG.md'
-              - 'Contribuições'                                              : 'CONTRIBUTING.md'
-              - 'Codigo de Conduta'                                          : 'CODE_OF_CONDUCT.md'
-              - 'Notas'                                                      : 'notas.md'
-              - 'Políticas'                                                  : 'politicas.md'
-              - 'Segurança'                                                  : 'SECURITY.md'
-        ```
+           - 'Inicio'                                      :
+              - 'Licença'                                 : 'LICENSE.md'
+              - 'Changelog'                               : 'CHANGELOG.md'
+              - 'Contribuições'                           : 'CONTRIBUTING.md'
+              - 'Codigo de Conduta'                       : 'CODE_OF_CONDUCT.md'
+              - 'Notas'                                   : 'notas.md'
+              - 'Políticas'                               : 'politicas.md'
+              - 'Segurança'                               : 'SECURITY.md'
+```
 
-    === "SQL Developer"
+####  SQL Developer
         <pre>
           <kbd>⌘,</kbd>: Settings ou Configuração
         </pre>
 
-        - [x] Banco de Dados --> Avançado --> Diretório Tnsnames: ~/conf/soft/git/gitconfig/oracle/
-        - [x] Banco de Dados --> Drivers JDBC Terceiros: ~/conf/soft/git/gitconfig/oracle/drivers
-        - [x] Editor de Códigos -->Fluxo de Linha --> Mostrar Número da Linha
+- [ ] Banco de Dados --> Avançado --> Diretório Tnsnames: ~/conf/soft/git/gitconfig/oracle/
+- [ ] Banco de Dados --> Drivers JDBC Terceiros: ~/conf/soft/git/gitconfig/oracle/drivers
+- [ ] Editor de Códigos -->Fluxo de Linha --> Mostrar Número da Linha
 
-        ## Instale db* CODECOP
-        Ela é uma extensão gratuita do SQL Developer, para verificar o conteúdo de um objeto de banco de dados PL/SQL e verificar possíveis violações de conformidade. Por padrão ele assume as diretizes de codificação [PL/SQL e SQL Trivadis versão 4.4.](https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/1-introduction/introduction/). O db* CODECOP calcula métricas por unidade PL/SQL, como:
+## Instale db* CODECOP
+Ela é uma extensão gratuita do SQL Developer, para verificar o conteúdo de um objeto de banco de dados PL/SQL e verificar possíveis violações de conformidade. Por padrão ele assume as diretizes de codificação [PL/SQL e SQL Trivadis versão 4.4.](https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/1-introduction/introduction/). O db* CODECOP calcula métricas por unidade PL/SQL, como:
 
-        - [x] A complexidade ciclomática de McCabe;
-        - [x] Volume de Halstead;
-        - [x] O índice de manutenibilidade;
-        - [x] Linhas
-        - [x] Comandos (SQL*Plus e SQL)
-        - [x] Instruções (dentro de uma unidade PL/SQL)
-        - [x] etc.
+- [ ] A complexidade ciclomática de McCabe;
+- [ ] Volume de Halstead;
+- [ ] O índice de manutenibilidade;
+- [ ] Linhas
+- [ ] Comandos (SQL*Plus e SQL)
+- [ ] Instruções (dentro de uma unidade PL/SQL)
+- [ ] etc.
 
-        E os agrega no nível do arquivo.
+E os agrega no nível do arquivo.
 
-        Os resultados são apresentados em um painel com guias adicionais. Uma guia mostra todas as violações das diretrizes para navegar rapidamente até a posição do código correspondente. A outra aba contém um relatório HTML completo, que também pode ser aberto em seu navegador externo.
+Os resultados são apresentados em um painel com guias adicionais. Uma guia mostra todas as violações das diretrizes para navegar rapidamente até a posição do código correspondente. A outra aba contém um relatório HTML completo, que também pode ser aberto em seu navegador externo.
 
-        Exemplo: Abra um script PL/SQL ou SQL em um editor SQL Developer e pressione Ctrl-Shift-C para verificar seu código em relação às diretrizes PL/SQL e SQL do Trivadis.
+Exemplo: Abra um script PL/SQL ou SQL em um editor SQL Developer e pressione Ctrl-Shift-C para verificar seu código em relação às diretrizes PL/SQL e SQL do Trivadis.
 
 ![](../img/sqldeveloper_002.png)
 
-        Navegue pelos problemas usando as teclas do cursor para destacar a seção de código relacionada no editor vinculado.
+Navegue pelos problemas usando as teclas do cursor para destacar a seção de código relacionada no editor vinculado.
 
 ![](../img/sqldeveloper_003.png)
 
-        Encaixe a janela de saída db* CODECOP em sua posição favorita no SQL Developer e clique na guia de relatório para revelar algumas métricas adicionais. Abra o relatório em um navegador externo para imprimir ou salvar o relatório.
+Encaixe a janela de saída db* CODECOP em sua posição favorita no SQL Developer e clique na guia de relatório para revelar algumas métricas adicionais. Abra o relatório em um navegador externo para imprimir ou salvar o relatório.
 
 ![](../img/sqldeveloper_004.png)
 
@@ -630,26 +633,28 @@ Clique no Ajuda no  menu e selecione Check for Updates…. Pressione o Adicionar
 
 ![](../img/sqldeveloper_005.png)
 
-        ## Banco de Dados de Terceiros
-        Você pode configurar o SQL Developer para acessar outros banco de dados bastando baixar o drivers JDBCs de  cada banco de dados que desejar utilizar.
+## Banco de Dados de Terceiros
+Você pode configurar o SQL Developer para acessar outros banco de dados bastando baixar o drivers JDBCs de  cada banco de dados que desejar utilizar.
 
 ![](../img/sqldeveloper_006.png)
 
-=== "SQL DataModeler"
+#### SQL DataModeler
 
-    === "Lazydocker"
 
-        <pre>
+#### Lazydocker
+
+
+<pre>
            <kbd>e</kbd>: editar configuração do lazydocker
            <kbd>o</kbd>: abrir configuração do lazydocker
            <kbd>m</kbd>: ver logs
            <kbd>enter</kbd>: focar no painel principal
            <kbd>[</kbd>: aba anterior
            <kbd>]</kbd>: próxima aba
-        </pre>
+</pre>
 
-        ### Contêineres
-        <pre>
+####  Contêineres
+<pre>
           <kbd>d</kbd>: remover
           <kbd>e</kbd>: ocultar/mostrar contêineres parados
           <kbd>p</kbd>: pausar
@@ -665,151 +670,149 @@ Clique no Ajuda no  menu e selecione Check for Updates…. Pressione o Adicionar
           <kbd>[</kbd>: aba anterior
           <kbd>]</kbd>: próxima aba
           <kbd>/</kbd>: filtrar lista
-        </pre>
+</pre>
 
-        ### Serviços
-        <pre>
-          <kbd>u</kbd>: subir serviço
-          <kbd>d</kbd>: remover contêineres
-          <kbd>s</kbd>: parar
-          <kbd>p</kbd>: pausar
-          <kbd>r</kbd>: reiniciar
-          <kbd>S</kbd>: iniciar
-          <kbd>a</kbd>: anexar
-          <kbd>m</kbd>: ver logs
-          <kbd>U</kbd>: subir projeto
-          <kbd>D</kbd>: derrubar projeto
-          <kbd>R</kbd>: ver opções de reinício
-          <kbd>c</kbd>: executar comando personalizado predefinido
-          <kbd>b</kbd>: ver comandos em massa
-          <kbd>E</kbd>: executar shell
-          <kbd>w</kbd>: abrir no navegador (primeira porta é http)
-          <kbd>enter</kbd>: focar no painel principal
-          <kbd>[</kbd>: aba anterior
-          <kbd>]</kbd>: próxima aba
-          <kbd>/</kbd>: filtrar lista
-        </pre>
-        ### Imagens
-        <pre>
-          <kbd>c</kbd>: executar comando personalizado predefinido
-          <kbd>d</kbd>: remover imagem
-          <kbd>b</kbd>: ver comandos em massa
-          <kbd>enter</kbd>: focar no painel principal
-          <kbd>[</kbd>: aba anterior
-          <kbd>]</kbd>: próxima aba
-          <kbd>/</kbd>: filtrar lista
-        </pre>
+#### Serviços
 
-        ### Volumes
-        <pre>
-          <kbd>c</kbd>: executar comando personalizado predefinido
-          <kbd>d</kbd>: remover volume
-          <kbd>b</kbd>: ver comandos em massa
-          <kbd>enter</kbd>: focar no painel principal
-          <kbd>[</kbd>: aba anterior
-          <kbd>]</kbd>: próxima aba
-          <kbd>/</kbd>: filtrar lista
-        </pre>
+<pre>
+  <kbd>u</kbd>: subir serviço
+  <kbd>d</kbd>: remover contêineres
+  <kbd>s</kbd>: parar
+  <kbd>p</kbd>: pausar
+  <kbd>r</kbd>: reiniciar
+  <kbd>S</kbd>: iniciar
+  <kbd>a</kbd>: anexar
+  <kbd>m</kbd>: ver logs
+  <kbd>U</kbd>: subir projeto
+  <kbd>D</kbd>: derrubar projeto
+  <kbd>R</kbd>: ver opções de reinício
+  <kbd>c</kbd>: executar comando personalizado predefinido
+  <kbd>b</kbd>: ver comandos em massa
+  <kbd>E</kbd>: executar shell
+  <kbd>w</kbd>: abrir no navegador (primeira porta é http)
+  <kbd>enter</kbd>: focar no painel principal
+  <kbd>[</kbd>: aba anterior
+  <kbd>]</kbd>: próxima aba
+  <kbd>/</kbd>: filtrar lista
+</pre>
 
-        ### Redes
-        <pre>
-          <kbd>c</kbd>: executar comando personalizado predefinido
-          <kbd>d</kbd>: remover rede
-          <kbd>b</kbd>: ver comandos em massa
-          <kbd>enter</kbd>: focar no painel principal
-          <kbd>[</kbd>: aba anterior
-          <kbd>]</kbd>: próxima aba
-          <kbd>/</kbd>: filtrar lista
-        </pre>
 
-        ### Principal
-        <pre>
-          <kbd>esc</kbd>: retornar
-        </pre>
+#### Imagens
 
-        ### Global
-        <pre>
-          <kbd>+</kbd>: modo de tela seguinte (normal/meia/tela cheia)
-          <kbd>_</kbd>: modo de tela anterior
-          <kbd>1</kbd>: focus projects panel
-          <kbd>2</kbd>: focus services panel
-          <kbd>3</kbd>: focus containers panel
-          <kbd>4</kbd>: focus images panel
-          <kbd>5</kbd>: focus volumes panel
-          <kbd>6</kbd>: focus networks panel
-        </pre>
+<pre>
+<kbd>c</kbd>: executar comando personalizado predefinido
+<kbd>d</kbd>: remover imagem
+<kbd>b</kbd>: ver comandos em massa
+<kbd>enter</kbd>: focar no painel principal
+<kbd>[</kbd>: aba anterior
+<kbd>]</kbd>: próxima aba
+<kbd>/</kbd>: filtrar lista
+</pre>
 
-    === "gh"
-        GitHub CLI, ou gh, é uma interface de linha de comando para o GitHub para uso em seu terminal ou scripts.
-        Execute gh auth login para autenticar com sua conta do GitHub. Alternativamente, gh respeitará a GITHUB_TOKEN variável de ambiente .
+#### Volumes
 
-        ```
-        brew install gh
-        brew upgrade gh
-        ```
+<pre>
+  <kbd>c</kbd>: executar comando personalizado predefinido
+  <kbd>d</kbd>: remover volume
+  <kbd>b</kbd>: ver comandos em massa
+  <kbd>enter</kbd>: focar no painel principal
+  <kbd>[</kbd>: aba anterior
+  <kbd>]</kbd>: próxima aba
+  <kbd>/</kbd>: filtrar lista
+</pre>
 
-    === "act"
-        Em vez de ter que fazer commit/push toda vez que quiser testar as alterações que está fazendo em seus .github/workflows/arquivos, você pode usar act para executar as ações localmente.
+#### Redes
 
-        As variáveis ​​de ambiente e o sistema de arquivos são todos configurados para corresponder ao que o GitHub fornece.
 
-        Ele usa a API do Docker para extrair ou construir as imagens necessárias, conforme definido em seus arquivos de fluxo de trabalho e, finalmente, determina o caminho de execução com base nas dependências que foram definidas.
+#### Principal
+<pre>
+    <kbd>esc</kbd>: retornar
+</pre>
+#### Global
 
-        ```
-        gh extension install https://github.com/nektos/gh-act
-        ```
+<pre>
+ <kbd>+</kbd>: modo de tela seguinte (normal/meia/tela cheia)
+ <kbd>_</kbd>: modo de tela anterior
+ <kbd>1</kbd>: focus projects panel
+ <kbd>2</kbd>: focus services panel
+ <kbd>3</kbd>: focus containers panel
+ <kbd>4</kbd>: focus images panel
+ <kbd>5</kbd>: focus volumes panel
+ <kbd>6</kbd>: focus networks panel
+</pre>
 
-    === "az"
-        A `az` é uma ferramenta de linha de comando multiplataforma que pode ser instalada localmente em computadores. Você pode usar a CLI do Azure para se conectar ao Azure e executar comandos administrativos em recursos do Azure usando prompts de linha de comando interativos ou um script.
+#### gh
+GitHub CLI, ou gh, é uma interface de linha de comando para o GitHub para uso em seu terminal ou scripts.
+Execute gh auth login para autenticar com sua conta do GitHub. Alternativamente, gh respeitará a GITHUB_TOKEN variável de ambiente .
 
-        ```
-        brew update && brew install azure-cli
-        ```
+```
+brew install gh
+brew upgrade gh
+```
 
-    === "Ansible"
-          O Ansible fornece automação de código aberto que reduz a complexidade e roda em qualquer lugar.
+####  act
+Em vez de ter que fazer commit/push toda vez que quiser testar as alterações que está fazendo em seus .github/workflows/arquivos, você pode usar act para executar as ações localmente.
 
-          ```
-          pip install --upgrade pip
-          python3 -m pip install --user ansible
-          python3 -m pip install --user ansible-core
-          python3 -m pip install --upgrade --user ansible
-          ansible --version
-          ansible-community --version
-          ```
+As variáveis ​​de ambiente e o sistema de arquivos são todos configurados para corresponder ao que o GitHub fornece.
 
-    === "Maven"
-          Certifique-se que o equipamento já possui uma JDK instalada e aí, já estamos prontos para baixar e instalar o Maven no Mac OS.
+Ele usa a API do Docker para extrair ou construir as imagens necessárias, conforme definido em seus arquivos de fluxo de trabalho e, finalmente, determina o caminho de execução com base nas dependências que foram definidas.
 
-          ```
+```
+gh extension install https://github.com/nektos/gh-act
+```
+
+####  az
+A `az` é uma ferramenta de linha de comando multiplataforma que pode ser instalada localmente em computadores. Você pode usar a CLI do Azure para se conectar ao Azure e executar comandos administrativos em recursos do Azure usando prompts de linha de comando interativos ou um script.
+
+```
+brew update && brew install azure-cli
+```
+
+#### Ansible
+O Ansible fornece automação de código aberto que reduz a complexidade e roda em qualquer lugar.
+
+```
+pip install --upgrade pip
+python3 -m pip install --user ansible
+python3 -m pip install --user ansible-core
+python3 -m pip install --upgrade --user ansible
+ansible --version
+ansible-community --version
+```
+
+Maven
+Certifique-se que o equipamento já possui uma JDK instalada e aí, já estamos prontos para baixar e instalar o Maven no Mac OS.
+
+```
           brew update
           brew install maven
           mvn --version
-          ```
+```
 
-    === "Liquibase"
-          A integração Liquibase Maven permite que você gerencie o processo de construção e seus scripts de esquema de banco de dados a partir de um arquivo central chamado pom.xml.
+Liquibase
+A integração Liquibase Maven permite que você gerencie o processo de construção e seus scripts de esquema de banco de dados a partir de um arquivo central chamado pom.xml.
 
-          No diretório do seu projeto Liquibase, adicione ao arquivo pom.xml do maven, no diretório.
+No diretório do seu projeto Liquibase, adicione ao arquivo pom.xml do maven, no diretório.
 
-          ```
-          <plugin>
-             <groupId>org.liquibase</groupId>
-             <artifactId>liquibase-maven-plugin</artifactId>
-              <configuration>
-                 <propertyFileWillOverride>true</propertyFileWillOverride>
-                 <propertyFile>src/main/resources/liquibase/liquibase.properties</propertyFile>
-              </configuration>
-              /*
-                <configuration>
-                   <changeLogFile>src/main/resources/org/liquibase/business_table.xml</changeLogFile>
-                   <driver>oracle.jdbc.driver.OracleDriver</driver>
-                   <url>jdbc:oracle:thin:@tf-appserv-linux:1521:xe</url>
-                   <username>liquibaseTest</username>
-                   <password>pass</password>
-                   <outputChangeLogFile>myGenChangeLog.xml</outputChangeLogFile>
-                   </configuration>
-               /*
-             <version>4.31.0</version>
-          </plugin>
-          ```
+
+```
+<plugin>
+    <groupId>org.liquibase</groupId>
+    <artifactId>liquibase-maven-plugin</artifactId>
+     <configuration>
+        <propertyFileWillOverride>true</propertyFileWillOverride>
+        <propertyFile>src/main/resources/liquibase/liquibase.properties</propertyFile>
+     </configuration>
+     /*
+       <configuration>
+          <changeLogFile>src/main/resources/org/liquibase/business_table.xml</changeLogFile>
+          <driver>oracle.jdbc.driver.OracleDriver</driver>
+          <url>jdbc:oracle:thin:@tf-appserv-linux:1521:xe</url>
+          <username>liquibaseTest</username>
+          <password>pass</password>
+          <outputChangeLogFile>myGenChangeLog.xml</outputChangeLogFile>
+          </configuration>
+      /*
+    <version>4.31.0</version>
+ </plugin>
+```

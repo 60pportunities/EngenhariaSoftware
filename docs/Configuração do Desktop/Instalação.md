@@ -165,7 +165,7 @@ $ brew install yq # Processador de linha de comando YAML, JSON e XML
  $ [Swagger](https://editor.swagger.io/)
  $ [JSDoc/TSDoc](https://jsdoc.app/)
  $ [PL/Doc](https://jsdoc.app/)
- ```
+```
 ## Instalação de Pacotes ou Configurações
 
 ### Configuração Git
@@ -212,7 +212,6 @@ path = ~/gitconfig/.gitconfig_azure_xxxxxxxx
 ```
 
 ### Pip
-
 ```
 Package                                   Version
 ----------------------------------------- --------------
@@ -787,7 +786,8 @@ $ pre-commit install
 $ vi pre-commit-config.yaml
 $ pre-commit run --all-files
 ```
-Basico `.pre-commit-config.yaml`
+
+#### Basico `.pre-commit-config.yaml`
 
 ```
 # filepath: /Users/horaciovasconcellos/mkdocs/documentacao/.pre-commit-config.yaml
@@ -819,7 +819,8 @@ repos:
 ```
 
 
-Complexo
+#### Complexo
+
 ```
 exclude: |
   (?x)
@@ -948,7 +949,7 @@ repos:
 
 ### git-aggregate
 
-repos.yaml
+#### repos.yaml
 
 ```
 # See https://github.com/Tecnativa/doodba#optodoocustomsrcreposyaml
@@ -1279,11 +1280,12 @@ $ detect-secrets scan > .secrets.baseline
 $ detect-secrets scan
 ```
 
-Você pode Excluir
+#### Caso você deseje excluir
+
 
 ```
-{ "exclude": { "files": ".*\\.test\\.js|mock_.*", // Regex para ignorar arquivos "lines": "password=test" // Ignora linhas específicas } }
+{ "exclude":
+             { "files": ".*\\.test\\.js|mock_.*", // Regex para ignorar arquivos                "lines": "password=test" // Ignora linhas específicas
+             }
+}
 ```
-detect-secrets scan --baseline .secrets.baseline
-
-https://google.github.io/osv-scanner/supported-languages-and-lockfiles/#supported-artifacts

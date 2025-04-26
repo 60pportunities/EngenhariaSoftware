@@ -67,6 +67,22 @@ id3001 --> id300101(FileSystem</br>df,du,chgrp) & id300102(Base CLI</br>ls,cd,pw
 
 ```
 
+
+#### Processo
+
+
+```mermaid
+flowchart TD
+A(Desenvolver) --> B(Controle</br>de versão)
+B --> C(Pull Request)
+C --> D(Pipeline</br>Código) & E(Pipeline</br>Documentação)
+D & E --> F(Aprovação)
+F --> G(Geração Container) & H(Construção Automatizada)
+H --> I(Ativos estáticos)
+I --> J(Implantação atômica)
+J --> K(Pré-render e invalidar cache)
+K --> L(Entrega e </br>Distribuição de</br> conteúdo)
+```
 #### Cloud
 
 
@@ -214,6 +230,39 @@ id9(Configuration</br>Management) --> id901(Ansible) & id902(Chef) & id903(Terra
 
 ```
 
+#### Integração Incidente para Produto
+
+```mermaid
+
+flowchart LR
+
+id1((Início)) --> A
+
+A(Ticket) --> B(SysAid)
+
+B --> C{Incidente</br>Demanda?}
+
+C --> |Demanda|D(Integração</br>Azure-Devops)
+
+D-->E(Notifica</br>Fechamento</br>Associa WIT)
+
+C --> F(Analista</BR>Responsável)
+
+F --> G(Verifica CMDB</br>Aplica Regras)
+
+G & E--> id2((Encerramento</br>Ticket))
+
+```
+
+```mermaid
+flowchart LR
+id1((Início)) --> A
+A(git-azsync) --> B(endPoint)
+B --> C(Dados da Atividade</br>Produto)
+C --> D(Banco de Dados</br>Oracle)
+D --> E(Exposição</br>PowerBI)
+E --> id2((Fim))
+```
 
 #### Processos Ágeis
 

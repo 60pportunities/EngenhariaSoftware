@@ -1,3 +1,10 @@
+Observabilidade de dados é a capacidade de compreender holisticamente o estado e a saúde dos dados, pipelines de dados, cenários de dados, infraestruturas de dados e a governança financeira dos dados de uma organização. Isso é alcançado por meio do monitoramento, rastreamento, alertas, análise e solução de problemas contínuos para reduzir e prevenir erros de dados ou tempo de inatividade.
+
+- [ ] **Observação da infraestrutura de dados**: Inclui registros e métricas sobre o consumo de recursos, incluindo : computação, armazenamento, rede, sistema operacional, hipervisores, contêineres, software , plataformas/bancos de dados (IaaS/PaaS/SaaS)
+- [ ] **Observação do fluxo de dados**:  Inclui alterações no pipeline de dados (quando os dados estão em transição entre diferentes estágios) em termos de desvio de esquema, volume de dados, comportamento/desempenho do pipeline, frequência e tempo.
+- [ ] **Observação da qualidade dos dados**: Inclui questões relacionadas à qualidade dos dados em termos de integridade, precisão, exclusividade, pontualidade, anomalias e outliers.
+- [ ] **Observação do uso de dados**:  Inclui uso de dados, padrões de acesso do usuário, frequência de acesso a dados, detecção de anomalias e muito mais.
+- [ ] Observação de custos — Inclui tempo de inatividade do sistema, estornos, consumo de recursos, engajamento de SLA, planejamento de capacidade e previsão de custos.
 ## Monitoramento
 
 
@@ -116,8 +123,6 @@ NIVL143 --> MET[Métricas]
 
 Prometheus é um sistema de código aberto para monitoramento e ferramenta de alerta. É desenvolvido na linguagem GO.
 
-
-
 Prometheus coleta métricas de destinos configurados em intervalos dados, avalia expressões de regras, exibe os resultados e pode acionar alertas se alguma condição for observada como verdadeira. Tem dados simples, mas poderosos modelo e uma linguagem de consulta que permite analisar como seus aplicativos e infra estrutura estão funcionando.
 
 O modelo de dados identifica cada série temporal não apenas com um nome, mas também com um conjunto não ordenado de pares de valores-chave chamados rótulos.
@@ -129,37 +134,16 @@ Um único servidor Prometheus pode ingerir milhões de amostras por segundo.
 
 ![](../img/prometheus-architecture.png){width="600" height="300" style="display: block; margin: 0 auto"}
 
+Prometeu foi construído para auxiliar no desenvolvimento de software, operadores e administradores na operação de produção, como os aplicativos, ferramentas, bancos de dados e redes que dão suporte a sites populares.
 
+Monitoramento porque ?
+### Configuração Básica
 
-Prometeu foi construído para auxiliar no desenvolvimento de software,
-
-operadores e administradores na operação de produção, como os aplicativos, ferramentas, bancos de dados e redes que dão suporte a sites populares.
-
-
-
-???+ tip "Monitoramento porque ?"
-
-
-
-=== "Configuração Básica"
-
-
-
-Alerta: Nós queremos que o sistema de monitoramento **CHAME** uma pessoa para dar uma olhada;
-
-
-
-Depuração: Já que você veio, agora quem chegou, precisa investigar para determinar a causa raiz e resolver o incidente.
-
-
-
-Tendencias: Alimentam decisões de design e processos como planejamento de capacidade.
-
-
+- [ ] Alerta: Nós queremos que o sistema de monitoramento **CHAME** uma pessoa para dar uma olhada;
+- [ ] Depuração: Já que você veio, agora quem chegou, precisa investigar para determinar a causa raiz e resolver o incidente.
+- [ ] Tendencias: Alimentam decisões de design e processos como planejamento de capacidade.
 
 Canalização: No fim de o dia em que todos os sistemas de monitoramento são canais de processamento de dados.
-
-
 
 | Tipo                    | Definição                                                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -168,37 +152,19 @@ Canalização: No fim de o dia em que todos os sistemas de monitoramento são ca
 | Solicitar logs          | Registros que podem ser processados para implementar recursos voltados para o usuário ou apenas para otimizações internas.                  |
 | Registros de transações | Eles são os registros críticos de negócios que você deve manter seguros a todo custo, provavelmente para sempre.                            |
 
-
-
-=== "Monitoramento"
-
-
-
+### Monitoramento
 A maior parte do monitoramento é sobre a mesma coisa: **eventos** e os eventos também têm **contexto**.
 
+- [ ] Observar o comportamento [não funcional] das funções de negócios / aplicativos em tempo [quase] real;
+- [ ] Disponibilidade e saúde;
+- [ ] Atuação;
+- [ ] Acesso - quando e como deve ser para quem deve ser;
+- [ ] Equipa-se com:
+	- [ ] Criação de perfil e depuração - contexto máximo para picos de atividade;
+	- [ ] Rastreamento - rastreia os caminhos da aplicação [e plataforma e infra] pilha tecnológica;
+	- [ ] Registro - por aplicativo ou saída de componente de plataforma para off-line em processamento;
 
-
-- Observar o comportamento [não funcional] das funções de negócios / aplicativos em tempo [quase] real;
-
-- Disponibilidade e saúde;
-
-- Atuação;
-
-- Acesso - quando e como deve ser para quem deve ser;
-
-- Equipa-se com:
-
-- Criação de perfil e depuração - contexto máximo para picos de atividade;
-
-- Rastreamento - rastreia os caminhos da aplicação [e plataforma e infra] pilha tecnológica;
-
-- Registro - por aplicativo ou saída de componente de plataforma para off-line em processamento;
-
-
-
-=== "Definições"
-
-
+### Definições
 
 | Tipo                 | header                                                                                                                                                                                              |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -207,59 +173,41 @@ A maior parte do monitoramento é sobre a mesma coisa: **eventos** e os eventos 
 | Tamanho de contagem  | Utiliza números de ponto flutuante de 64 bits para valores, então você não está limitado a incrementando contadores em um. Você pode, de fato, incrementar contadores por qualquer número negativo. |
 | Medidor              | Os medidores são um instantâneo de algum estado atual. Os medidores têm três métodos principais que você pode usar: iinc, dec, and set. As métricas de contador são sufixadas por _total.           |
 | Exposicao            | O processo de disponibilização de métricas. Normalmente você expõe métricas sob o caminho/metrics.                                                                                                  |
+- [ ] Métricas como process_resident_memory_bytes são chamadas de medidores.
+- [ ]  Os contadores rastreiam quantos eventos aconteceram ou o tamanho total de todos os eventos (prometheus_tsdb_head_samples_appended_total);
+- [ ] Observação: Vc poderá produze taxas ou medições temporais. **rate(prometheus_tsdb_head_samples_appended_total[1m])**
 
+####  O que é necessário para o monitoramento?
 
+- [ ] Reúna a métrica operacional;
+- [ ] Disparar Alertas;
+- [ ] Disparar Agentes Automatizados de correção;
+- [ ] Para apoiar a resolução de questões (dados para análise da causa raiz);
+- [ ] Para analisar tendências + efeitos / impacto da mudança.
 
-- Métricas como process_resident_memory_bytes são chamadas de medidores.
+### Tipo de Métrica
+- [ ] HELP é uma descrição do que é a métrica, e geralmente não deve mude de raspar paras a scrape to scrape.
+- [ ] TYPE é um de contador, medidor, resumo, histograma ou não tipado. sem tipo é usado quando você não sabe o tipo de métrica e é o padrão se nenhum tipo for especificado.
+- [ ] Métricas primárias;
+- [ ] Vinculado a indicadores de SLA;
+- [ ] Relevante - representante dos principais indicadores de desempenho;
+- [ ] Experiência do usuário final;
+- [ ] Rendimento da atividade de negócios.
 
-- Os contadores rastreiam quantos eventos aconteceram ou o tamanho total de todos os eventos (prometheus_tsdb_head_samples_appended_total);
+### Métricas secundárias
+- [ ] Métricas técnicas;
+- [ ] Fatores de Saúde - não diretamente ligados a indicadores específicos de negócios;
+- [ ] Temperatura, armazenamento, carga de rede e etc.
+- [ ] Paine
 
-- Observação: Vc poderá produze taxas ou medições temporais. **rate(prometheus_tsdb_head_samples_appended_total[1m])**
-
-
-=== "O que é necessário para o monitoramento?"
-
-- Reúna a métrica operacional;
-- Disparar Alertas;
-- Disparar Agentes Automatizados de correção;
-- Para apoiar a resolução de questões (dados para análise da causa raiz);
-- Para analisar tendências + efeitos / impacto da mudança.
-
-=== "Tipo de métrica"
-HELP é uma descrição do que é a métrica, e geralmente não deve
-mude de raspar paras a scrape to scrape.
-TYPE é um de contador, medidor, resumo, histograma ou não tipado. sem tipo é usado quando você não sabe o tipo de métrica e é o padrão se nenhum tipo for especificado.
-
-
-- Métricas primárias;
-- Vinculado a indicadores de SLA;
-- Relevante - representante dos principais indicadores de desempenho;
-- Experiência do usuário final;
-- Rendimento da atividade de negócios.
-
-
-=== "Métricas secundárias"
-- Métricas técnicas;
-- Fatores de Saúde - não diretamente ligados a indicadores específicos de negócios;
-- Temperatura, armazenamento, carga de rede e etc.
-- Paine
-
-=== "Service Discovery"
+### Service Discovery
 O Prometheus possui integrações com muitos mecanismos de descoberta de serviço comuns,como Kubernetes, EC2 e Consul, mas não foi o foco deste trabalho.
 
-  === "Scraping"
+### Scraping
 Prometheus faz isso enviando uma solicitação HTTP chamada de scrape. A resposta deste scraping é analisada e armazenada. Outras métricas úteis também são adicionadas, como se o scrape foi bem-sucedido e quanto tempo demorou.
 
-
-
 ???+ tip "Prometheus"
-
-
-
 === "Servidor Prometheus"
-
-
-
 Optei por uma instalação em /opt/prometheus, tando do server como dos exportadores.
 
 

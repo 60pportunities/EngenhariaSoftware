@@ -12,6 +12,7 @@ A ideia central da computação em nuvem remonta à **década de 1960**, com vi
 	- [ ] Uma vez que o ativo está sendo usado, ele é depreciado ao longo do tempo para distribuir o custo do ativo ao longo de sua vida útil. Em outras palavras, a cada ano, uma parte do ativo fixo está sendo "consumida" ou "depreciada".
 	- [ ] A depreciação representa o grau de desgaste de um ativo. As empresas podem deduzir o valor da depreciação em sua declaração anual de impostos.
 	- [ ] Em alguns casos, pode ser conhecido como custos "Up-Front". Ou seja, a empresa precisa pagar ou adquirir um equipamento antes de usá-lo.
+
 - [ ] OpEx é a abreviação de Operational Expenditures ou "Despesas Operacionais". Refere-se às despesas que uma empresa incorre em suas operações diárias.
 	- [ ] Como as despesas operacionais constituem a maior parte dos custos contínuos de uma empresa, a administração normalmente procura maneiras de reduzir seu OPEX sem causar uma queda crítica na qualidade ou na produção.
 	- [ ] As despesas operacionais são deduzidas integralmente na declaração anual de impostos, no período em que foram incorridas.

@@ -1,4 +1,5 @@
 É uma sentença declarativa aparentemente verdadeira mas que leva a uma contradição lógica ou simplesmente a algo que contradiz a intuição.
+
 ## Paradoxo do Pinóquio
 <p align="justify">Pinóquio é reconhecidamente um dos ícones da cultura moderna, criado como um boneco de madeira que sonha em ser um menino de verdade, ele é mais conhecido por suas mentiras.</p>
 <p align="justify">Trata-se de um conflito de lógica baseado na famosa história infantil do boneco Pinóquio, cujo nariz crescia sempre que o mesmo contava uma mentira.</p>
@@ -14,31 +15,37 @@ Neste caso, duas hipóteses, igualmente válidas poderiam acontecer:
 - [ ] O nariz de Pinóquio cresce. Então ele disse uma verdade, portanto, o nariz dele não tinha motivo para ter crescido.
 
 ## Paradoxo da Escolha
-
 **Barry Schwartz** - Um maior número de escolhas concede-nos mais liberdade. No entanto, demasiadas opções limitam-nos a capacidade de decisão.
 
 Crise de indecisão e insatisfação nos consumidores, em vez de impulsionar as compras.
 <p align="justify">Não é suposto contentarmo-nos com nada, a menos que seja o melhor. O mundo digital está a agudizar o problema, porque, ao abrir um mundo de possibilidades infinitas, também criou o FOMO (fear of missing out - medo de perder) e um medo cada vez maior de fazer a escolha errada, num mar de ofertas.</p>
-A escolha num leque alargado de opções pode provocar mais stress, mais erros,menos satisfação e, até, burnout.
+A **escolha num leque alargado de opções** pode provocar mais stress, mais erros,menos satisfação e, até, burnout.
 Quando a oferta é muito ampla, pode ser que as pessoas não consigam escolher o produto mais adequado e até deixem de fazer a compra.
 Essa ideia pode soar contraditória, mas é exatamente isso que acontece na mente humana, que se vê sobrecarregada e confusa diante de tantas opções no mercado atual.
 
 ## Paradoxo da Escolha agindo no nosso dia a dia.
-
-- [ ] Quanto tempo você passa escolhendo o que assistir na Netflix, Apple TV, Disney+, etc?
-	- [ ] Resposta: É provável que o consumo tome muito mais tempo na sua vida hoje em dia, porque o número de opções aumentou.
-	- [ ] Resposta: Ou, deixei de escolhar, o software de Stream, escolhe para mim.
+- [ ] **Quanto tempo você passa escolhendo o que assistir na Netflix, Apple TV, Disney+, etc?**
+	- [ ] **Resposta**: É provável que o consumo tome muito mais tempo na sua vida hoje em dia, porque o número de opções aumentou.
+	- [ ] **Resposta**: Ou, deixei de escolhar, o software de Stream, escolhe para mim.
 
 A responsabilidade é enorme, **pois cabe a você** entender as características de cada produto, comparar marcas, pesquisar preços e definir prioridades.
 
-- [ ] Paralisia - Aprendizado e ao desenvolvimento intelectual.
-- [ ] Custo da oportunidade e comparação - Ela sente que tem algo a perder, ou seja, um custo.
-- [ ] Transferência de responsabilidade - A responsabilidade sobre uma decisão ruim se transfere totalmente para o consumidor, se escolher errado, fica o sentimento de que a culpa é dele e não da empresa, que ofereceu muitas chances.
-- [ ] Arrependimento - Ela vai se lembrar das vantagens daquelas que rejeitou.
+- [ ] **Paralisia**: Aprendizado e ao desenvolvimento intelectual.
+- [ ] **Custo da oportunidade e comparação**: Ela sente que tem algo a perder, ou seja, um custo.
+- [ ] **Transferência de responsabilidade**: A responsabilidade sobre uma decisão ruim se transfere totalmente para o consumidor, se escolher errado, fica o sentimento de que a culpa é dele e não da empresa, que ofereceu muitas chances.
+- [ ] **Arrependimento**: Ela vai se lembrar das vantagens daquelas que rejeitou.
+- [ ] Branding, Marca, Persona e Arquétipo
+
+```mermaid
+flowchart LR
+id1((Propósito)) --> id2((Conhecimento))
+id2 --> id3((Método)) --> id4((estrutura))
+id4 --> id5((Indicadores)) --> id6((Governança)) -->id7((Execução))
+id7 --> id8((Relaxamento)) --> id1
+```
 
 A empresa, produto tem que existir além de seu criador. Entenda que **criação** é diferente de criatividade, mas é óbvio, que a criação pode inserir em criatividade, ou seja, trago algo criativo ou com uma outra leitura.
 ## Outros Paradoxos
-
 - [ ] **Fábrica de Botas**: Fábrica de Botas um botando a culpa no outro.
 - [ ] **Paradoxo Homer Simpson**: "CULPA É MINHA E COLOCO EM QUEM EU QUISER"?
 - [ ] **Paradoxo da Laranja** : Bolo de Limão (casca) e Suco de Laranja (Sumo). Apenas UM LARANJA.
@@ -46,10 +53,24 @@ A empresa, produto tem que existir além de seu criador. Entenda que **criação
 - [ ] **Lei da Trivialidade**, proposta por **C. Northcote Parkinson** em 1957, afirma o seguinte: **As pessoas tendem a dar desproporcionalmente mais atenção a questões triviais do que a questões complexas.**
 - [ ] **Bikeshedding** é um termo usado para descrever a situação em que uma equipe gasta muito tempo discutindo **coisas triviais**, em vez de focar no que realmente importa.("Lei da Trivialidade");
 
+## Foco
+- [ ] Usar a exibição de atividade para ver as alterações em um repositório. Repositório de código DEVE SER a rede social do Developer;
+- [ ] Um bom programador Sênior, entende a intensão.
+- [ ] Um bom programador Pleno, entende de design;
+- [ ]  Um bom programador
+- [ ] Dizem: Que apenas 5% 5% dos artefatos de um repositório de um software, recebem 90% das alterações.
+- [ ] Reconheça apenas 5% devemos nos preocupar de forma MASSIVA.
+## Mudança de Percepção
+- [ ] Qual a intenção?
+- [ ] Qual o design?
+- [ ] Qual o código?
+## Desorganização <> Bagunça
+Qual é a diferença entre desorganização e bagunça ?
+- [ ] **Desorganização/Desordem**:  É quando você não tem um lugar define para as coisas;  Refere-se à falta de ordem, organização ou estrutura em um sistema, ambiente ou situação.
+- [ ] **Bagunça** é quando você tem o lugar mas não coloca as coisas lá o nível de bagunça tá associado com a distância entre o lugar onde a coisa deveria estar e o lugar onde ele tá de fato que que o arquiteto faz o arquiteto de muitas formas ajuda o time a definir uma organização ou seja qual é o lugar certo de cada coisa e e depois de definir o lugar certo de cada coisa tentar ajudar o time a colocar as coisas.
+
 ## Back to the future
-
-_**Os maiores problemas do mundo são as maiores oportunidades de negócios do mundo.**_
-
+**Os maiores problemas do mundo são as maiores oportunidades de negócios do mundo.**
 _**Não temos que buscar a perfeição… temos que buscar progresso.Enquanto você estiver progredindo isso eh mais do que perfeitos.**_
 ## [Conserte o meio ambiente, não as pessoas](https://www.jasonacox.com/wordpress/wp-content/uploads/2018/11/DOES_forum_OrgDesign_112016.pdf)
 
@@ -65,7 +86,6 @@ Quando a organização projeta uma solução, ela inevitavelmente vai reproduzir
 Se a comunicação entre as equipes da organização for complicada, a comunicação entre as camadas do software provavelmente também será difícil, proporcionando uma experiência ruim para o usuário.
 ## Lei de Brooks
 Ao adicionar força de trabalho para um projeto de desenvolvimento de software já atrasado, atrasa-o ainda mais.
-
 ## Leis de Lehman
 Formuladas na década de 70 pelos professores Meir Lehman e László Bélády, é uma série de princípios que ajudam a entender a evolução de sistemas de software. Entre as oito leis de Lehman, duas são particularmente cruciais: a lei da “Mudança Contínua” e a lei da “Complexidade Crescente”.
 

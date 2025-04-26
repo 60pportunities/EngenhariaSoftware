@@ -21,6 +21,8 @@
 ## **Gestão Ágil de Projetos**
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Gestão Ágil de Projetos/Introdução|Introdução]]
+- [ ] [[Entenda o Negócio]]
+- [ ] [[Noprojects]]
 - [ ] [[Business Development]]
 - [ ] [[DevOps]]
 - [ ] [[docs/Gestão Ágil de Projetos/DevSecOps|DevSecOps]]
@@ -42,6 +44,8 @@
 - [ ] [[Secret-Scan]]
 - [ ] [[Estimativas]]
 - [ ] [[Métricas]]
+- [ ] [[docs/Gestão Ágil de Projetos/Segurança|Segurança]]
+- [ ] [[Roadmap de Produtos]]
 </div>
 ## **Estrutura de Diretórios**
 <div class="mdx-columns2" markdown>
@@ -67,10 +71,14 @@
 ## **Dados**
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Dados/Introdução|Introdução]]
+- [ ] [[Produto de Dados]]
+- [ ] [[Modelagem de Dados]]
 - [ ] [[Data-Driven]]
 - [ ] [[Bit rot]]
-- [ ] Abstração de Dados;
-- [ ] [[Modelagem de Dados]]
+- [ ] [[Abstração de Dados]]
+- [ ] [[Arquitetura Integração de dados]]
+- [ ] [[Arquitetura de Análise]]
+- [ ] [[Arquitetura Aplicativos Nuvem]]
 - [ ] Fundamentos de Projeto de Banco de Dados;  
 - [ ] Projeto Conceitual de Banco de Dados;   
 - [ ] Projeto Lógico de Banco de Dados;   
@@ -136,7 +144,7 @@
 <div class="mdx-columns2" markdown>
 - [ ] [[Qualidade]]; 
 - [ ] Verificação e Validação de Software;  
-- [ ] Introdução ao Teste de Software; 
+- [ ] [[Teste de Software]]; 
 - [ ] Processo de Teste de Software; 
 - [ ] Técnicas de Teste Funcional (Partição por Conjunto de Equivalência, Análise do Valor Limite, Grafo Causa- [ ]Efeito e Teste Funcional Sistemático); 
 - [ ] Técnicas de Teste Estrutural (Fluxo de Controle – Teste do Caminho Básico e Teste de Laços – e Fluxo de Dados); 
@@ -167,6 +175,10 @@
 - [ ]  [[IP Logger]]
 - [ ] [[Lock-in Vendor]]
 </div>
+## Mundo
+
+- [ ] Mundo OpenSource
+
 ## **Certificações**
 
 ### **GitHub**
