@@ -1,4 +1,39 @@
 
+## **DevOps**
+
+```mermaid
+graph TD
+    A[Repositório] --> B[pipeline]
+    A --> C[stages]
+
+    B --> D[azure-pipeline.yaml]
+
+    C --> E[manifests]
+    C --> F[build.yml]
+    C --> G[cleanup.yml]
+    C --> H[container_scan.yml]
+    C --> I[dast.yml]
+    C --> J[deploy.yml]
+    C --> K[push.yml]
+    C --> L[sast.yml]
+
+    E --> M[deployment.yml]
+    E --> N[ingress.yml]
+```
+
+
+## **Estimativa**
+
+```mermaid
+mindmap
+  root((PRODUTO))
+    Compromisso
+    Meta
+    Prazo
+    Estimativa
+```
+
+
 ## **Aprendizagem**
 
 ```mermaid
@@ -124,8 +159,8 @@ C03 --> C0301[fa:fa-file .commitmessage]
 ### **Estrutura GitHub**
 
 ```mermaid
-graph LR
-A01[fa:fa-home Github.com/conta/] --> C[fa:fa-folder-open repositório]
+graph TD
+A01[fa:fa-home github.com/conta/] --> C[fa:fa-folder-open repositório]
 C --> C02[fa:fa-folder-open .devcontainer]
 C --> C03[fa:fa-file .gitignore] & C04[fa:fa-file .gitattributes]
 C --> C05[fa:fa-file .pre-commit-config.yaml]
@@ -157,4 +192,242 @@ C --> D13[fa:fa-folder-open back-end]
 D12 --> D1201[fa:fa-folder-open src]
 D1201 --> D120101[fa:fa-folder-open main]
 D1201 --> D120102[fa:fa-folder-open test]
+```
+
+
+```mermaid
+mindmap
+  root((repositorio))
+    Monolito
+      RepositorioAPP
+         README.md
+         package.json
+         utils
+           DigitoCpf.java
+         libs
+           jdbc.jar
+         Documentacao
+           Excel
+           Word
+    Monorepo
+      Repositorio
+        diretorioshared
+        diretorioapps
+        package.json
+        webpack.config.js
+        yarn.lock
+    Polyrepo
+      RepositorioDocumentacao
+         Excel
+         Word
+      RepositorioFrontEnd
+         html
+         css
+         js
+      RepositorioBackEnd
+         java
+            src
+            test
+
+```
+
+```mermaid
+flowchart TD
+    id1(main) --> id2(wip/tipos-nnnn)
+    id2 --> id3(Pull Request)
+    subgraph CI
+      direction TB
+      subgraph Pull Request Validação
+        direction LR
+        PRV00(Pretty) --> PRV01(Linter)
+        PRV01         --> PRV02(Security Scanner)
+        PRV02         --> PRV03(Teste Unitário)
+        PRV03         --> PRV04(Covarage)
+        PRV04         --> PRV05(PR Review)
+      end
+    end
+    subgraph CD
+      direction TB
+      subgraph Release
+       cd1(Git Tag</br>Version) -->cd2(Deploy to </br>Stage)
+       cd2 --> cd3(Release)
+      end
+    end
+    id3    --> CI
+    CI     --> cd4(Squash<br/>merge)
+    cd4    --> SAST01(SAST</br>BOM)
+    CI     --> SAST02(SAST</br>RUIM)
+    SAST01 --> CD
+    subgraph Stage
+      direction TB
+      subgraph SIT
+         sit01(Virtual Machine)
+         sit02(Container)
+         sit03(APP Service)
+      end
+      subgraph PRD
+         prd01(Virtual Machine)
+         prd02(Container)
+         prd03(APP Service)
+      end
+    end
+    CD --> Stage
+
+```
+
+
+### Centralização de Logs
+
+```mermaid
+graph LR
+    Computador-A[Computador] -->|Syslog| B[Syslog Server]
+    Computador-B[Computador] -->|Syslog| B[Syslog Server]
+    Computador-C[Computador] -->|Syslog| B[Syslog Server]
+```
+
+
+
+```mermaid
+graph TD
+    subgraph Sistemas Operacionais
+        Linux[[Linux<br>rsyslog/syslog-ng]]
+        Windows[[Windows<br>Event Viewer/Winlogbeat]]
+    end
+
+    subgraph Servidores Aplicação
+        Tomcat[[Tomcat<br>catalina.out]]
+        JBoss[[JBoss<br>server.log]]
+    end
+
+    subgraph Aplicações Customizadas
+        App1[[App Java<br>Log4j/Logback]]
+        App2[[.NET App<br>Serilog/NLog]]
+    end
+
+    subgraph Coleta
+        Filebeat -->|Coleta logs| Logstash
+        Fluentd -->|Agrega dados| Kafka
+        Winlogbeat -->|Eventos Windows| Logstash
+        Rsyslog -->|Encaminha logs| Logstash
+    end
+
+    subgraph Processamento
+        Logstash[[Logstash<br>Filtragem/Enriquecimento]]
+        Kafka[[Kafka<br>Buffer de Mensagens]]
+    end
+
+    subgraph Armazenamento
+        Elasticsearch[(Elasticsearch<br>Indexação)]
+        S3[[AWS S3/Glacier<br>Backup Frio]]
+    end
+
+    subgraph Visualização & Gestão
+        Kibana[[Kibana<br>Dashboards]]
+        Grafana[[Grafana<br>Monitoramento]]
+        Alertas[[ElastAlert<br>Notificações]]
+    end
+
+    Linux -->|syslog| Rsyslog
+    Windows -->|Eventos| Winlogbeat
+    Tomcat -->|Log Files| Filebeat
+    JBoss -->|Log Files| Filebeat
+    App1 -->|Log Files| Filebeat
+    App2 -->|Log Files| Filebeat
+
+    Rsyslog --> Logstash
+    Winlogbeat --> Logstash
+    Filebeat --> Logstash
+    Logstash --> Kafka
+    Kafka --> Elasticsearch
+    Elasticsearch --> Kibana
+    Elasticsearch --> Grafana
+    Elasticsearch --> S3
+    Kibana --> Alertas
+```
+
+
+
+## **maven-archetype-archetype** (Para criar novos archetypes)
+
+```mermaid
+graph TD
+    A[archetype] --> B[src/main/resources/archetype-resources]
+    B --> C[pom.xml]
+    B --> D[src/main/java]
+    B --> E[src/test/java]
+    A --> F[src/main/resources/META-INF/maven/archetype-metadata.xml]
+```
+
+###  **maven-archetype-j2ee-simple** (Projeto J2EE básico)
+
+
+```mermaid
+graph TD
+    A[project] --> B[ejb-module]
+    A --> C[war-module]
+    B --> D[src/main/java]
+    B --> E[pom.xml]
+    C --> F[src/main/webapp/WEB-INF]
+    C --> G[pom.xml]
+    A --> H[pom.xml]
+```
+
+### **maven-archetype-plugin** (Plugin Maven)
+
+```mermaid
+graph TD
+    A[plugin-project] --> B[src/main/java/.../Mojo.java]
+    A --> C[src/test/java]
+    A --> D[pom.xml]
+    A --> E[src/main/resources/META-INF/maven/plugin.xml]
+```
+
+### **maven-archetype-plugin-site** (Site para plugins)
+
+```mermaid
+graph TD
+    A[plugin-site] --> B[src/site/apt]
+    B --> C[example.apt]
+    A --> D[pom.xml]
+    A --> E[src/site/site.xml]
+```
+
+### **maven-archetype-portlet** (Portlet JSR-268)
+
+```mermaid
+graph TD
+    A[portlet] --> B[src/main/webapp/WEB-INF]
+    B --> C[portlet.xml]
+    B --> D[web.xml]
+    A --> E[pom.xml]
+    A --> F[src/main/java]
+```
+
+### **maven-archetype-quickstart** (Projeto Java simples)
+
+```mermaid
+graph TD
+    A[quickstart] --> B[src/main/java/App.java]
+    A --> C[src/test/java/AppTest.java]
+    A --> D[pom.xml]
+```
+
+### **maven-archetype-site** (Site documentation)
+```mermaid
+graph TD
+    A[site] --> B[src/site/apt]
+    B --> C[index.apt]
+    A --> D[pom.xml]
+    A --> E[src/site/site.xml]
+```
+
+### **maven-archetype-webapp**
+
+```mermaid
+graph TD
+    A[webapp] --> B[src/main/webapp]
+    B --> C[WEB-INF/web.xml]
+    B --> D[index.jsp]
+    A --> E[pom.xml]
+    A --> F[src/main/java]
 ```

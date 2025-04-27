@@ -47,6 +47,6 @@ No cotidiano do funcionário responsável, estão as seguintes atividades de sus
 
 - [ ] O Suporte Técnico 1 ao receber a demanda de "ACESSO A BANCO DE DADOS", deverá colocar uma NOTA:
 ```Pedido deverá ser SOLICITADO para o PRODUCT OWNER e este deverá criar um CHAMADO com os DADOS a serem liberados.```
-- [ ] O Suporte Técnico 1, deverá atribuir ao usuário 'app-peoplesoftad@bbts.com.br', desde que não seja CONFIGURAÇÃO de Aplicativos MOTS, todas as SOLICITAÇÕES DE DEMANDA;
+- [ ] O Suporte Técnico 1, deverá atribuir ao usuário 'app-peoplesoftad@60opt.com.br', desde que não seja CONFIGURAÇÃO de Aplicativos MOTS, todas as SOLICITAÇÕES DE DEMANDA;
 - [ ] Processo de Atendimento Acordado;
 - [ ] Métricas;

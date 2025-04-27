@@ -8,12 +8,10 @@ A primeira tarefa do time é decidir qual vai ser a unidade de código que será
 - [ ] Aula;
 - [ ] Arquivo
 
-Intrisc Complex Point (ou Ponto de Complexidade Intrínseca) no Cognitive-Driven Development.
+**Intrisc Complex Point (ou Ponto de Complexidade Intrínseca) no Cognitive-Driven Development.** (Em estudo)
 
 Aqui não existe regra, o objetivo do Cognitive-Driven Development (CDD) não é achar uma composição de Ponto de Complexidade Intrínseca (ICP) que forme uma métrica perfeita.
-
 A ideia é que a equipe, considerando suas características, encontre os ICP que façam sentido para aquele contexto.
-
 E qual o limite de ICP que podemos ter então por unidade de código? Atualmente a nossa sugestão é que você tenha um número que seja o dobro ou maior ao número de ICP escolhidos.
 
 ### **Visão prática sobre o Ponto de Complexidade Intrínseca (ICP)**

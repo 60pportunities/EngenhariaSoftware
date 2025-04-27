@@ -1868,7 +1868,7 @@ end;
 
 DBMS_NETWORK_ACL_ADMIN.ADD_PRIVILEGE(acl => '/sys/acls/ldap.xml',
 
-principal => 'XXBBTSSOA',
+principal => '60PPTSOA',
 
 is_grant => true,
 
@@ -1881,7 +1881,7 @@ end;
 begin
 
 DBMS_NETWORK_ACL_ADMIN.ADD_PRIVILEGE(acl => '/sys/acls/ldap.xml',
-principal => 'XXBBTSSOA',
+principal => '60PPTSOA',
 
 is_grant => true,
 

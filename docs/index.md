@@ -6,8 +6,17 @@
 - [ ] [[Código de Conduta]]
 - [ ] [[Notas]]
 - [ ] [[Políticas]]
-- [ ] [[docs/Configuração/Segurança]]
+- [ ] [[docs/Configuração/Segurança|Segurança]]
 </div>
+
+## **Estrutura de Diretórios**
+<div class="mdx-columns2" markdown>
+- [ ] [[docs/Estrutura de Diretórios/Introdução|Introdução]]
+- [ ] [[Estruturas Base]]
+</div>
+## **Configuração do Desktop**
+
+- [ ] [[Instalação]]
 ## **Processos Internos**
 <div class="mdx-columns2" markdown>
 - [ ] [[Entrevistas]]
@@ -19,74 +28,77 @@
 - [ ] [[Frases que Marcam]]
 </div>
 ## **Gestão Ágil de Projetos**
+
+### Formação de Time
+
+- [ ] [[Time]]
+### Projetos
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Gestão Ágil de Projetos/Introdução|Introdução]]
+- [ ] [[Gerenciamento de Mudança]]
 - [ ] [[Entenda o Negócio]]
-- [ ] [[Noprojects]]
 - [ ] [[Business Development]]
-- [ ] [[DevOps]]
-- [ ] [[docs/Gestão Ágil de Projetos/DevSecOps|DevSecOps]]
-- [ ] [[Experimentação Contínua]]
-- [ ] [[InnerSource]]
+- [ ] [[Noprojects]]
 - [ ] [[Framework SCRUM]]
+- [ ] [[Dívida Técnica]]
+- [ ] [[Calendário]] Sugestão
 - [ ] [[Princípios Lean]]
 - [ ] [[Kanban-Desenvolvimento de Software]]
-- [ ] [[Mensagem]]
+- [ ] [[Roadmap de Produtos]]
 - [ ] [[Transição de Produto]]
 - [ ] [[Sustentação]]
-- [ ] [[Calendário]] Sugestão
-- [ ] [[Roadmap de Produtos]]
-- [ ] [[Ferramentas para Projetos]]
-- [ ] [[Decisão Arquitetural]]
-- [ ] [[Padronização de Escrita]]
-- [ ] [[Dívida Técnica]]
-- [ ] [[docs/Gestão Ágil de Projetos/Segurança|Segurança]]
-- [ ] [[Secret-Scan]]
 - [ ] [[Estimativas]]
 - [ ] [[Métricas]]
-- [ ] [[docs/Gestão Ágil de Projetos/Segurança|Segurança]]
-- [ ] [[Roadmap de Produtos]]
+- [ ] [[Decisão Arquitetural]]
+- [ ] [[Ferramentas para Projetos]]
 </div>
-## **Estrutura de Diretórios**
+### Tecnologia
 <div class="mdx-columns2" markdown>
-- [ ] [[docs/Estrutura de Diretórios/Introdução|Introdução]]
-- [ ] [[Estruturas Base]]
+- [ ] [[Padronização de Escrita]]
+- [ ] [[Experimentação Contínua]]
+- [ ] [[docs/Gestão Ágil de Projetos/Segurança|Segurança]]
+- [ ] [[Secret-Scan]]
+- [ ] [[DevOps]]
+- [ ] [[docs/Gestão Ágil de Projetos/DevSecOps|DevSecOps]]
+- [ ] [[InnerSource]]
+- [ ] [[Mensagem]]
 </div>
-## **Configuração do Desktop**
-
-- [ ] [[Instalação]]
-
 ## **Documentação como Código**
-
+<div class="mdx-columns2" markdown>
 - [ ] [[docs/Documentação como Código/Introdução|Introdução]]
+- [ ] [[Cultura da Documentação]]
+</div>
 ## **Programação Orientada a Objetos**
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Programação Orientada a Objetos/Introdução|Introdução]]
 - [ ] Princípios SOLID;
 - [ ] Clean Code e Boas Práticas de Codificação.
 </div>
-## **Formação de Time**
 
-- [ ] [[Time]]
 ## **Dados**
+
+### **Conceitos Fundamentais**
+
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Dados/Introdução|Introdução]]
-- [ ] [[Produto de Dados]]
-- [ ] [[Modelagem de Dados]]
-- [ ] [[Data-Driven]]
-- [ ] [[Bit rot]]
+- [ ] [[Arquitetura Aplicativos Nuvem]]
 - [ ] [[Abstração de Dados]]
+- [ ] [[Data-Driven]]
 - [ ] [[Arquitetura Integração de dados]]
 - [ ] [[Arquitetura de Análise]]
-- [ ] [[Arquitetura Aplicativos Nuvem]]
+- [ ] [[Produto de Dados]]
+- [ ] [[Modelagem de Dados]]
+- [ ] [[Bit rot]]
+</div>
+
+### **Fundamento de Banco de Dados**
+
+<div class="mdx-columns2" markdown>
 - [ ] Fundamentos de Projeto de Banco de Dados;  
 - [ ] Projeto Conceitual de Banco de Dados;   
 - [ ] Projeto Lógico de Banco de Dados;   
 - [ ] Projeto Físico de Banco de Dados;  
-- [ ] Linguagem SQL;  
-- [ ] Administração de Dados;  
-- [ ] Banco de Não Dados Convencionais e Distribuídos;   
-- [ ] Banco de Dados Relacional;
+- [ ] Banco de Dados Oracle
 </div>
 ## **Controle de Versão**
 <div class="mdx-columns2" markdown>
@@ -95,15 +107,15 @@
 - [ ] [[Estratégias de Branches]]
 - [ ] [[Revisão de Código]]
 </div>
-## **Observabilidade**
-
-- [ ] [[docs/Observabilidade/Introdução|Introdução]]
 
 ## **Computação em Nuvem**
 
 - [ ] [[docs/Computação em Nuvem/Introdução|Introdução]]
 
-## **Arquitetura e Projeto de Software**
+## **Arquitetura**
+
+- [ ] [[docs/Arquitetura/Introdução|Introdução]]
+### **Arquitetura e Projeto de Software**
 <div class="mdx-columns2" markdown>
 - [ ] Introdução;  
 - [ ] Importância;  
@@ -115,7 +127,7 @@
 - [ ] Atributos de Qualidade Interna de Código; 
 - [ ] Code Smells e Refatoração.
 </div>
-## **Arquitetura de Microsserviços**
+### **Arquitetura de Microsserviços**
 <div class="mdx-columns2" markdown>
 - [ ] Arquitetura Orientada a Serviços (SOA) Serviços SOAP: Conceitos e Implementação; 
 - [ ] Serviços Web RESTful: Conceitos e Implementação;  
@@ -124,7 +136,7 @@
 - [ ] SOA × MAS. Implantação de Microsserviços (Container, Docker, Dockerhub, Github);  
 - [ ] [[Gestão de Dados em Microsserviços]]
 </div>
-## **Arquitetura em Nuvem e DevOps**
+### **Arquitetura em Nuvem e DevOps**
 <div class="mdx-columns2" markdown>
 - [ ] Introdução ao DevOps. Fluxo: Pipeline de Implantação;  
 - [ ] IaaS, SaaS e PaaS;  
@@ -140,7 +152,14 @@
 - [ ] Aprendizado e Experimentação;  
 - [ ] Gestão de Mudanças e Segurança.
 </div>
-## **Teste e Qualidade de Software**
+
+### **Logs e Traces**
+
+### **Observabilidade**
+
+- [ ] [[docs/Observabilidade/Introdução|Introdução]]
+
+### **Teste e Qualidade de Software**
 <div class="mdx-columns2" markdown>
 - [ ] [[Qualidade]]; 
 - [ ] Verificação e Validação de Software;  
@@ -212,6 +231,7 @@
 
 - [ ] [[Code Smarter]]
 ## **Publicações Linkedin**
+
 <div class="mdx-columns2" markdown>
 - [ ] [[Pessoas]] (31 de janeiro de 2025)
 - [ ] [[Da guerra ao ano que não terminou]] (5 de fevereiro de 2025)
@@ -220,6 +240,7 @@
 - [ ] [[Descubra o Poder de Aprender, Desaprender e Reaprender]] (15 de abril 2025)
 </div>
 #### **Rascunhos**
+
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Rascunhos/Introdução|Introdução]]
 - [ ] [[Crise do Software]] (1960-1979)
@@ -235,5 +256,8 @@
 - [ ] [[Link de Livros]]
 ### **Contato**
 
-| ![](../img/contato-qr.png){width="100" height="100"} | Horácio Vasconcellos](https://linktr.ee/horaciovasconcellos)<br>Telefone: (21)99765-2736<br>e-mail: horacio.vasconcellos@gmail.com |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+<table style="width: 300px; border-collapse: collapse;">
+  <tr style="background-color: transparent;">
+  <td><img src="../img/contato-qr.png"  alt="Contacte-me"  style="width: 300px;"></td>
+  <td><a href="https://linktr.ee/horaciovasconcellos" target="_blank"  rel="Me ache">Horácio Vasconcellos</a></td>
+  </tr></table>

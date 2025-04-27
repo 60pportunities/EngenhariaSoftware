@@ -94,7 +94,7 @@ Quando avaliamos a qualidade de nossos cadastros precisamos construir métricas,
 - [ ] Controle de Metadados
 - [ ] Workflow
 
-## Padronização da Descrição do Materia;l
+## Padronização da Descrição do Material
 ### Código de Materiais
 Definir as políticas e regras relacionadas à manutenção do cadastro de materiais.
 Centralização do cadastramento, abrangência, incorporações, homologação, saneamento dos estoques, gerenciamento de requisitos, processos para controle e auditoria, bem como responsabilidades funcionais.

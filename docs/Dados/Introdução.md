@@ -72,6 +72,7 @@ Porem cada vez menos empresas consideraram sistematicamente e começaram a abord
 
 </div>
 
+![](../img/dba-ad-atg-dados.png)
 ## Quanto mais...
 
 - [ ] Quanto mais dados mais disperdícios e este é um processo Lean.
@@ -125,13 +126,27 @@ C --> D[Pesquiso</br>Accesso</br>Compartilho]
 D --> E[Uso]
 E --> F[Reutilizar]
 E --> G[Reaproveitar]
-E --> H[Destruir]
 E --> I[Reter e Arquivar]
 E --> K[Destruir]
 I --> J[Recuperar]
-J --> K
+J --> E
 end
 ```
+#### Transformando necessidades abstratas em resultados
+
+
+| Déficit de alfabetização de dados               | Quais fontes de dados priorizar?                                                |
+| ----------------------------------------------- | ------------------------------------------------------------------------------- |
+|                                                 | Limites mínimos de precisão?                                                    |
+|                                                 | O que significa "tempo real" (latência de 01:00:00 ou 00:01:00 ou 00:00:01 hs?) |
+| Modelagem estruturada da demanda                | Quais variáveis são importantes (histórico de compras, tíquetes de suporte?)    |
+|                                                 | Como será usado? Quais as métricas de sucesso?                                  |
+| Silos organizacionais e incentivos desalinhados | Análise e negócios operam em feudos desconectados com KPIs conflitantes.        |
+|                                                 | Exige uma ferramenta de pontuação de leads vinculada ao crescimento da receita? |
+|                                                 | Ninguém é dono da entrega de ponta a ponta.                                     |
+
+![](../img/barco-de-dados.jpeg)
+
 #### Centralização dos Cadastros
 O objetivo deste documento é de abordarmos o tema de GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
 
@@ -216,10 +231,12 @@ Essa fragmentação de informações causa inconsistências com a análise de da
 
 Mapear os dados de uma organização requer uma compreensão profunda do cenário do sistema e do processo de manutenção dos dados. O mapeamento de dados abrange:
 
+<div class="mdx-columns2" markdown>
 - [ ] Identificação de ativos de dados e seus repositórios;
 - [ ] Identificar e definir os atuais proprietários dos dados;
 - [ ] Descrever os fluxos de dados e as regras de distribuição de dados;
 - [ ] Descrever os padrões de dados atuais, incluindo regras de validação;
+</div>
 ### Proposta
 A proposta de criação de uma Central de Cadastro ou a sua remodelagem, surge como uma solução eficaz para esses desafios.
 Este espaço dedicado permitirá a centralização (processos de mudança) e padronização das informações (padrões de dados) e responsabilização (indicadores de acurácia e tempo atendimento).
@@ -286,12 +303,14 @@ Os indicadores de uma Central de Cadastro, geralmente, são estipulados pelos pi
 #### Background-Check
 Este processo visa acelerar e padronizar a origem das informações a serem inseridas nos sistemas corporativos através de busca e integração com os órgãos ou entidades da administração pública direta ou indireta ou pessoa jurídica de direito privado, que sejam reconhecidamente, detentores "Serviços de Assessoramento” de informações, tais como:
 
+<div class="mdx-columns2" markdown>
 - [ ] Produtos;
 - [ ] Dados de Referência;
 - [ ] Fiscais;
 - [ ] Financeiros;
 - [ ] Comerciais.
-­
+­</div>
+
 A tabela Background-Check visa indicar alguns órgãos, para a automatização da central de cadastro, cabendo uma revisão e análise qual seria a melhor fonte de dados, quais os documentos e validações necessárias e o tempo de atualização cadastral de forma automática e a emissão de relatórios de exceção.
 #### Compliance
 
@@ -429,7 +448,7 @@ Entretanto, considerando a existência de inúmeras legislações setoriais, bem
 A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento.
 O processo de anonimização, além de evitar a identificação do titular de dados pessoais, deve garantir que o tratamento realizado após a anonimização não implique em uma distorção dos dados reais.
 
-
+![](../img/data-model-governance.jpeg)
 ## **Plataforma de Dados Robusta**
 O foco principal reside na arquitetura de aplicações de Software como Serviço (SaaS) que lidam com grandes volumes de dados, explorando os benefícios e as considerações de plataformas de dados modernas, especialmente em ambientes de nuvem.
 
@@ -520,12 +539,10 @@ O Snowflake Secure Data Sharing permite que consumidores e provedores acessem a 
 - [ ] **Snowflake Data Marketplace**: Permite que provedores de dados monetizem seus dados e que consumidores descubram e acessem dados de diversas fontes sem a complexidade da cópia.
 
 O compartilhamento de dados por referência quebra silos de dados, facilita um ciclo de feedback entre provedores e consumidores e mantém custos e carga de manutenção sob controle.
-
-
 ### Principais Recursos de uma Plataforma de Dados Moderna (implícito)
 
 - [ ] Separação de armazenamento e computação.
-- [ ] Suporte nativo para dados semiestruturados.
+- [ ] Suporte nativo para dados semi-estruturados.
 - [ ] Suporte para SQL padrão.
 - [ ] Isolamento de carga de trabalho em ambientes multilocatários.
 - [ ] Escalabilidade elástica para corresponder à demanda.

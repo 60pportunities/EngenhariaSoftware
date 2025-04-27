@@ -47,15 +47,15 @@ Comentar seu código é outra maneira de tornar o código legível.
 ### Indentação e Formatação
 
 - [ ] Um código bem formatado não requer muita atenção para ser processado. Como os desenvolvedores trabalharam com esse recuo.
-
-- [ ] Isso faz com que os desenvolvedores leiam o código com mais facilidade. Você pode usar ferramentas como o - [x]- [x]Prettier- [x]- [x] para deixar o código bem formatado de acordo com a linguagem de programação.
+- [ ] Isso faz com que os desenvolvedores leiam o código com mais facilidade. Você pode usar ferramentas como o Prettier para deixar o código bem formatado de acordo com a linguagem de programação.
 
 ## Estrutura de pastas
 <p align="justify">Uma estrutura de pastas bem projetada é essencial para manter uma base de código limpa e escalável , melhorando a colaboração entre os membros da equipe e aprimorando a eficiência geral do desenvolvimento. Existem diferentes tipos de estruturas de pastas comumente usadas, incluindo a estrutura:</p>
-
+<div class="mdx-columns2" markdown>
 - [ ] Baseada em Componentes;
 - [ ] Baseada em Recursos;
 - [ ] Baseada em Domínio.
+</div>
 
 ## Aplicativo de Teste
 <p align="justify">Você pode criar um plano de teste que descreva o objetivo, a cobertura do teste, as técnicas de teste e os cronogramas. Isso ajudará a classificar a maioria das coisas antes mesmo de iniciar o teste.</p>
@@ -149,6 +149,7 @@ Você deve seguir as diretrizes relacionadas à segurança e ao desempenho. Voc�
 <p align="justify">O lançamento de horas em um determinado projeto ou atividade, tem como finalidade melhorar a gestão de tempo ao registrar o tempo gasto para realizar determinada atividade.
 
 Utilizar o lançamento de horas traz mais transparência e precisão para a gestão de tempo, o que permite um melhor controle e monitoramento das atividades realizadas.</p>
+<div class="mdx-columns2" markdown>
 - [ ] Compreensão da rotina dos profissionais;
 - [ ] Alocação eficiente da Equipe;
 - [ ] Estimativa de Tempo médio para a realização de uma tarefa ou atividade;
@@ -156,7 +157,7 @@ Utilizar o lançamento de horas traz mais transparência e precisão para a gest
 - [ ] Melhorar a organização da equipe;
 - [ ] Ter suporte para o planejamento;
 - [ ] Tomar decisões baseadas em dados;
-
+</div>
 Sugere-se que o lançamento de horas seja realizada de forma diária e com 10 minutos antes de suspender e/ou finalizar as atividades diárias.
 <!--contributing-end03-->
 

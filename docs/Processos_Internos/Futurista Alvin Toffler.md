@@ -50,18 +50,19 @@ Conforme descrito pelo Rockwood Leadership Institute , envolve :
 - [ ] [Lista de verificação de esgotamento](https://governingopen.com/resources/signs-of-burnout-checklist.html).
 
 #### Seja feliz
-
+<div class="mdx-columns2" markdown>
 - [ ] Descanse e recarregue as energias;
 - [ ] Tire os fins de semana para relaxar e rejuvenescer;
 - [ ] Defina limites: Você não pode dizer sim a todas as solicitações.
-
+</div>
 #### Por que contribuir para o código aberto
 Contribuir com o código aberto pode ser uma maneira gratificante de aprender, ensinar e adquirir experiência em praticamente qualquer habilidade que você possa imaginar.
-
+<div class="mdx-columns2" markdown>
 - [ ] Melhore as habilidades existentes;
 - [ ] Conheça pessoas interessadas em coisas semelhantes;
 - [ ] Encontre mentores e ensine outros;
 - [ ] Aprenda habilidades interpessoais;
+</div>
 #### Anatomia de um projeto
 Um projeto típico tem os seguintes tipos de pessoas:
 
@@ -84,12 +85,12 @@ Esses arquivos geralmente são listados no nível superior de um repositório.
 - [ ] **Fóruns de discussão ou listas de discussão**: Podem usar esses canais para tópicos de conversação (por exemplo, "Como eu…" ou "O que você acha sobre…" em vez de relatórios de bugs ou solicitações de recursos).
 - [ ] **Canal de bate-papo síncrono**: Slack ou Teams.
 #### Analise o Projeto
-
+<div class="mdx-columns2" markdown>
 - [ ] Ele tem uma licença? Normalmente, há um arquivo chamado LICENSE na raiz do repositório.
 - [ ] Quando foi o último commit?
 - [ ] Quantos colaboradores o projeto tem?
 - [ ] Com que frequência as pessoas fazem commits? (No GitHub, você pode encontrar isso clicando em "Commits" na barra superior.)
-
+</div>
 #### Quantas questões em aberto existem?
 
 - [ ] Os mantenedores respondem rapidamente aos problemas quando eles são abertos?
@@ -115,8 +116,7 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 | ------------------------------- | ------------------------------- |
 | ![](../img/equilibrio-001.jpeg) | ![](../img/equilibrio-002.jpeg) |
 
-
-  #### **Catalisando uma Revolução Cultural ("eu" para o "nós")**
+#### **Catalisando uma Revolução Cultural ("eu" para o "nós")**
 
 - [ ] À medida que navegamos no cenário de TI, nesta rápida evolução, frequentemente nos encontramos na busca incessante de ficar à frente, com tecnologias de ponta e metodologias inovadoras (TRAM)
 - [ ] Não aprendemos a compartilhar, mas de fato, precisamos reajustar nossos instrumentos, e essa afinação exige uma mudança cultural que considero significativa, mas como?
@@ -182,21 +182,24 @@ Não importa se você é um colaborador ou está tentando ingressar em uma comun
 - [ ] **Cultura de confiança** ganha força e a avaliação passa a ser baseada no que é entregue, não nas horas "logadas" no computador;
 - [ ] **Quando todo mundo está engajado, bem cuidado e focado no que realmente importa, a distância deixa de ser um problema e vira oportunidade**.
 #### Time
+
 - [ ] Um jogador que faz um time grande é mais valioso do que um grande jogador.
 - [ ] Perder-se no grupo para o bem do grupo, isso é trabalho em equipe.
 
 ### Quem pode ver o quê?
+
 - [ ] A **transparência** desempenha um papel vital em promover a colaboração e encorajar a participação.
 - [ ] O projeto deve ser estruturado para permitir que o maior número possível de indivíduos contribuam, sendo assim, é importante reconhecer que certas restrições e considerações que podem impedir que tudo seja abertamente acessível dentro da empresa.
 - [ ] Isso pode envolver a configuração de diferentes repositórios ou controles de acesso com base na sensibilidade do código, tipo de projeto ou funções individuais dentro da organização.
 
 #### Security-First
 
+<div class="mdx-columns2" markdown>
 - [ ] Código sensível é transmitido para fora da empresa;
 - [ ] Todos os repositórios devem ser seu próprio silo;
 - [ ] O acesso para saber que cada repositório existe é concedido apenas individualmente pela alta gerência;
 - [ ] **Repositórios sensíveis**: aqueles cujo lançamento tem impacto no mercado ou é uma infraestrutura central com implicações de segurança;
-
+</div>
 ### Lberte-se
 
 | Tipo                                                                             | Área |
@@ -254,7 +257,7 @@ WHEN to_char(birthdate,'YYYY') >= 2013 THEN 'Geração Alpha'
 ELSE 'Data de Nascimento Inválida'
 END AS geracao,
 count(*)
-FROM xxbbtsgate.vw_people_x_ebs
+FROM xxgate.vw_people_x_ebs
 -->
 ###  Não seja um Grande Líder
 Um líder geralmente se foca em inspirar e guiar as pessoas, enquanto um chefe se concentra mais em exercer autoridade e gerenciar resultados.
@@ -273,3 +276,13 @@ Muitas vezes, as pessoas podem ser boas em ambos os aspectos, mas a forma como l
 | Disconnected Leader | O gerente desconectado é aquele que está distante das necessidades e da realidade de sua equipe.                                                                                                                                                             |
 | Ego-Centric Leader  | O líder centrado no próprio ego coloca suas próprias necessidades e ambições à frente das da equipe e da organização.                                                                                                                                        |
 | Unethical Leader    | O líder antiético adota comportamentos e práticas que não seguem princípios morais ou legais, como enganar, manipular ou tomar decisões baseadas em interesses pessoais.                                                                                     |
+
+###  **A melhor maneira de se encontrar é se perder a serviço dos outros**
+
+- [ ] Embora nós não queiramos "nos perder", líderes autênticos entendem que estão a serviço dos outros, não do seu ego.
+
+- [ ] Consequentemente, as pessoas os procurarão e os seguirão. 
+
+- [ ] Grandes líderes lideram pelo exemplo.
+
+- [ ] Eles o fazem porque acreditam no que fazem e sabem que são importantes para todos na organização. 

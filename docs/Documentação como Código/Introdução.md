@@ -5,8 +5,7 @@ O nosso controle interno (força de vontade, autodisciplina) é limitado e que u
 Ahrens enfatiza que "o autocontrole e a autodisciplina têm muito mais a ver com o nosso ambiente do que conosco mesmos – e o ambiente pode ser mudado."
 
 Ele critica a excessiva dependência do planejamento e da força de vontade, defendendo uma abordagem mais orgânica e orientada por interesses.
-
-### **Cronologia**
+## **Cronologia**
 
 - [ ] **Década de 1960**: Niklas Luhmann, filho de um cervejeiro na Alemanha, trabalha em um escritório administrativo após formar-se em direito. Desinteressado em advocacia e inadequado para socializar no ambiente administrativo, ele dedica seu tempo livre à leitura e aos seus diversos interesses (filosofia, teoria organizacional e sociologia). Luhmann começa a **tomar notas** sobre seus estudos e pensamentos em pequenos pedaços de papel, numerando-os e guardando-os em uma caixa: **o slip-box (Zettelkasten)**.
 - [ ] **Início do Desenvolvimento do Slip-box**: Luhmann percebe que o valor de uma nota reside no seu contexto, que pode ser diferente da fonte original. Ele começa a desenvolver categorias de notas e a pensar em como as ideias podem se relacionar e contribuir para diferentes contextos, criando conexões entre as notas.
@@ -26,7 +25,7 @@ Ele critica a excessiva dependência do planejamento e da força de vontade, def
 - [ ] **O Slip-box como Memória Externa e Parceiro de Pensamento**: O slip-box é apresentado como uma extensão da memória e uma ferramenta que auxilia no desenvolvimento de ideias, estimulando a comparação, correção e diferenciação de pensamentos.
 - [ ] **Trabalhar em Múltiplos Projetos**: Diferentes manuscritos simultaneamente, utilizando o slip-box, pode evitar bloqueios mentais e aumentar a produtividade.
 - [ ] **A Importância do Hábito**: Enfatiza que a chave para o sucesso com o slip-box é torná-lo um hábito, integrando a leitura com a tomada de notas inteligentes e a conexão de ideias.
-### **Principais Ideias e Fatos:**
+## **Principais Ideias e Fatos:**
 
 **A Limitação da Força de Vontade:** Ahrens cita pesquisas que sugerem que a força de vontade é um recurso limitado e que depender exclusivamente dela para trabalhar é uma estratégia ineficaz a longo prazo.
 

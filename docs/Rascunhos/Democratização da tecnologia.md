@@ -67,9 +67,9 @@ Variabilidade no ritmo leva a incerteza e dificuldade em planejar.
 
 <p align="justify">A prática de TDD já estava em desenvolvimento por alguns anos, mas foi com a obra de Kent Beck que ela foi sistematizada e disseminada.</p>
 
-- [x] 2002: Implantado o e-Business Suite na BBTS, após um ano de suspensão das atividades de levantamento.
-- [x] 2002: Implantação do e-Business Suite na Cobra Computadores;
-- [x] 2002: OpenOffice Calc – Parte da suíte de escritório OpenOffice, um software de código aberto para planilhas.
+- [ ] 2002: Implantado o e-Business Suite na XXXX após um ano de suspensão das atividades de levantamento.
+- [ ] 2002: Implantação do e-Business Suite na Cobra Computadores;
+- [ ] 2002: OpenOffice Calc – Parte da suíte de escritório OpenOffice, um software de código aberto para planilhas.
 - [x] 2002: Primavera P6 – Atualização para projetos mais robustos e integração empresarial.
 - [x] 2002: TestNG – Framework de testes inspirado no JUnit, com suporte avançado para funcionalidades como paralelismo.
 
