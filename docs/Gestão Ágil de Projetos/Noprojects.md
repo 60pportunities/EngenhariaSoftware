@@ -15,15 +15,18 @@ Comece definindo os resultados pretendidos em termos de métricas que realmente 
 - [ ] Estas ideias baseiam-se no profundo respeito pelas pessoas como principal fonte de inovação e valor nas organizações.
 - [ ] Tudo é uma mudança; trate-o adequadamente. A mudança é feita por, para e para as pessoas. Trate os com respeito e eles criarão valor. Isso é #noprojects.
 ## Benefícios:
+
 - [ ] **Adaptabilidade**: Resposta ágil a mudanças de mercado ou demandas dos clientes.
 - [ ] **Qualidade Sustentada**: Equipes dedicadas reduzem erros e acumulam expertise técnica.
 - [ ] **Inovação Constante**: Liberdade para experimentar e iterar sem pressão de prazos arbitrários.
 ### Desafios:
+
 - [ ] **Mudança Cultural**: Romper com a mentalidade de "projetos" exige transformação organizacional.
 - [ ] **Métricas Tradicionais**: KPIs como "cumprimento de prazo" perdem relevância, demandando novos indicadores de valor.
 - [ ] **Governança Adaptativa**: Empresas acostumadas a estruturas hierárquicas podem resistir à autonomia das equipes.
 
 Grande parte do trabalho que você faz hoje, especialmente o trabalho de conhecimento, é único e inovador e tem mais em comum com o talentoso fabricante de alfinetes do que com uma fábrica de alfinetes.
+
 - [ ] Equipe de entrega de valor é uma equipe (ou rede de equipes) dedicada, estável e multifuncional, responsável por um resultado.
 
 O #noprojects não é a ausência de trabalho estruturado, mas uma **evolução para um modelo centrado em valor perene**, alinhado a práticas ágeis e de produto.

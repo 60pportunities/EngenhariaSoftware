@@ -28,7 +28,7 @@ This command was run using /opt/homebrew/Cellar/hadoop/3.4.1/libexec/share/hadoo
 
 cd /opt/homebrew/Cellar/hadoop/3.4.1/libexec/etc/hadoop/
 
-
+cd /opt/homebrew/Cellar/hadoop/3.3.6/libexec/etc/hadoop
 
 hadoop-env.sh
 
@@ -136,3 +136,4 @@ yarn-site.xml
 > https://didatica.tech/dominando-hadoop-do-zero-com-exemplos-praticos/
 
 >
+brew install hadoop

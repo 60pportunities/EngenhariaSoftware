@@ -7,7 +7,9 @@
 | Scrum Master    | O Scrum Master garante que o Product Owner e os Desenvolvedores sejam funcionais e produtivos, fornecendo orientação e suporte necessários. Comprometido com a eficácia do time, responsabilizando-se com que os eventos do Scrum sejam positivos e produtivos, e não apenas que sigam o Scrum. |
 | Stakeholders    | Embora não seja um papel definido no Guia do Scrum, as partes interessadas incluem todos os outros envolvidos ou interessados no desenvolvimento do produto.                                                                                                                                    |
 | Scrum of Scrums | Não será abordado nesta Metodologia.                                                                                                                                                                                                                                                            |
+
 ## _Líder Técnico (Tech Lead)_
+
 Líder Técnico é um profissional que tem o papel de liderar uma equipe de desenvolvimento de software. Precisa orientar a equipe e manter a comunicação fluida com outras equipes, sobre sua área de conhecimento.
 
 ## _Engineering Lead (Engenheiro Líder)_
@@ -26,6 +28,7 @@ Envolve a execução de alguns dos processos do ciclo de vida de desenvolvimento
 ## _Product Manager (PM)_
 Product Manager é um profissional que deve ter uma visão clara do que o produto deve ser. Deve planejar como ele será construído e garantir que o que foi construído reflita a visão e os requisitos originais.
 ## _Scrum Master (SM)_
+
 - [ ] Deve existir um para cada equipe Scrum;
 - [ ] Uma única pessoa pode ser Scrum master de várias equipes;
 - [ ] Deve transferir conhecimento entre os líderes de equipe;
@@ -47,6 +50,7 @@ Product Manager é um profissional que deve ter uma visão clara do que o produt
 	- [ ] Ele pode não participar da reunião diária, mas deve garantir que ela ocorra;
 
 ## _Time de Desenvolvimento_
+
 - [ ] Formado por pessoas comprometidas com os objetivos do projeto e com sua entrega;
 - [ ] Todos os membros são DESENVOLVEDORES;
 - [ ] Não há papéis específicos, como testador;
@@ -78,6 +82,7 @@ Deve estar perto de ambos os grupos (clientes e time de desenvolvimento) para ga
 - [ ] Quando um PO não consegue atender a várias equipes no mesmo produto, então pode ser criada uma hierarquia onde há um PO chefe e alguns P
 
 Os subordinados atendendo a equipes individualmente;
+
 - [ ] É o único dono do backlog do produto;
 - [ ] Responsável por garantir o valor do trabalho realizado pelo Time;
 - [ ] Responsável por manter (e/ou garantir a manutenção) o backlog do produto e que ele esteja visível para todos;
@@ -126,10 +131,12 @@ Para que isso seja possível o gerenciamento de projeto deve contemplar pelo men
 - [ ]  Balanceamento adequado às restrições do projeto, que podem ser: Escopo, Qualidade, Cronograma, Orçamento, Recursos e Riscos.
 - [ ] Metodologia/Framework a ser aplicado;
 ### Perguntas Básicas
+
 - [ ] Preciso saber quanto vai custar e quanto vai durar? Podemos dizer que o processo durará e custará o quanto o cliente quiser. A ideia do **desenvolvimento de um produto** complexo é dar retorno sobre um investimento.
 - [ ] Não sei o que vou receber? O que será entregue é definido a cada iteração. A priorização dos itens entregues é definida pela própria área de negócio.
 - [ ] O Ágil não tem disciplina. Ágil se vale da autodisciplina e de alguns rituais (no caso do Scrum) que são projetizados. As pessoas se comprometem com aquela meta.
 # A diferença entre "TUDO" e "UM TODO"
+
 - [ ] A primeira pode ser chamada de escopo total fixo.
 - [ ] Ponto de Função;
 - [ ] Medição De Desenvolvimento Por Parametrização;
@@ -140,30 +147,37 @@ Para que isso seja possível o gerenciamento de projeto deve contemplar pelo men
 - [ ] Escopo total fixo - o compromisso se modifica com qualquer alteração.
 - [ ] No Ágil, não será entregue "tudo", mas "um todo".
 #### **Foco em Entregas com Valor Agregado** 
+
 - [ ] Mudança do foco do processo de desenvolvimento para entregas orientadas ao valor.
 - [ ] Priorizar iniciativas que efetivamente gerem impacto para o cliente ou usuário final, reduzindo a atenção a atividades que não agregam valor. 
 - [ ] Definição clara de valor: Todos os itens do backlog devem estar vinculados a objetivos mensuráveis de negócio. 
 #### **Organização do Backlog** 
+
 - [ ] A estrutura do backlog deve ser otimizada para facilitar a priorização e a rastreabilidade: 
    - [ ] Épicos: Grandes objetivos estratégicos que refletem metas organizacionais. 
    - [ ] Features: Divisões práticas de Épicos, com entregas de maior porte e visibilidade clara de progresso. 
    - [ ] PBIs (Product Backlog Items): Representam funcionalidades detalhadas e prontas para serem desenvolvidas. 
    - [ ] Tarefas: Para decompor PBIs em atividades técnicas, o que é necessário para realizar o PBI. 
+
 Essa organização proporciona clareza e flexibilidade ao time, garantindo que o esforço esteja concentrado nas entregas prioritárias. 
 #### **Abordagem Iterativa e Incremental** 
+
 - [ ] Uso de ciclos iterativos curtos (sprints) para permitir ajustes rápidos com base no feedback do cliente: 
    - [ ] Sprints de 2 a 4 semanas, com entregas funcionais ao final de cada ciclo. 
    - [ ] Revisões frequentes: Cada entrega deve ser demonstrada ao cliente ou stakeholders, permitindo validações e adaptações contínuas. 
 #### **Feedback Contínuo** 
 Ampliar a coleta e o uso de feedback para refinar o processo: 
+
 - [ ] Feedback interno: Promover retrospectivas eficazes para identificar melhorias de processo. 
 - [ ] Feedback externo: Incorporar sugestões de clientes e usuários, garantindo que o produto atenda às necessidades reais. 
 #### **Métricas para Melhoria Contínua** 
 Adoção métricas que reflitam o valor entregue ao invés de medir produtividade individual: 
+
 - [ ] Lead Time: Tempo desde a criação de um PBI até sua entrega ao cliente. 
 - [ ] Cycle Time: Tempo necessário para concluir um item de trabalho. 
 - [ ] Satisfação do cliente: Medida qualitativa da percepção do cliente sobre o valor entregue. 
 #### **Comunicação e Colaboração** 
 Aumentar a transparência e a colaboração entre todos os stakeholders: 
+
 - [ ] Reuniões objetivas e curtas, como reuniões diárias e de planejamento, para garantir alinhamento. 
 - [ ] Uso de ferramentas de colaboração integradas, permitindo que o progresso seja visualizado por todos em tempo real.

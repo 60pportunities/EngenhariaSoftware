@@ -212,6 +212,7 @@ path = ~/gitconfig/.gitconfig_azure_xxxxxxxx
 ```
 
 ### Pip
+
 ```
 Package                                   Version
 ----------------------------------------- --------------

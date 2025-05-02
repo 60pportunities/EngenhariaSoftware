@@ -133,7 +133,7 @@ J --> E
 end
 ```
 #### Transformando necessidades abstratas em resultados
-
+A disponibilidade e a qualidade dos dados são os maiores desafios para alcançar a IA em escala, de acordo com mais de um terço dos líderes de TI respondendo a uma pesquisa recente. Mais da metade desses entrevistados disseram que governança e conformidade também são barreiras para alcançar o gerenciamento de dados de ponta a ponta.
 
 | Déficit de alfabetização de dados               | Quais fontes de dados priorizar?                                                |
 | ----------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -144,8 +144,6 @@ end
 | Silos organizacionais e incentivos desalinhados | Análise e negócios operam em feudos desconectados com KPIs conflitantes.        |
 |                                                 | Exige uma ferramenta de pontuação de leads vinculada ao crescimento da receita? |
 |                                                 | Ninguém é dono da entrega de ponta a ponta.                                     |
-
-![](../img/barco-de-dados.jpeg)
 
 #### Centralização dos Cadastros
 O objetivo deste documento é de abordarmos o tema de GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
@@ -447,6 +445,22 @@ Entretanto, considerando a existência de inúmeras legislações setoriais, bem
 #### **Anonimização**
 A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento.
 O processo de anonimização, além de evitar a identificação do titular de dados pessoais, deve garantir que o tratamento realizado após a anonimização não implique em uma distorção dos dados reais.
+
+#### **Proposta de uma Nuvem Híbrida** na mesma CLOUD
+Plataforma única no data center e na nuvem bem como na borda, para que os dados e as cargas de trabalho se movam sem atrito e em várias direções.
+
+- [ ] **Serviços de dados portáteis e interoperáveis**: Abrange todo o ciclo de vida dos dados, desde a ingestão até a transformação, armazenamento e aprendizado de máquina.
+- [ ] **Armazenamento de dados para lidar com qualquer eventualidade**: Manipular dados em todas as formas estruturados, semi-estruturados e não estruturados;
+- [ ] **Uma interface comum para gerenciar a infraestrutura**: Plano de **controle único e comum**, independentemente de onde ou como os dados e análises são implantados.
+- [ ] **Segurança e governança multiplataforma**: Permitir **segurança e governança** consistentes em todos os ambientes.
+- [ ] **Aberta e extensível**: **ELASTICIDADE**, pronta para o futuro e é capaz de se estender para novas nuvens conforme elas surgem.
+
+
+![](../img/barco-de-dados.jpeg)
+
+
+
+
 
 ![](../img/data-model-governance.jpeg)
 ## **Plataforma de Dados Robusta**

@@ -63,7 +63,7 @@ plugins:
       enabled: true
   - git-committers:
       #enterprise_hostname: https://github.com/s60pportunities
-      repository: https://github.com/60pportunities/documentacao
+      repository: https://github.com/60pportunities/EngenhariaSoftware
       branch: main
       #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
       token:  !!python/object/apply:os.getenv ["GIT_AUTH_TOKEN"]
@@ -82,6 +82,7 @@ plugins:
 # - blog:
 #      blog_dir: .
   - search
+  - awesome-pages
   - autorefs
 #  - mkdocstrings:
 #      handlers:

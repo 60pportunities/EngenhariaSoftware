@@ -52,6 +52,7 @@ Os usuários **pagam apenas pelo que configuram**, sem necessidade de investir e
 | **Flexível**       | Adaptação rápida a necessidades variáveis sem custos fixos.             |
 | **Escalável**      | Expansão ou redução automática de recursos conforme a demanda.          |
 | **Resiliente**     | Alta disponibilidade e recuperação de desastres sem intervenção manual. |
+
 - [ ] **Redução de CAPEX**: Elimina investimentos em hardware, licenças perpétuas e data centers próprios.
 - [ ] **Custo variável**: Pague apenas pelo uso real (ideal para empresas com demanda flutuante).
 - [ ] **Foco no core business**: A empresa não precisa gerenciar infraestrutura, apenas consumir serviços

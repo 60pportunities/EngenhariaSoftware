@@ -80,12 +80,10 @@
 ### **Conceitos Fundamentais**
 
 <div class="mdx-columns2" markdown>
+- [ ] [[Implantar Governaça de Dados]]
 - [ ] [[docs/Dados/Introdução|Introdução]]
-- [ ] [[Arquitetura Aplicativos Nuvem]]
 - [ ] [[Abstração de Dados]]
 - [ ] [[Data-Driven]]
-- [ ] [[Arquitetura Integração de dados]]
-- [ ] [[Arquitetura de Análise]]
 - [ ] [[Produto de Dados]]
 - [ ] [[Modelagem de Dados]]
 - [ ] [[Bit rot]]
