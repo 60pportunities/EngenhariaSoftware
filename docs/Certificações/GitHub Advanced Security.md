@@ -223,3 +223,13 @@ jobs:
             -Dsonar.language=plsql
 
 ```
+
+O que o CodeQL faz pela primeira vez ao criar um banco de dados? Extrai uma única representação relacional de cada arquivo de origem.
+Qual é o formato do comando para criar e analisar um banco de dados CodeQL da CLI? `codeql [command] [subcommand]`
+O que é um extrator? Uma ferramenta que produz os dados relacionais.
+
+As operações de pesquisa internas da CLI fazem qual das seguintes operações?
+
+Por padrão, qual nível de gravidade causa uma falha de verificação de solicitação de pull durante a verificação de código? `Error`
+
+Qual é uma maneira de otimizar os tempos de execução de análise de CodeQL? Aumente a memória.

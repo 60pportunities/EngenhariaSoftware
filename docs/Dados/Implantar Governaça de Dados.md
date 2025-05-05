@@ -4,18 +4,18 @@ Governança de Dados é o exercício da tomada de decisões e da autoridade em q
 
 É um sistema de direitos de decisão e responsabilidades para processos relacionados a informações, executado de acordo com modelos acordados que descrevem quem pode tomar quais ações com quais informações e sob quais circunstâncias, usando quais métodos.
 
-1. Alinhamento de Políticas, Requisitos e Controles
-2. Estabelecimento de Direitos de Decisão
-3. Estabelecimento de Responsabilidade
-4. Desempenho da Administração
-5. Gestão de Mudanças
-6. Definição de Dados
-7. Resolução de Problemas
-8. Especificação de Requisitos de Qualidade de Dados
-9. Incorporação da Governança à Tecnologia
-10. Atendimento e Suporte às Partes Interessadas
-11. Comunicação com as Partes Interessadas
-12. Mensuração e Relato de Valor
+1. Alinhamento de Políticas, Requisitos e Controles;
+2. Estabelecimento de Direitos de Decisão;
+3. Estabelecimento de Responsabilidade;
+4. Desempenho da Administração;
+5. Gestão de Mudanças;
+6. Definição de Dados;
+7. Resolução de Problemas;
+8. Especificação de Requisitos de Qualidade de Dados;
+9. Incorporação da Governança à Tecnologia;
+10. Atendimento e Suporte às Partes Interessadas;
+11. Comunicação com as Partes Interessadas;
+12. Mensuração e Relato de Valor;
 
 ## **Gestão de Dados**
 - [ ] Implementar práticas de gestão de dados escaláveis ​​e seguras.

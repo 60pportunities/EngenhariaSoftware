@@ -5,19 +5,21 @@ repos:
           - id: trailing-whitespace
           - id: end-of-file-fixer
           - id: check-yaml
-            exclude: mkdocs.yml
+            exclude: mkdocs.yml obsidian/workspace.json
           - id: check-added-large-files
 
     - repo: https://github.com/Yelp/detect-secrets
       rev: v1.5.0
       hooks:
           - id: detect-secrets
+            exclude: obsidian/workspace.json
             args:
                 - '--baseline'
                 - '.secrets.baseline'
                 - 'package.lock.json|node_modules/.*'
             stages: [pre-commit]  # Executa apenas no estágio de commit
             always_run: true  # Garante que o hook sempre será executado
+
     - repo: https://github.com/google/osv-scanner
       rev: v1.9.2  # Certifique-se de usar a versão mais recente
       hooks:

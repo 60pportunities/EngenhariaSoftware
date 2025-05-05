@@ -1,0 +1,5 @@
+[[rules]]
+description = "Ignore .obsidian workspace false positive"
+regex = '''[a-f0-9]{32,}'''
+path = '''\.obsidian/workspace\.json'''
+allowlist = true

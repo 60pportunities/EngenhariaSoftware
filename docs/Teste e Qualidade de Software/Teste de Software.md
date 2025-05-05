@@ -73,3 +73,34 @@ O software é lançado para um número limitado de usuários reais fora da organ
 | RSpec           | RSpec é composto por múltiplas bibliotecas, que são projetadas para funcionarem juntas ou podem ser usadas independentemente com outras ferramentas de teste como Cucumber ou Minitest.                                                                             |
 | Robot Framework | Robot Framework é uma estrutura de automação de teste de código aberto orientada por palavras-chave, projetada para simplificar o processo de automação de testes, especialmente para testes de aceitação e desenvolvimento orientado a testes de aceitação (ATDD). |
 | Selenide        | Selenide é uma estrutura de teste Java amplamente utilizada que funciona junto com o Selenium WebDriver, expandindo os recursos do WebDriver e JUnit.                                                                                                               |
+
+## Matriz de Rastreabilidade
+
+
+Esta matriz mapeia cada requisito funcional para os casos de teste que o validam.
+
+
+
+| ID do Requisito | Descrição do Requisito                                                           | Caso(s) de Teste                                                                                                                                                                                   |
+| --------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FR01            | O usuário deve conseguir efetuar login com credenciais válidas                   | [equivalence-partitioning-login.md](tests/test-cases/equivalence-partitioning-login.md)                                                                                                            |
+| FR02            | O sistema deve exibir uma mensagem de erro para tentativas de login inválidas    | [equivalence-partitioning-login.md](tests/test-cases/equivalence-partitioning-login.md)                                                                                                            |
+| FR03            | O usuário deve visualizar a lista de produtos disponíveis                        | (coberto como pré-condição em casos de teste)                                                                                                                                                      |
+| FR04            | O usuário pode adicionar produtos ao carrinho                                    | [state-transition-testing-cart-checkout.md](tests/test-cases/state-transition-testing-cart-checkout.md)                                                                                            |
+| FR05            | O usuário pode remover produtos do carrinho                                      | [state-transition-testing-cart-checkout.md](tests/test-cases/state-transition-testing-cart-checkout.md)                                                                                            |
+| FR06            | O usuário pode visualizar os itens do carrinho                                   | [state-transition-testing-cart-checkout.md](tests/test-cases/state-transition-testing-cart-checkout.md)                                                                                            |
+| FR07            | O usuário pode iniciar o processo de finalização da compra                       | [decision-table-testing-checkout.md](tests/test-cases/decision-table-testing-checkout.md), [state-transition-testing-cart-checkout.md](tests/test-cases/state-transition-testing-cart-checkout.md) |
+| FR08            | O usuário deve preencher o nome, sobrenome e CEP durante a finalização da compra | [boundary-value-analysis-postalcode.md](tests/test-cases/boundary-value-analysis-postalcode.md), [decision-table-testing-checkout.md](tests/test-cases/decision-table-testing-checkout.md)         |
+| FR09            | O sistema deve validar os campos obrigatórios durante a finalização da compra    | [boundary-value-analysis-postalcode.md](tests/test-cases/boundary-value-analysis-postalcode.md), [decision-table-testing-checkout.md](tests/test-cases/decision-table-testing-checkout.md)         |
+| FR10            | O usuário pode concluir uma compra com sucesso                                   | [decision-table-testing-checkout.md](tests/test-cases/decision-table-testing-checkout.md), [state-transition-testing-cart-checkout.md](tests/test-cases/state-transition-testing-cart-checkout.md) |
+| FR11            | O usuário pode sair do aplicativo                                                | (opcional: adicione se você documentar um caso de teste de logout)                                                                                                                                 |
+
+
+
+---
+
+
+
+**Observação:**
+
+- Os nomes dos arquivos dos casos de teste agora vinculam-se diretamente aos arquivos em `/tests/test-cases/`.

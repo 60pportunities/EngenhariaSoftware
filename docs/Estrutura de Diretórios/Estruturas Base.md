@@ -1,4 +1,17 @@
 
+
+## **Pipeline**
+
+```mermaid
+flowchart LR
+
+A(Alterações aprovadas<br/>em estágio) --> B[Mesclar o<br/>PR de lançamento] --> C[Criar e enviar<br/>a tag de lançamento] --> D[Verificar<br/>lançamento]
+D-->E[Gerar notas de<br/>lançamento] --> F[Mesclar de volta quaisquer<br/>alterações para desenvolvimento]--> R(Alterações lançadas)
+A:::state
+R:::state
+classDef state fill:#739,color:#fff
+```
+
 ## **DevOps**
 
 ```mermaid
