@@ -205,3 +205,69 @@ Na arquitetura de dados headless, um produto de dados é composto por um fluxo c
 Os dados gravados no fluxo são automaticamente anexados à tabela, permitindo que você os acesse como um tópico do Kafka ou como uma tabela Iceberg.
 
 ![[Pasted image 20250505204652.png]]
+
+
+--- Apache Flink
+Os microsserviços são projetados como aplicativos pequenos, autocontidos e independentes.
+
+Eles seguem a filosofia UNIX de fazer uma única coisa e fazê-la bem. Aplicativos mais complexos são criados conectando vários microsserviços entre
+si, que se comunicam apenas por meio de interfaces padronizadas, como conexões HTTP RESTful.
+
+
+```mermaid
+flowchart TD
+ subgraph id00 ["Eventos"]
+    E01@{ shape: tag-rect, label: "Eventos"  }
+    E02@{ shape: tag-rect, label: "Resposta" }
+ end 
+ subgraph id01 ["Aplicações"]
+   A01@{ shape: brace-r, label: "Comment" }
+   A02@{ shape: tag-rect, label: "CRM" }
+   A03@{ shape: tag-rect, label: "ERP" }
+   A04@{ shape: tag-rect, label: "WEB-APP" }
+end
+subgraph id02 ["Armazenamento"]
+  AR01@{ shape: lin-cyl, label: "ERP" }
+  AR02@{ shape: lin-cyl, label: "CRM" }
+  AR03@{ shape: lin-cyl, label: "FSC" }
+  AR04@{ shape: lin-cyl, label: "PSF" }
+end
+id00 L1@<==> id01
+id01 L2@<==> id02
+L1@{ animate: true }
+L2@{ animate: true }
+```
+
+
+```mermaid
+flowchart TD
+ subgraph id01 ["Serviço 01"]
+    SVA01@{ shape: tag-rect, label: "CRM" }
+    DBA01@{ shape: lin-cyl, label: "CRM" }
+    SVA01  Lid01@<==>  DBA01
+    Lid01@{ animate: true }
+ end 
+ subgraph id02 ["Serviço 02"]
+    SVA02@{ shape: tag-rect, label: "ERP" }
+    DBA02@{ shape: lin-cyl, label: "ERP" }
+    SVA02  Lid02@<==>  DBA02
+    Lid02@{ animate: true }
+end
+subgraph id03 ["Serviço 03"]
+    SVA03@{ shape: tag-rect, label: "PSF" }
+    DBA03@{ shape: lin-cyl, label: "PSF" }
+    SVA03  Lid03@<==>  DBA03
+    Lid03@{ animate: true }
+end
+subgraph id04 ["Aplicação"]
+ APP01@{ shape: tag-rect, label: "Aplicação" }
+end
+id04 Lid05@<==> id01
+id04 Lid06@<==> id02
+id04 Lid07@<==> id03
+Lid05@{ animate: true }
+Lid06@{ animate: true }
+Lid07@{ animate: true }
+```
+
+
