@@ -1,3 +1,16 @@
+Os dados são a alma das empresas , especialmente quando usados em tempo real.  Em muitas empresas, os dados são isolados, fragmentados e armazenados em vários formatos em diversos sistemas legados e baseados em nuvem.
+
+Para tornar os dados mais acessíveis, a maioria das organizações de TI centraliza o máximo de informações possível.
+
+Por que os pipelines de dados tradicionais não são escaláveis?
+
+- [ ] **Processamento em Lote**:  Movem dados em lotes periódicos;
+- [ ] **Equipes de dados centralizadas**:  Única equipe centralizada de engenharia de dados, que precisa aprovar solicitações individuais de dados ou dedicar tempo à construção de novos pipelines e à manutenção dos existentes;
+- [ ] **Governança Imatura e Observabilidade**: Linhagem de dados e gerenciamento de erros de dados e esquemas também são desafios;
+- [ ] **Processamento de dados com uso intensivo de recursos**: Pipelines tradicionais exigem grande capacidade de computação e armazenamento, e os requisitos estão aumentando à medida que os volumes de dados aumentam;
+- [ ] **Design monolítico**:x
+
+
 Historicamente existe uma grande divisão entre o **Lado Operacional e o Analítico do negócio**, já que cada equipe acaba trabalhando sozinha para obter, limpar, estruturar e usar os dados.
 
 - [ ] Quanto mais longe da fonte você move, copia e transforma os dados, maior a frequência de quebras, maior a latência, mais complexas as dependências.
@@ -205,6 +218,7 @@ Na arquitetura de dados headless, um produto de dados é composto por um fluxo c
 Os dados gravados no fluxo são automaticamente anexados à tabela, permitindo que você os acesse como um tópico do Kafka ou como uma tabela Iceberg.
 
 ![[Pasted image 20250505204652.png]]
+<<<<<<< HEAD
 
 
 --- Apache Flink
@@ -219,7 +233,7 @@ flowchart TD
  subgraph id00 ["Eventos"]
     E01@{ shape: tag-rect, label: "Eventos"  }
     E02@{ shape: tag-rect, label: "Resposta" }
- end 
+ end
  subgraph id01 ["Aplicações"]
    A01@{ shape: brace-r, label: "Comment" }
    A02@{ shape: tag-rect, label: "CRM" }
@@ -246,7 +260,7 @@ flowchart TD
     DBA01@{ shape: lin-cyl, label: "CRM" }
     SVA01  Lid01@<==>  DBA01
     Lid01@{ animate: true }
- end 
+ end
  subgraph id02 ["Serviço 02"]
     SVA02@{ shape: tag-rect, label: "ERP" }
     DBA02@{ shape: lin-cyl, label: "ERP" }
@@ -271,3 +285,65 @@ Lid07@{ animate: true }
 ```
 
 
+||||||| parent of 9f950b8 (<doc>: Ajustes na formatação.)
+=======
+
+## Apache Flink
+É um processador de fluxo robusto e robusto, amplamente utilizado em aplicações exigentes como essas.
+
+Seu desempenho e robustez são o resultado de alguns princípios básicos de design, incluindo uma arquitetura "share-nothing" com estado local, processamento em tempo de evento e snapshots de estado (para recuperação).
+### Arquitetura Share-Nothing
+Em sistemas distribuídos, esta é uma arquitetura onde cada nó é completamente independente de outros nós no sistema. A estrutura de processamento do Hadoop usa o armazenamento HDFS distribuído.
+
+```mermaid
+graph TD
+    subgraph Nó 1
+        DB1[(Banco de Dados 1)]
+        App1[Aplicação 1]
+        App1 --> DB1
+    end
+
+    subgraph Nó 2
+        DB2[(Banco de Dados 2)]
+        App2[Aplicação 2]
+        App2 --> DB2
+    end
+
+    subgraph Nó 3
+        DB3[(Banco de Dados 3)]
+        App3[Aplicação 3]
+        App3 --> DB3
+    end
+
+    Client[Cliente]
+    Client --> App1
+    Client --> App2
+    Client --> App3
+```
+Essas arquiteturas também são tolerantes a falhas: cada nó é independente, portanto não há pontos únicos de falha, e o sistema pode se recuperar rapidamente de uma falha de um nó individual.
+
+
+
+https://developer.confluent.io/courses/apache-flink/intro/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.dsa_mt.dsa_rgn.latam_lng.eng_dv.all_con.confluent-developer&utm_term=&creative=&device=c&placement=&gad_source=1&gad_campaignid=19560855033&gbraid=0AAAAADRv2c1F6WeDshAB6j7kzQXq_JvjC&gclid=CjwKCAjwiezABhBZEiwAEbTPGPfcLKmQhtdyl11-F9S5lj2lHzPE7tpF8f4tOe3JpApTSQ5S2f5pTRoCyz8QAvD_BwE
+
+
+## Pipelines de Dados de Streaming
+Pipelines de dados de streaming são uma abordagem moderna para a entrega de dados como um produto de autoatendimento.
+
+Conectar
+Crie e gerencie fluxos de dados com uma interface de usuário visual fácil de usar e conectores pré-criados.
+
+Governça
+Gerencie, marque, audite e aplique políticas centralmente para fluxos de dados confiáveis e de alta qualidade.
+
+Enriqueça
+Use SQL para combinar, agregar, limpar, processar e moldar dados em tempo real, aumentando a segurança, a eficiência e a usabilidade dos seus fluxos de dados para potencializar casos de uso operacionais, analíticos e de inteligência empresarial.
+
+Construir
+Prepare produtos de dados confiáveis e bem formatados para sistemas e aplicativos downstream
+
+Compartilhar
+Colabore com segurança em transmissões ao vivo com descoberta e compartilhamento de dados de autoatendimento.
+
+![[Pasted image 20250507202922.png]]
+>>>>>>> 9f950b8 (<doc>: Ajustes na formatação.)

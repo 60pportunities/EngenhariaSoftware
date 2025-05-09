@@ -82,6 +82,7 @@
 <div class="mdx-columns2" markdown>
 - [ ] [[Implantar Governaça de Dados]]
 - [ ] [[docs/Dados/Introdução|Introdução]]
+- [ ] [[Shift-Left]]
 - [ ] [[Abstração de Dados]]
 - [ ] [[Data-Driven]]
 - [ ] [[Produto de Dados]]

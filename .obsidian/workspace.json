@@ -1,41 +1,14 @@
 {
   "main": {
-    "id": "fa26d72f5908acf9",
+    "id": "da422f3a3d9d26b5",
     "type": "split",
     "children": [
       {
-        "id": "4a9190118bd3319d",
+        "id": "f3ff0dc91eb87185",
         "type": "tabs",
         "children": [
           {
-            "id": "6b3386c8622387f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Dados/Banco de Dados Oracle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Banco de Dados Oracle"
-            }
-          },
-          {
-            "id": "9b6d0c52f74d21fe",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "docs/Dados/img/Pasted image 20250428171959.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250428171959"
-            }
-          },
-          {
-            // pragma: allowlist secret
-            "id": "06c44508a1a64f43",
+            "id": "8e179ca4f402ff98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,22 +21,21 @@
               "title": "Shift-Left"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "eb57fd0a040678f1",
+    "id": "693cbb914f0bf317",
     "type": "split",
     "children": [
       {
-        "id": "98793b6c025ae737",
+        "id": "b80fb54b8007373b",
         "type": "tabs",
         "children": [
           {
-            "id": "a2a7dcde8b986e5b",
+            "id": "2cef82111a77463d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,12 +48,12 @@
             }
           },
           {
-            "id": "48b48c269298a1e3",
+            "id": "e06197c657436ed5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "UX ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +65,7 @@
             }
           },
           {
-            "id": "1d49951a283eeaea",
+            "id": "375c71b37371815f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -106,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 300
   },
   "right": {
-    "id": "6ce3b47c7d07997d",
+    "id": "68445f6fb4e195d4",
     "type": "split",
     "children": [
       {
-        "id": "775541253dc2873a",
+        "id": "fa69db8cc272fc01",
         "type": "tabs",
         "children": [
           {
-            "id": "2f4b8bb54731b39b",
+            "id": "487f2db186d475f9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bem-vindo.md",
+                "file": "docs/Dados/Shift-Left.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Bem-vindo"
+              "title": "Links inversos para Shift-Left"
             }
           },
           {
-            "id": "9a73bfe80c35736a",
+            "id": "63082be10fbd311f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bem-vindo.md",
+                "file": "docs/Dados/Shift-Left.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Bem-vindo"
+              "title": "Links de saída para Shift-Left"
             }
           },
           {
-            "id": "a8f9448131082ea5",
+            "id": "53ccf686deb8ae9b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,18 +137,18 @@
             }
           },
           {
-            "id": "55d2e95546ce9e20",
+            "id": "17a787f3936b9133",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bem-vindo.md",
+                "file": "docs/Dados/Shift-Left.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Bem-vindo"
+              "title": "Sumário de Shift-Left"
             }
           }
         ]
@@ -197,56 +169,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "06c44508a1a64f43",
+  "active": "8e179ca4f402ff98",
   "lastOpenFiles": [
+    "docs/Dados/img/Pasted image 20250507202922.png",
     "docs/Dados/img/Pasted image 20250505204652.png",
     "docs/Dados/img/Pasted image 20250505204631.png",
-    "docs/Teste e Qualidade de Software/Teste de Software.md",
-    "docs/Teste e Qualidade de Software/Qualidade.md",
-    "docs/Dados/Shift-Left.md",
-    "docs/Testes",
-    "docs/Dados/Produto de Dados.md",
-    "docs/Dados/Modelagem de Dados.md",
-    "docs/Dados/Introdução.md",
-    "docs/Dados/Infraestruturas Digitais.md",
-    "docs/Dados/Implantar Governaça de Dados.md",
-    "docs/Dados/Demonstração de Dados.md",
-    "docs/Dados/Data-Driven.md",
-    "docs/Dados/Banco de Dados Oracle.md",
-    "docs/Dados/Arquitetura Integração de dados.md",
-    "docs/Estrutura de Diretórios/Estruturas Base.md",
+    "docs/Dados/img/Pasted image 20250428172332.png",
+    "docs/Dados/img/Pasted image 20250428171959.png",
     "docs/Dados/Arquitetura de Análise.md",
-    "docs/Dados/Abstração de Dados.md",
-    "docs/Certificações/GitHub Advanced Security.md",
-    "site/assets/swagger-ui/oauth2-redirect.html",
-    "site/assets/swagger-ui",
-    "site/assets/javascripts/swagger-ui-bundle.js.map",
-    "site/assets/javascripts/swagger-ui-es-bundle.js",
-    "site/assets/javascripts/swagger-initializer.js",
-    "site/assets/javascripts/swagger-ui-standalone-preset.js",
-    "site/assets/javascripts/swagger-ui-es-bundle.js.map",
-    "site/assets/javascripts/swagger-ui-bundle.js",
-    "site/assets/javascripts/swagger-ui-standalone-preset.js.map",
-    "site/assets/images/favicon.png",
-    "site/img/𝟰_1_a𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮𝗹_v𝗶𝗲𝘄_m𝗼𝗱𝗲𝗹.png",
-    "site/img/visao_apps.png",
-    "site/img/vertical.png",
-    "site/img/vendor_lock-in-multi-cloud.svg",
-    "site/img/tbd_estrategia_feature_flags.jpg",
-    "site/img/sqldeveloper_git_003.png",
-    "site/img/sqldeveloper_git_002.png",
-    "site/img/sqldeveloper_git_001.png",
-    "docs/Configuração do Desktop/Instalação.md",
-    "docs/Configuração do Desktop/Instalaçãp Hadoop.md",
-    "docs/Arquitetura/Abordagem.md",
-    "docs/Gestão Ágil de Projetos/Sustentação.md",
-    "docs/Gestão Ágil de Projetos/Segurança.md",
-    "docs/Gestão Ágil de Projetos/Framework SCRUM.md",
-    "docs/Gestão Ágil de Projetos/Noprojects.md",
-    "docs/index.md",
     "docs/Dados/Arquitetura Aplicativos Nuvem.md",
-    "Sem título 1.canvas",
-    "Sem título.canvas",
-    "Canvas Livro.canvas"
+    "docs/Dados/Shift-Left.md",
+    "docs/Dados/img/Pasted image 20250505204652.png.sb-bf7077f5-BfMyk0",
+    "docs/Dados/img/Pasted image 20250505204631.png.sb-bf7077f5-XS0Ilk",
+    "docs/Dados/img/Pasted image 20250428172332.png.sb-bf7077f5-JJs3Xz",
+    "docs/Dados/img/Pasted image 20250428171959.png.sb-bf7077f5-XovL73",
+    "docs/index.md"
   ]
 }
