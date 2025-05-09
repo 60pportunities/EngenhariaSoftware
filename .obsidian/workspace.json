@@ -11,10 +11,14 @@
             "id": "1691f28c08850fe8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/Dados/Shift-Left.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Shift-Left"
             }
           }
         ]

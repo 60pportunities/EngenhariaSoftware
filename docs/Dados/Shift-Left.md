@@ -127,7 +127,7 @@ flowchart LR
 	- [ ] ETL falha, todos os trabalhos subsequentes devem ser pausados até que o ETL seja corrigido;
 	- [ ] Transfere os dados do seu sistema para o seu data lake por meio de ETL/ELT, você precisa desnormalizá-los, reestruturá-los, padronizá-los, remodelá-los e dar sentido a eles — sem cometer erros;
 	- [ ] Dados incorretos farão com que seus clientes percam a confiança;
-	- [ ]
+
 OU
 
 
@@ -195,8 +195,6 @@ A migração para a esquerda reduz a complexidade e os custos, eliminando pipeli
 manutenção paralela, elimina o trabalho de correção de falhas no pipeline de dados e libera seus engenheiros para trabalhar em tarefas mais valiosas.
 
 ## Levando dados do plano operacional para o plano analítico
-
-
 A mudança para a esquerda — uma seleção e mudança incremental dos conjuntos de dados importantes que sustentam o seu negócio — funciona na prática para que todos possam se beneficiar de um acesso limpo, simples e confiável aos dados.
 
 Sistemas transacionais fazem parte do plano operacional (preenchido por sistemas de processamento de transações on-line ou OLTP) e são extremamente eficientes no atendimento a seus casos de uso comercial específicos. _Mas os requisitos de negócios vão muito além da gestão de transações_? Responder a essas perguntas exige coletar dados de toda a organização e analisá-los em data warehouses, data lakes ou data lakehouses.
@@ -218,10 +216,8 @@ Na arquitetura de dados headless, um produto de dados é composto por um fluxo c
 Os dados gravados no fluxo são automaticamente anexados à tabela, permitindo que você os acesse como um tópico do Kafka ou como uma tabela Iceberg.
 
 ![[Pasted image 20250505204652.png]]
-<<<<<<< HEAD
 
 
---- Apache Flink
 Os microsserviços são projetados como aplicativos pequenos, autocontidos e independentes.
 
 Eles seguem a filosofia UNIX de fazer uma única coisa e fazê-la bem. Aplicativos mais complexos são criados conectando vários microsserviços entre
@@ -317,12 +313,6 @@ graph TD
     Client --> App3
 ```
 Essas arquiteturas também são tolerantes a falhas: cada nó é independente, portanto não há pontos únicos de falha, e o sistema pode se recuperar rapidamente de uma falha de um nó individual.
-
-
-
-https://developer.confluent.io/courses/apache-flink/intro/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.dsa_mt.dsa_rgn.latam_lng.eng_dv.all_con.confluent-developer&utm_term=&creative=&device=c&placement=&gad_source=1&gad_campaignid=19560855033&gbraid=0AAAAADRv2c1F6WeDshAB6j7kzQXq_JvjC&gclid=CjwKCAjwiezABhBZEiwAEbTPGPfcLKmQhtdyl11-F9S5lj2lHzPE7tpF8f4tOe3JpApTSQ5S2f5pTRoCyz8QAvD_BwE
-
-
 ## Pipelines de Dados de Streaming
 Pipelines de dados de streaming são uma abordagem moderna para a entrega de dados como um produto de autoatendimento.
 
@@ -342,3 +332,4 @@ Compartilhar
 Colabore com segurança em transmissões ao vivo com descoberta e compartilhamento de dados de autoatendimento.
 
 ![[Pasted image 20250507202922.png]]
+https://developer.confluent.io/courses/apache-flink/intro/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.dsa_mt.dsa_rgn.latam_lng.eng_dv.all_con.confluent-developer&utm_term=&creative=&device=c&placement=&gad_source=1&gad_campaignid=19560855033&gbraid=0AAAAADRv2c1F6WeDshAB6j7kzQXq_JvjC&gclid=CjwKCAjwiezABhBZEiwAEbTPGPfcLKmQhtdyl11-F9S5lj2lHzPE7tpF8f4tOe3JpApTSQ5S2f5pTRoCyz8QAvD_BwE
