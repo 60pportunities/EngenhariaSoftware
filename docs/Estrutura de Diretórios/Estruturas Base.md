@@ -1,5 +1,17 @@
 
 
+
+```mermaid
+sequenceDiagram
+participant GR as GitHub repo
+participant GA as GitHub App
+participant AF as Azure Function
+participant TC as Teams channel
+GR->>GA: GitHub event
+GA->>AF: Triggers Azure Function
+AF->>TC: Sends message to Teams channel
+```
+
 ## **Pipeline**
 
 ```mermaid
