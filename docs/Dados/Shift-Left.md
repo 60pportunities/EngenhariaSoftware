@@ -284,10 +284,6 @@ Lid06@{ animate: true }
 Lid07@{ animate: true }
 ```
 
-
-||||||| parent of 9f950b8 (<doc>: Ajustes na formatação.)
-=======
-
 ## Apache Flink
 É um processador de fluxo robusto e robusto, amplamente utilizado em aplicações exigentes como essas.
 
@@ -346,4 +342,3 @@ Compartilhar
 Colabore com segurança em transmissões ao vivo com descoberta e compartilhamento de dados de autoatendimento.
 
 ![[Pasted image 20250507202922.png]]
->>>>>>> 9f950b8 (<doc>: Ajustes na formatação.)
