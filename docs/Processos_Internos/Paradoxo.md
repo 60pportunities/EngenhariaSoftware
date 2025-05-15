@@ -44,6 +44,10 @@ id7 --> id8((Relaxamento)) --> id1
 ```
 
 A empresa, produto tem que existir além de seu criador. Entenda que **criação** é diferente de criatividade, mas é óbvio, que a criação pode inserir em criatividade, ou seja, trago algo criativo ou com uma outra leitura.
+
+## Paradoxo da Produtividade
+Prêmio Nobel Robert Solow: "Você pode ver a era do computador em todos os lugares, menos nas estatísticas de produtividade."
+
 ## Outros Paradoxos
 - [ ] **Fábrica de Botas**: Fábrica de Botas um botando a culpa no outro.
 - [ ] **Paradoxo Homer Simpson**: "CULPA É MINHA E COLOCO EM QUEM EU QUISER"?

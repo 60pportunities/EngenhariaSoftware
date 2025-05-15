@@ -16,6 +16,15 @@
 - [ ] As equipes de duas pizzas têm propriedade de um único segmento sobre um produto ou serviço específico.
 - [ ] Vai lá e faz: Como empreender na era digital e tirar ideias do papel - Thiago Mattos
 - [ ] [Git e Github](https://learn.microsoft.com/en-us/collections/o1njfe825p602p)
+- [ ] [Todo negócio é um negócio de software](https://quidgest.com/en/articles/every-business-software-business/)
+- [ ] [Patrick Debois ](https://www.jedi.be/)
+- [ ] [Tabela Periódica DevSecOps](https://digital.ai/learn/devsecops-periodic-table/)
+- [ ] https://github.com/hacksider/Deep-Live-Cam
+- [ ] https://github.com/orgs/community/discussions/158675
+- [ ] https://github.com/orgs/community/discussions/158675
+- [ ] https://github.com/horaciovasconcellos/modular-monolith-with-ddd/tree/master/docs
+- [ ] https://quidgest.com/en/articles/every-business-software-business/
+- [ ]
 
 ## Conferência
 

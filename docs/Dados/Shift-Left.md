@@ -333,3 +333,29 @@ Colabore com segurança em transmissões ao vivo com descoberta e compartilhamen
 
 ![[Pasted image 20250507202922.png]]
 https://developer.confluent.io/courses/apache-flink/intro/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.dsa_mt.dsa_rgn.latam_lng.eng_dv.all_con.confluent-developer&utm_term=&creative=&device=c&placement=&gad_source=1&gad_campaignid=19560855033&gbraid=0AAAAADRv2c1F6WeDshAB6j7kzQXq_JvjC&gclid=CjwKCAjwiezABhBZEiwAEbTPGPfcLKmQhtdyl11-F9S5lj2lHzPE7tpF8f4tOe3JpApTSQ5S2f5pTRoCyz8QAvD_BwE
+
+# DevSecOps
+### Capacite a codificação segura
+ Capacitar os desenvolvedores a lidar com vulnerabilidades de segurança logo no início do processo de desenvolvimento — ou a evitar introduzi-las completamente. Uma abordagem de "shift left", em que as considerações de segurança são transferidas para mais perto do início do ciclo de vida de desenvolvimento do software, é significativamente mais econômica e menos disruptiva do que lidar com problemas após a implantação.
+ A varredura de segurança baseada em IDE é uma primeira linha de defesa essencial contra vulnerabilidades e ajuda a minimizar uma potencial enxurrada de artefatos inseguros transmitidos às equipes de segurança enquanto os assistentes de codificação produzem o código.
+
+###  Integrar e automatizar os testes de segurança
+Os testes integrados garantem que as vulnerabilidades de segurança sejam identificadas o mais rápido possível ao entrarem no projeto e priorizadas para correção antes de serem implantadas em produção. Automação desempenha um papel vital nesse processo, reduzindo o esforço manual, garantindo a consistência nos procedimentos de teste e a tolerância a riscos, além de acelerar o ciclo de feedback para os desenvolvedores.
+
+- [ ] Testes de segurança de aplicativos estáticos (SAST)
+- [ ] Análise de composição de software (SCA)
+- [ ] Shift Left Security Scan;
+- [ ] Testes de segurança de aplicativos dinâmicos (DAST)
+
+### Promova uma mentalidade de “Segurança em Primeiro Lugar”
+Cultive um forte senso de responsabilidade pela segurança entre os desenvolvedores é essencial para a construção segura de aplicações em uma cultura de desenvolvimento.
+Desenvolvedores com amplo conhecimento dos princípios de segurança e vulnerabilidades comuns estão mais bem equipados para escrever código seguro desde o início, bem como para identificar problemas introduzidos por assistentes de codificação de IA. Isso ajuda a tornar o processo de desenvolvimento mais eficiente e mais preciso.
+### Testes de segurança orientados por políticas
+Isso envolve o estabelecimento de políticas de segurança centralizadas que possam ser aplicadas de forma consistente em diferentes equipes e projetos, garantindo um nível básico de segurança para todos os aplicativos e habilitando os mecanismos automatizados.
+Desenvolver uma plataforma unificada que agregue as descobertas de segurança de todos os testes de segurança (por exemplo, SAST, SCA, IAST, DAST) fornece uma visão abrangente da postura de segurança da organização, exigindo o mínimo de ferramentas de segurança ou variação no fluxo de trabalho para as equipes de AppSec que supervisionam as iniciativas de DevSecOps.
+
+Em resumo:
+
+- [ ] Utilize as melhores práticas do setor da [Open Source Security Foundation (OPSSF)](https://openssf.org/)
+- [ ] [Diretrizes existentes para desenvolvimento e distribuição de software seguro](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Existing%20Guidelines%20for%20Developing%20and%20Distributing%20Secure%20Software.md)
+- [ ]

@@ -257,6 +257,6 @@
 
 <table style="width: 300px; border-collapse: collapse;">
   <tr style="background-color: transparent;">
-  <td><img src="../img/contato-qr.png"  alt="Contacte-me"  style="width: 300px;"></td>
+  <td><img src="img/contato-qr.png"  alt="Contacte-me"  style="width: 300px;"></td>
   <td><a href="https://linktr.ee/horaciovasconcellos" target="_blank"  rel="Me ache">Horácio Vasconcellos</a></td>
   </tr></table>

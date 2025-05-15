@@ -30,3 +30,13 @@ repos:
                 - '.'            # Diretório atual como alvo
             stages: [pre-commit, pre-push]  # Executa no estágio de commit e push
             always_run: true        # Garante que o hook sempre será executado
+
+    - repo: https://github.com/markdownlint/markdownlint
+      rev: v0.11.0  # Escolha a versão desejada
+      hooks:
+        - id: markdownlint
+          name: markdownlint
+          entry: markdownlint
+          language: ruby
+          types: [markdown]
+          files: \.(md|mdown|markdown)$

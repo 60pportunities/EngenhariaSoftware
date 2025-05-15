@@ -85,11 +85,11 @@ Baseado nos princípios do Lean Manufacturing (Toyota), o Lean Software Developm
 - [ ] 2004: HP Quality Center (anteriormente TestDirector) – Uma plataforma robusta para gestão de testes e qualidade.
 
 ## 2003: BDD (Behavior-Driven Development)
-- [x] Criadores: Dan North (inicialmente), mais tarde com contribuições de outros como Aslak Hellesøy
+- [ ] Criadores: Dan North (inicialmente), mais tarde com contribuições de outros como Aslak Hellesøy
 
-- [x] Ano de publicação: 2003 (inicialmente), com maior difusão a partir de 2008
+- [ ] Ano de publicação: 2003 (inicialmente), com maior difusão a partir de 2008
 
-- [x] Contexto: O BDD surgiu como uma evolução do TDD, com foco em comportamentos e na comunicação mais eficaz entre desenvolvedores, testadores e clientes. Dan North foi o principal responsável por popularizar o BDD ao perceber que a terminologia e a abordagem do TDD, muitas vezes, dificultavam a colaboração entre as partes interessadas no software. Em 2003, ele introduziu o conceito de "Spec by Example" e, em 2008, isso foi formalizado como BDD, com a criação de ferramentas como o Cucumber (em colaboração com Aslak Hellesøy) que ajudavam a descrever os comportamentos do sistema em linguagem natural (Gherkin).
+- [ ] Contexto: O BDD surgiu como uma evolução do TDD, com foco em comportamentos e na comunicação mais eficaz entre desenvolvedores, testadores e clientes. Dan North foi o principal responsável por popularizar o BDD ao perceber que a terminologia e a abordagem do TDD, muitas vezes, dificultavam a colaboração entre as partes interessadas no software. Em 2003, ele introduziu o conceito de "Spec by Example" e, em 2008, isso foi formalizado como BDD, com a criação de ferramentas como o Cucumber (em colaboração com Aslak Hellesøy) que ajudavam a descrever os comportamentos do sistema em linguagem natural (Gherkin).
 - [x] O BDD enfatiza a colaboração entre as equipes para entender os requisitos e comportamentos do sistema e transformá-los em testes automatizados que verificam esses comportamentos.
 - [x] Em vez de escrever testes focados na implementação, o BDD prioriza a especificação do comportamento esperado do software, usando exemplos concretos que são compreensíveis para todos, incluindo stakeholders não técnicos.
 - [x] Especificações Executáveis: O BDD transforma exemplos concretos em especificações executáveis, que servem tanto como documentação viva quanto como testes automatizados. Essas especificações são geralmente escritas em uma linguagem compreensível por todos, como Gherkin, usando a estrutura "Dado ... Quando ... Então".
