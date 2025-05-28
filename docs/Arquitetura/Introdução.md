@@ -84,3 +84,16 @@ A estrutura de código dessa arquitetura ficaria assim:
 ## Arquitetura de Dados
 
 ![](../img/dba-ad-atg-dados.png)
+
+
+| Aspecto                         | Monólito                                                                                             | Microsserviços                                                                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Arquitetura                     | Base de código unificada e unidade de implantação.                                                   | Conjunto de pequenos serviços autônomos que trabalham juntos, cada um executando em seu próprio processo.                               |
+| Gerenciamento de Dados          | Normalmente compartilha um único banco de dados.                                                     | Cada serviço gerencia seu próprio banco de dados.                                                                                       |
+| Implantação                     | Simples, pois todo o aplicativo é implantado como uma unidade.                                       | Complexo, envolve múltiplos serviços que podem ser implantados independentemente.                                                       |
+| Complexidade de Desenvolvimento | Simples nos estágios iniciais, mas pode se tornar complexo à medida que a base de código se expande. | Alto, devido à complexidade de sistemas distribuídos, dependências de serviços e armazenamentos de dados separados.                     |
+| Escalabilidade                  | Pode escalar horizontalmente executando múltiplas instâncias, mas escala todo o aplicativo.          | Altamente escalável; serviços individuais podem ser escalonados independentemente com base na demanda.                                  |
+| Desempenho                      | Geralmente alto, pois todos os componentes são executados no mesmo processo.                         | Potencialmente reduzido devido à latência de rede entre serviços, mas pode ser otimizado.                                               |
+| Resiliência                     | Ponto único de falha.                                                                                | Maior resiliência; a falha em um serviço não necessariamente derruba todo o aplicativo.                                                 |
+| Diversidade Tecnológica         | Limitado; normalmente depende de uma única pilha de tecnologia.                                      | Alto; os serviços podem usar diferentes pilhas de tecnologia adequadas às suas necessidades.                                            |
+| Facilidade de Manutenção        | Pode se tornar difícil à medida que a base de código cresce (código espaguete).                      | Mais fácil de gerenciar devido aos serviços pequenos e focados, mas requer boas práticas para gerenciar muitos serviços com eficiência. |

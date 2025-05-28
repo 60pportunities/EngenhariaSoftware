@@ -88,6 +88,7 @@
 - [ ] [[Produto de Dados]]
 - [ ] [[Modelagem de Dados]]
 - [ ] [[Bit rot]]
+- [ ] [[docs/Dados/Blockchain|Blockchain]]
 </div>
 
 ### **Fundamento de Banco de Dados**
@@ -114,6 +115,8 @@
 ## **Arquitetura**
 
 - [ ] [[docs/Arquitetura/Introdução|Introdução]]
+- [ ] [[Delivery Deploy e Release]]
+- [ ] [[Gestão de Dados em Microsserviços]]
 ### **Arquitetura e Projeto de Software**
 <div class="mdx-columns2" markdown>
 - [ ] Introdução;  
@@ -197,6 +200,9 @@
 
 - [ ] Mundo OpenSource
 
+## **SAP**
+
+- [ ] [[O SAP S4HANA]]
 ## **Certificações**
 
 ### **GitHub**
