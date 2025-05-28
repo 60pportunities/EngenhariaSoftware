@@ -100,3 +100,59 @@ Client
 | **Plant**        | Valor do material pode variar de planta para planta.      |
 |                  |                                                           |
 Na maioria das implementações modernas (especialmente no **S/4HANA**), a **Valuation Area por Plant** é **obrigatória**, pois permite maior controle.
+
+## Clean Core
+Clean Core é um conceito, gestão do ciclo de vida da aplicação.
+
+- [ ] Política de controle de modificações: **Evitar modificações no código-fonte do SAP S/4HANA**.
+- [ ] Remoção de código obsoleto: **Eliminar código não utilizado ou redundante**.
+- [ ] Uso de APIs: **Dar prioridade no uso de APIs para extensões e integrações**.
+
+### PAAS (Plataform as a Service)
+
+**Extensibilidade de Usuário-chave (In-App Key-user Extensibility)**: Possibilita fazer extensões e customizações dentro do SAP S/4HANA, usando aplicações Fiori. Apesar do nome ser Key-User Extensibility, essa é uma opção de extensibilidade mais direcionada a consultores funcionais e desenvolvedores, podendo ser feita por usuários-chave que tenham mais domínio técnico do SAP. Possibilidades dessa extensibilidade:
+
+- [ ] Adaptar telas do SAP Fiori.
+- [ ] Adicionar lógica e campos customizados.
+- [ ] Criar análises personalizadas.
+- [ ] Criar formulários e modelos de e-mail.
+- [ ] Criar objetos de negócios customizados.
+
+**Extensibilidade do Desenvolvedor SAP BTP (Side-by-Side Developer Extensibility)**: Possibilita a criação de extensões e customizações maiores e mais complexas, para isso são utilizados serviços disponíveis no SAP Business Tecnology Plataform, os desenvolvimentos feitos aqui estão desacoplados do S/4HANA, portanto, mantendo o core do sistema limpo. Possibilidades dessa extensibilidade:
+
+- [ ] Criar aplicações personalizadas.
+- [ ] Desenvolver aplicativos móveis.
+- [ ] Implementar soluções de IoT e Big Data.
+- [ ] Implementar soluções de inteligência artificial.
+
+**Extensibilidade do Desenvolvedor - In-App (On-Stack Developer Extensibility)**: Possibilita a criação de extensões e customizações maiores e mais complexas, neste caso usando ABAP Cloud - On-Stack, desenvolvendo dentro do próprio S/4HANA, desta maneira não é necessário o SAP BTP. Mesmo desenvolvendo dentro do S/4HANA, existem regras e validações que garantem a cumprimento dos princípios do Clean Core. Possibilidades dessa extensibilidade:
+
+As possibilidades são quase as mesmas da Extensibilidade do Desenvolvedor - SAP BTP (Side-by-Side Extensibility), entretanto algumas delas são mais seguras e performáticas se criadas no SAP BTP.
+- [ ] Criar aplicações personalizadas.
+- [ ] Desenvolver aplicativos móveis (recomendado no SAP BTP).
+- [ ] Implementar soluções de IoT e Big Data (recomendado no SAP BTP).
+- [ ] Implementar soluções de inteligência artificial (recomendado no SAP BTP).
+
+## Business Technology Platform - PAAS (Plataform as a Service)
+
+| Model   | Descricao |
+| ----    | ---- |
+| App Dev | Foco total em desenvolvimento de aplicações, aqui estão serviços como: SAP Build Apps, SAP Build Workzone, SAP Build Code, entre outros. |
+| Automation | Foco total em automatização e workflows, aqui estão serviços como: SAP Build Process Automation, SAP Task Center, entre outros. |
+| Integration | Foco total em integração entre sistemas e aplicações, aqui estão serviços como: SAP Integration Suite, SAP Business Accelerator Hub, entre outros. |
+| Data and Analytics | Foco total em extração, tratamento e análises de dados e indicadores, aqui estão serviços como: SAP Datasphere, SAP Analytics Cloud, entre outros. |
+| Artificial Intelligence | Foco total em desenvolvimento de aplicações com uso de inteligência artificial, aqui estão serviços como: SAP AI Core, SAP AI Launchpad, entre outros. |
+
+## Core Data Services (CDS)
+Os CDSs são usados para criar estruturas de dados complexas, views e interfaces de serviço que podem ser consumidas por aplicativos Fiori e outros componentes do S/4HANA.
+
+### Code Pushdown
+Mover a lógica de processamento de dados para o nível do banco de dados.
+Os CDSs facilitam isso ao permitir que operações complexas sejam definidas e executadas diretamente no banco de dados, reduzindo a quantidade de dados transferidos e melhorando significativamente o desempenho das aplicações.
+
+#### CDSs em comparação com as views ABAP tradicionais
+Melhor desempenho devido ao processamento no nível do banco de dados
+Reutilização mais fácil em diferentes contextos (analítico, transacional)
+Capacidade de incluir anotações para metadados e comportamentos
+Integração mais simples com ferramentas de desenvolvimento SAP modernas
+Suporte nativo para criação de serviços OData
