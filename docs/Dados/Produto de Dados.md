@@ -34,11 +34,7 @@ Envolve a montagem dos produtos de dados e a garantia de que todos os componente
 
 Melhoria contínua por meio da observabilidade de dados e do monitoramento e desempenho de produtos de dados
 
-```mermaid
-flowchart LR
-id00([Planejar e projetar]) --> id01([Dados]) --> id02([Virtualização])
---> id03([Metadados]) --> id04([Governança de dados]) --> id05([Empacotamento]) --> id06([Entrega])
-```
+
 
 
 |               |                                                                                                                                           |                                                                                                                                    |
@@ -60,16 +56,13 @@ id00([Planejar e projetar]) --> id01([Dados]) --> id02([Virtualização])
 |               | **Tags**                                                                                                                                  | Rótulos atribuídos ao produto de dados para facilitar a busca e a categorização.                                                   |
 |               | **Cobertura geográfica**                                                                                                                  | Especificam as regiões ou áreas para as quais o produto de dados fornece dados relevantes e aplicáveis.                            |
 
+Dave McClure introduziu a estrutura AARRR
 
-### Dave McClure introduziu a estrutura AARRR
 
-
-|     |                           |                                                                                                                                              |
-| :-: | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-|  A  | Acquisition(Aquisição)    | Concentra em garantir que os usuários possam encontrar seus produtos de dados.                                                               |
-|  A  | Actiovation(Ativação)     | Refere-se à fase em que os usuários começam a interagir com o produto de dados e vivenciam seu valor principal.                              |
-|  R  | Retention(Retenção)       | Mede a porcentagem de usuários que continuam a utilizar o produto de dados ao longo do tempo.                                                |
-|  R  | Referral (Encaminhamento) | Medem o número de usuários que indicam o produto de dados a terceiros.                                                                       |
+|  A  | Acquisition(Aquisição)    | Concentra em garantir que os usuários possam encontrar seus produtos de dados.                                        |
+|  A  | Actiovation(Ativação)     | Refere-se à fase em que os usuários começam a interagir com o produto de dados e vivenciam seu valor principal.       |
+|  R  | Retention(Retenção)       | Mede a porcentagem de usuários que continuam a utilizar o produto de dados ao longo do tempo.                         |
+|  R  | Referral (Encaminhamento) | Medem o número de usuários que indicam o produto de dados a terceiros.                                                |
 |  R  | Revenue(Receita)          | Os impactos financeiros dos seus produtos de dados podem assumir duas formas: geração de receita ou como mecanismo de financiamento interno. |
 
 

@@ -23,6 +23,12 @@ graph TD
     H --> O[fa:fa-folder mer/]
     H --> P[fa:fa-folder img/]
     H --> I[index.md]
+    H --> Q1[fa:fa-folder architecture/]
+    Q1 --> S0[arquitetura_indice.md]
+    Q1 --> S1[fa:fa-folder ano/]
+    S1 --> S2[registro.md]
+    H --> Q2[fa:fa-folder modame/]
+    Q2 --> S20[fa:fa-folder STRIDE]
 ```
 ## Estrutura do Diretório
 
@@ -36,11 +42,14 @@ graph LR
       B02[Documentação Design UX]
       B03[Source Code Documentação]
       B04[Documentação de API]
+      B05[Modelos de Ameaças Threat Dragon]
+      B06[Modelo de Entidade/Relacionamento]
+      B07[Decisão Arquitetural]
     end
     subgraph Usuario
       direction LR
       C01[Documentação Usuário Final]
-      C02[Documentação Sistma]
+      C02[Documentação Sistema]
     end
     subgraph Processo
       direction LR

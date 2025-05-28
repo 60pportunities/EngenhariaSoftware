@@ -2,10 +2,11 @@
 
 ## IDE
 
-```
- $ [MELD](https://meldmerge.org/).   # Visual diff and merge tool
+
+ $ [MELD](https://meldmerge.org/)
  $ [VSCode](https://code.visualstudio.com/download)
-```
+ $ [OASP Theat Dragon](https://owasp.org/www-project-threat-dragon/)
+ $ [SLSA-Verifier](https://github.com/slsa-framework/slsa-verifier#installation)
 
 ## Gerenciamento de Pacotes
 
@@ -14,6 +15,12 @@ $ brew install maven
 $ brew install deno
 $ brew install node
 $ brew install composer
+$ brew upgrade node
+$ brew install adr-tools
+$ brew install goreleaser
+$ brew install syft
+$ brew install cosign
+$ brew install rust
 ```
 
 ## Texto
@@ -49,6 +56,13 @@ $ Firefox Developer Tools
 $ Lighthouse
 $ JUnit
 $ Mockito
+```
+
+## Supply chain Levels for Software Artifacts/Proveniência
+
+```
+$ go install github.com/slsa-framework/slsa-verifier/v2/cli/slsa-verifier@v2.7.0
+$ slsa-verifier <options>
 ```
 
 ## Cobertura de Código
@@ -129,6 +143,8 @@ $ npm i eslint
 $ GoLang: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/HEAD/install.sh | sh -s -- -b $(go env GOPATH)/bin v2.1.2
 $ PHP: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
 $ PHP: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
+
+$ npm install -g @stoplight/spectral-cli
 ```
 
 ## Listar Instalação
@@ -157,7 +173,7 @@ $ brew install yq # Processador de linha de comando YAML, JSON e XML
 
 # Ferramentas de Documentação
 
-```
+
  $ Download [obsidian](https://help.obsidian.md/install)
  $ cargo binstall marmite
  $ pip install mkdocs
@@ -165,7 +181,7 @@ $ brew install yq # Processador de linha de comando YAML, JSON e XML
  $ [Swagger](https://editor.swagger.io/)
  $ [JSDoc/TSDoc](https://jsdoc.app/)
  $ [PL/Doc](https://jsdoc.app/)
-```
+
 ## Instalação de Pacotes ou Configurações
 
 ### Configuração Git
@@ -786,13 +802,12 @@ $ brew install pre-commit
 $ pre-commit install
 $ vi pre-commit-config.yaml
 $ pre-commit run --all-files
+$ npm install -g markdownlint
 ```
 
 #### Basico `.pre-commit-config.yaml`
 
 ```
-# filepath: /Users/horaciovasconcellos/mkdocs/documentacao/.pre-commit-config.yaml
-# .pre-commit-config.yaml
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
       rev: v5.0.0
@@ -800,25 +815,112 @@ repos:
           - id: trailing-whitespace
           - id: end-of-file-fixer
           - id: check-yaml
-            exclude: mkdocs.yml
+            exclude: mkdocs.yml obsidian/workspace.json
           - id: check-added-large-files
 
     - repo: https://github.com/Yelp/detect-secrets
       rev: v1.5.0
       hooks:
           - id: detect-secrets
-            args: ['--baseline', '.secrets.baseline']
-            exclude: package.lock.json
+            exclude: obsidian/workspace.json
+            args:
+                - '--baseline'
+                - '.secrets.baseline'
+                - 'package.lock.json|node_modules/.*'
+            stages: [pre-commit]  # Executa apenas no estágio de commit
+            always_run: true  # Garante que o hook sempre será executado
 
     - repo: https://github.com/google/osv-scanner
-      rev: v1.9.2  # Ou a versão mais recente
+      rev: v1.9.2  # Certifique-se de usar a versão mais recente
       hooks:
           - id: osv-scanner
-            args: ['--recursive', '.']  # Opcional, dependendo de como você deseja o formato de saída
-            stages: [pre-commit]  # Ajuste o estágio para 'commit'
-          -
+            args:
+                - '--recursive'  # Escaneia recursivamente os diretórios
+                - '--json'       # Saída no formato JSON (opcional, para integração com outras ferramentas)
+                - '.'            # Diretório atual como alvo
+            stages: [pre-commit, pre-push]  # Executa no estágio de commit e push
+            always_run: true        # Garante que o hook sempre será executado
+
+    - repo: https://github.com/markdownlint/markdownlint
+      rev: v0.11.0  # Escolha a versão desejada
+      hooks:
+        - id: markdownlint
+          name: markdownlint
+          entry: markdownlint
+          language: ruby
+          types: [markdown]
+          files: \.(md|mdown|markdown)$
+
 ```
 
+#### Basico `.markdownlint.yml`
+
+```
+MD001: false # Os níveis de cabeçalho devem ser incrementados em apenas um nível por vez
+MD002: false # O primeiro cabeçalho deve ser um cabeçalho h1
+MD003: false # Estilo do cabeçalho
+MD004: false # Estilo de lista não ordenado
+MD005: false # Recuo inconsistente para itens de lista no mesmo nível
+MD006: false # Considere iniciar listas com marcadores no início da linha
+MD007: false # Recuo de lista não ordenado
+MD009: false # Espaços à direita
+MD010: false # Tabulações rígidas
+MD011: false # Sintaxe de link invertida
+MD012: false # Várias linhas em branco consecutivas
+MD013: false # Comprimento da linha
+MD014: false # Cifrões usados antes de comandos sem mostrar a saída
+MD018: false # Nenhum espaço após o hash no cabeçalho estilo atx
+MD019: false # Vários espaços após o hash no cabeçalho estilo atx
+MD020: false # Nenhum espaço dentro dos hashes no cabeçalho estilo atx fechado
+MD021: false # Vários espaços dentro dos hashes no cabeçalho estilo atx fechado
+MD022: false # Os cabeçalhos devem ser delimitados por espaços em branco Linhas
+MD023: false # Os cabeçalhos devem começar no início da linha
+MD024: false # Vários cabeçalhos com o mesmo conteúdo
+MD025: false # Vários cabeçalhos de nível superior no mesmo documento
+MD026: false # Pontuação final no cabeçalho
+MD027: false # Vários espaços após o símbolo de citação
+MD028: false # Linha em branco dentro de citação
+MD029: false # Prefixo de item de lista ordenada
+MD030: false # Espaços após marcadores de lista
+MD031: false # Blocos de código delimitados devem ser delimitados por linhas em branco
+MD032: false # Listas devem ser delimitadas por linhas em branco
+MD033: false # HTML embutido
+MD034: false # URL simples usada
+MD035: false # Estilo de régua horizontal
+MD036: false # Ênfase usada em vez de um cabeçalho
+MD037: false # Espaços dentro de marcadores de ênfase
+MD038: false # Espaços dentro de elementos de intervalo de código
+MD039: false # Espaços dentro de texto de link
+MD040: false # Blocos de código delimitados devem ter um idioma especificado
+MD041: false # First line in file should be a top level header
+MD042: false # First line in file should be a top level header
+MD043: false # First line in file should be a top level header
+MD044: false # First line in file should be a top level header
+MD045: false # Code block style
+MD046: false # First line in file should be a top level header
+MD047: false # File should end with a blank line
+MD048: false
+MD049: false
+MD050: false
+MD051: false
+MD052: false
+MD053: false
+MD054: false
+MD055: false # Tables: Each row must start and end with a | #464
+MD056: false # Tables: Number of columns is the same for all rows #464
+MD057: false # Tables: In the second row every column must have at least
+MD058: false
+```
+
+#### Basico `.gitleaks.toml`
+
+```
+[[rules]]
+description = "Ignore .obsidian workspace false positive"
+regex = '''[a-f0-9]{32,}'''
+path = '''\.obsidian/workspace\.json'''
+allowlist = true
+```
 
 #### Complexo
 

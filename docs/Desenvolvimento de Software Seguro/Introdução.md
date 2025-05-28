@@ -16,7 +16,7 @@ O Gartner prevê que 45% das organizações globais serão afetadas por um ataqu
 - [ ] Feedback e melhoria contínua;
 - [ ] Mudanças culturais e organizacionais;
 
-O advento das práticas Agile, DevOps, DevSecOps e SRE exigiu uma evolução significativa nas estratégias de teste, qualidade, segurança e feedback.
+O advento das práticas Agile, DevOps, DevSecOps, GitOps e SRE exigiu uma evolução significativa nas estratégias de teste, qualidade, segurança e feedback.
 
 O DevSecOps surgiu como uma resposta, enfatizando a colaboração entre desenvolvimento (Dev), qualidade (QA), segurança (Sec) e operações.
 
@@ -56,8 +56,7 @@ C1 <--> C2 <--> C3 <--> BASE02
    - [ ] **Anti-fragility, fire drills, chaos engineering, and security defense:** Ir além da resiliência aprendendo com estressores e implementando medidas de segurança proativas.
    - [ ] **Work sharing and incremental technical debt:** Compartilhamento colaborativo de trabalho e gerenciamento incremental de dívida técnica.
    - [ ] **Deployments using blue-green, A/B, and Canary:** Estratégias de implantação para reduzir riscos.
-### ** Importância da Automação**
-
+### **Importância da Automação**
 - [ ] **Desenvolvimento Incremental e Testes Automatizados:** Testes automatizados para garantir o sucesso dentro de restrições de tempo.
 - [ ] **A Realidade do Tempo de Teste:** Experiências no BNR com a qualificação do sistema SL-10 Generic 10 mostraram que o teste manual era ineficiente, levando a um tempo significativamente maior do que o planejado. A experiência destacou a necessidade de melhorias na qualidade antes da entrega.
 - [ ] **A Importância das Ferramentas Integradas:** A experiência BERPEX demonstrou que o suporte remoto e a eficiência de comissionamento poderiam ser aprimorados se as ferramentas fossem "projetadas para serem mais integradas com o sistema e entre si".

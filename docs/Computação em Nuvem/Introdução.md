@@ -208,7 +208,6 @@ Uma empresa que planeja a transformação digital deve criar um roteiro abrangen
 - [ ] Mapeie este catálogo para um catálogo em nuvem;
 - [ ] Não basta servir ao negócio. É preciso ser (a alma) do negócio.
 
-
 #### Mudança para uma economia baseada em assinaturas
 - [ ] A economia moderna está migrando de modelos baseados em propriedade (CaPEx) para modelos baseados em assinatura(OpEx);
 - [ ] As assinaturas vêm com novos modelos de pagamento, como os conceitos de **pagamento por

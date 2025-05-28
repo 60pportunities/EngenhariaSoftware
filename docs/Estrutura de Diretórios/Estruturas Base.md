@@ -1,4 +1,75 @@
 
+```mermaid
+graph LR
+  A[Gestão de Backlog] --> B[Modelagem de Ameaças]
+  B --> B1[STRIDE]
+  B --> B2[CIA]
+  B --> B3[LINDDUN]
+  A --> C[Documentação]
+  C --> C1[Markdown]
+  C --> C2[MkDocs]
+
+  C --> D[Controle de Versão]
+  D --> D1[Git]
+  D --> D2[Azure Repo]
+
+  D1 --> E[Pre-commit Hooks]
+  E --> E1[detect-secrets]
+  E --> E2[markdownlint]
+  E --> E3[osv-scanner]
+
+  D --> F[Build & Quality]
+  F --> F1[Maven]
+  F --> F2[SonarQube]
+  F --> F3[Semgrep]
+
+  F --> G[CI/CD Pipeline]
+  G --> G1[Azure Pipeline]
+  G1 --> G2[Trivy]
+  G1 --> G3[OWASP Dependency-Check]
+  G1 --> G4[ZAP Proxy]
+  G1 --> G5[Gauntlt]
+
+  G1 --> T[Testes Automatizados]
+
+  subgraph T [Testes]
+    T1[Testes Funcionais]
+    T2[Testes de Segurança]
+    T3[Testes de Performance]
+    T4[Testes de Resiliência]
+  end
+
+  T1 --> TS1[Teste de Sistema - Selenium]
+  T1 --> TS2[Teste de Aceitação - Cucumber BDD]
+  T1 --> TS3[Teste de Regressão - Selenium WebDriver]
+  T1 --> TS4[Teste de Fumaça - Postman]
+  T1 --> TS5[Teste de Interface - Postman]
+
+  T2 --> T21[Teste de Segurança - OWASP ZAP]
+
+  T3 --> T31[Teste de Desempenho - Gatling]
+  T3 --> T32[Teste de Carga - Gatling]
+
+  T4 --> T41[Teste de Resiliência - Azure Fault Injection]
+
+  G --> H[Provisionamento e Política]
+  H --> H1[Terraform]
+  H --> H2[Kyverno]
+  H --> H3[Azure Vault]
+
+  G --> I[Entrega Contínua]
+  I --> I1[Argo CD]
+
+  I --> J[Observabilidade e Runtime]
+  J --> J1[SigNoz]
+  J --> J2[Sysdig]
+  J --> J3[Aqua Security]
+
+  J --> K[Resposta a Incidentes]
+  K --> K1[Opsgenie]
+  K --> K2[Microsoft Teams]
+
+```
 
 
 ```mermaid

@@ -31,7 +31,6 @@ No contexto do projeto as atividades de um desenvolvedor podem incluir:
 - [ ] **Integração com o Azure-DevOps**: O desenvolvedor utiliza o Azure-DevOps para gerenciar o versionamento do código, acompanhar as tarefas e sprints, e colaborar com a equipe no desenvolvimento do projeto.
 ## Alguns Requisitos
 
-
 - [ ] **Deverão ser utilizados SDKs para o Desenvolvimento (Software Development Kit)**;
 - [ ] **Deverá ser utilizada a estratégia de Trunk Based Development**;
 - [ ] **Deverá ser utilizada a Estratégias de Deployment - Versioned Deployment**;

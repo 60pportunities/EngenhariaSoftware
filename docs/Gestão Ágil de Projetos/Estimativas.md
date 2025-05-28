@@ -233,3 +233,66 @@ Em vez de se concentrar em horas, use Story Points para comparar itens de trabal
 - [ ] Crie um espaço seguro
     - [ ] Deixe todos participarem — os membros juniores também devem se sentir seguros para avaliar.
     - [ ] Nenhuma pressão de estimativa das partes interessadas - deve ser uma decisão de equipe.
+
+## O que significa ser produtivo?
+Quando se trata de medir a produtividade dos desenvolvedores, há pouco consenso e há muito mais perguntas do que respostas. Por exemplo:
+
+- [ ] Quais são as métricas de produtividade “corretas”?
+- [ ] Qual o valor dos auto-relatórios de produtividade?
+- [ ] A visão tradicional da produtividade — resultados em vez de insumos — é adequada para a resolução de problemas complexos e para a criatividade envolvida no trabalho de desenvolvimento?
+
+Produtividade, então viria de :
+- [ ] A capacidade de manter o foco na tarefa em questão
+- [ ] Fazer progressos significativos e se sentir bem ao final de um dia de trabalho faz uma diferença real na satisfação e na produtividade dos desenvolvedores.
+- [ ] Desenvolvedores satisfeitos têm melhor desempenho
+
+```mermaid
+flowchart TD
+A00(Avaliação de produtividade) --> A10(Sistemas de informação) & A20(Software e sua engenharia)
+A10 --> A11(Sistemas de informação)
+A11 --> A12(Recuperação de informação)
+A12 --> A13(Modelos de recuperação e classificação)
+A13 --> A14(Modelos de linguagem)
+A20 --> A21(Criação e gerenciamento de software)
+A21 --> A22(Técnicas de desenvolvimento de software)
+A22 --> A23(Programação automática)
+```
+#### Produtividade do desenvolvedor vai além da velocidade
+
+- [ ] **Aumentando a satisfação dos desenvolvedores**
+- [ ] **Conservação da energia mental.**
+
+Passe a utilizar ferramentas de IA, para o trabalho repetitivo e chato, com isso, abre espaço para que os desenvolvedores aproveitem o trabalho mais significativo que exige pensamento crítico e complexo e resolução de problemas, levando a maior felicidade e satisfação.
+
+##### Mitos
+- [ ] Produtividade é tudo sobre atividade do desenvolvedor (
+	- [ ] Superar sistemas ruins;
+	- [ ] Planejar mal para cumprir um cronograma predefinido;
+- [ ] Produtividade é apenas sobre desempenho individual
+	- [ ] O sucesso é avaliado tanto pelo desempenho pessoal do jogador quanto pelo sucesso de sua equipe.
+	- [ ] A otimização para sua própria produtividade pode prejudicar a produtividade da equipe.
+- [ ] Medidas de produtividade SÃO úteis apenas para gerentes
+- [ ]  Produtividade é apenas sobre sistemas de engenharia e ferramentas de desenvolvimento;
+- [ ]
+
+### SPACE
+A produtividade do desenvolvedor é complexa e cheia de nuances, com implicações importantes para as equipes de desenvolvimento de software.
+
+Uma **compreensão** clara da definição, mensuração e previsão da produtividade do desenvolvedor pode proporcionar a organizações, gestores e desenvolvedores a capacidade de criar software de maior qualidade — e com mais eficiência.
+
+**é que a produtividade não pode ser reduzida a uma única dimensão (ou métrica!).** Ao reconhecer e mensurar a produtividade com mais de uma única dimensão, equipes e organizações podem entender melhor como as pessoas e as equipes trabalham e tomar decisões mais acertadas.
+
+ (1) Satisfaction and well-being (Satisfação e bem-estar): realizados com seu trabalho, equipe, ferramentas ou cultura; Quão saudáveis ​​e felizes eles estão, e como seu trabalho os impacta. Um declínio na satisfação e no engajamento pode sinalizar um esgotamento iminente e redução da produtividade.
+ (2) Performance (Desempenho): Confiabilidade, ausência de bugs, saúde contínua do serviço.Satisfação do cliente, adoção e retenção de clientes, uso de recursos, redução de custos.
+ (3) Activity(Atividade): quase impossível medir e quantificar de forma abrangente todas as facetas da atividade do desenvolvedor em sistemas e ambientes de engenharia;
+- [ ] Design e codificação;
+- [ ] Integração e implantação contínuas.
+- [ ] Atividade operacional.
+ (4) Communication and collaboration (Comunicação e colaboração): Como pessoas e equipes se comunicam e trabalham juntas.
+ - [ ] Equipes mais eficazes trabalham nos problemas certos, têm maior probabilidade de sucesso no brainstorming de novas ideias e escolherão as melhores soluções entre todas as alternativas.
+ - [ ] Equipes diversas e inclusivas têm melhor desempenho.
+ (5) Efficiency and flow(Eficiência e fluxo): Capacidade de concluir o trabalho ou progredir nele com o mínimo de interrupções ou atrasos, seja individualmente ou por meio de um sistema.
+ - [ ] Número de transferências em um processo; número de transferências entre diferentes equipes em um processo;
+ - [ ] Capacidade percebida de manter o fluxo e concluir o trabalho.
+ - [ ] Interrupções: quantidade, tempo, espaçamento, impacto no trabalho de desenvolvimento e fluxo.
+ - [ ] O tempo é medido por meio de um sistema: tempo total, tempo de valor agregado, tempo de espera.
