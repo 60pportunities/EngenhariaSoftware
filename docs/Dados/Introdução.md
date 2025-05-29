@@ -493,6 +493,48 @@ Enfim, para identificar corretamente, o código deve possuir os seguintes atribu
 |                             | Visam aumentar a eficiência e reduzir custos operacionais.                                                                                                        |                                                                                                                                                                             |
 |                             | Servem como suporte para outras áreas da empresa, permitindo que estas se concentrem em suas atividades principais.                                               |                                                                                                                                                                             |
 
+| **Tipo de Dado Mestre**                        | **S/4HANA**                             | **Concur** | **Ariba**    | **Fieldglass** | **SuccessFactors** |
+| ---------------------------------------------- | --------------------------------------- | ---------- | ------------ | -------------- | ------------------ |
+| **Business Partner (Clientes / Fornecedores)** | ✅                                       | ✅\*        | ✅            | ✅\*            | ❌                  |
+| **Funcionários**                               | ✅ (HR Mini Master ou integração com SF) | ✅          | ✅\*          | ✅\*            | ✅ (Principal)      |
+| **Centros de Custo**                           | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+| **Projetos / WBS**                             | ✅                                       | ✅          | ✅            | ✅              | ❌                  |
+| **Material / Serviços**                        | ✅ (Material Master)                     | ❌          | ✅ (Catálogo) | ✅ (Job Class)  | ❌                  |
+| **Posições / Cargos**                          | ❌                                       | ❌          | ❌            | ✅              | ✅ (Estrutura)      |
+| **Contratos**                                  | ✅                                       | ❌          | ✅            | ✅              | ❌                  |
+| **Planos de Contas / G/L**                     | ✅                                       | ✅\*        | ✅\*          | ✅\*            | ❌                  |
+| **Locais / Plantas / Sites**                   | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+| **Moeda / País / Região**                      | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+| **Unidade de Medida / Taxas**                  | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+| **Classificações / Códigos fiscais**           | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+
+✅* = Requer integração/sincronização com S/4 ou sistemas de contabilidade
+❌ = Não aplicável diretamente ao sistema
+✅ = Nativamente gerenciado ou requerido pelo sistema
+
+```mermaid
+graph LR
+    A[Usuário de Negócio] -->|Solicitação| B[Portal de Solicitação de Dados Workflow]
+    B --> C[Validação do Owner]
+    C --> D[Criação/Aprovação no SAP MDG]
+    D --> E[Publicação em SAP S/4HANA]
+    D --> F[Replicação via SAP CPI]
+    F --> G1[Concur]
+    F --> G2[Ariba]
+    F --> G3[Fieldglass]
+    F --> G4[SuccessFactors]
+```
+
+| Pilar                      | Descrição                                                             |
+| -------------------------- | --------------------------------------------------------------------- |
+| **Domínio dos Dados**      | Categorize os dados (ex: fornecedor, cliente, funcionário, material). |
+| **Propriedade dos Dados**  | Defina um **Data Owner** por tipo de dado em cada sistema.            |
+| **Políticas e Regras**     | Crie políticas de entrada, qualidade, enriquecimento e arquivamento.  |
+| **Tecnologia de Apoio**    | Use SAP MDG, SAP BTP Master Data Integration ou SAP CPI.              |
+| **Governança Operacional** | Estabeleça comitês de dados mestres e canais de suporte.              |
+
+
+
 ## Proposta
 A proposta de criação de uma **Central de Cadastro** ou a sua remodelagem, surge como uma solução eficaz para esses desafios.  Este espaço dedicado permitirá a centralização (processos de mudança) e padronização das informações (padrões de dados) e responsabilização (indicadores de acurácia e tempo atendimento).
 
@@ -1589,3 +1631,75 @@ flowchart TD
     class PowerBI,SQLDB,ML consume
 
 ```
+
+# Plano de Governança de Dados Mestres
+## Resumo Executivo
+Este plano descreve a estrutura de governança de dados mestres para assegurar consistência, integridade, conformidade regulatória e valor dos dados mestres em todo o ecossistema SAP da organização.
+
+##Objetivos
+Garantir dados mestres de alta qualidade
+Estabelecer papéis claros de responsabilidade
+Assegurar conformidade com LGPD, PCI, HPI e demais regulações
+Promover integração eficaz entre sistemas SAP
+## Escopo
+Dados abrangidos: Fornecedores, Clientes, Materiais, Funcionários, Contas Contábeis, Localizações
+Sistemas envolvidos: S/4HANA, Concur, Ariba, Fieldglass, SuccessFactors
+Regiões cobertas: [ex: Brasil, EUA, Europa]
+## Papéis e Responsabilidades (RACI)
+| **Função**                | **Responsável (R)** | **Aprovador (A)**  | **Consultado (C)**      | **Informado (I)** |
+| ------------------------- | ------------------- | ------------------ | ----------------------- | ----------------- |
+| Criação de Fornecedor     | Área de Suprimentos | GRC / Compliance   | TI / Jurídico           | Controladoria     |
+| Criação de Funcionário    | RH                  | Business Partner   | Jurídico                | Fiscal            |
+| Integração entre sistemas | TI                  | Arquiteto de Dados | Segurança da Informação | GRC               |
+
+## Ciclo de Vida dos Dados
+Solicitação → Validação → Aprovação → Publicação → Sincronização → Arquivamento/Obsolescência
+## Ferramentas e Tecnologias
+SAP MDG – Governança central
+SAP Integration Suite (CPI) – Replicação entre sistemas
+SAP BTP Data Catalog – Repositório de metadados
+SAP Analytics Cloud (SAC) – Monitoramento de qualidade
+DLP / Vault – Registro e trilha de auditoria
+## Políticas e Padrões
+Naming convention padronizada
+Validação de duplicidade automatizada
+Códigos de classificação padronizados (UNSPSC, NCM, CNAE)
+Campos obrigatórios por tipo de dado
+Regras de segmentação por país (LGPD, GDPR, etc.)
+## Monitoramento e Qualidade
+KPIs: % de duplicidade, % de preenchimento, tempo médio de aprovação
+Auditorias trimestrais
+Indicadores de conformidade (PCI, LGPD, etc.)
+
+```mermaid
+flowchart TD
+    A[Solicitação de Novo Dado Mestre] --> B[Verificação de Categoria Sensível]
+    B --> C{Dado Sensível? LGPD/PCI/HPI}
+    
+    C -- Não --> D[Processamento Normal]
+    
+    C -- Sim --> E[Classificação: Dado Pessoal, Financeiro, Saúde]
+    E --> F[Validação de Permissividade]
+    F --> G{Permissão Existente?}
+    
+    G -- Não --> H[Solicita Aprovação de Base Legal]
+    H --> I[Registro de Consentimento / Justificativa]
+    I --> J[Gravar Trilha de Auditoria Vault / GRC]
+    
+    G -- Sim --> J
+    J --> K[Criação e Publicação via SAP MDG]
+    K --> L[Replicação com Flag de Sensibilidade e Política]
+    L --> M[Monitoramento Contínuo SAC / DLP]
+```
+
+| **Campo**                    | **Exemplo**                    |
+| ---------------------------- | ------------------------------ |
+| Tipo de Dado Sensível        | Dado Pessoal, Cartão, Saúde    |
+| Base Legal (LGPD art. 7)     | Consentimento, Obrigação legal |
+| Consentimento Obtido?        | Sim / Não                      |
+| Data/Hora do Consentimento   | 2025-05-27 14:22               |
+| Retenção prevista (em meses) | 60                             |
+| Destinação de Arquivamento   | SAP ILM / Vault / External DLP |
+| Políticas de acesso          | Apenas usuários com perfil XYZ |
+
+
