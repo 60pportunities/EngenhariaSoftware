@@ -73,6 +73,7 @@ PMW -
 |Gerenciamento centralizado|Limitado|Sim|Sim|
 
 
+```
 Ledger (Set of Books)
 └── Legal Entity
     └── Operating Unit (OU)
@@ -83,7 +84,7 @@ Client
 └── Company Code
     └── Plant
         └── Storage Locations
-
+```
 
 | Função / Conceito        | Oracle EBS / Fusion    | SAP S/4HANA        |
 | ------------------------ | ---------------------- | ------------------ |
@@ -156,3 +157,28 @@ Reutilização mais fácil em diferentes contextos (analítico, transacional)
 Capacidade de incluir anotações para metadados e comportamentos
 Integração mais simples com ferramentas de desenvolvimento SAP modernas
 Suporte nativo para criação de serviços OData
+
+```mermaid
+sequenceDiagram
+    participant AdminUser
+    participant FioriLibrary as Fiori Apps Library
+    participant FioriLaunchpad as SAP Fiori Launchpad
+    participant SAPSystem as SAP S/4HANA Backend
+
+    AdminUser->>FioriLibrary: Acessa Fiori Library
+    AdminUser->>FioriLibrary: Busca aplicativo (nome/ID/módulo)
+    FioriLibrary-->>AdminUser: Exibe detalhes e Business Role(s)
+
+    AdminUser->>FioriLaunchpad: Acessa app "Maintain Business Roles"
+    AdminUser->>FioriLaunchpad: Busca Business Role identificada
+    FioriLaunchpad-->>AdminUser: Exibe detalhes da Business Role
+
+    AdminUser->>FioriLaunchpad: Vai em "Assigned Users"
+    AdminUser->>FioriLaunchpad: Atribui usuário à Business Role
+    FioriLaunchpad->>SAPSystem: Atualiza autorizações do usuário
+    SAPSystem-->>FioriLaunchpad: Confirma atribuição
+
+    FioriLaunchpad-->>AdminUser: Confirma sucesso
+```
+
+
