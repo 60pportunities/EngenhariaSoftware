@@ -1749,3 +1749,8 @@ Solicitação → Validação → Aprovação → Publicação → Sincronizaç�
 	- [ ] Como os dados serão criptografados em trânsito ?
 
 # Fear of Missing Out (F.o.M.O.)
+
+# Resumo
+A falta de governança fez com que os data lakes se transformassem em pântanos de dados — enormes espaços de armazenamento contendo dados cujo conteúdo e origem eram desconhecidos de todos e que ninguém sabia como usar.
+
+
