@@ -17,31 +17,22 @@ O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientad
 ![](../img/historicorevolucaoindustrial.png){width="600" height="450" style="display: block; margin: 0 auto" }
 
   “Com cada revolução industrial, houve uma revolução de aprendizagem correspondente que na época, parecia proibitivamente cara. No entanto, o custo de manter o status quo no passado era o custo da oportunidade perdida que, em muitos casos, era uma fortuna.” — Jesse Martin
-## Dado é o novo Petróleo
+## Dado é o novo Petróleo?
 
-- [ ] Toda empresa é uma empresa de dados..
-- [ ] Um dos maiores desafios no caso do Petróleo, é localizar as boas reservas naturais que são subterrâneas, com dados é diferente, o desafio é qualificar e cruzar informações criando visões de cenários específicos para a realidade das empresas, a partir de uma grande massa de dados disponível através da utilização de sistemas de gestão empresarial.
+- [ ] **Toda empresa é uma empresa de dados**..
 - [ ] A famosa frase do matemático britânico Clive Humby: "Dados são o novo petróleo" (Data is the new oil).
-- [ ] Mas, se não for refinado, não pode ser usado, portanto, os dados devem ser divididos, analisados para que tenham valor", ou seja, assim como o petróleo deve ser refinado, os dados precisam receber um tratamento correto para estarem prontos para sua utilização em seu total potencial.
-- [ ] Podemos lembrar do Pré-sal
+	- [ ] Um dos maiores desafios no caso do Petróleo, é localizar as **boas reservas naturais** que são subterrâneas, com dados é diferente, o **desafio é qualificar e cruzar informações**  criando visões de cenários específicos para a realidade das empresas, a partir de uma grande massa de dados disponível através da utilização de sistemas de gestão empresarial.
+	- [ ] Mas, se não for refinado, não pode ser usado, portanto, os dados devem ser divididos, analisados para que tenham valor, ou seja, assim como o petróleo deve ser refinado, os dados precisam receber um tratamento correto para estarem prontos para sua utilização em seu total potencial.
+	- [ ] Podemos até lembrar do Pré-sal.
 - [ ] A publicação da The Economist: "O recurso mais valioso do mundo não é mais o petróleo, mas dados" (The world’s most valuable resource is no longer oil, but data) tem sido muito citadas pelo mercado e executivos mundo afora, apontando que aqueles que possuírem dados terão um recurso muito valioso e mãos.
 
-Porem cada vez menos empresas consideraram sistematicamente e começaram a abordar os aspectos éticos do gerenciamento de dados, o que pode ter amplas ramificações e responsabilidades.
-
-- [ ] Como as empresas devem começar a pensar sobre gerenciamento ético de dados?
-- [ ] Quais medidas elas podem colocar em prática para garantir que estejam usando dados de consumidores, pacientes, RH, instalações e outras formas de dados apropriadamente em toda a cadeia de valor — da coleta à análise e insights?
-- [ ] Embora considerações de privacidade e ética sejam essenciais sempre que as empresas usam dados (incluindo aplicativos de inteligência artificial e aprendizado de máquina), elas geralmente não são a principal preocupação de alguns executivos.
-- [ ] Há bastante dados distorcidos ou tendenciosos durante a ingestão de dados.
-
-- [ ] Apenas 17% disseram que suas empresas têm um comitê de governança de dados dedicado que inclui profissionais de risco e jurídicos.
-
-| Definição  | Entenda                                                                                                                                                                                                                   |                                                                                                                                                                                                                         |
+| Definição  | Petróleo                                                                                                                                                                                                                  | Dados                                                                                                                                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Upstream   | Atividades de busca, identificação e localização das fontes de óleo, e ainda o transporte deste óleo extraído até as refinarias, onde será processado. Resumindo, são as atividades de exploração, perfuração e produção. | Coleta e geração de dados. Isso inclui a captura de dados de várias fontes, como sensores, dispositivos IoT, transações de clientes, redes sociais, etc.                                                                |
 | Midstream  | São as matérias-primas (hidrocarbonetos) são transformadas em produtos prontos para uso específico (gasolina, diesel, querosene, GLP, nafta, óleo lubrificante, …). São as atividades de refino.                          | Transporte, armazenamento e processamento inicial. Isso pode incluir a transferência de dados para data centers, armazenamento em nuvem, e o processamento inicial para limpeza e organização dos dados.                |
 | Downstream | O transporte dos produtos da refinaria até os locais de consumo. Resume-se no transporte, distribuição e comercialização dos derivados do petróleo.                                                                       | Análise, refino e distribuição dos dados. Isso inclui a análise de dados para obter insights, a criação de relatórios, dashboards, e a distribuição desses insights para as partes interessadas para tomada de decisão. |
 
-## Negócio e suas queixas
+## Negócio e suas queixas - Uma análise
 
 <div class="mdx-columns2" markdown>
 
@@ -71,13 +62,46 @@ Porem cada vez menos empresas consideraram sistematicamente e começaram a abord
 
 </div>
 
+## Fala-se de Tecnologia?
+
+### Big Data/Analytics sem maturidade de dados = Caos com volume
+#### **Sem**
+
+- [ ] Governança de dados;
+- [ ] Arquitetura clara;
+- [ ] Papéis definidos (Data Owner, Steward, etc.);
+- [ ] Objetivos analíticos reais;
+- [ ] … o Big Data vira custo alto sem retorno;
+
+Muitas vezes, empresas investem em Big Data/Analytics por pressão de mercado ou tendência, sem ter clareza sobre:
+
+- [ ] Qual problema real será resolvido?
+- [ ] Qual o ROI (retorno sobre investimento)?
+- [ ] Se os dados que elas já possuem, sequer são confiáveis.
+- [ ] Nesses casos, o "Big Data" vira **buzzword**, não solução.
+- [ ] Ou seja: Comprar um data lake sem saber o que vai nadar nele é desperdício.
+
 ![](../img/dba-ad-atg-dados.png){width="600" height="450" style="display: block; margin: 0 auto" }
+
+### Por fim…
+Big Data **não é uma ferramenta**, é um **conceito** que envolve lidar com grandes volumes, velocidades e variedades de dados — os famosos "5 Vs":
+
+| V              | Descrição                                                      |
+| -------------- | -------------------------------------------------------------- |
+| **Volume**     | Grandes quantidades de dados                                   |
+| **Velocidade** | Dados gerados em tempo real                                    |
+| **Variedade**  | Dados estruturados e não estruturados (texto, vídeo, IoT etc.) |
+| **Veracidade** | Qualidade e confiabilidade dos dados                           |
+| **Valor**      | Capacidade de gerar insights úteis                             |
+
 ## Quanto mais...
 
 - [ ] **Quanto mais dados mais desperdícios e este é um processo Lean**.
 - [ ] **Combustível é refinado - O petróleo é o DADO.. A informação é o COMBUSTÍVEL**;
+- [ ] Se os dados são mal geridos, não importa o tamanho — **é só confusão em escala**.
+	- [ ]  **Mais importante do que ter Big Data é ter um "Big Insight".**
 # **Data Mess** (Bagunça de Dados)
-É um termo usado informalmente para descrever uma situação onde os dados de uma organização estão em **estado caótico ou bagunçados** — ou seja, desorganizados, mal gerenciados e difíceis de usar de forma eficiente.
+É um termo usado informalmente para descrever uma situação onde os dados de uma organização estão em **estado caótico ou bagunçados** — ou seja, desorganizados, mal gerenciados e difíceis de usar de forma eficiente, sem uma fonte única da verdade, ou seja, WSSOT - Without a Single Source of Truth (WSSOT).
 ### **Características de um Data mess e uma Possível Solução**
 
 | Características                            | Consequências                                                                                                                                                                                                                                                        | Vamos Resolver?                                                                           |
@@ -85,26 +109,33 @@ Porem cada vez menos empresas consideraram sistematicamente e começaram a abord
 | Múltiplas versões da verdade               | Decisões erradas por causa de dados ruins                                                                                                                                                                                                                            | Definir responsáveis, padrões de qualidade e políticas de atualização.                    |
 | Dados duplicados e redundantes             | Perda de tempo e dinheiro                                                                                                                                                                                                                                            | Usar ferramentas como **ETL** (_Extract, Transform, Load_) ou plataformas de integração.  |
 | Ausência  de padronização                  | Dificuldade para implementar BI, IA ou automação                                                                                                                                                                                                                     | Identificar e remover duplicatas, corrigir inconsistências e preencher lacunas.           |
-| Dados incompletos ou desatualizados        | Problemas de compliance (ex: GPDR(**General Data Protection Regulation** (Europa)), PCI DSS (Payment Card Industry Data Security Standard), LGPD(**Lei Geral de Proteção de Dados** (Brasil)), HIPAA (**Health Insurance Portability and Accountability Act** (EUA)) | Centralizar dados críticos, Mestres e de Referencia  em uma fonte única de verdade.       |
+| Dados incompletos ou desatualizados        | Problemas de compliance (ex: GPDR(**General Data Protection Regulation** (Europa)), PCI DSS (Payment Card Industry Data Security Standard), LGPD(**Lei Geral de Proteção de Dados** (Brasil)), HIPAA (**Health Insurance Portability and Accountability Act** (EUA)) | Centralizar dados críticos, Mestres e de Referencia  em uma fonte única de verdade (SSOT) |
 | Silos de dados                             |                                                                                                                                                                                                                                                                      | Usar validações automáticas e workflows para evitar erros humanos.                        |
 | Falta de governança de dados               |                                                                                                                                                                                                                                                                      | CENTRAL DE CADASTRO: Treinar colaboradores em boas práticas de entrada e gestão de dados. |
 | Falta de ferramentas e processos adequados |                                                                                                                                                                                                                                                                      | Monitorar a qualidade dos dados e ajustar estratégias conforme necessário.                |
 
 - [ ] Ao desenvolver soluções de dados e análises, um fator determinante para o seu sucesso é o **patrocinador do negócio** e o trabalho que você está realizando para atender às suas necessidades.
 - [ ] **Sem entender o verdadeiro destino**, você não pode ter certeza de que o incremento em que está trabalhando o está levando na direção certa.
-- [ ] Para aprimorar seus programas de dados e análises, você precisa garantir que haja uma
+- [ ] Para aprimorar seus programas de dados e análises, você precisa garantir que haja uma:
 	- [ ] Para seus programas de dados e análises, todas as partes interessadas têm uma visão compartilhada sobre o que você está tentando alcançar?
 	- [ ] Essa visão é definida de forma a servir como uma bússola para a iniciativa geral?
 	- [ ] Você definiu claramente o patrocínio com alguém que é apaixonado pelo resultado da iniciativa?
-	- [ ] Requer combinação de **tecnologia**, **processos bem definidos** e **pessoas capacitadas**.
+	- [ ] Requer combinação de **Tecnologia**, **Processos bem definidos** e **Pessoas capacitadas**.
 
-# Estruturando
+# Estruturando a Ideia
+Porem cada vez menos empresas consideraram sistematicamente e começaram a abordar os aspectos éticos do gerenciamento de dados, o que pode ter amplas ramificações e responsabilidades.
+
+- [ ] Como as empresas devem começar a pensar sobre gerenciamento dados e ético de dados?
+- [ ] Quais medidas elas podem colocar em prática para garantir que estejam usando dados de consumidores, pacientes, RH, instalações e outras formas de dados apropriadamente em toda a cadeia de valor — da coleta à análise e insights?
+- [ ] Embora considerações de privacidade e ética sejam essenciais sempre que as empresas usam dados (incluindo aplicativos de inteligência artificial e aprendizado de máquina), elas geralmente não são a principal preocupação de alguns executivos.
+- [ ] Há bastante dados distorcidos ou tendenciosos durante a ingestão de dados, aumentando o tempo de disponibilização de análises?
+
 
 ```mermaid
 graph TD
 subgraph 05 ["Monitor/Suporte"]
   subgraph ms01 ["Monitor/Suporte"]
-    ms01id01["Estatísticas operacionais"]
+    ms01id01["Estatísticas Operacionais"]
     ms01id02["Custo"]
     ms01id03["Gestão de mudanças"]
     ms01id04["Suporte"]
@@ -143,12 +174,12 @@ subgraph 03 ["Projetar"]
   end
 end
 
-subgraph 02 ["Avaliar capacitação tecnológica"]
-  subgraph ct01 ["Avaliar e analisar"]
+subgraph 02 ["Capacitação Tecnológica"]
+  subgraph ct01 ["Avaliar"]
    direction LR
    ct01id01["Message Broker"]
    ct01id02["ETL"]
-   ct01id03["Mecanismo de processamento de fluxo"]
+   ct01id03["Mecanismo de</br>processamento de fluxo"]
    ct01id04["CI/CD"]
    ct01id05["DataOps"]
    ct01id06["Orquestração"]
@@ -172,7 +203,7 @@ subgraph 01 ["Requisitos"]
      req01id03[Semiestruturados]
      req01id04[Não estruturados]
      req01id05[Estruturados]
-     req01id06[Armazenamento de dados intermediário]
+     req01id06[Armazenamento de</br> dados intermediário]
   end
   subgraph req02 ["Outras disciplinas"]
     direction LR
@@ -185,41 +216,41 @@ subgraph 01 ["Requisitos"]
 end
 ```
 
-# Associações e seus Frameworks
+## Associações e seus Frameworks
 
-- [ ] **TOGAF** – _Uma descrição da estrutura e interação dos principais tipos e fontes de dados da empresa, ativos de dados lógicos, ativos de dados físicos e recursos de gerenciamento de dados._
-- [ ] **DAMA-DMBoK**  – _Define o modelo para gerenciamento de ativos de dados alinhando-o com a estratégia organizacional para estabelecer requisitos de dados estratégicos e projetos para atender a esses requisitos_
+- [ ] **DAMA-DMBoK**  : _Define o modelo para gerenciamento de ativos de dados alinhando-o com a estratégia organizacional para estabelecer requisitos de dados estratégicos e projetos para atender a esses requisitos_
+- [ ] **TOGAF** :_Uma descrição da estrutura e interação dos principais tipos e fontes de dados da empresa, ativos de dados lógicos, ativos de dados físicos e recursos de gerenciamento de dados._
 
-## DAMA
+### DAMA
 Data Management Association é uma organização internacional voltada para o avanço das melhores práticas em gestão de dados.
 
 DMBOK (Data Management Body of Knowledge) é o guia produzido pela DAMA que consolida essas melhores práticas. Ele serve como um “framework” para gestão de dados, contendo áreas de conhecimento como:
 
-- [ ] Governança de Dados
-- [ ] Qualidade de Dados
-- [ ] Arquitetura de Dados
-- [ ] Segurança de Dados
-- [ ] Integração de Dados
-- [ ] Armazenamento e Recuperação
-- [ ] Gerenciamento de Metadados
-- [ ] Gerenciamento de Dados Mestres e de Referência
+- [ ] Governança de Dados;
+- [ ] Qualidade de Dados;
+- [ ] Arquitetura de Dados;
+- [ ] Segurança de Dados;
+- [ ] Integração de Dados;
+- [ ] Armazenamento e Recuperação;
+- [ ] Gerenciamento de Metadados;
+- [ ] Gerenciamento de Dados Mestres e de Referência.
 
 O foco do DMBOK é garantir que os dados da organização sejam gerenciados como um ativo estratégico.
 
 ![[../img/dama-data-governance.png]]{width="400" height="400" style="display: block; margin: 0 auto" }
-## TOGAF e The Open Group
+### TOGAF e The Open Group
 The Open Group — um consórcio que promove padrões tecnológicos abertos.
 
 TOGAF (The Open Group Architecture Framework) é um framework para arquitetura corporativa, desenvolvido pelo
 
 TOGAF cobre:
 
-- [ ] Arquitetura de Negócio
-- [ ] Arquitetura de Aplicações
-- [ ] Arquitetura de Dados
-- [ ] Arquitetura Tecnológica
-- [ ] Ciclo de Desenvolvimento de Arquitetura (ADM – Architecture Development Method)
-- [ ] Governança de Arquitetura
+- [ ] Arquitetura de Negócio;
+- [ ] Arquitetura de Aplicações;
+- [ ] Arquitetura de Dados;
+- [ ] Arquitetura Tecnológica;
+- [ ] Ciclo de Desenvolvimento de Arquitetura (ADM – Architecture Development Method);
+- [ ] Governança de Arquitetura;
 
 TOGAF oferece uma abordagem estruturada para projetar, planejar, implementar e governar a arquitetura corporativa.
 
@@ -228,15 +259,15 @@ TOGAF oferece uma abordagem estruturada para projetar, planejar, implementar e g
 
 A comparação entre o **DMBOK (Data Management Body of Knowledge)** e o **TOGAF (The Open Group Architecture Framework)** no que tange à **Arquitetura de Dados** envolve entender como cada framework trata o tema, seus enfoques, escopos e aplicabilidades. Abaixo está uma análise comparativa:
 
-## Visão Geral de Cada Framework
+#### Visão Geral de Cada Framework
 
 | Aspecto            | **DMBOK**                                 | **TOGAF**                                                        |
 | ------------------ | ----------------------------------------- | ---------------------------------------------------------------- |
-| **Foco Principal** | Governança e gestão de dados corporativos | Arquitetura corporativa (negócio, dados, aplicações, tecnologia) |
+| **Foco Principal** | Governança e gestão de dados corporativos | Arquitetura Corporativa (Negócio, Dados, Aplicações, Tecnologia) |
 | **Área Central**   | Gestão de dados como ativo estratégico    | Integração de domínios arquiteturais para suporte ao negócio     |
 | **Público-alvo**   | Profissionais de gestão de dados          | Arquitetos corporativos e de TI                                  |
 
-### **Arquitetura de Dados: Como Cada Um Trata**
+#### **Arquitetura de Dados**
 
 | Critério                               | **DMBOK**                                                                                | **TOGAF**                                                                                        |
 | -------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -246,17 +277,17 @@ A comparação entre o **DMBOK (Data Management Body of Knowledge)** e o **TOGAF
 | **Detalhamento Técnico**               | Foca mais em práticas e funções de gestão (ex: modelagem de dados, MDM, glossário, etc.) | Envolve fases detalhadas no ADM (Architecture Development Method), especialmente a Fase C        |
 | **Relacionamento com Outros Domínios** | Interação com governança, qualidade, segurança, metadados e arquitetura corporativa      | A Arquitetura de Dados é uma das quatro principais (junto de Negócios, Aplicações e Tecnologia)  |
 
-### **Processo de Desenvolvimento da Arquitetura de Dados**
+#### **Processo de Desenvolvimento da Arquitetura de Dados**
 
-|Etapa / Atividade|**DMBOK**|**TOGAF (Fase C – Data Architecture)**|
-|---|---|---|
-|Levantamento de requisitos|Análise de domínios de dados, glossários, necessidades de governança|Requisitos de negócio identificados na Fase B (Business Architecture)|
-|Modelagem de Dados|Modelagem conceitual, lógica e física, centrada na qualidade e usabilidade|Modelos conceitual e lógico são desenvolvidos, integrando visão de negócio|
-|Integração com aplicações|Discussão sobre interoperabilidade e integração via MDM, ETL, e Data Warehousing|A integração é realizada nas fases posteriores (Fase D – Application Architecture)|
-|Governança de Dados|Um dos pilares centrais do DMBOK – políticas, papéis, processos e métricas definidos|Endereçado de forma mais ampla no TOGAF, mas não com o nível de profundidade do DMBOK|
-|Ferramentas e padrões|Recomendação de uso de padrões como DAMA-DMBOK, CMMI-DMM, DCAM, etc.|Sugestão do uso de metamodelos, frameworks como ArchiMate, e ferramentas de modelagem|
+| Etapa / Atividade          | **DMBOK**                                                                            | **TOGAF (Fase C – Data Architecture)**                                                |
+| -------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| Levantamento de requisitos | Análise de domínios de dados, glossários, necessidades de governança                 | Requisitos de negócio identificados na Fase B (Business Architecture)                 |
+| Modelagem de Dados         | Modelagem conceitual, lógica e física, centrada na qualidade e usabilidade           | Modelos conceitual e lógico são desenvolvidos, integrando visão de negócio            |
+| Integração com aplicações  | Discussão sobre interoperabilidade e integração via MDM, ETL, e Data Warehousing     | A integração é realizada nas fases posteriores (Fase D – Application Architecture)    |
+| Governança de Dados        | Um dos pilares centrais do DMBOK – políticas, papéis, processos e métricas definidos | Endereçado de forma mais ampla no TOGAF, mas não com o nível de profundidade do DMBOK |
+| Ferramentas e padrões      | Recomendação de uso de padrões como DAMA-DMBOK, CMMI-DMM, DCAM, etc.                 | Sugestão do uso de metamodelos, frameworks como ArchiMate, e ferramentas de modelagem |
 
-## Nível de Profundidade e Aplicabilidade
+#### **Nível de Profundidade e Aplicabilidade**
 
 |Aspecto|**DMBOK**|**TOGAF**|
 |---|---|---|
@@ -264,27 +295,8 @@ A comparação entre o **DMBOK (Data Management Body of Knowledge)** e o **TOGAF
 |**Abordagem Prática**|Descritiva e orientada a processos de gestão|Metodológica e orientada a fases e desenvolvimento arquitetural|
 |**Aplicabilidade Organizacional**|Recomendado para organizações com maturidade em gestão de dados|Recomendado para organizações com visão integrada de arquitetura|
 
-
-# Ciclo de vida dos Ativos de Informação
-
-```mermaid
-flowchart
-subgraph C3["Planejar, projetar, gerenciar e manter"]
-A[Criar ou capturar] --> B[Classifico]
-B --> C[Armazene e Proteja]
-C --> D[Pesquiso</br>Accesso</br>Compartilho]
-D --> E[Uso]
-E --> F[Reutilizar]
-E --> G[Reaproveitar]
-E --> I[Reter e Arquivar]
-E --> K[Destruir]
-I --> J[Recuperar]
-J --> E
-end
-```
-
-# Centralização dos Cadastros
-O objetivo deste documento é de abordarmos o tema de **GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO**, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
+# **Ideia Central: Centralização dos Cadastros**
+O tema de **GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO**, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
 
 - [ ] Gerenciar dados de forma eficiente exige um esforço conjunto, onde cada pessoa traz sua expertise, insights e experiências para enriquecer nossas estratégias.
 - [ ] O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado.
@@ -294,16 +306,17 @@ O objetivo deste documento é de abordarmos o tema de **GERENCIAMENTO DE DADOS �
 - [ ] Queremos ouvir suas sugestões sobre como garantir a qualidade dos dados, melhorar nossa governança e explorar novas formas de integrar e utilizar as informações de maneira eficaz.
 - [ ] Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados.
 - [ ] Junte-se a Modernização de Dados Mestres interseção do MDM/MDG (Master Data Management/Governance) com  Retrieval-Augmented Generation (RAG).
+
 # ODTA-C
 Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar nossos colaboradores de forma mais assertiva e colaborativa.
 
-| **Letra** | **Objeto**                             | **Razão**                                                           |
-| --------- | -------------------------------------- | ------------------------------------------------------------------- |
-| **O**     | **OMNI** (abrangente, total)           | Omnipresença de dados e informações;                                |
-| **D**     | DATA (informação, análise)             | **D**ados para fundamentar decisões;                                |
-| **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                                   |
-| **A**     | **Assertividade (confiança, clareza)** | **A**ssertividade na comunicação e na execução de tarefas;          |
-| **C**     | **Conexão**                            | **Conexão entre todos os elementos para atingir objetivos comuns.** |
+| **Letra** | **Objeto**                             | **Razão**                                                       |
+| --------- | -------------------------------------- | --------------------------------------------------------------- |
+| **O**     | **OMNI** (abrangente, total)           | Omnipresença de dados e informações;                            |
+| **D**     | **DATA** (informação, análise)         | Dados para fundamentar decisões;                                |
+| **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                               |
+| **A**     | **Assertividade (confiança, clareza)** | Assertividade na comunicação e na execução de tarefas;          |
+| **C**     | **Conexão**                            | Conexão entre todos os elementos para atingir objetivos comuns. |
 
 - [ ] Assim, abre-se um conceito ou abordagem que integra e **unifica dados de diversas fontes e formatos**, proporcionando uma visão holística e abrangente das informações disponíveis.
 - [ ] Essa abordagem permite que organizações identifiquem, coletem, analisem e utilizem dados de maneira eficiente, favorecendo uma tomada de decisão mais informada e estratégica.
@@ -311,39 +324,22 @@ Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar 
 ODTA-C representa uma abordagem estratégica para a gestão e utilização de dados, visando maximizar o valor das informações disponíveis e impulsionar a eficiência operacional e a inovação nas organizações, aplicando em toda a organização à maneira como os dados são obtidos, rastreados, usados, entregues e descartados.
 
 - [ ] Dados são um ativo estratégico e devem ser gerenciados.
-	- [ ] Se os dados não forem gerenciados, eles frequentemente acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados.
+	- [ ] Se os dados não forem gerenciados, eles frequentemente **acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados**.
 	- [ ] Os dados exigem administração e responsabilização, este princípio exige que indivíduos sejam designados como **administradores e zeladores dos dados**.
 	- [ ] A administração de dados consiste nas pessoas, na organização e nos processos necessários para garantir que os administradores devidamente designados sejam responsáveis pela governança.
 
-
-## **Movendo dados para um Estado Governado**
-O propósito de executar a Governança de Dados é mover dados de um estado não governado para um estado governado. Eles raramente são definidos, sua qualidade é desconhecida, suas regras de negócios são inexistentes ou conflitam entre si, e ninguém é responsável pelos dados.
+## **Governado**
+O propósito de executar a Governança de Dados é mover dados de um **estado não governado para um estado governado**
 
 Dados governados são dados que são confiáveis e compreendidos e pelo qual, alguém é responsável por ambos os dados em si e para abordar questões sobre os dados.
 
 ![](../img/dados-ciclo.png){width="600" height="450" style="display: block; margin: 0 auto" }
-## **Tabela de Background-Check**
-A identificação de uma fonte segura para Dados Mestres/Referência e/ou a criação de estruturas de codificação faladas são fundamentais, para a iniciação de um processo de adaptação antes da migração de um sistema de Gestão. Estruturamos o levantamento das informações em QUATRO etapas:
-
-| **Fase**                             | **Objetivo**                                                                                                                                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Levantamento de Dados Existentes** | Mapeamento das fontes atuais de dados dentro da organização;                                                                                                                                                              |
-| **Definir Gestores de Dados**        | Estabelecer uma área responsável para a Análise da Qualidade, Definição de Critérios, Designação de um Líder de Dados e a elaboração de um processo de Monitoramento e Revisão para assegurar a continuidade da operação. |
-| **Análise de Qualidade de Dados**    | Avaliar a precisão, completude e consistência dos dados coletados. Isso ajuda a identificar quais informações são confiáveis e quais precisam ser ajustadas ou eliminadas.                                                |
-| **Definição de Critérios**           | Estabelecer critérios claros para a seleção de dados que serão considerados como fontes seguras, levando em conta fatores como frequência de atualização, legitimidade da origem e relevância para a operação.            |
-
-Em um cenário empresarial em constante evolução, a gestão eficaz de informações tornou-se um fator crucial para o sucesso das organizações. No centro dessa transformação, surge a necessidade de uma Central de Cadastro Integrada, que visa otimizar o relacionamento com padrões, responsáveis, interagir fornecedores e aprimorar o atendimento ao cliente.
-
-Não obstante a esta central e com a combinação do Master Data Management/Governance (MDM/MDG) e Inteligência Artificial (IA), poderíamos automatizar o processo de detecção e correção de erros de dados, recomendações de itens duplicados, identificar e mitigar potenciais riscos de conformidade.
-
-Entende-se neste contexto, que a governança de dados e o MDM/MDG não são idênticos, onde o primeiro estabelece as bases para sua solução MDM e garante que você obtenha o máximo valor.
-
-### **Identificação do Problema**
+## **Identificação do Problema**
 Registros com informações faltantes, duplicação de dados, risco de exposição de informações sensíveis, especialmente em conformidade com regulamentações como a LGPD, ausência de controles de acesso adequados, permitindo que usuários não autorizados acessem informações confidenciais, silos de dados (dificuldade em integrar dados de diferentes fontes, resultando em visões fragmentadas das informações), entre outros.
 
 Essa fragmentação de informações causa inconsistências com a análise de dados de atendimento, financeiro e administrativo, dificultando a comunicação com os fornecedores (prestadores de serviço, parceiros) e compromete a eficácia no atendimento ao cliente.
 
-- [ ] Os dados são compartilhados e usados por muitos, para muitos propósitos diferentes. Então, quem é o dono deles?
+- [ ] Os dados são compartilhados e usados por muitos, para muitos propósitos diferentes. **Então, quem é o dono deles**?
 - [ ] Quem toma decisões sobre eles e é responsável quando os dados estão “errados”?
 - [ ] Inexistência de fluxo padrão para o cadastro dos principais dados mestres;
 - [ ] Ausência de padronização descritiva, gerando produtos duplicados ou incompletos;
@@ -353,13 +349,7 @@ Essa fragmentação de informações causa inconsistências com a análise de da
 - [ ] Dificuldade em gerar relatórios úteis e insights a partir dos dados armazenados.
 - [ ] Várias bases de dados Analíticas e acesso a informações que não refletem a realidade atual da organização.
 
-#### Diversos benefícios para o negócio
-
-- [ ] Prover dados relevantes e confiáveis para o negócio;
-- [ ] Construir uma Base única de verdade;
-- [ ] Melhorar o COMPLIANCE da Organização;
-- [ ] Apoiar o desenvolvimento de modelos de IA está entre os principais motivos pelos quais as organizações incluídas na nossa investigação procuram modernizar as suas capacidades de dados.
-#### Problemas Diversos
+### Problemas Diversos
 
 - [ ] Chamados negados e sem transparencia para o Cliente (Ocorre principalmente no início de cada mes);
 
@@ -383,8 +373,30 @@ Necessidade em se adotar critérios para o cadastramento de NCM
 
 - [ ] Erros logísticos e/ou financeiros (pesos indevidos, endereços desatualizados);
 - [ ] Autuação Fiscal;
+	- [ ] Falta de Escrituração;
+	- [ ] Escrituração em Duplicidade;
 - [ ] Calculo Incorreto de Impostos.
 
+#### Padronização da Descrição do Material
+Definir as políticas e regras relacionadas à manutenção do cadastro de materiais. Centralização do cadastramento, abrangência, incorporações, homologação, saneamento dos estoques, gerenciamento de requisitos, processos para controle e auditoria, bem como responsabilidades funcionais.
+
+Em termos da identificação, o princípio mais importante que costumamos destacar no manual PDM é que “a finalidade do código é identificar, e não catalogar”, pois temos constatado que o equivoco mais usual é codificar os materiais por aplicação, no entanto aprendemos que “diferentes aplicações não determinam diferentes códigos”.
+
+Enfim, para identificar corretamente, o código deve possuir os seguintes atributos:
+
+<div class="mdx-columns2" markdown>
+- [ ] Unicidade: Apenas um código para cada SKU (Stock Keeping Units, ou unidades distintas mantidas em estoque);
+- [ ] Simplicidade: Deve ser fácil de compreender e utilizar;
+- [ ] Formato: Deve ser estruturado, de preferência com uma numeração sequencial automatizada;
+- [ ] Conciso: Deve ser sucinto e objetivo;
+- [ ] Expansividade: Deve suportar o crescimento da empresa;
+- [ ] Operacionalidade: Deve ser prático e robusto;
+- [ ]  Versatilidade: Deve prever suas diversas aplicações;
+- [ ] Estabilidade: Deve ser perene;
+- [ ] Confiabilidade: Deve assegurar a identificação esperada.
+- [ ] Classificação UNSPSC (Universal Standard Products and Services Classification): Classifica os itens dentro de ramificações, seguindo uma hierarquia de importância numa árvore baseada na natureza dos materiais.
+- [ ] Classificação NCM (Nomenclatura Comum do Mercosul): Baseada no "Sistema Harmonizado de Designação e Codificação de Mercadorias" para facilitar as transações entre Brasil, Argentina, Paraguai e Uruguai, estabelecendo tarifas comuns. No Brasil a NCM está conjugada com a tabela de incidência de impostos sobre produtos industrializados (IPI).
+</div>
 
 Mapear os dados de uma organização requer uma compreensão profunda do cenário do sistema e do processo de manutenção dos dados. O mapeamento de dados abrange:
 
@@ -395,91 +407,106 @@ Mapear os dados de uma organização requer uma compreensão profunda do cenári
 - [ ] Descrever os padrões de dados atuais, incluindo regras de validação;
 </div>
 
-#### Classificação dos Dados
+# Por que achamos de suma importância?
+Tem que ser um espécie de protocolo de comunicação que traz diversos benefícios e oportunidades, como seguem:
+## Melhoria do Processo
+
+- [ ] Prover dados relevantes e confiáveis para o negócio;
+- [ ] Construir uma Base única de verdade;
+- [ ] Melhorar o COMPLIANCE da Organização;
+- [ ] Apoiar o desenvolvimento de modelos de IA modernizando as suas capacidades de dados.
+
+## Responsabilidades sobre os Dados
+É a **pessoa ou função responsável por garantir a qualidade, integridade, segurança e uso adequado dos dados mestres** em uma organização. O **Data Owner** não é apenas "dono" no sentido de posse, mas sim **responsável por decisões e políticas** relacionadas a esses dados. Suas funções incluem:
+
+| Responsabilidade           | Descrição                                                                               |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| **Qualidade do dado**      | Garante que o dado mestre esteja correto, completo e atualizado.                        |
+| **Segurança e acesso**     | Define quem pode visualizar, editar ou excluir o dado.                                  |
+| **Ciclo de vida**          | Controla a criação, alteração, inativação e exclusão dos dados (Temporalidade).         |
+| **Conformidade**           | Assegura que os dados estejam em conformidade com normas (GPDR, PCI DSS, LGPD e HIPAA). |
+| **Integração entre áreas** | Atua como ponte entre áreas de negócio e TI, promovendo uso consistente do dado.        |
+
+| Aspecto                        | **Data Owner**                                                                | **Data Steward**                                             |
+| ------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Responsabilidade principal** | Propriedade, políticas e decisões estratégicas sobre o dado                   | Garantia da qualidade, consistência e integridade dos dados  |
+| **Foco**                       | **Governança e conformidade**                                                 | **Operacionalização e manutenção**                           |
+| **Autoridade**                 | Tem autoridade para aprovar uso, acesso e mudanças                            | Atua sob orientação do Data Owner                            |
+| **Exemplo de decisões**        | - Quem pode acessar o dado?- Que regras se aplicam?- O que é "dado válido"?   | - Corrigir dados incompletos- Monitorar regras de qualidade  |
+| **Papel no ciclo de vida**     | Define políticas para criação, atualização e arquivamento de dados            | Executa atividades de criação, manutenção e limpeza de dados |
+| **Exemplos de funções**        | - Diretor Financeiro (dados contábeis)- Gerente de RH (dados de funcionários) | - Analista de Dados- Analista de Cadastro                    |
+| **Relação com a TI**           | Trabalha com áreas de negócio, toma decisões de alto nível                    | Trabalha com TI para aplicar regras de dados                 |
+
+## Classificação dos Dados
 
 - [ ] **Dados Mestres (Master Data)**: Descrevem locais (estabelecimentos), entidades (pessoas (funcionários, parentescos, prestadores de serviço, temporários), clientes, fornecedores, instituição) e coisas que fazem parte de um contexto empresarial.
+	- [ ] Business Partner (Customer, Vendor)
+	- [ ] Material Master
+	- [ ] Chart of Accounts / G/L Account Master
+	- [ ] Cost Center / Profit Center
+	- [ ] Work Center / Routing / BOM
+	- [ ] Asset Master
+	- [ ] Bank Master Data
+	- [ ] Plant / Storage Location / Company Code
+	- [ ] Pricing Conditions
+	- [ ] Project Definitions / WBS Elements
+	- [ ] **Viagens / Projetos**
+	- [ ] **Meios de pagamento (Cartões corporativos - CONCUR)**
+	- [ ] **Empregados (Estagiário, Prestador de Serviço, Funcionário Concursado, Cedido e outros)**
+	- [ ]
 
-| Tipo         | Exemplo                                                     |
-| ------------ | ----------------------------------------------------------- |
-| Cliente      | Dados do Cliente                                            |
-| Financeiro   | Grupos contábeis, Ativos, Hierarquias de contas             |
-| Governança   | Dados que dão suporte à privacidade, Regulamentações        |
-| Instituição  | Dados da Instituição, estruturação                          |
-| Funcionários | Dados sobre o funcionário , salários, funções e hierarquia. |
-| Produto      | Descrições de produtos, Part-Number e etc.                  |
-
-- [ ] **Dados de Referência (Reference Data)**: São um conjunto de valores ou esquemas de classificação que servem de apoio a um dado mestre.
+- [ ] **Dados de Referência (Reference Data)**: São um conjunto de valores ou esquemas de classificação que servem de apoio a um dado mestre;
+	- [ ] Unit of Measure
+	- [ ] Currencies
+	- [ ] Country / Region / Tax codes
+	- [ ] Material Groups / Product Hierarchy
+	- [ ] Payment Terms / Incoterms / Shipping Conditions
+	- [ ] Document Types
+	- [ ] Posting Periods / Fiscal Year Variants
+	- [ ]  **Códigos de despesa (Expense Types)**
+	- [ ] **Regras de política de viagem e despesas**
+	- [ ] **Supplier Profile / SLP**
+	- [ ] **Categorias de produtos (UNSPSC)**
+	- [ ] **Códigos fiscais**
+	- [ ] **Tipos de serviço**
+	- [ ] **Posições / Cargos**
+	- [ ] **Estrutura Organizacional**
+	- [ ] **Unidades de Negócio / Departamentos**
+	- [ ] **Benefícios / Registros de compensação**
 - [ ] **Dados de referência externos**: APIs conectam os dados de referência a autoridades regulatórias externas, como agências governamentais ou conversores de moeda. Os dados recebidos são classificados e selecionados para se alinharem com os dados mestres estabelecidos.
+	- [ ]  **Tabela de Background-Check**
+		- [ ] A identificação de uma fonte segura para Dados Mestres/Referência e/ou a criação de estruturas de codificação faladas são fundamentais, para a iniciação de um processo de adaptação antes da migração de um sistema de Gestão. Estruturamos o levantamento das informações em QUATRO etapas:
+		- [ ] Em um cenário empresarial em constante evolução, a gestão eficaz de informações tornou-se um fator crucial para o sucesso das organizações. No centro dessa transformação,  que visa otimizar o relacionamento com padrões, responsáveis, interagir fornecedores e aprimorar o atendimento ao cliente.
+		- [ ] Não obstante a esta central e com a combinação do Master Data Management/Governance (MDM/MDG) e Inteligência Artificial (IA), poderíamos automatizar o processo de detecção e correção de erros de dados, recomendações de itens duplicados, identificar e mitigar potenciais riscos de conformidade.
+
+| **Fase**                             | **Objetivo**                                                                                                                                                                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Levantamento de Dados Existentes** | Mapeamento das fontes atuais de dados dentro da organização;                                                                                                                                                              |
+| **Definir Gestores de Dados**        | Estabelecer uma área responsável para a Análise da Qualidade, Definição de Critérios, Designação de um Líder de Dados e a elaboração de um processo de Monitoramento e Revisão para assegurar a continuidade da operação. |
+| **Análise de Qualidade de Dados**    | Avaliar a precisão, completude e consistência dos dados coletados. Isso ajuda a identificar quais informações são confiáveis e quais precisam ser ajustadas ou eliminadas.                                                |
+| **Definição de Critérios**           | Estabelecer critérios claros para a seleção de dados que serão considerados como fontes seguras, levando em conta fatores como frequência de atualização, legitimidade da origem e relevância para a operação.            |
+
 - [ ] **Dados de referência interna**: As definições e categorias permanecem relevantes para os processos de negócios atuais e atendem às necessidades de todas as disciplinas de negócios. Garanta que os administradores de dados permaneçam consistentes na criação e no gerenciamento de dados de referência.
 - [ ] **Dados transacionais**: São as informações operacionais cotidianas em seus bancos de dados de CRM, ERP e HCM. Como por exemplo: Notas Fiscais, Ordens de Compra, Lançamentos Financeiros e etc.
+	- [ ] **Contratos (Sourcing, Buying)**
+	- [ ]  **Materiais / Catálogos**
+	- [ ] **Regras de política de viagem e despesas**
+	- [ ] **Requisições / Ordens de Compra**
 - [ ] **Dados não estruturados**: São dados de postagens em mídias sociais, e-mails, white papers ou chats de ajuda que são difíceis de categorizar.
-
-#### Estilos de implementação do Master Data Management (MDM)
-
-| Estilo           | Entenda                                                                                                           |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Centralizado** | Em um estilo centralizado, os ERPs/CRMs criam os dados mestres e os dissemina para outros sistemas ou aplicações. |
-| **Consolidação** | Criação de um **golden records**, os sistemas de origem alimentam dados em um hub central para golden records.    |
-| **Coexistência** | Cria um hub de dados consolidado que então alimenta registros atualizados de volta para as fontes.                |
-
-#### Por que achamos de suma importância?
-Tem que ser um espécie de protocolo de comunicação que traz diversos benefícios e oportunidades, como seguem:
-
-- [ ] Precisão na identificação do Gestor do Dado;
-- [ ] Organizar as informações cadastrais, documentação e contratos (formato, tipo e etc);
-- [ ] Minimizar erros operacionais e não conformidades;
-- [ ] Conter custos operacionais;
-- [ ] Viabilizar sistemas de resposta rápida;
-- [ ] Melhorar a acurácia das informações;
-- [ ] Unificar as empresas, sistemas e catálogos;
-- [ ] Auxiliar nas incorporações e consolidações de estoques;
-
-Quando avaliamos a qualidade de nossos cadastros precisamos construir métricas, que permitam entender o atual cenário dos nossos dados.
-
-- [ ] **VALIDADE E CONFORMIDADE** : A validade determina se o valor preenchido corresponde ao padrão do campo. Isto é, por exemplo, teremos, apenas, valores monetários no campo “Renda”.
-- [ ] **DUPLICIDADE**: Acontece quando dois ou mais registros apontam para a mesma entidade real.
-- [ ] **COMPLETUDE**: É um indicador, que pode ser expresso em percentual, e indica o quão nosso cadastro está completo para as nossas necessidades.
-- [ ] **PRECISÃO E ACURÁCIA**: Usamos acurácia, na avaliação de qualidade de dados, para determinar se aquele dado corresponde a uma entidade real
-## Algumas definições
-
-| Definição             | Entenda                                                                                                                                                                                                                                                    |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Elemento de Dados** | É uma unidade de dados, que possui significado preciso ou semântica precisa. Por definição, um elemento de dados é indivisível. Número de conta, um nome, data de nascimento e etc.                                                                        |
-| **Domínio de Dados**  | Definido pelo usuário que representa o significado funcional de uma coluna com base nos dados da coluna ou no nome da coluna. Exemplos: número de Previdência Social, número do cartão de crédito e ID de e-mail. (Atributos, Relacionamento e Hirarquia). |
-| **Metadados**         | São dados que fornecem informações sobre outros dados.                                                                                                                                                                                                     |
 
 ## Pontos Chaves
 
-- [ ] Modelo de Dados
-- [ ] Qualidade dos Dados
-- [ ] Integração
-- [ ] Escalabilidade
-- [ ] Auditoria
-- [ ] Controle de Metadados
-- [ ] Workflow
+<div class="mdx-columns2" markdown>
+- [ ] Modelo de Dados;
+- [ ] Qualidade dos Dados;
+- [ ] Integração;
+- [ ] Escalabilidade;
+- [ ] Auditoria;
+- [ ] Controle de Metadados;
+- [ ] Workflow;
+</div>
 
-#### Padronização da Descrição do Material
-#### Código de Materiais
-Definir as políticas e regras relacionadas à manutenção do cadastro de materiais.
-Centralização do cadastramento, abrangência, incorporações, homologação, saneamento dos estoques, gerenciamento de requisitos, processos para controle e auditoria, bem como responsabilidades funcionais.
-
-Em termos da identificação, o princípio mais importante que costumamos destacar no manual PDM é que “a finalidade do código é identificar, e não catalogar”, pois temos constatado que o equivoco mais usual é codificar os materiais por aplicação, no entanto aprendemos que “diferentes aplicações não determinam diferentes códigos”.
-
-Enfim, para identificar corretamente, o código deve possuir os seguintes atributos:
-
-- [ ] **Unicidade**: Apenas um código para cada SKU (Stock Keeping Units, ou unidades distintas mantidas em estoque);
-- [ ] **Simplicidade**: Deve ser fácil de compreender e utilizar;
-- [ ] **Formato**: Deve ser estruturado, de preferência com uma numeração sequencial automatizada;
-- [ ] **Conciso**: Deve ser sucinto e objetivo;
-- [ ] **Expansividade**: Deve suportar o crescimento da empresa;
-- [ ] **Operacionalidade**: Deve ser prático e robusto;
-- [ ] **Versatilidade**: Deve prever suas diversas aplicações;
-- [ ] **Estabilidade**: Deve ser perene;
-- [ ] **Confiabilidade**: Deve assegurar a identificação esperada.
-- [ ] **Classificação UNSPSC (Universal Standard Products and Services Classification)**: Classifica os itens dentro de ramificações, seguindo uma hierarquia de importância numa árvore baseada na natureza dos materiais.
-- [ ] **Classificação NCM (Nomenclatura Comum do Mercosul)**: Baseada no "Sistema Harmonizado de Designação e Codificação de Mercadorias" para facilitar as transações entre Brasil, Argentina, Paraguai e Uruguai, estabelecendo tarifas comuns. No Brasil a NCM está conjugada com a tabela de incidência de impostos sobre produtos industrializados (IPI).
-
-### **Diferenciação do CSC para uma CC**
+# **CSC(Centro de Serviço Compartilhado) para uma CC(Central de Cadastro)**
 
 | **Função**                  | **Central de Cadastros**                                                                                                                                          | **Centro de Serviço Compartilhado (CSC)**                                                                                                                                   |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -493,48 +520,74 @@ Enfim, para identificar corretamente, o código deve possuir os seguintes atribu
 |                             | Visam aumentar a eficiência e reduzir custos operacionais.                                                                                                        |                                                                                                                                                                             |
 |                             | Servem como suporte para outras áreas da empresa, permitindo que estas se concentrem em suas atividades principais.                                               |                                                                                                                                                                             |
 
-| **Tipo de Dado Mestre**                        | **S/4HANA**                             | **Concur** | **Ariba**    | **Fieldglass** | **SuccessFactors** |
-| ---------------------------------------------- | --------------------------------------- | ---------- | ------------ | -------------- | ------------------ |
-| **Business Partner (Clientes / Fornecedores)** | ✅                                       | ✅\*        | ✅            | ✅\*            | ❌                  |
-| **Funcionários**                               | ✅ (HR Mini Master ou integração com SF) | ✅          | ✅\*          | ✅\*            | ✅ (Principal)      |
-| **Centros de Custo**                           | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
-| **Projetos / WBS**                             | ✅                                       | ✅          | ✅            | ✅              | ❌                  |
-| **Material / Serviços**                        | ✅ (Material Master)                     | ❌          | ✅ (Catálogo) | ✅ (Job Class)  | ❌                  |
-| **Posições / Cargos**                          | ❌                                       | ❌          | ❌            | ✅              | ✅ (Estrutura)      |
-| **Contratos**                                  | ✅                                       | ❌          | ✅            | ✅              | ❌                  |
-| **Planos de Contas / G/L**                     | ✅                                       | ✅\*        | ✅\*          | ✅\*            | ❌                  |
-| **Locais / Plantas / Sites**                   | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
-| **Moeda / País / Região**                      | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
-| **Unidade de Medida / Taxas**                  | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
-| **Classificações / Códigos fiscais**           | ✅                                       | ✅          | ✅            | ✅              | ✅                  |
+## Estilos de implementação do Master Data Management (MDM)
 
-✅* = Requer integração/sincronização com S/4 ou sistemas de contabilidade
-❌ = Não aplicável diretamente ao sistema
-✅ = Nativamente gerenciado ou requerido pelo sistema
+| Estilo           | Entenda                                                                                                                             |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Centralizado** | Em um estilo centralizado, os ERPs/CRMs e outros sistemas criam os dados mestres e os dissemina para outros sistemas ou aplicações. |
+| **Consolidação** | Criação de um **golden records**, os sistemas de origem alimentam dados em um hub central para golden records.                      |
+| **Coexistência** | Cria um hub de dados consolidado que então alimenta registros atualizados de volta para as fontes.                                  |
+
+## Exemplo de Fluxo de Categoria Sensível (Ideia)
+```mermaid
+flowchart LR
+    A[Solicitação de Novo Dado Mestre] --> B[Verificação de Categoria Sensível]
+    B --> C{Dado Sensível? LGPD/PCI/HPI}
+
+    C -- Não --> D[Processamento Normal]
+
+    C -- Sim --> E[Classificação: Dado Pessoal, Financeiro, Saúde]
+    E --> F[Validação de Permissividade]
+    F --> G{Permissão Existente?}
+
+    G -- Não --> H[Solicita Aprovação de Base Legal]
+    H --> I[Registro de Consentimento / Justificativa]
+    I --> J[Gravar Trilha de Auditoria Vault / GRC]
+
+    G -- Sim --> J
+    J --> K[Criação e Publicação via SAP MDG]
+    K --> L[Replicação com Flag de Sensibilidade e Política]
+    L --> M[Monitoramento Contínuo SAC / DLP]
+```
+
+## Exemplo de Fluxo de Cadastro de Dados (Ideia)
+
 
 ```mermaid
 graph LR
-    A[Usuário de Negócio] -->|Solicitação| B[Portal de Solicitação de Dados Workflow]
-    B --> C[Validação do Owner]
-    C --> D[Criação/Aprovação no SAP MDG]
-    D --> E[Publicação em SAP S/4HANA]
-    D --> F[Replicação via SAP CPI]
-    F --> G1[Concur]
-    F --> G2[Ariba]
-    F --> G3[Fieldglass]
-    F --> G4[SuccessFactors]
+    A[Usuário de</br> Negócio] -->|Efetua Solicitação| B[Portal de</br>Solicitação de Dados</br> Workflow]
+    B --> C[Validação do</br>Data Owner]
+    C --> C1{Data Management Companies}
+    C1 --> |Não|D[Criação/Aprovação no SAP MDG]
+    C1 --> |Sim|D0[Padronização e Estilo]
+    P[Lugar de Gente]  --> D
+    D0 --> D1[Integração MDG]
+    D1 --> D
+    D  --> E[Publicação em SAP S/4HANA]
+    D  --> F[Integração]
+    F  --> G1[Concur]
+    F  --> G2[Ariba]
+    F  --> G3[Fieldglass]
+    F  --> G4[SuccessFactors]
 ```
 
-| Pilar                      | Descrição                                                             |
-| -------------------------- | --------------------------------------------------------------------- |
-| **Domínio dos Dados**      | Categorize os dados (ex: fornecedor, cliente, funcionário, material). |
-| **Propriedade dos Dados**  | Defina um **Data Owner** por tipo de dado em cada sistema.            |
-| **Políticas e Regras**     | Crie políticas de entrada, qualidade, enriquecimento e arquivamento.  |
-| **Tecnologia de Apoio**    | Use SAP MDG, SAP BTP Master Data Integration ou SAP CPI.              |
-| **Governança Operacional** | Estabeleça comitês de dados mestres e canais de suporte.              |
+## Exemplo Ciclo de vida do Dado/Informação
 
-
-
+```mermaid
+flowchart
+subgraph C3["Gestão de Dados"]
+A[Criar, Capturar</br> ou Integrar] --> B[Classifico]
+B --> C[Armazene e Proteja]
+C --> D[Pesquiso</br>Accesso</br>Compartilho]
+D --> E[Uso]
+E --> F[Reutilizar]
+E --> G[Reaproveitar]
+E --> I[Reter e Arquivar]
+E --> K[Destruir]
+I --> J[Recuperar]
+J --> E
+end
+```
 ## Proposta
 A proposta de criação de uma **Central de Cadastro** ou a sua remodelagem, surge como uma solução eficaz para esses desafios.  Este espaço dedicado permitirá a centralização (processos de mudança) e padronização das informações (padrões de dados) e responsabilização (indicadores de acurácia e tempo atendimento).
 
@@ -549,13 +602,9 @@ A proposta de criação de uma **Central de Cadastro** ou a sua remodelagem, sur
 
 ### Qualidade de Dados
 As dimensões de qualidade dos dados são padrões para avaliar a qualidade dos dados, garantindo sua adequação ao uso pretendido.
-
-Dimensão de qualidade de dados é um termo adotado pela área de qualidade de dados para identificar os aspectos dos dados que podem ser medidos e por meio dos quais sua qualidade pode ser quantificada.
-
 Embora diferentes especialistas tenham proposto diferentes dimensões de qualidade de dados e não haja padronização para seus nomes ou descrições, quase todas elas incluem alguma versão de precisão, completude, consistência, atualidade, exclusividade e validade.
 
-O DQOps também usa dimensões de qualidade de dados de integridade, disponibilidade e razoabilidade porque elas identificam problemas que afetam dados não estruturados em data lakes.
-
+O Data Quality Operations Center(DQOps) também usa dimensões de qualidade de dados de integridade, disponibilidade e razoabilidade porque elas identificam problemas que afetam dados não estruturados em data lakes.
 
 | Nome da dimensão de qualidade de dados | Definição da dimensão de qualidade de dados                                                                                                                                                                                                                                                                                                   | Possíveis problemas de qualidade de dados                                                                                                                                                                                                                  |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -569,83 +618,13 @@ O DQOps também usa dimensões de qualidade de dados de integridade, disponibili
 | **Singularidade                        | O grau em que os registros ocorrem apenas uma vez em um conjunto de dados e não são duplicados.                                                                                                                                                                                                                                               | Valores duplicados encontrados em uma coluna-chave que deve conter somente valores exclusivos.                                                                                                                                                             |
 | **Validade**                           | O grau em que os valores dos dados estão em conformidade com regras comerciais predefinidas, como formato, padrões, tipo e intervalo. Por exemplo, códigos postais e e-mails.                                                                                                                                                                 | Formato de telefone inválido. Valores que não correspondem aos padrões de expressões regulares.                                                                                                                                                            |
 
-### Modernização da infraestrutura de dados
+# Definindo um Modelo
 
-- [ ] Realize uma auditoria de dados: Classifique fontes, problemas de qualidade e duplicação.
-- [ ] Mude da tomada de decisão em silos para a federada: Defina uma propriedade clara para iniciativas digitais, unidades de negócios e operações.
-- [ ] Capacite os proprietários de produtos: substitua as cadeias de aprovação hierárquicas por governança ágil para experimentação rápida (por exemplo, lançamentos de MVP).
-- [ ]  Implemente ferramentas de metadados e linhagem (por exemplo, Collibra, Atlan, Ferramentas de Metadados/Apache Atlas) para transparência e rastreabilidade.
-- [ ] Alinhe os orçamentos com modelos de assinatura de nuvem e sprints ágeis (por exemplo, ciclos de financiamento trimestrais versus anuais).
-	- [ ] Integração FinOps: Controle os gastos com nuvem com equipes multifuncionais para evitar custos excessivos. On-premise ou Full Cloud?
-- [ ] Organize um workshop de 1 hora para priorizar os 3 principais pontos problemáticos (por exemplo, lacunas de conformidade, fluxos de trabalho quebrados).
-	- [ ] Mapeie domínios de dados críticos (Cliente, Finanças) e sistemas (CRM, ERP).
-	- [ ] Mapa de calor de risco de dados destacando áreas urgentes;
- - [ ] Governança de API e regras de residência de dados.
-	- [ ] Segurança (Autenticação e Autorização padronizadas, **Rate limiting & throttling** para evitar abusos, **Criptografia** (HTTPS, TLS))
-	- [ ] Design e Padronização (Uso consistente de **REST, GraphQL**),  Convenções(Versionamento, nomeação, verbos, estrutura de respostas e padronização de mensagens  de erro)
-	- [ ] Documentação (APIs **autodocumentadas** (OpenAPI/Swagger, Postman, etc.), Portal de desenvolvedores (Exemplos de uso, playground)
-	- [ ] Monitoramento e Observabilidade (Logs detalhados de chamada, Métricas de uso e performance (ex: tempo de resposta, erros) )
-	- [ ] Qualidade (contratuais, Linters e validadores de esquema (Spectral  (https://github.com/stoplightio/spectral))
-	- [ ] Gestão de Ciclo de Vida (Publicação, Versionamento, deprecation strategy)
-	- [ ] Reusabilidade e Descobrimento (Registro central de APIs disponíveis)
-	- [ ] Compliance e Conformidade (Aderência a LGPD, GDPR e outras regulações, Políticas de privacidade de dados em APIs públicas e internas)
-	- [ ] Governança Organizacional (API Owners, Product Managers, Times consumidores e provedores) e Comitê de Arquitetura ou API Guild para orientar e aprovar
-	- [ ] Portais e gateways com gestão centralizada (Kong, Apigee, AWS API Gateway, etc.)
-- [ ] Mapeie domínios de dados críticos (Clientes, Itens) e sistemas (CRM, ERP e demais sistemas internos);
-    - [ ]  Estabeleça fontes de ouro e hubs de dados mestres para domínios críticos;
-- [ ] Automatize a criação de perfis de dados, a limpeza e o monitoramento de qualidade;
-- [ ] Implemente ferramentas de metadados e linhagem para transparência e rastreabilidade.
-- [ ] Definição Legal da Temporalidade de Dados.(**Quanto mais dados mais desperdícios e este é um processo Lean**) .
-
-### Questionário Básico para Fonte de Dados/Origem
-
-- [ ] Qual o provedor público que a solução encontra-se hospedada?
-	- [ ] Amazon Web Services (AWS)
-	- [ ] Microsoft Azure
-	- [ ] Google Cloud Platform (GCP)
-	- [ ] IBM Cloud
-	- [ ] Oracle Cloud
-- [ ] Tipos de integração SaaS vs SaaS ou SaaS vs On-premise?
-	- [ ] Application Programming Interface (RESTful APIs, Webhooks)
-	- [ ] Integração via Middleware / iPaaS (Integration Platform as a Service)
-	- [ ] Integração via Troca de Arquivos (File-based Integration)
-	- [ ] Integração via Conectores Nativos (**plug-and-play**)
-	- [ ] Integração via RPA (Robotic Process Automation)
-	- [ ] ETL / ELT (Extração, Transformação e Carga de Dados)
-- [ ] Segurança
-	- [ ] Como é feito o controle de autenticação/autorização das APIs?  Como os logs de acesso são monitorados e auditados? Existem limites de rate limiting ou throttling do lado SaaS? Existe segregação de ambientes (dev, hml e prd)?
-		- [ ] ABAC — Attribute-Based Access Control
-		- [ ] Scopes no OAuth 2.0
-		- [ ] ABAC + OAuth 2.0 Scopes
-- [ ] Qual a frequência de sincronização dos dados?
-	- [ ] Instantânea (segundos) (Webhooks, APIs com push, sockets, streaming (Kafka, WebSockets))
-	- [ ] A cada 1 a 15 minutos (Cron jobs, tarefas agendadas, polling via API)
-	- [ ] Horária (Cron jobs, tarefas agendadas, polling via API)
-	- [ ] Diária (Cron jobs, tarefas agendadas, polling via API)
-	- [ ] Semanal
-	- [ ] Mensal
-	- [ ] Indique para Cada Sincronização de Dados: Criticidade dos dados, Volume/Custos e Capacidade técnica em realizar de forma instantânea.
-	- [ ] Como será feita a integração com cada ambiente (API, conectores, ETL, CDC)?
-	- [ ] Quais são as particularidades de cada ambiente (por exemplo, limites de API, taxas de transferência, etc.)?
-- [ ] Monitoramento
-	- [ ] Como é feito o monitoramento da integração?
-		- [ ] Há dashboards, alertas, health checks?
-		- [ ] Existem relatórios de sucesso/falha por operação? Há trilha de auditoria para dados lidos/enviados?
-	- [ ] O que acontece se a comunicação SaaS  e on-Premise ou SaaS, tiver algum tipo de falha, há mecanismos de retry automático, fallback? Há logs de falhas de integração e como eles são acessados?
-	- [ ] Existe mecanismo de **fila** ou **buffer** para eventos/dados não processados?
-	- [ ] Como os custos de transferência e processamento de dados serão gerenciados pela BBTS/Fornecedor SaaS?
-	- [ ] Há limites de largura de banda ou consumo que precisam ser respeitados?
-- [ ] Volumetria
-	- [ ] Qual o volume estimado de dados a ser consumido? (Pessoais, Funcionario, Contratuais, Regra de Ausência, Competências , Treinamentos, UOR, Estrutura Organizacional, Estrutura Posicional, Integração Pagamento, Integração Contábil);
-	- [ ] Quais formatos de dados serão tratados (JSON,XML, Parquet, etc.)?
-	- [ ] Como os dados serão criptografados em trânsito ?
-### Definindo um Modelo
-
-- [ ] **Visão Corporativa Consistente dos Dados**
-- [ ] **Vincula a tecnologia e os dados aos processos de negócios**
-- [ ] **Simplifica a Gestão da Integração**
-- [ ] **Estabelece a Estrutura para Domínios de Dados Fundamentais**
-- [ ] **Padroniza a coleta de requisitos downstream**
+- [ ] **Visão Corporativa Consistente dos Dados**;
+- [ ] **Vincula a tecnologia e os dados aos processos de negócios**;
+- [ ] **Simplifica a Gestão da Integração**;
+- [ ] **Estabelece a Estrutura para Domínios de Dados Fundamentais**;
+- [ ] **Padroniza a coleta de requisitos downstream**;
 
 
 ```mermaid
@@ -683,11 +662,35 @@ flowchart LR
  end
 ```
 
-### Mapeando das Aplicações
 
-#### Provisionamento de Aplicações
+# Mapeando das Aplicações SaaS, On-Premise
+Mapear as aplicações em um ambiente **SaaS (Software as a Service)** para validar o **consumo de dados** é uma prática crítica, tanto do ponto de vista **estratégico quanto operacional**.
 
-##### PHP
+- [ ] Transparência sobre onde e como os dados são usados;
+	- [ ] Que dados estão sendo consumidos por cada aplicação?
+	- [ ] De onde esses dados vêm (fontes)? Com que frequência e volume?
+- [ ] Evitar redundância e desperdício tecnológico
+	- [ ] Conectores e integrações que **sobrecarregam APIs** ou bancos de dados.
+	- [ ] Soluções "shadow IT" usando dados críticos **sem controle da TI**.
+- [ ] Segurança e conformidade (GPDR, PCI DSS, LGPD e HIPAA)
+- [ ] Controle de custos e otimização de licenças/API
+	- [ ] Volume de chamadas API
+	- [ ] Quantidade de dados processados
+	- [ ] Licenças de usuários e conectores
+- [ ] Facilita projetos de migração, integração ou modernização
+	- [ ] Sem mapear os pontos de consumo de dados, qualquer mudança se torna um risco.
+
+## Exemplo Mapeamento das Aplicações
+
+| Nome da Aplicação     | Sigla | Descrição                                                               | Área Gestora (Negócio) | ANS Satisfação | Disponibilidade de Serviço | Níveis de Funcionamento do Serviço  | Datas de Importância                  | Tipo de Arquitetura | Linguagem  | Banco de Dados | Crescimento Anual do Banco (GB) | Tamanho Inicial do Banco (GB) |
+| --------------------- | ----- | ----------------------------------------------------------------------- | ---------------------- | -------------- | -------------------------- | ----------------------------------- | ------------------------------------- | ------------------- | ---------- | -------------- | ------------------------------- | ----------------------------- |
+| Gestão Corporativa    | GCORP | Aplicação monolítica para controle de processos administrativos         | Administrativo         | >= 85%         | 99,5%                      | Alta prioridade, operação 24x7      | Janeiro, Segunda-feira, 1-5           | Monolítica          | PHP e Java | Oracle         | 10                              | 10                            |
+| Serviço de Pagamentos | SPAG  | Microserviços para processamento de pagamentos e conciliação financeira | Financeiro             | >= 90%         | 99,9%                      | Critico, operação 24x7 com failover | Dezembro, Sexta-feira, 10,15,20,25,30 | Microserviços       | Java       | MongoDB        | 10                              | 10                            |
+
+## Exemplo Provisionamento de Aplicações
+O provisionamento das aplicações em modelo **SaaS (Software as a Service)** está sendo realizado de forma controlada e supervisionada pela **equipe de TI**, garantindo que o consumo esteja alinhado com os requisitos técnicos, de segurança e de governança definidos pela organização. Esse monitoramento segue os princípios da **especificação FOCUS (FinOps Open Cost and Usage Specification)**, promovendo **transparência, padronização e rastreabilidade dos custos e métricas de uso** das aplicações em nuvem. Através da coleta e análise contínua de dados de consumo, a TI assegura que as decisões de escalabilidade, licenciamento e descontinuidade de serviços estejam embasadas em dados precisos e comparáveis entre provedores.
+Buscando o equilíbrio **velocidade, controle e custo** no consumo de SaaS, com foco em **responsabilidade financeira compartilhada** entre áreas técnicas e de negócios.
+### Exemplo: PHP
 
 | **Componente**          | **Serviço AWS** | **Configuração**                                   | **Custo Mensal (USD)** | **Custo Anual (USD)** | **Observações**                     |
 | ----------------------- | --------------- | -------------------------------------------------- | ---------------------- | --------------------- | ----------------------------------- |
@@ -700,7 +703,7 @@ flowchart LR
 | **Segurança**           | WAF + Shield    | Proteção contra DDoS e vulnerabilidades            |                        |                       | Regras personalizadas para PHP/Java |
 | **Total Monolítico**    |                 |                                                    |                        |                       |                                     |
 
-##### Java
+### Exemplo: Java
 
 | **Componente**          | **Serviço AWS**    | **Configuração**                        | **Custo Mensal (USD)** | **Custo Anual (USD)** | **Observações**                     |
 | ----------------------- | ------------------ | --------------------------------------- | ---------------------- | --------------------- | ----------------------------------- |
@@ -711,75 +714,40 @@ flowchart LR
 | **Armazenamento**       | S3                 | 50 GB (Intelligent-Tiering)             |                        |                       | Dados de configuração               |
 | **Total Microserviços** |                    |                                         |                        |                       |                                     |
 
-#### Controle Financial Operations
-
-| **Categoria**            | **Ação**                          | **Ferramenta AWS** | **Economia Estimada**     |
-| ------------------------ | --------------------------------- | ------------------ | ------------------------- |
-| **Otimização de Custos** | Reserved Instances (EC2/RDS)      | Cost Explorer      | Até 40% em instâncias     |
-| **Governança**           | Tags de custo por ambiente        | AWS Organizations  | Melhoria na alocação      |
-| **Monitoramento**        | Alertas de orçamento              | AWS Budgets        | Evitar overspending       |
-| **Armazenamento**        | Lifecycle Policies (S3 → Glacier) | S3 Lifecycle       | Redução de 70% em backups |
-
-#### **Projeção de Crescimento**
+### **Projeção de Crescimento**
 
 | **Ano** | **Tamanho Oracle (GB)** | **Custo Oracle (USD/ano)** | **Tamanho MongoDB (GB)** | **Custo MongoDB (USD/ano)** |
 | ------- | ----------------------- | -------------------------- | ------------------------ | --------------------------- |
 | 1       | 10                      |                            | 10                       |                             |
 | 2       | 20                      |                            | 20                       |                             |
 | 3       | 30                      |                            | 30                       |                             |
+
 **Observação**: Previsão de uma taxa de crescimento de 10 GBytes Anuais
 
-####  Planilha de Provisionamento de Serviço (Nome Da Aplicação)
+## Exemplo Mapeamento das Aplicações - Dados Mestre, Referencia
 
-| **Componente**                    | **Serviço AWS**           | **Descrição**                                                  | **Configuração (Exemplo)**                                            | **Custo Estimado (USD/mês)** |
-| --------------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------- |
-| **Servidor Web (PHP)**            | EC2                       | Instância para hospedar aplicação PHP (Apache/Nginx)           | Tipo: `t3.medium` (2 vCPU, 4 GiB RAM)                                 |                              |
-| **Armazenamento Web**             | EBS                       | Volume para armazenar código PHP, logs e dados temporários     | Tipo: `gp3` (30 GB)                                                   |                              |
-| **Banco de Dados**                | RDS (Oracle)              | Instância gerenciada do Oracle para armazenar dados            | Tipo: `db.t3.medium` (2 vCPU, 4 GiB RAM) + Armazenamento: 50 GB (GP2) |                              |
-| **Backup do Banco**               | RDS Snapshots             | Backups automáticos do Oracle (7 dias de retenção)             | 10 GB/ano + overhead de transações                                    |                              |
-| **Armazenamento de Dados**        | S3                        | Bucket para backups, arquivos estáticos e dados de aplicação   | Classe: `Standard` (50 GB)                                            |                              |
-| **Rede**                          | VPC                       | Rede virtual com subnets públicas/privadas e NAT Gateway       | 1 VPC + 2 Subnets + NAT Gateway                                       |                              |
-| **Segurança**                     | Security Group            | Regras de firewall para HTTP/HTTPS e acesso ao Oracle          | Portas: `80 (HTTP)`, `443 (HTTPS)`, `1521 (Oracle)`                   |                              |
-| **Monitoramento**                 | CloudWatch                | Métricas de desempenho da EC2, RDS e S3                        | Monitoramento básico + Custom Metrics (PHP logs)                      |                              |
-| **Balanceamento**                 | Application Load Balancer | Distribuição de tráfego para instâncias EC2                    | 1 ALB                                                                 |                              |
-| **Bring Your Own License (BYOL)** | RDS (Oracle)              | Custo adicional de licença pode aplicar-se (consulte a Oracle) |                                                                       |                              |
-| **DNS**                           | Route 53                  | Registro de domínio e roteamento                               | 1 domínio + zona hospedada                                            |                              |
-| **Total Mensal**                  |                           |                                                                |                                                                       |                              |
-| **Total Anual**                   |                           |                                                                |                                                                       |                              |
-| Estimativa Crescimento            |                           |                                                                |                                                                       |                              |
-| **Crescimento de Dados**          |                           |                                                                |                                                                       |                              |
-|                                   | Backup mensal no S3       |                                                                |                                                                       |                              |
-| **Alta Disponibilidade**          |                           |                                                                |                                                                       |                              |
-|                                   | Multi-AZ no RDS           |                                                                |                                                                       |                              |
-| **Monitoramento**                 |                           |                                                                |                                                                       |                              |
-|                                   | **AWS CloudWatch Logs**   |                                                                |                                                                       |                              |
-|                                   | **New Relic**             |                                                                |                                                                       |                              |
+| **Tipo de Dado Mestre**                        | **S/4HANA**         | **Concur** | **Ariba**    | **Fieldglass** | **Lugar de Gente** | OneSource     | Projurid | SGPS          |
+| ---------------------------------------------- | ------------------- | ---------- | ------------ | -------------- | ------------------ | ------------- | -------- | ------------- |
+| **Business Partner (Clientes / Fornecedores)** | ✅(Principal)        | ✅          | ✅            | ✅              | ❌                  | ✅             | ✅        | ✅             |
+| **Pessoa**                                     | ✅                   | ✅          | ✅            | ✅\*            | ✅ (Principal)      | ✅\*           | ✅\*      | ✅ (Principal) |
+| **Centros de Custo**                           | ✅                   | ✅          | ✅            | ✅              | ✅(Principal)       | ✅             | ✅        | ✅(Principal)  |
+| **Projetos / WBS**                             | ✅(Principal)        | ✅          | ✅            | ✅              | ❌                  | ✅             | ✅        | ❌             |
+| **Material / Serviços**                        | ✅ (Material Master) | ❌          | ✅ (Catálogo) | ✅ (Job Class)  | ❌                  | ✅ (Job Class) | ✅        | ❌             |
+| **Posições / Cargos**                          | ❌(Avaliar)          | ❌          | ❌(Avaliar)   | ✅              | ✅ (Estrutura)      | ✅             | ✅        | ❌             |
+| **Contratos**                                  | ✅                   | ❌          | ✅            | ✅              | ❌                  | ✅             | ✅        | ✅             |
+| **Planos de Contas / G/L**                     | ✅(Principal)        | ✅\*        | ✅\*          | ✅\*            | ❌                  | ✅\*           | ✅\*      | ❌             |
+| **Locais / Plantas / Sites**                   | ✅(Principal)        | ✅          | ✅            | ✅              | ✅                  | ✅             | ✅        | ❌             |
+| **Moeda / País / Região**                      | ✅(Principal)        | ✅          | ✅            | ✅              | ✅                  | ✅             | ✅        | ❌             |
+| **Unidade de Medida / Taxas**                  | ✅(Principal)        | ✅          | ✅            | ✅              | ✅                  | ✅             | ✅        | ❌             |
+| **Classificações / Códigos fiscais**           | ✅(Principal)        | ✅          | ✅            | ✅              | ✅                  | ✅             | ✅        | ❌             |
+| **Feriados**                                   | ✅(Principal)        | ✅          | ✅            | ✅              | ❌                  | ✅             | ✅        | ❌             |
+| **Calendário de Impostos**                     | ✅(Principal)        | ❌          | ❌            | ❌              | ❌                  | ❌             | ❌        | ❌             |
 
-#### Mapeamento dos Sistemas
+✅* = Requer integração/sincronização
+❌ = Não aplicável diretamente ao sistema
+✅ = Nativamente gerenciado ou requerido pelo sistema
 
-| Nome da Aplicação     | Sigla | Descrição                                                               | Área Gestora (Negócio) | ANS Satisfação | Disponibilidade de Serviço | Níveis de Funcionamento do Serviço  | Datas de Importância                  | Tipo de Arquitetura | Linguagem  | Banco de Dados | Crescimento Anual do Banco (GB) | Tamanho Inicial do Banco (GB) |
-| --------------------- | ----- | ----------------------------------------------------------------------- | ---------------------- | -------------- | -------------------------- | ----------------------------------- | ------------------------------------- | ------------------- | ---------- | -------------- | ------------------------------- | ----------------------------- |
-| Gestão Corporativa    | GCORP | Aplicação monolítica para controle de processos administrativos         | Administrativo         | >= 85%         | 99,5%                      | Alta prioridade, operação 24x7      | Janeiro, Segunda-feira, 1-5           | Monolítica          | PHP e Java | Oracle         | 10                              | 10                            |
-| Serviço de Pagamentos | SPAG  | Microserviços para processamento de pagamentos e conciliação financeira | Financeiro             | >= 90%         | 99,9%                      | Critico, operação 24x7 com failover | Dezembro, Sexta-feira, 10,15,20,25,30 | Microserviços       | Java       | MongoDB        | 10                              | 10                            |
-#### Mapeamento dos Sistemas e Dados
-
-
-```mermaid
-flowchart LR
-A(Meus Dados</br>são...) -->|Dados| B{Regulamentados}
-B --> |Sim| C(PCI DSS) & D(LGPD) & E(HIPAA) & F(SOX)
-B --> |Não| G{Retível?}
-G --> H{Necessita</br>Criptografia?}
-H --> |Sim| H0(Criptografa)
-H --> H1(Tag de</br>Retenção)
-H0 --> H1 --> RETER[(Retenção)]
-C --> H0 --> ARQUIVA[(Arquiva)]
-D --> H0
-E --> H0
-F --> H0
-```
-
-### Definindo Arquitetura de Sistemas e fontes Originais
+# Possível Arquitetura de Sistemas e Fontes Originais
 
 
 
@@ -827,7 +795,7 @@ flowchart TD
         DP1  <--> DP2  <--> DP3
     end
 
-    subgraph SAAS_Products ["Source-Based"]
+    subgraph SAAS_Products ["Single Source of Truth"]
       subgraph legado ["Legado"]
         direction LR
         pass01[(e-Business Suite)]
@@ -867,6 +835,11 @@ flowchart TD
         subgraph eficiencia ["BPMS"]
           sv01[("Fluxos</br>Fluxos de Aprovação CESEC</br>Comunicação entre departamentos</br>onboarding")]
         end
+        subgraph bancodobrasil ["Banco do Brasil"]
+          bancodobrasil01[("Dados do Mestre")]
+          bancodobrasil02[("Parque Contratado")]
+          bancodobrasil03[("Feriados Bancários")]
+        end
     end
 
 
@@ -882,12 +855,12 @@ flowchart TD
 
 
 
-#### Visão Pós Aquisição
+# Possível Arquitetura  Cloud e Sistemas
 
 
 ```mermaid
 flowchart TD
-    BB[BB Tecnologia]
+    BB[BBTS]
     subgraph outras ["Outras Apps"]
          direction LR
         outras01["CMS-Content Management System - WordPress"]
@@ -934,10 +907,20 @@ flowchart TD
       SUCCESS[SAP SuccessFactors<br/>HCM]
       SERVICES[SAP Services Cloud<br/>CX / CRM]
     end
+    subgraph bancobrasil ["Contrato BB"]
+      direction LR
+      Mestre01["Arquivo Mestre"]
+      Mestre02["Parque Instalado"]
+      Mestre03["Chamados"]
+    end
+
     BB <--> outras & saas & sapapp & saasaz
+    sapapp <--> bancobrasil
 ```
 
+**Observação**: Para melhor compreensão deverá se medir o consumo de dados pela especificação **FOCUS**.
 
+# Possível Equipe de Arquitetura (e nova tecnologia - Analytics)
 
 ```mermaid
 flowchart TD
@@ -967,21 +950,6 @@ flowchart TD
    BB	  <--> bbtech
 ```
 
-
-### Definindo padrões de dados
-Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente.
-
-O primeiro passo para garantir uma alta qualidade de dados é aplicar lógica aos seus padrões de dados, como usar formatos unificados para endereços e descrições de produtos. Você precisa definir quais tipos de dados podem ser inseridos como valores de atributos. Certifique-se de que cada atributo só possa conter dados em um formato especificado, por exemplo:
-
-| Tipo de dados      | Formatos especificados                                                |
-| ------------------ | --------------------------------------------------------------------- |
-| Texto numérico     | `^[A-Z]{1,60}$`                                                       |
-| Número             | `1.25 OR 3 OR -4.5`                                                   |
-| CPF                | `\b\d{3}\.\d{3}\.\d{3}-\d{2}\b`                                       |
-| CNPJ               | `\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b`                                 |
-| NCM                | `\b\d{8}\b`                                                           |
-| Tipo de Logradouro | `Rua, Avenida, Praça, Travessa, Alameda, Estrada, Beco, Largo, Viela` |
-
 ## **Plano de Ação**
 A implementação de um plano de ação de Governança de Dados estruturado ajudará a sua organização a gerenciar dados de forma eficaz, garantindo qualidade, segurança e conformidade. Identificação dos processos de cadastros, responsabilização e autorização em dados Mestres/Referência e Transacional.
 
@@ -997,7 +965,7 @@ A implementação de um plano de ação de Governança de Dados estruturado ajud
 | **Background-Check**               | Quais as fontes públicas e privadas, que serão utilizadas.                                                                                                                                                                                                               |
 | **Ética e Compliance**             | Componentes essenciais da governança de dados e IA, garantem que as práticas relacionadas à coleta, uso e gestão de dados, bem como ao desenvolvimento e aplicação de sistemas de IA, sejam realizadas de maneira responsável e de acordo com as leis e normas vigentes. |
 
-### Indicadores
+## Indicadores
 Os indicadores de uma Central de Cadastro, geralmente, são estipulados pelos pilares (SUGESTÃO):
 
 | **Indicadores Base**        |                                                                                                                                                                                  |
@@ -1007,7 +975,7 @@ Os indicadores de uma Central de Cadastro, geralmente, são estipulados pelos pi
 | **Completude**              | Expresso em percentual, e indica o quão nosso cadastro está completo para as nossas necessidades, através de Relatório de Exceção, caso não haja como efetuar a obrigatoriedade. |
 | **Acurácia e Precisão**     | Avaliação de qualidade de dados, para determinar se aquele dado corresponde a uma entidade real, indicadores pelos usuários NÃO responsáveis pelo PRODUTO.                       |
 
-### Background-Check
+## Background-Check
 Este processo visa acelerar e padronizar a origem das informações a serem inseridas nos sistemas corporativos através de busca e integração com os órgãos ou entidades da administração pública direta ou indireta ou pessoa jurídica de direito privado, que sejam reconhecidamente, detentores "Serviços de Assessoramento” de informações, tais como:
 
 <div class="mdx-columns2" markdown>
@@ -1076,105 +1044,16 @@ A tabela Background-Check visa indicar alguns órgãos, para a automatização d
 |                             |                                                                                                                                                           |                                                                                                                                                                              |
 | **Inteligência Artificial** | Não visto.                                                                                                                                                |                                                                                                                                                                              |
 
-#### Compliance
+## Compliance
 
 | **Objeto**                        |                                                                                                                                                                             |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Direito/Jurídico**              | Validação como o Jurídico de normativos necessários (Base Legal sobre TEMPORALIDADE GRANULAR).                                                                              |
-|                                   | Entender as variáveis que podem ser utilizadas e quais não devem ser usadas na criação de modelos.<br><br>Necessidade em documentar e restringir no catálogo.               |
+|                                   | Entender as variáveis que podem ser utilizadas e quais não devem ser usadas na criação de modelos.<br>Necessidade em documentar e restringir no catálogo.                   |
 | **Responsabilidade**              | Assegurar que as ações e decisões tomadas com base em dados e IA, sejam responsáveis e que haja mecanismos para corrigir erros ou injustiças.                               |
 | **Treinamento e Conscientização** | Treinar, Treinar e Treinar objetivando que todos os colaboradores e partes envolvidas estejam cientes das políticas e regulamentos relacionados à governança de dados e IA. |
 
-### Ética de Dados
-Podemos definir como práticas relacionadas a dados que buscam preservar a confiança de usuários, funcionários/colaboradores e clientes, bem como abrange as obrigações morais de coletar, proteger.
-
-A ética é domínio de todos, não apenas o pessoal da TI ou de equipes jurídicas e de conformidade.  Os funcionários de toda a organização precisarão levantar, responder e pensar em várias questões éticas envolvendo dados.
-
-À medida que as organizações geram mais dados, adotam novas ferramentas e tecnologias para coletar e analisar dados e encontram novas maneiras de aplicar insights de dados, novos desafios e complicações de privacidade e ética surgirão.
-
-Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição. Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
-
-![](../img/dados-eticos-001.png){width="450" height="450" style="display: block; margin: 0 auto" }
-
-#### De onde vieram os dados?
-
-- [ ] Este fornecedor pode garantir que os sujeitos dos dados deram seu consentimento informado para uso por terceiros?
-- [ ] Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição.
-- [ ] Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
-- [ ] Podemos nos concentrar em transparência e protocolos opt-in/opt-out.
-- [ ] Devem ter uma variedade de gêneros, raças, etnias, classes e assim por diante: uma organização terá mais probabilidade de identificar problemas logo no início quando pessoas com uma variedade de origens e experiências diferentes se sentam ao redor da mesa.
-- [ ] Uma coisa é definir o que constitui o uso ético de dados e definir regras de uso de dados; outra é integrar essas regras às operações em toda a organização.
-
-#### Princípios de Ética de Dados
-
-| Princípio     | Descrição                                                                                                                                                                               |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Propriedade   | Um indivíduo tem propriedade sobre suas informações pessoais é ilegal e antiético coletar dados pessoais de alguém sem seu consentimento.                                               |
-| Transparência | Titulares dos dados têm o direito de saber como você planeja coletá-las, armazená-las e usá-las. Ao coletar dados, exercite a transparência.                                            |
-| Privacidade   | Garantir a privacidade dos titulares dos dados. Os informações pessoalmente identificáveis ​​(PII) deve estar declarada e declaradas.                                                   |
-| Intenção      | As intenções importam, por isso, antes de coletar dados, pergunte a si mesmo por que você precisa deles, o que você ganhará com eles e quais mudanças você poderá fazer após a análise. |
-| Resultados    | Quando as intenções são boas, o resultado da análise de dados pode causar danos inadvertidos a indivíduos ou grupos de pessoas.                                                         |
-
-## Padronização
-A padronização de dados elimina a semântica da complexidade envolvendo a coleta, harmonização e compilação de dados.
-
-| **Regras**     | **Entenda**                                                                                                        |
-| -------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Taxonomia**  | Regras mapeiam colunas e valores de dados do parceiro com dados da empresa.                                        |
-| **Modelagem**  | Regras especificam como agrupar elementos de dados e distribuí-los no sistema organizacional.                      |
-| **Semânticas** | Regras estabelecem o significado dos elementos de dados e como são usados pela empresa para descrever seu domínio. |
-
-#### Controle de Acesso aos Dados
-O operador é toda pessoa física ou jurídica, de direito público ou privado, que realiza o tratamento de dados em nome do controlador (a quem competem as decisões sobre o tratamento de dados).
-
-O controle de acesso é fundamental da segurança da informação, proporcionando mecanismos e políticas para garantir que apenas indivíduos e sistemas autorizados possam acessar e manipular recursos empresariais.
-
-Cada equipe de domínio, definida na RACI, trata os dados que produz como um PRODUTO, com um proprietário de PRODUTO, um ciclo de vida definido e um foco na entrega de valor para os consumidores desses dados.
-
-#### Desburocratização e Utilização de Dados
-A obtenção de dados de fontes governamentais, como Banco do Brasil, Banco Central do Brasil (BACEN) e Instituto Brasileiro de Geografia e Estatística (IBGE), bem como de empresas renomadas como GS1 e Serasa, é fundamental para a criação de critérios eletrônicos padronizados e que aumentam significativamente a transparência e a confiança.
-
-- [ ] Fontes governamentais fornecem dados confiáveis e abrangentes que são essenciais para a construção de modelos de análise de crédito robustos.
-- [ ] Como exemplo poderíamos retornar a utilização do BACEN, com as informações de fechamento do cambio.
-- [ ] O IBGE contribui com dados demográficos e econômicos que ajudam a contextualizar as análises de crédito.
-- [ ] A Loja do Serpro é outra ferramenta valiosa nesse contexto. Ela oferece serviços completos de consulta de CNPJ, permitindo acesso a informações públicas do Cadastro Nacional de Pessoas Jurídicas.
-- [ ] A Serasa, por sua vez, é uma das principais fontes de informações de crédito no Brasil, oferecendo dados detalhados sobre o histórico de crédito dos consumidores.
-- [ ] A padronização dos critérios eletrônicos baseados nesses dados aumenta a transparência, podendo reduzir a subjetividade, erros humanos na impostação de informações no sistema corporativo.
-
-Em resumo, a integração de dados de fontes confiáveis em um sistema de MDM/G e uma central de cadastro, com critérios eletrônicos padronizados, traz inúmeros benefícios, aumenta a transparência, fortalece a confiança, simplifica processos e torna a análise de crédito mais eficiente.
-
-#### Intregração com Parceiros
-A criação de um Registro de Decisão de Arquitetura (ADR) é essencial para documentar e justificar as decisões arquitetônicas tomadas durante o desenvolvimento de sistemas, especialmente quando se trata de integração com aplicações SaaS e parceiros tecnológicos.
-
-Aqui está um exemplo de como um ADR pode ser estruturado para estabelecer critérios de integração:
-
-|                                                 | **Registro de Decisão de Arquitetura (ADR)**                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Título**                                      | Comunicação Segura entre Duas Empresas (B2B/B2C) para Troca de Informações de Cadastro de Pessoas                                                                                                                                                                                                                             |
-| **Contexto e Problema**                         | As empresas precisam estabelecer um canal de comunicação seguro para trocar informações de cadastros. Esta troca deve garantir a privacidade dos dados, manter a governança e os protocolos de autorização, e ser protegida por um Acordo de Confidencialidade (Non Disclosure Agreement - NDA) assinado por ambas as partes. |
-| **Fatores de Decisão**                          |                                                                                                                                                                                                                                                                                                                               |
-| **Privacidade dos Dados**                       | Conformidade com regulamentações de proteção de dados (e.g., GDPR, LGPD).                                                                                                                                                                                                                                                     |
-| **Segurança**                                   | Garantir que os dados sejam transmitidos e armazenados de forma segura, com perfis de acesso e controlados por tempo;                                                                                                                                                                                                         |
-| **Governança**                                  | Políticas e procedimentos claros para o manuseio dos dados.                                                                                                                                                                                                                                                                   |
-| **Autorização**                                 | Somente pessoal autorizado pode acessar os dados. A instituição poderá solicitar a qualquer tempo, quem acessa e por qual finalidade.                                                                                                                                                                                         |
-| **Proteção Legal**                              | NDA para vincular legalmente ambas as partes à confidencialidade.                                                                                                                                                                                                                                                             |
-| **Opções Consideradas**                         |                                                                                                                                                                                                                                                                                                                               |
-|                                                 |                                                                                                                                                                                                                                                                                                                               |
-| **Integração Direta via API REST (Sincrona)**   | Troca de dados em tempo real, alto controle sobre o fluxo de dados. Limitada a x registros.                                                                                                                                                                                                                                   |
-| **Integração Direta via API REST (Assíncrona)** | Maior flexibilidade e escalabilidade, permite processamento em segundo plano.                                                                                                                                                                                                                                                 |
-| **Detalhes da Implementação**                   |                                                                                                                                                                                                                                                                                                                               |
-| **Criptografia**                                | Uso de TLS/SSL para dados em trânsito.                                                                                                                                                                                                                                                                                        |
-| **Autenticação**                                | Implementação de OAuth 2.0 para autenticação segura.                                                                                                                                                                                                                                                                          |
-| **Autorização**                                 | Controle de acesso baseado em funções (RBAC) para garantir que apenas pessoal autorizado possa acessar a API.                                                                                                                                                                                                                 |
-| **Governança de Dados**                         |                                                                                                                                                                                                                                                                                                                               |
-| **Classificação de Dados**                      | Classificar os dados para determinar a sensibilidade e os requisitos de manuseio.                                                                                                                                                                                                                                             |
-| **Logs de Auditoria**                           | Manter logs de todos os acessos e transações de dados para fins de auditoria.                                                                                                                                                                                                                                                 |
-| **Política de Retenção de Dados**               | Definir e aplicar políticas de retenção de dados.                                                                                                                                                                                                                                                                             |
-| **Monitoramento e Conformidade**                |                                                                                                                                                                                                                                                                                                                               |
-| **Auditorias Regulares**                        | Poderá ser realizada auditorias de segurança regulares para garantir conformidade com as regulamentações de proteção de dados.                                                                                                                                                                                                |
-| **Plano de Resposta a Incidentes**              | Não foi escopo deste trabalho desenvolver um plano de Resposta a Incidentes, por isso, para cada integração, deverá ser desenvolvido e mantido com uma periodicidade não superior a 1(um) ano, um plano de resposta a incidentes para lidar com possíveis violações de dados.                                                 |
-
-#### Temporalidade de Dados
+## Temporalidade de Dados
 A informação deve ser considerada como patrimônio pela empresa, até porque é um ativo de informação a ser protegido, lembrando que os dados pertencem aos titulares.
 
 Deve ter garantida a confidencialidade, disponibilidade e integridade da informação, como pilares da segurança da informação.
@@ -1208,11 +1087,149 @@ Entretanto, considerando a existência de inúmeras legislações setoriais, bem
 - [ ] Normalmente os provedores de nuvem, utilizam modelo de preços, **pay-as-you-go**, onde você paga pelo uso real dos recursos, tipos de armazenamento (objetos ,arquivos etc), volume de dados, redundância/backup e transferência.
 - [ ] Implementar práticas de otimização, como a exclusão de dados não utilizados e a escolha de tipos de armazenamento mais econômicos para dados menos acessados, podem reduzir **significativamente os custos** de armazenamento.
 - [ ] Defina políticas claras de retenção de dados para eliminar dados desnecessários ou obsoletos. Isso ajuda a reduzir o volume de dados armazenados e, consequentemente, os custos.
-#### **Anonimização**
+## Anonimização
 A anonimização tem como objetivo a eliminação ou redução significativa dos riscos de reidentificação dos dados anonimizados, mas sempre preservando a veracidade dos resultados do seu tratamento.
 O processo de anonimização, além de evitar a identificação do titular de dados pessoais, deve garantir que o tratamento realizado após a anonimização não implique em uma distorção dos dados reais.
 
-### Big Data vs. Small Data: Qual é a Diferença?
+## Ética de Dados
+Podemos definir como práticas relacionadas a dados que buscam preservar a confiança de usuários, funcionários/colaboradores e clientes, bem como abrange as obrigações morais de coletar, proteger. A ética é domínio de todos, não apenas o pessoal da TI ou de equipes jurídicas e de conformidade.  Os funcionários de toda a organização precisarão levantar, responder e pensar em várias questões éticas envolvendo dados.
+
+À medida que as organizações geram mais dados, adotam novas ferramentas e tecnologias para coletar e analisar dados e encontram novas maneiras de aplicar insights de dados, novos desafios e complicações de privacidade e ética surgirão.
+
+Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição. Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
+
+
+```mermaid
+flowchart LR
+A(Meus Dados</br>são...) -->|Dados| B{Regulamentados}
+B --> |Sim| C(PCI DSS) & D(LGPD) & E(HIPAA) & F(SOX)
+B --> |Não| G{Retível?}
+G --> H{Necessita</br>Criptografia?}
+H --> |Sim| H0(Criptografa)
+H --> H1(Tag de</br>Retenção)
+H0 --> H1 --> RETER[(Retenção)]
+C --> H0 --> ARQUIVA[(Arquiva)]
+D --> H0
+E --> H0
+F --> H0
+```
+
+## De onde vieram os dados?
+
+- [ ] Este fornecedor pode garantir que os sujeitos dos dados deram seu consentimento informado para uso por terceiros?
+
+| **Campo**                    | **Exemplo**                    |
+| ---------------------------- | ------------------------------ |
+| Tipo de Dado Sensível        | Dado Pessoal, Cartão, Saúde    |
+| Base Legal (LGPD art. 7)     | Consentimento, Obrigação legal |
+| Consentimento Obtido?        | Sim / Não                      |
+| Data/Hora do Consentimento   | 2025-05-27 14:22               |
+| Retenção prevista (em meses) | 60                             |
+| Destinação de Arquivamento   | SAP ILM / Vault / External DLP |
+| Políticas de acesso          | Apenas usuários com perfil XYZ |
+
+- [ ] Devemos criar uma estrutura de uso de dados que reflita uma visão e missão compartilhadas para o uso de dados pela instituição.
+- [ ] Depois de estabelecer regras comuns de uso de dados, é importante comunicá-las efetivamente dentro e fora da organização.
+- [ ] Podemos nos concentrar em transparência e protocolos opt-in/opt-out.
+- [ ] Devem ter uma variedade de gêneros, raças, etnias, classes e assim por diante: uma organização terá mais probabilidade de identificar problemas logo no início quando pessoas com uma variedade de origens e experiências diferentes se sentam ao redor da mesa.
+- [ ] Uma coisa é definir o que constitui o uso ético de dados e definir regras de uso de dados; outra é integrar essas regras às operações em toda a organização.
+
+## Princípios de Ética de Dados
+
+| Princípio     | Descrição                                                                                                                                                                               |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Propriedade   | Um indivíduo tem propriedade sobre suas informações pessoais é ilegal e antiético coletar dados pessoais de alguém sem seu consentimento.                                               |
+| Transparência | Titulares dos dados têm o direito de saber como você planeja coletá-las, armazená-las e usá-las. Ao coletar dados, exercite a transparência.                                            |
+| Privacidade   | Garantir a privacidade dos titulares dos dados. Os informações pessoalmente identificáveis ​​(PII) deve estar declarada e declaradas.                                                   |
+| Intenção      | As intenções importam, por isso, antes de coletar dados, pergunte a si mesmo por que você precisa deles, o que você ganhará com eles e quais mudanças você poderá fazer após a análise. |
+| Resultados    | Quando as intenções são boas, o resultado da análise de dados pode causar danos inadvertidos a indivíduos ou grupos de pessoas.                                                         |
+
+# Padronização
+A padronização de dados elimina a semântica da complexidade envolvendo a coleta, harmonização e compilação de dados.
+
+| **Regras**     | **Entenda**                                                                                                        |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Taxonomia**  | Regras mapeiam colunas e valores de dados do parceiro com dados da empresa.                                        |
+| **Modelagem**  | Regras especificam como agrupar elementos de dados e distribuí-los no sistema organizacional.                      |
+| **Semânticas** | Regras estabelecem o significado dos elementos de dados e como são usados pela empresa para descrever seu domínio. |
+
+## Definindo padrões de dados
+Bons padrões de dados estão no centro de uma solução MDM que funciona perfeitamente. Eles são essenciais para sua capacidade de colaborar e trocar dados dentro da organização, bem como externamente.
+
+O primeiro passo para garantir uma alta qualidade de dados é aplicar lógica aos seus padrões de dados, como usar formatos unificados para endereços e descrições de produtos. Você precisa definir quais tipos de dados podem ser inseridos como valores de atributos. Certifique-se de que cada atributo só possa conter dados em um formato especificado, por exemplo:
+
+| Tipo de dados      | Formatos especificados                                                |
+| ------------------ | --------------------------------------------------------------------- |
+| Texto numérico     | `^[A-Z]{1,60}$`                                                       |
+| Número             | `1.25 OR 3 OR -4.5`                                                   |
+| CPF                | `\b\d{3}\.\d{3}\.\d{3}-\d{2}\b`                                       |
+| CNPJ               | `\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b`                                 |
+| NCM                | `\b\d{8}\b`                                                           |
+| Tipo de Logradouro | `Rua, Avenida, Praça, Travessa, Alameda, Estrada, Beco, Largo, Viela` |
+
+## Controle de Acesso aos Dados
+
+- [ ] O operador é toda pessoa física ou jurídica, de direito público ou privado, que realiza o tratamento de dados em nome do controlador (a quem competem as decisões sobre o tratamento de dados).
+- [ ] O controle de acesso é fundamental da segurança da informação, proporcionando mecanismos e políticas para garantir que apenas indivíduos e sistemas autorizados possam acessar e manipular recursos empresariais.
+- [ ] Cada equipe de domínio, definida na RACI, trata os dados que produz como um PRODUTO, com um proprietário de PRODUTO, um ciclo de vida definido e um foco na entrega de valor para os consumidores desses dados.
+
+## Desburocratização e Utilização de Dados
+A obtenção de dados de fontes governamentais, como Banco do Brasil, Banco Central do Brasil (BACEN) e Instituto Brasileiro de Geografia e Estatística (IBGE), bem como de empresas renomadas como GS1 e Serasa, é fundamental para a criação de critérios eletrônicos padronizados e que aumentam significativamente a transparência e a confiança.
+
+- [ ] Fontes governamentais fornecem dados confiáveis e abrangentes que são essenciais para a construção de modelos de análise de crédito robustos.
+- [ ] Como exemplo poderíamos retornar a utilização do BACEN, com as informações de fechamento do cambio.
+- [ ] O IBGE contribui com dados demográficos e econômicos que ajudam a contextualizar as análises de crédito.
+- [ ] A Loja do Serpro é outra ferramenta valiosa nesse contexto. Ela oferece serviços completos de consulta de CNPJ, permitindo acesso a informações públicas do Cadastro Nacional de Pessoas Jurídicas.
+- [ ] A Serasa, por sua vez, é uma das principais fontes de informações de crédito no Brasil, oferecendo dados detalhados sobre o histórico de crédito dos consumidores.
+- [ ] A padronização dos critérios eletrônicos baseados nesses dados aumenta a transparência, podendo reduzir a subjetividade, erros humanos na impostação de informações no sistema corporativo.
+
+Em resumo, a integração de dados de fontes confiáveis em um sistema de MDM/G e uma central de cadastro, com critérios eletrônicos padronizados, traz inúmeros benefícios, aumenta a transparência, fortalece a confiança, simplifica processos e torna a análise de crédito mais eficiente.
+
+## Intregração com Parceiros
+A criação de um Registro de Decisão de Arquitetura (ADR) é essencial para documentar e justificar as decisões arquitetônicas tomadas durante o desenvolvimento de sistemas, especialmente quando se trata de integração com aplicações SaaS e parceiros tecnológicos.
+
+Aqui está um exemplo de como um ADR pode ser estruturado para estabelecer critérios de integração:
+
+|                                                 | **Registro de Decisão de Arquitetura (ADR)**                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Título**                                      | Comunicação Segura entre Duas Empresas (B2B/B2C) para Troca de Informações de Cadastro de Pessoas                                                                                                                                                                                                                             |
+| **Contexto e Problema**                         | As empresas precisam estabelecer um canal de comunicação seguro para trocar informações de cadastros. Esta troca deve garantir a privacidade dos dados, manter a governança e os protocolos de autorização, e ser protegida por um Acordo de Confidencialidade (Non Disclosure Agreement - NDA) assinado por ambas as partes. |
+| **Fatores de Decisão**                          |                                                                                                                                                                                                                                                                                                                               |
+| **Privacidade dos Dados**                       | Conformidade com regulamentações de proteção de dados (e.g., GDPR, LGPD).                                                                                                                                                                                                                                                     |
+| **Segurança**                                   | Garantir que os dados sejam transmitidos e armazenados de forma segura, com perfis de acesso e controlados por tempo;                                                                                                                                                                                                         |
+| **Governança**                                  | Políticas e procedimentos claros para o manuseio dos dados.                                                                                                                                                                                                                                                                   |
+| **Autorização**                                 | Somente pessoal autorizado pode acessar os dados. A instituição poderá solicitar a qualquer tempo, quem acessa e por qual finalidade.                                                                                                                                                                                         |
+| **Proteção Legal**                              | NDA para vincular legalmente ambas as partes à confidencialidade.                                                                                                                                                                                                                                                             |
+| **Opções Consideradas**                         |                                                                                                                                                                                                                                                                                                                               |
+|                                                 |                                                                                                                                                                                                                                                                                                                               |
+| **Integração Direta via API REST (Sincrona)**   | Troca de dados em tempo real, alto controle sobre o fluxo de dados. Limitada a x registros.                                                                                                                                                                                                                                   |
+| **Integração Direta via API REST (Assíncrona)** | Maior flexibilidade e escalabilidade, permite processamento em segundo plano.                                                                                                                                                                                                                                                 |
+| **Detalhes da Implementação**                   |                                                                                                                                                                                                                                                                                                                               |
+| **Criptografia**                                | Uso de TLS/SSL para dados em trânsito.                                                                                                                                                                                                                                                                                        |
+| **Autenticação**                                | Implementação de OAuth 2.0 para autenticação segura.                                                                                                                                                                                                                                                                          |
+| **Autorização**                                 | Controle de acesso baseado em funções (RBAC) para garantir que apenas pessoal autorizado possa acessar a API.                                                                                                                                                                                                                 |
+| **Governança de Dados**                         |                                                                                                                                                                                                                                                                                                                               |
+| **Classificação de Dados**                      | Classificar os dados para determinar a sensibilidade e os requisitos de manuseio.                                                                                                                                                                                                                                             |
+| **Logs de Auditoria**                           | Manter logs de todos os acessos e transações de dados para fins de auditoria.                                                                                                                                                                                                                                                 |
+| **Política de Retenção de Dados**               | Definir e aplicar políticas de retenção de dados.                                                                                                                                                                                                                                                                             |
+| **Monitoramento e Conformidade**                |                                                                                                                                                                                                                                                                                                                               |
+| **Auditorias Regulares**                        | Poderá ser realizada auditorias de segurança regulares para garantir conformidade com as regulamentações de proteção de dados.                                                                                                                                                                                                |
+| **Plano de Resposta a Incidentes**              | Não foi escopo deste trabalho desenvolver um plano de Resposta a Incidentes, por isso, para cada integração, deverá ser desenvolvido e mantido com uma periodicidade não superior a 1(um) ano, um plano de resposta a incidentes para lidar com possíveis violações de dados.                                                 |
+
+# Dados Analíticos - Conceitos
+
+- [ ]  Quais métricas de negócios específicas (por exemplo, receita, retenção de clientes) melhoraram devido a iniciativas de dados nos últimos 12 meses e quanto?
+- [ ]  Quais decisões de negócios foram melhoradas de forma mensurável por nossos investimentos em dados?
+- [ ] Qual é o custo real da baixa qualidade dos dados (por exemplo, erros, oportunidades perdidas) no último ano fiscal?
+- [ ] Quantos projetos de dados entregaram os resultados de negócios prometidos?
+- [ ]  Onde estamos desperdiçando dinheiro em armazenamento de dados não utilizado ou ferramentas redundantes?
+- [ ] Quais fornecedores de dados terceirizados fornecem valor mensurável em comparação com aqueles que drenam orçamentos?
+- [ ] Como o ROI dos investimentos em dados se compara a outras iniciativas estratégicas (por exemplo, marketing, P&D)?
+- [ ] Quanto tempo os analistas gastam limpando dados versus gerando insights?
+- [ ] Quais sistemas legados estão bloqueando a integração e qual é o cronograma de substituição?
+- [ ] Quantas fontes de dados conflitantes existem para a mesma métrica (por exemplo, números de vendas)?
+
+## Big Data vs. Small Data
 
 | **Critério**        | **Big Data**                                                                                                                      | **Small Data**                                                                       |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -1228,7 +1245,7 @@ O processo de anonimização, além de evitar a identificação do titular de da
 | **Privacidade**     | Mais desafios com segurança e conformidade (LGPD, GDPR etc.).                                                                     | Menor risco, mais fácil de gerenciar.                                                |
 | **Exemplos de uso** | - Análise de comportamento de consumidores em tempo real- Previsão de falhas em máquinas IoT- Detecção de fraudes em larga escala | - Relatório de vendas mensais- Pesquisa de satisfação de clientes- Tabela de estoque |
 
-### Banco de Dados vs. Data Warehouse vs. Data Lake vs. Data Lakehouse
+## Banco de Dados vs. Data Warehouse vs. Data Lake vs. Data Lakehouse
 
 | Recurso                               | Banco de Dados                                                      | Data Warehouse                                       | Data Lake                                                                      | Data Lakehouse                                                        |
 | ------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
@@ -1243,30 +1260,6 @@ O processo de anonimização, além de evitar a identificação do titular de da
 | Integração de Dados                   | ETL (Extração, Transformação, Carregamento) para dados estruturados | Processos ETL e ELT (Extrair, Carregar, Transformar) | Frequentemente utiliza ETL/ELT, suporta dados de diversas fontes               | ETL e ELT para dados estruturados e brutos                            |
 | Casos de Uso Comuns                   | Dados de CRM, Inventário, Registros Financeiros                     | Análise de Histórico de Vendas, Relatórios           | Armazenamento de dados brutos, dados de sensores, conteúdo gerado pelo usuário | Dados de Saúde, Dados de IoT, Dados Financeiros                       |
 | Eficiência de Armazenamento           | Otimizado para armazenamento de dados estruturados                  | Otimizado para desempenho de consultas               | Armazenamento de baixo custo para diversos tipos de dados                      | A eficiência do armazenamento pode variar de acordo com a arquitetura |
-
-## Algumas Ferramentas
-
-| OSS           | Azure                        | Uso                                                  |
-| ------------- | ---------------------------- | ---------------------------------------------------- |
-| OPEN METADATA | **Databricks Unity Catalog** | **Governança e Segurança**                           |
-| AIRFLOW       | Databricks Workflows         | Orquestração                                         |
-| MINIO         | Azure BlobStorage            | Armazenamento                                        |
-| TRINO         | Apache Spark                 | Motor de consulta SQL                                |
-| JUPYTER       | Databricks Notebook          | Data Science criação, compartilhamento de documentos |
-
-
-# Analíticos
-
-- [ ]  Quais métricas de negócios específicas (por exemplo, receita, retenção de clientes) melhoraram devido a iniciativas de dados nos últimos 12 meses e quanto?
-- [ ]  Quais decisões de negócios foram melhoradas de forma mensurável por nossos investimentos em dados?
-- [ ] Qual é o custo real da baixa qualidade dos dados (por exemplo, erros, oportunidades perdidas) no último ano fiscal?
-- [ ] Quantos projetos de dados entregaram os resultados de negócios prometidos?
-- [ ]  Onde estamos desperdiçando dinheiro em armazenamento de dados não utilizado ou ferramentas redundantes?
-- [ ] Quais fornecedores de dados terceirizados fornecem valor mensurável em comparação com aqueles que drenam orçamentos?
-- [ ] Como o ROI dos investimentos em dados se compara a outras iniciativas estratégicas (por exemplo, marketing, P&D)?
-- [ ] Quanto tempo os analistas gastam limpando dados versus gerando insights?
-- [ ] Quais sistemas legados estão bloqueando a integração e qual é o cronograma de substituição?
-- [ ] Quantas fontes de dados conflitantes existem para a mesma métrica (por exemplo, números de vendas)?
 
 ## Arquiteturas de dados single-hop
 Os dados são copiados apenas uma vez, por exemplo, de um sistema de origem para um data lake/warehouse onde os cientistas de dados podem acessá-los.
@@ -1294,7 +1287,7 @@ DWETLELT <--> dsp01 & dsp02
 
 Historicamente, os data warehouses eram o local onde você carregava todos os seus dados limpos e estruturados para fins analíticos — segmentando os dados para responder a consultas.
 
-- [ ] **Star Schema**(Tabelas de fatos no centro conectadas diretamente às tabelas de dimensão);
+- [ ] **Star Schema** (Tabelas de fatos no centro conectadas diretamente às tabelas de dimensão);
 - [ ] **Snowflake Schema** (Dimensões divididas em tabelas adicionais - normalizadas);
 ## Arquiteturas de dados multi-hop
 Utilizado para arquiteturas em que os dados são processados e copiados diversas vezes antes de finalmente atingirem um nível de qualidade e organização que possa impulsionar um caso de uso comercial específico.
@@ -1339,11 +1332,21 @@ id04[(Gateway)]
 - [ ] Dados básicos limpos: Aplicar filtragem, remodelação e aplicação da qualidade dos dados para converter os dados do estágio 1 para o estágio 2.
 - [ ] Dados empresariais selecionados: consistem em conjuntos de dados empresariais específicos criados a partir de dados obtidos no estágio 2.
 ## Arquitetura Medallion
-A arquitetura medalhão é um padrão de design usado por profissionais de dados para organizar e delinear conjuntos de dados. Ela é dividida em três classificações ou camadas de medalhão diferentes, de acordo com o padrão da Medalha Olímpica: bronze, prata e ouro.
+A arquitetura medalhão é um padrão de design usado por profissionais de dados para organizar e delinear conjuntos de dados. Ela é dividida em três classificações ou camadas de medalhão diferentes, de acordo com o padrão da Medalha Olímpica:
 
-Cada uma das três camadas representa qualidade, confiabilidade e garantias progressivamente maiores sendo o bronze o mais fraco e o ouro o mais forte.
+- [ ] **Bronze, Prata e Ouro**.
 
-Medallion é a adaptação mais recente e popular, e por um bom motivo: faz muito sentido da perspectiva de um profissional de dados que recebe pouca ou nenhuma ajuda das equipes que criam e mantêm os modelos de dados de origem.
+
+|                      | BRONZE                                                                                       | PRATA                                                                                                                        | OURO                                                                                                                        |
+| -------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| TESTES DE ENGENHARIA | Alterações de Esquema: O esquema dos dados brutos recebidos foi alterado inesperadamente?    | Confiabilidade: Os pipelines de dados relataram falhas ou erros?                                                             | Temporalidade: Há atrasos ou anomalias inesperadas na atualização dos conjuntos de dados curados?                           |
+|                      | Disponibilidade: A fonte de dados brutos está disponível e acessível no momento?             | Valores Aceitos: Todas as colunas categóricas contêm apenas valores válidos predefinidos (por exemplo, para status)?<br>     | Disponibilidade:Os conjuntos de dados publicados e curados estão acessíveis e utilizáveis ​​pelos usuários finais?          |
+|                      | Atualidade: Os novos dados brutos chegaram conforme o esperado dentro do prazo definido?     | Integridade: Todos os valores de chave estrangeira referenciam corretamente os registros existentes em suas tabelas pai?<br> | Responsividade:As consultas são processadas dentro de um limite de tempo de desempenho aceitável?                           |
+| TESTES FUNCIONAIS    | Completude: Há algum valor ausente nas colunas que são obrigatórias?                         | Consistência: Todos os valores correspondentes são representados usando o mesmo formato?                                     | Consistência:Os dados agregados correspondem aos dados de referência de outras fontes de dados?                             |
+|                      | Validade:Os valores nos dados brutos podem ser convertidos para os tipos de dados esperados? | Outliers: Há algum valor significativamente diferente do padrão?                                                             | Privacidade de Dados:Há algum dado sensível (PII) exposto involuntariamente nos conjuntos de dados públicos da camada Gold? |
+|                      | Unicidade: Há algum registro duplicado com base na(s) chave(s) primária(s) definida(s)?      | Unicidade:Há algum registro duplicado com base na(s) chave(s) de negócios definida(s)?                                       | Validade:Consultas de BI conhecidas e frequentemente utilizadas retornam resultados razoáveis?                              |
+
+Cada uma das três camadas representa qualidade, confiabilidade e garantias progressivamente maiores sendo o bronze o mais fraco e o ouro o mais forte. Medallion é a adaptação mais recente e popular, e por um bom motivo: faz muito sentido da perspectiva de um profissional de dados que recebe pouca ou nenhuma ajuda das equipes que criam e mantêm os modelos de dados de origem.
 
 
 ```mermaid
@@ -1370,15 +1373,13 @@ flowchart LR
 ```
 
 - [ ] A desvantagem da arquitetura Medallion é que todo o trabalho que você faz para deixar os dados limpos, confiáveis e bem formatados (a camada prateada) fica bloqueado no data lake ou no data warehouse.
-- [ ] Mover esses dados de prata para a esquerda  significa que podemos publicá-los como um **produto de dados** de primeira classe e fornecê-los a todos os consumidores, operacionais, analíticos ou intermediários;
-	- [ ] Arquitetura Medallion é cara.`
-	- [ ] Cada etapa incorre em custos — carregamento de dados;
-	- [ ] Encontrar conjuntos de dados semelhantes para reutilização pode ser difícil, pois a abordagem ad hoc para acessar dados tende a gerar silos e descobertas fragmentadas;
-	- [ ] ETL falha, todos os trabalhos subsequentes devem ser pausados até que o ETL seja corrigido;
-	- [ ] Transfere os dados do seu sistema para o seu data lake por meio de ETL/ELT, você precisa desnormalizá-los, reestruturá-los, padronizá-los, remodelá-los e dar sentido a eles — sem cometer erros;
-	- [ ] Dados incorretos farão com que seus clientes percam a confiança;
-
-OU
+	- [ ] Mover esses dados de prata para a esquerda  significa que podemos publicá-los como um **produto de dados** de primeira classe e fornecê-los a todos os consumidores, operacionais, analíticos ou intermediários;
+	- [ ] Arquitetura Medallion é cara?
+		- [ ] Cada etapa incorre em custos — carregamento de dados;
+		- [ ] Encontrar conjuntos de dados semelhantes para reutilização pode ser difícil, pois a abordagem ad hoc para acessar dados tende a gerar silos e descobertas fragmentadas;
+		- [ ] ETL falha, todos os trabalhos subsequentes devem ser pausados até que o ETL seja corrigido;
+		- [ ] Transfere os dados do seu sistema para o seu data lake por meio de ETL/ELT, você precisa desnormalizá-los, reestruturá-los, padronizá-los, remodelá-los e dar sentido a eles — sem cometer erros;
+		- [ ] Dados incorretos farão com que seus clientes percam a confiança;
 
 
 ```mermaid
@@ -1425,8 +1426,6 @@ flowchart TD
     Silver3 --> Gold2 --> dsp02
 ```
 
-
-
 - [ ] **Ingestão**: O processo de coletar dados de diferentes fontes e trazê-los para o ambiente de dados;
 - [ ] **Zona de Bruta**: A primeira área de armazenamento após a ingestão, onde os dados são armazenados **exatamente como recebidos**, sem tratamento;
 - [ ] **Camada Bronze**: Camada onde os dados são **organizados minimamente** para uso posterior, mantendo ainda sua forma bruta;
@@ -1434,8 +1433,7 @@ flowchart TD
 - [ ] **Camada final**: com dados **prontos para consumo analítico** ou operacional;
 - [ ] **Loja de Recursos**: Promove a **reutilização e padronização** entre equipes.
 
-
-### Os microsserviços são projetados como aplicativos pequenos, autocontidos e independentes.
+## Os microsserviços são projetados como aplicativos pequenos, autocontidos e independentes.
 Eles seguem a filosofia UNIX de fazer uma única coisa e fazê-la bem. Aplicativos mais complexos são criados conectando vários microsserviços entre
 si, que se comunicam apenas por meio de interfaces padronizadas, como conexões HTTP RESTful.
 
@@ -1495,6 +1493,18 @@ Lid06@{ animate: true }
 Lid07@{ animate: true }
 ```
 
+# Estudo
+
+## Algumas Ferramentas
+
+| OSS           | Azure                        | Uso                                                  |
+| ------------- | ---------------------------- | ---------------------------------------------------- |
+| OPEN METADATA | **Databricks Unity Catalog** | **Governança e Segurança**                           |
+| AIRFLOW       | Databricks Workflows         | Orquestração                                         |
+| MINIO         | Azure BlobStorage            | Armazenamento                                        |
+| TRINO         | Apache Spark                 | Motor de consulta SQL                                |
+| JUPYTER       | Databricks Notebook          | Data Science criação, compartilhamento de documentos |
+
 ## Apache Flink
 É um processador de fluxo robusto e robusto, amplamente utilizado em aplicações exigentes como essas.
 
@@ -1529,22 +1539,7 @@ graph TD
 ```
 Essas arquiteturas também são tolerantes a falhas: cada nó é independente, portanto não há pontos únicos de falha, e o sistema pode se recuperar rapidamente de uma falha de um nó individual.
 ## Pipelines de Dados de Streaming
-Pipelines de dados de streaming são uma abordagem moderna para a entrega de dados como um produto de autoatendimento.
 
-Conectar
-Crie e gerencie fluxos de dados com uma interface de usuário visual fácil de usar e conectores pré-criados.
-
-Governça
-Gerencie, marque, audite e aplique políticas centralmente para fluxos de dados confiáveis e de alta qualidade.
-
-Enriqueça
-Use SQL para combinar, agregar, limpar, processar e moldar dados em tempo real, aumentando a segurança, a eficiência e a usabilidade dos seus fluxos de dados para potencializar casos de uso operacionais, analíticos e de inteligência empresarial.
-
-Construir
-Prepare produtos de dados confiáveis e bem formatados para sistemas e aplicativos downstream
-
-Compartilhar
-Colabore com segurança em transmissões ao vivo com descoberta e compartilhamento de dados de autoatendimento.
 
 ```mermaid
 flowchart TD
@@ -1632,19 +1627,22 @@ flowchart TD
 
 ```
 
-# Plano de Governança de Dados Mestres
+# Exemplo - Plano de Governança de Dados Mestres
 ## Resumo Executivo
 Este plano descreve a estrutura de governança de dados mestres para assegurar consistência, integridade, conformidade regulatória e valor dos dados mestres em todo o ecossistema SAP da organização.
 
-##Objetivos
-Garantir dados mestres de alta qualidade
-Estabelecer papéis claros de responsabilidade
-Assegurar conformidade com LGPD, PCI, HPI e demais regulações
-Promover integração eficaz entre sistemas SAP
+## Objetivos
+
+- [ ] Garantir dados mestres de alta qualidade
+- [ ] Estabelecer papéis claros de responsabilidade
+- [ ] Assegurar conformidade com LGPD, PCI, HPI e demais regulações
+- [ ] Promover integração eficaz entre sistemas SAP
+
 ## Escopo
-Dados abrangidos: Fornecedores, Clientes, Materiais, Funcionários, Contas Contábeis, Localizações
-Sistemas envolvidos: S/4HANA, Concur, Ariba, Fieldglass, SuccessFactors
-Regiões cobertas: [ex: Brasil, EUA, Europa]
+- [ ] Dados abrangidos: Fornecedores, Clientes, Materiais, Funcionários, Contas Contábeis, Localizações
+- [ ] Sistemas envolvidos: S/4HANA, Concur, Ariba, LG, OneSource e SGPS
+- [ ] Regiões cobertas: [ex: Brasil]
+
 ## Papéis e Responsabilidades (RACI)
 | **Função**                | **Responsável (R)** | **Aprovador (A)**  | **Consultado (C)**      | **Informado (I)** |
 | ------------------------- | ------------------- | ------------------ | ----------------------- | ----------------- |
@@ -1653,53 +1651,101 @@ Regiões cobertas: [ex: Brasil, EUA, Europa]
 | Integração entre sistemas | TI                  | Arquiteto de Dados | Segurança da Informação | GRC               |
 
 ## Ciclo de Vida dos Dados
+
 Solicitação → Validação → Aprovação → Publicação → Sincronização → Arquivamento/Obsolescência
+
 ## Ferramentas e Tecnologias
-SAP MDG – Governança central
-SAP Integration Suite (CPI) – Replicação entre sistemas
-SAP BTP Data Catalog – Repositório de metadados
-SAP Analytics Cloud (SAC) – Monitoramento de qualidade
-DLP / Vault – Registro e trilha de auditoria
+
+- [ ] SAP MDG – Governança central;
+- [ ] SAP Integration Suite (CPI) – Replicação entre sistemas;
+- [ ] SAP BTP Data Catalog – Repositório de metadados;
+- [ ] SAP Business Data Cloud;
+- [ ] Data Bricks;
+- [ ] Apache HOP;
+
 ## Políticas e Padrões
-Naming convention padronizada
-Validação de duplicidade automatizada
-Códigos de classificação padronizados (UNSPSC, NCM, CNAE)
-Campos obrigatórios por tipo de dado
-Regras de segmentação por país (LGPD, GDPR, etc.)
+- [ ] Naming convention;
+- [ ] Validação de duplicidade automatizada;
+- [ ] Códigos de classificação padronizados (UNSPSC, NCM, CNAE);
+- [ ] Campos obrigatórios por tipo de dado;
+- [ ] Regras de segmentação por país (GPDR, PCI DSS, LGPD e HIPAA);
 ## Monitoramento e Qualidade
-KPIs: % de duplicidade, % de preenchimento, tempo médio de aprovação
-Auditorias trimestrais
-Indicadores de conformidade (PCI, LGPD, etc.)
+- [ ] KPIs: % de duplicidade, % de preenchimento, tempo médio de aprovação;
+ - [ ] Auditorias:  Mensal, Trimestrais, Semestral ou  [Anual;
+- [ ] Indicadores de conformidade (PCI, LGPD, etc.);
+## Rascunho de Como Iniciar
+- [ ] Realize uma auditoria de dados: Classifique fontes, problemas de qualidade e duplicação.
+- [ ] Mude da tomada de decisão em silos para a federada: Defina uma propriedade clara para iniciativas digitais, unidades de negócios e operações.
+- [ ] Capacite os proprietários de produtos: substitua as cadeias de aprovação hierárquicas por governança ágil para experimentação rápida (por exemplo, lançamentos de MVP).
+- [ ]  Implemente ferramentas de metadados e linhagem (por exemplo, Collibra, Atlan, Ferramentas de Metadados/Apache Atlas) para transparência e rastreabilidade.
+- [ ] Alinhe os orçamentos com modelos de assinatura de nuvem e sprints ágeis (por exemplo, ciclos de financiamento trimestrais versus anuais).
+	- [ ] Integração FinOps: Controle os gastos com nuvem com equipes multifuncionais para evitar custos excessivos. On-premise ou Full Cloud?
+- [ ] Organize um workshop de 1 hora para priorizar os 3 principais pontos problemáticos (por exemplo, lacunas de conformidade, fluxos de trabalho quebrados).
+	- [ ] Mapeie domínios de dados críticos (Cliente, Finanças) e sistemas (CRM, ERP).
+	- [ ] Mapa de calor de risco de dados destacando áreas urgentes;
+ - [ ] Governança de API e regras de residência de dados.
+	- [ ] Segurança (Autenticação e Autorização padronizadas, **Rate limiting & throttling** para evitar abusos, **Criptografia** (HTTPS, TLS))
+	- [ ] Design e Padronização (Uso consistente de **REST, GraphQL**),  Convenções(Versionamento, nomeação, verbos, estrutura de respostas e padronização de mensagens  de erro)
+	- [ ] Documentação (APIs **autodocumentadas** (OpenAPI/Swagger, Postman, etc.), Portal de desenvolvedores (Exemplos de uso, playground)
+	- [ ] Monitoramento e Observabilidade (Logs detalhados de chamada, Métricas de uso e performance (ex: tempo de resposta, erros) )
+	- [ ] Qualidade (contratuais, Linters e validadores de esquema (Spectral  (https://github.com/stoplightio/spectral))
+	- [ ] Gestão de Ciclo de Vida (Publicação, Versionamento, deprecation strategy)
+	- [ ] Reusabilidade e Descobrimento (Registro central de APIs disponíveis)
+	- [ ] Compliance e Conformidade (Aderência a LGPD, GDPR e outras regulações, Políticas de privacidade de dados em APIs públicas e internas)
+	- [ ] Governança Organizacional (API Owners, Product Managers, Times consumidores e provedores) e Comitê de Arquitetura ou API Guild para orientar e aprovar
+	- [ ] Portais e gateways com gestão centralizada (Kong, Apigee, AWS API Gateway, etc.)
+- [ ] Mapeie domínios de dados críticos (Clientes, Itens) e sistemas (CRM, ERP e demais sistemas internos);
+    - [ ]  Estabeleça fontes de ouro e hubs de dados mestres para domínios críticos;
+- [ ] Automatize a criação de perfis de dados, a limpeza e o monitoramento de qualidade;
+- [ ] Implemente ferramentas de metadados e linhagem para transparência e rastreabilidade.
+- [ ] Definição Legal da Temporalidade de Dados.(**Quanto mais dados mais desperdícios e este é um processo Lean**) .
 
-```mermaid
-flowchart TD
-    A[Solicitação de Novo Dado Mestre] --> B[Verificação de Categoria Sensível]
-    B --> C{Dado Sensível? LGPD/PCI/HPI}
-    
-    C -- Não --> D[Processamento Normal]
-    
-    C -- Sim --> E[Classificação: Dado Pessoal, Financeiro, Saúde]
-    E --> F[Validação de Permissividade]
-    F --> G{Permissão Existente?}
-    
-    G -- Não --> H[Solicita Aprovação de Base Legal]
-    H --> I[Registro de Consentimento / Justificativa]
-    I --> J[Gravar Trilha de Auditoria Vault / GRC]
-    
-    G -- Sim --> J
-    J --> K[Criação e Publicação via SAP MDG]
-    K --> L[Replicação com Flag de Sensibilidade e Política]
-    L --> M[Monitoramento Contínuo SAC / DLP]
-```
+### Exemplo: Questionário Básico para Fonte de Dados/Origem
+- [ ] Qual o provedor público que a solução encontra-se hospedada?
+	- [ ] Amazon Web Services (AWS)
+	- [ ] Microsoft Azure
+	- [ ] Google Cloud Platform (GCP)
+	- [ ] IBM Cloud
+	- [ ] Oracle Cloud
 
-| **Campo**                    | **Exemplo**                    |
-| ---------------------------- | ------------------------------ |
-| Tipo de Dado Sensível        | Dado Pessoal, Cartão, Saúde    |
-| Base Legal (LGPD art. 7)     | Consentimento, Obrigação legal |
-| Consentimento Obtido?        | Sim / Não                      |
-| Data/Hora do Consentimento   | 2025-05-27 14:22               |
-| Retenção prevista (em meses) | 60                             |
-| Destinação de Arquivamento   | SAP ILM / Vault / External DLP |
-| Políticas de acesso          | Apenas usuários com perfil XYZ |
+- [ ] Tipos de integração SaaS vs SaaS ou SaaS vs On-premise?
+	- [ ] Application Programming Interface (RESTful APIs, Webhooks)
+	- [ ] Integração via Middleware / iPaaS (Integration Platform as a Service)
+	- [ ] Integração via Troca de Arquivos (File-based Integration)
+	- [ ] Integração via Conectores Nativos (**plug-and-play**)
+	- [ ] Integração via RPA (Robotic Process Automation)
+	- [ ] ETL / ELT (Extração, Transformação e Carga de Dados)
+- [ ] Segurança
+	- [ ] Como é feito o controle de autenticação/autorização das APIs?
+		- [ ] ABAC — Attribute-Based Access Control
+		- [ ] Scopes no OAuth 2.0
+		- [ ] ABAC + OAuth 2.0 Scopes
+- [ ] Como os logs de acesso são monitorados e auditados?
+- [ ] Existem limites de rate limiting ou throttling do lado SaaS?
+- [ ] Existe segregação de ambientes (dev, hml/qa e prd)?
+- [ ] Qual a frequência de sincronização dos dados?
+	- [ ] Instantânea (segundos) (Webhooks, APIs com push, sockets, streaming (Kafka, WebSockets))
+	- [ ] A cada 1 a 15 minutos (Cron jobs, tarefas agendadas, polling via API)
+	- [ ] Horária (Cron jobs, tarefas agendadas, polling via API)
+	- [ ] Diária (Cron jobs, tarefas agendadas, polling via API)
+	- [ ] Semanal
+	- [ ] Mensal
+- [ ] Indique para Cada Sincronização de Dados: Criticidade dos dados, Volume/Custos e Capacidade técnica em realizar de forma instantânea.
+- [ ] Como será feita a integração com cada ambiente (API, conectores, ETL, CDC)?
+- [ ] Quais são as particularidades de cada ambiente (por exemplo, limites de API, taxas de transferência, etc.)?
 
+- [ ] Monitoramento
+	- [ ] Como é feito o monitoramento da integração?
+		- [ ] Há dashboards, alertas, health checks?
+		- [ ] Existem relatórios de sucesso/falha por operação? Há trilha de auditoria para dados lidos/enviados?
 
+	- [ ] O que acontece se a comunicação SaaS  e on-Premise ou SaaS, tiver algum tipo de falha, há mecanismos de retry automático, fallback? Há logs de falhas de integração e como eles são acessados?
+	- [ ] Existe mecanismo de **fila** ou **buffer** para eventos/dados não processados?
+	- [ ] Como os custos de transferência e processamento de dados serão gerenciados pela BBTS/Fornecedor SaaS?
+	- [ ] Há limites de largura de banda ou consumo que precisam ser respeitados?
+- [ ] Volumetria
+	- [ ] Qual o volume estimado de dados a ser consumido? (Pessoais, Funcionario, Contratuais, Regra de Ausência, Competências , Treinamentos, UOR, Estrutura Organizacional, Estrutura Posicional, Integração Pagamento, Integração Contábil);
+	- [ ] Quais formatos de dados serão tratados (JSON,XML, Parquet, etc.)?
+	- [ ] Como os dados serão criptografados em trânsito ?
+
+# Fear of Missing Out (F.o.M.O.)

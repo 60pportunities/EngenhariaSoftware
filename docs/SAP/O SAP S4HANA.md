@@ -1,3 +1,4 @@
+
 SAP FIori não era da SAP e passou a ser do SAP FIori - Ele é, na verdade, **uma abordagem de design de interface e uma coleção de aplicações SAP com foco na experiência do usuário**.
 
 - O **SAP Fiori Launchpad** é a **plataforma de acesso central** onde os usuários veem e acessam suas Fiori Apps.
@@ -18,7 +19,6 @@ O dimensionamento do hardware é complexo e muitos fatores precisam ser consider
 _Se for superestimado, recursos caros não serão_ utilizados, resultando em um custo total de propriedade (TCO) excessivo.
 
 _O RISE with SAP inclui diferentes componentes do SAP BTP e SAP Business Network para
-
 
 | Característica       | **RISE with SAP**             | **GROW with SAP**                 |
 | -------------------- | ----------------------------- | --------------------------------- |
@@ -102,13 +102,67 @@ Client
 |                  |                                                           |
 Na maioria das implementações modernas (especialmente no **S/4HANA**), a **Valuation Area por Plant** é **obrigatória**, pois permite maior controle.
 
-## Clean Core
+# Clean Core
 Clean Core é um conceito, gestão do ciclo de vida da aplicação.
 
-- [ ] Política de controle de modificações: **Evitar modificações no código-fonte do SAP S/4HANA**.
-- [ ] Remoção de código obsoleto: **Eliminar código não utilizado ou redundante**.
+- [ ] Política de controle de modificações: **Evitar modificações no código-fonte do SAP S/4HANA**;
+- [ ] Remoção de código obsoleto: **Eliminar código não utilizado ou redundante**;
 - [ ] Uso de APIs: **Dar prioridade no uso de APIs para extensões e integrações**.
 
+## Tecnologia para extensões e programas personalizados
+
+### Razões claras para desenvolver on-stack
+
+- [ ] Uso intensivo de dados do software SAP S/4HANA, leitura e gravação;
+- [ ] Alta frequência de interação com o SAP S/4HANA;
+- [ ] Diretrizes para proteger o desempenho e a resiliência da integração;
+- [ ] Arquitetura de destino (acoplamento flexível entre o componente da plataforma SAP BTP e o sistema SAP S/4HANA);
+- [ ] Replicação de dados para interações de usuário críticas para o desempenho;
+- [ ] Preferência por comunicação assíncrona em vez de síncrona (o protocolo OData V4 oferece opções correspondentes);
+	- [ ] O [OData](https://www.odata.org/) (Open Data Protocol) é um [padrão OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata) aprovado pela [ISO/IEC](https://www.oasis-open.org/news/pr/iso-iec-jtc-1-approves-oasis-odata-standard-for-open-data-exchange) que define um conjunto de melhores práticas para a construção e o consumo de APIs RESTful;
+### Possibilidade de desenvolvimento no SAP BTP
+
+- [ ] Dados do software SAP S/4HANA raramente acessados ​​ou replicados;
+- [ ] Integração assíncrona possível;
+
+- [ ] Se você precisar usar os dados, eles não devem ser transferidos em grandes quantidades, pois talvez não seja necessário acesso em tempo real.
+- [ ] Se você... Seria ótimo se você pudesse fazer integração assíncrona aqui.
+
+```mermaid
+flowchart TD
+      subgraph id01 ["SAP S/4Hana"]
+        subgraph id0103["Fortemente acoplado"]
+         it01id03["Dentro da pilha de tecnologia do sistema SAP S/4HANA"]
+         it02id03["Como ABAP, servidor front-end do SAP Fiori, banco de dados SAP HANA"]
+        end
+        subgraph id0102["Tier2"]
+         it01id0102["Cloud API enablement"]
+        end
+        subgraph id0101["Tier1 on stack"]
+          it01id0101["Key-user extensibility"]
+          it02id0101["Developer extensibility-ABAP Cloud"]
+        end
+      end
+      subgraph id02 ["SAP BTP"]
+        subgraph id0201["Tier2"]
+         it01id02["SAP Build solutions"]
+         it02id02["SAP Build Code"]
+         it03id02["ABAP Cloud"]
+        end
+        subgraph id0202["Lado a lado"]
+          it01id0202["Build in SAP BTP"]
+          it02id0202["Integrate into the SAP</br>S/4HANA suite system"]
+        end
+      end
+```
+
+
+
+
+- [ ] O OData (Open Data Protocol) é um padrão OASIS aprovado pela ISO/IEC que define um conjunto de melhores práticas para a construção e o consumo de APIs RESTful.
+
+Incorpore padrões de resiliência para interações
+Siga o guia do desenvolvedor para SAP BTP
 ### PAAS (Plataform as a Service)
 
 **Extensibilidade de Usuário-chave (In-App Key-user Extensibility)**: Possibilita fazer extensões e customizações dentro do SAP S/4HANA, usando aplicações Fiori. Apesar do nome ser Key-User Extensibility, essa é uma opção de extensibilidade mais direcionada a consultores funcionais e desenvolvedores, podendo ser feita por usuários-chave que tenham mais domínio técnico do SAP. Possibilidades dessa extensibilidade:
@@ -152,11 +206,121 @@ Mover a lógica de processamento de dados para o nível do banco de dados.
 Os CDSs facilitam isso ao permitir que operações complexas sejam definidas e executadas diretamente no banco de dados, reduzindo a quantidade de dados transferidos e melhorando significativamente o desempenho das aplicações.
 
 #### CDSs em comparação com as views ABAP tradicionais
-Melhor desempenho devido ao processamento no nível do banco de dados
-Reutilização mais fácil em diferentes contextos (analítico, transacional)
-Capacidade de incluir anotações para metadados e comportamentos
-Integração mais simples com ferramentas de desenvolvimento SAP modernas
-Suporte nativo para criação de serviços OData
+- [ ] Melhor desempenho devido ao processamento no nível do banco de dados
+- [ ] Reutilização mais fácil em diferentes contextos (analítico, transacional)
+- [ ] Capacidade de incluir anotações para metadados e comportamentos
+- [ ] Integração mais simples com ferramentas de desenvolvimento SAP modernas
+- [ ] Suporte nativo para criação de serviços OData
+
+
+
+
+
+
+https://help.sap.com/docs/SAP_S4HANA_CLOUD/323bd3f1dc8248bc8647c62f1baa6a3a/c3c00e55db333e6ae10000000a44176d.html?state=DRAFT&version=2208.500
+
+SAP Help Portal - SAP Online Help
+
+
+
+acima como parametrizar o ciclo de vida do produto conforme o regulamento
+
+
+
+https://help.sap.com/docs/SAP_S4HANA_CLOUD/323bd3f1dc8248bc8647c62f1baa6a3a/d3e9223994114f6e970b673715add4e8.html
+
+SAP Help Portal - SAP Online Help
+
+# SAP Documentação
+
+- [ ] [Documentação das APIs](https://api.sap.com/)
+- [ ] Site Professor
+	- [ ] https://www.linkedin.com/pulse/medir-%C3%A9-importante-mas-como-okr-bsc-mbo-hoshin-kanri-nascimento/
+	- [ ]
+
+acima as funcionalidades do EHS environm
+
+## Estrutura Organizacional
+
+```mermaid
+graph TD
+%% ENTERPRISE STRUCTURE - CLIENTE / LEGAL / CONTABILIDADE
+A[Client: ACME Group]
+A --> B[Controlling Area: CO_BR]
+B --> C[Company Code: ACME_BR01]
+
+C --> ModFI[FI Financeiro]
+C --> ModCO[CO Controladoria]
+
+%% ORGANIZATIONAL STRUCTURE - RH / CARGOS
+C --> D[Organizational Unit: Finanças]
+C --> E[Organizational Unit: Logística]
+C --> F[Organizational Unit: Comercial]
+
+D --> D1[Position: Gerente Financeiro]
+D --> D2[Position: Analista Contábil]
+E --> E1[Position: Supervisor de Estoque]
+E --> E2[Position: Assistente Logístico]
+F --> F1[Position: Diretor Comercial]
+F --> F2[Position: Vendedor]
+
+D --> ModHCM[HCM Recursos Humanos]
+E --> ModHCM
+F --> ModHCM
+
+%% ENTERPRISE STRUCTURE - LOGÍSTICA / VENDAS
+C --> G[Sales Organization: SO_BR01]
+G --> G1[Division: Eletrônicos]
+G --> G2[Division: Móveis]
+G --> ModSD[SD Sales & Distribution]
+
+C --> H[Plant: SP01 - São Paulo]
+H --> H1[Storage Location: SL01 - Estoque Geral]
+H --> H2[Storage Location: SL02 - Qualidade]
+
+H --> ModMM[MM Materiais]
+H --> ModPP[PP Planejamento Produção]
+H --> ModWM[WM Warehouse]
+
+%% Módulos interdependentes
+ModCO --> ModFI
+ModFI --> ModSD
+ModMM --> ModPP
+ModWM --> ModMM
+ModSD --> ModMM
+
+```
+
+```mermaid
+graph LR
+  A[Client: ACME Group]
+  A --> B[Company Code: ACME_BR Brasil]
+
+  B --> C[Planta: SP01 - São Paulo]
+  C --> C1[Armazém: SL01 - Logística]
+  C --> C2[Armazém: SL02 - Produção]
+
+  B --> D[Organização de Vendas: BR01]
+  D --> D1[Canal de Distribuição: Varejo]
+  D --> D2[Canal de Distribuição: Atacado]
+  D --> D3[Setor: Eletrônicos]
+  D --> D4[Setor: Eletrodomésticos]
+
+  B --> E[Organização de Compras: PUR_BR]
+  E --> E1[Grupo de Compras: João Comprador]
+  E --> E2[Grupo de Compras: Maria Compradora]
+
+  B --> F[Centro de Custo: CUST_FIN]
+  B --> G[Centro de Lucro: PROF_ELEC]
+
+  B --> H[Segmento: Consumer Goods]
+
+```
+
+
+1.1) Quais das seguintes afirmações são verdadeiras sobre o banco de dados SAP HANA? _Os dados podem ser indexados e agregados_, _Os dados_ _X_ _C são estruturados em colunas_ e _Os dados são executados na memória_
+
+2.0) O professor deu a dica de :
 
 ```mermaid
 sequenceDiagram
@@ -181,4 +345,10 @@ sequenceDiagram
     FioriLaunchpad-->>AdminUser: Confirma sucesso
 ```
 
+Unidade 2
 
+Cada aplicativo SAP Fiori é criado em torno do usuário, e não da função.
+- [x]  True
+- [ ] False
+
+Os aplicativos SAP Fiori podem ser classificados como qual dos seguintes: _Escolha as respostas corretas._ Folha de dados, Transacional e Analítico

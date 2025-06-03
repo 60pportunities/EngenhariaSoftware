@@ -4,7 +4,10 @@ https://threagile.io/
 https://github.com/Threagile/threagile
 https://github.com/ossf
 
+# Vale a Pena ver
 
+- [ ] [Daniela Amodei and Melanie Perkins](https://www.youtube.com/watch?v=YP80jreUrO0)
+- [ ] [Dario Amodei](https://www.youtube.com/watch?v=esCSpbDPJik)
 
 - [ ] [GraphQL](https://graphql.org/learn/)
 - [ ]
@@ -53,6 +56,7 @@ Migrando Sistemas Monolíticos Para Microsserviços: Padrões Evolutivos Para Tr
 OK - O poder do hábito: Por que fazemos o que fazemos na vida e nos negócios – https://amzn.to/4l5KwIJ
 OK - Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos - https://amzn.to/48j316d
 OK - Refatoração: Aperfeiçoando o Design de Código Existente – https://amzn.to/4i9ZZWc
+
 
 
 ## Conferência
