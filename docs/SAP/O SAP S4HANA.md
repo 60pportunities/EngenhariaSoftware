@@ -352,3 +352,44 @@ Cada aplicativo SAP Fiori é criado em torno do usuário, e não da função.
 - [ ] False
 
 Os aplicativos SAP Fiori podem ser classificados como qual dos seguintes: _Escolha as respostas corretas._ Folha de dados, Transacional e Analítico
+
+
+PERT (Project Evaluation and Review Technique) e CPM (Critical Path Method)
+MRP (Material Requirements Planning, ou Planejamento das Necessidades de Materiais) e o
+MRP II (Manufacturing Resource Planning, ou Planejamento dos Recursos de Manufatura)
+
+Principais Diferenças:
+
+| Característica | MRP (Planejamento das Necessidades de Materiais) | MRP II (Planejamento dos Recursos de Manufatura)        |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------- |
+| Foco           | Materiais                                        | Todos os recursos da produção                           |
+| Função         | Calcular necessidades de materiais               | Gerenciar todos os recursos da produção                 |
+| Capacidade     | Considera capacidade infinita                    | Leva em consideração a capacidade real                  |
+| Integração     | Não integra com outras áreas da empresa          | Integra com outras áreas (financeiro, engenharia, etc.) |
+| Planejamento   | Plano de compras e cronograma de produção        | Planejamento estratégico da produção                    |
+
+![[Pasted image 20250604090656.png]]
+
+- **Estoque Mínimo (EM) =** Consumo Médio (CM) x Tempo de Ressuprimento (TR)
+- **Estoque Máximo (EMáx) =** (Consumo Médio + Consumo Máximo) x Tempo de Ressuprimento – Estoque Mínimo.
+- **Ponto de pedido = média de consumo das mercadorias por dia x tempo de reposição das mercadorias em dias + estoque mínimo.**
+
+Imagine que uma empresa consome 10 unidades por dia de um determinado produto.
+
+- Tempo de reposição do fornecedor: 5 dias
+	- Tempo de segurança (margem para atraso): 2 dias
+- Lote de compra: 100 unidades
+
+### Cálculos:
+
+**Estoque Mínimo**
+= 10 × 2 = **20 unidades**
+**Estoque Máximo**
+= (10 × 5) + 100 = 50 + 100 = **150 unidades**
+**Ponto de Ressuprimento**
+= 10 × 5 = **50 unidades**
+
+https://prod-174.westus.logic.azure.com:443/workflows/a6e5b201ddc749e6951f949b3180c3a3/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vhFhXEgnsCwkcZ87ehwyvbTamXLg-enKKkprt3w9LiE
+
+
+https://prod-174.westus.logic.azure.com:443/workflows/a6e5b201ddc749e6951f949b3180c3a3/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vhFhXEgnsCwkcZ87ehwyvbTamXLg-enKKkprt3w9LiE

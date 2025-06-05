@@ -416,6 +416,217 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 - [ ] Melhorar o COMPLIANCE da Organização;
 - [ ] Apoiar o desenvolvimento de modelos de IA modernizando as suas capacidades de dados.
 
+## Catalogoção de Dados Empresariais
+A arquitetura técnica estava pronta. A promessa de inovação e criação de valor, no entanto, que havia sido o argumento inicial a favor de investimentos massivos nas infraestruturas das organizações, mal havia dado frutos, além de alguns casos de uso impulsionados por equipes pioneiras e entusiasmadas. Estas falhas possivelmente estariam vindo de diversas fontes de dados,
+
+- [ ] Pântanos de dados com enormes espaços de armazenamento contendo dados cujo conteúdo e origem eram desconhecidos de todos e que ninguém sabia como usar;as organizações começaram a migrar (ou criar) suas infraestruturas analíticas;
+- [ ] Instituições migrando para a nuvem e a repensar a melhor forma de gerenciar volumes de dados que precisavam explorar;
+### Como ?
+- [ ] O que as pessoas estão procurando?
+- [ ] O que um cientista de dados estaria procurando?
+- [ ] Um diretor de proteção de dados?
+- [ ] Um diretor de segurança da informação?
+
+![[google.png]]{width="600" height="450" style="display: block; margin: 0 auto" }
+
+No fim das contas, todos nós estamos em busca de algo. E buscamos o tempo todo. O problema é que, no trabalho, é muito difícil procurar o que estamos tentando encontrar. E tomamos isso comoverdade, como algo que devemos simplesmente aceitar.
+
+### Catálogo de Dados
+Em essência, um catálogo de dados é um inventário organizado dos dados da sua empresa. Fornece uma visão geral apenas no nível de metadados e, portanto, nenhum valor.
+de dados real é exposto. Então, podemos definir que um catálogo de dados é basicamente um banco de dados com metadados que foram obtidos ou enviados de fontes de dados no ambiente de TI de uma determinada empresa.
+
+O catálogo de dados são organizados em domínios que contêm ativos. Os ativos são representações de metadados de dados em sistemas de origem.
+
+|                        |                                                                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visão geral do cenário | Fontes de dados nele contidas, além de listar as<br>pessoas ou funções associadas                                                                     |
+| Organizar dados        | Ativo é uma entidade de dados que existe em seu ambiente de TI.                                                                                       |
+|                        | Fonte de dados refere-se à origem dos dados que<br>estão sendo expostos em nível de metadados no catálogo de dados                                    |
+|                        | domínio é um grupo de ativos que logicamente pertencem um ao outro                                                                                    |
+|                        | A linhagem de dados descreve como os dados trafegam de um sistema<br>para outro e, idealmente, como os dados são transformados durante o trajeto.     |
+| Descoberta de dados    | Permite que todos os funcionários pesquisem todos os dados da empresa.                                                                                |
+|                        | Análise de dados<br>                                                                                                                                  |
+|                        | Governança de dados: Capacidade de classificar todos os dados em seu ambiente de TI, tanto em termos de sensibilidade<br>quanto de confidencialidade. |
+### Funções e responsabilidades do usuário final
+Os usuários finais de um catálogo de dados se enquadram em três categorias:
+
+- [ ] Usuários finais de análise de dados;
+- [ ] Usuários finais de governança;
+- [ ] Usuários finais do dia a dia;
+
+Todos os usuários finais têm uma ou mais das seguintes funções e responsabilidades no catálogo de dados:
+
+|                                |                                                                                                                                  |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Proprietário da fonte de dados | Proprietário do sistema ou guardião dos dados no gerenciamento de dados tradicional.                                             |
+| Proprietário do domínio        | Define quais ativos pertencem ao domínio e quem deve ter as diferentes funções no domínio                                        |
+| Administrador de domínio       | Conduz entrevistas com futuros proprietários de fontes de dados, gerenciar a arquitetura de domínio e fornecer acesso aos dados. |
+| Proprietário do ativo          | Proprietário dos dados na fonte de dados                                                                                         |
+|                                |                                                                                                                                  |
+### Organizando Domínios no Catálogo de Dados
+Um domínio agrupa ativos que logicamente pertencem juntos, cabendo aos proprietários dos domínios definir quais ativos serão incluídos em seus domínios.
+
+
+```mermaid
+flowchart LR
+    A[Domínio] -->B(Entrada principal do catálogo de dados)
+    subgraph id01["Processos ou Capacidades"]
+       direction LR
+       id0101[Conhecimento]
+       id0102[Objetivos]
+       id0103[Métodos]
+    end
+    B --> id01
+    subgraph id02["Fonte de Dados"]
+      direction LR
+     id0201[Fonte de dados genérica]
+     id0202[Fonte de dados específica]
+    end
+    id01 --> id02
+    subgraph id03["Fonte de dados específica"]
+       direction LR
+       id0301[Ativo 00n]
+       id0302[Ativo 00n]
+       id0303[Ativo 00n]
+    end
+    subgraph id04["Fonte de dados Genérica"]
+       direction LR
+       id0401[Ativo 00n]
+       id0402[Ativo 00n]
+       id0403[Ativo 00n]
+    end
+    id02 --> id03 & id04
+```
+
+
+|                                               |                                                                                                                                                                                                                                                                                                                                  |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Processos ou Capacidade                       | Organizando os dados em uma estrutura que representa a empresa na qual os dados são criados. As capacidades consistem em pessoas, processos e tecnologia.                                                                                                                                                                        |
+|                                               | Um domínio de processo é definido com base em como as coisas são feitas.                                                                                                                                                                                                                                                         |
+|                                               | Capacidade descreve quais tarefas uma empresa executa — do que a empresa é capaz.                                                                                                                                                                                                                                                |
+| Fontes de dados                               | A fonte de dados genérica é um componente tecnológico. Essas tecnologias podem ser bancos de dados, data lakes ou data warehouses e aplicativos reais. Se refere ao componente de software, como Tableau, Qlik Sense,  Power BI e etc.                                                                                           |
+|                                               | Uma fonte de dados específica significa simplesmente que se trata de uma instância específica da fonte de dados genérica. Nesse caso, trata-se de uma assinatura específica do Power BI.                                                                                                                                         |
+| Metadados de ativos                           |                                                                                                                                                                                                                                                                                                                                  |
+| Metadados derivados da fonte de dados         | Metadados técnicos: Informam exatamente em qual fonte de dados o ativo está armazenado, quem o criou, quando o ativo foi criado, o formato do arquivo, etc.                                                                                                                                                                      |
+|                                               | Metadados de negócios: Descrevem o ativo em linguagem humana, por exemplo, nomes de tabelas e colunas, descrições e definições de tipos de dados, etc.                                                                                                                                                                           |
+| Metadados adicionados ao catálogo<br>de dados | Descrições, pessoas e termos do glossário, aos ativos do seu catálogo de dados. As descrições devem conter o uso primário e secundário. O uso primário é uma breve explicação sobre a finalidade do ativo na fonte de dados de onde foi extraído/enviado. No uso secundário, a  sugestões do provedor de dados aos consumidores. |
+|                                               |                                                                                                                                                                                                                                                                                                                                  |
+
+#### Processos e Capacidades
+```mermaid
+flowchart TD
+    A[Domínio] -->B["RH Processo"]
+    B --> B0[Recrutamento] & B1[On-Boarding] & B2[Desenvolvimento] & B3[Off-Boarding]
+    B0 --> B001[Busca de Talentos] & B002[Triagem] & B003[Contratação]
+    A --> C[Data Analytics]
+    C --> C00[Análise Descritiva] & C01[Análise Preditiva] & C02[Análise Prescritiva]
+    subgraph id01 [Relatórios]
+
+      id0101[Relatórios de Engajamento]
+      id0102[Relatórios Financeiros]
+      id0103[Relatórios de Tendências de Demanda]
+    end
+    subgraph id03["Fonte de dados específica"]
+       id0301[Ativo 00n]
+       id0302[Ativo 00n]
+       id0303[Ativo 00n]
+    end
+    subgraph id04["Fonte de dados Genérica"]
+
+       id0401[Ativo 00n]
+       id0402[Ativo 00n]
+       id0403[Ativo 00n]
+    end
+    C00 --> id01 --> id03 & id04
+    B003 --> id03 & id04
+```
+
+**Observação**: Não caia na tentação de construir seus domínios diretamente com base em sua Estrutura Organizacional. Nossa organização muda o tempo todo: equipes são fundidas, divididas, terceirizadas, recriadas e reorganizadas constantemente — e você acaba mantendo uma arquitetura de domínio em constante mudança em vez de atender à descoberta de dados.
+Não li, mas vi que tinha uma matéria sobre [Enciclopédia da Organização do Conhecimento](https://www.isko.org/cyclo/knowledge_organization)
+#### Glossários
+Os glossários são listas de palavras que descrevem sua empresa e são controlados em vários graus, por uma equipe de glossário de domínio ou por uma equipe de glossário global centralizada.
+
+|                      |                                                                                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Glossário gratuito   | O glossário gratuito é uma folksonomia. Folksonomias são glossários gerados por usuários que organizam ativos por meio de tags.                        |
+| Glossário de domínio | Um glossário de domínio é uma taxonomia. Taxonomias têm uma hierarquia.                                                                                |
+| Glossário global     | O glossário global é um dicionário de sinônimos. É uma estrutura que se afasta do pensamento hierárquico e caminha em direção ao pensamento de cluster |
+
+#### Classificação Segurança e Privacidade
+A classificação de dados sob a perspectiva do CISO (**Chief Information Security Officer**) e do DPO (**Data Protection Officer**), estamos nos referindo principalmente ao risco, à proteção legal e à privacidade dos dados.
+
+| Critério         | CISO (Segurança)                      | DPO (Privacidade)                               |
+| ---------------- | ------------------------------------- | ----------------------------------------------- |
+| Foco principal   | Confidencialidade e integridade       | Privacidade e conformidade legal                |
+| Base legal       | Normas de segurança (ISO 27001, etc.) | LGPD / GDPR                                     |
+| Dados analisados | Todos os tipos de dados da empresa    | Apenas dados pessoais e sensíveis               |
+| Medidas comuns   | Controle de acesso, criptografia      | Consentimento, base legal, relatório de impacto |
+| Objetivo         | Proteger a informação                 | Proteger o titular de dados                     |
+Na perspectiva do DPO, podemos classificar os dados com foco em **privacidade, consentimento, base legal e direitos do titular** e pelo CISO
+
+| Tipo                    | Entenda                                                                          | Exemplo                                                               |
+| ----------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Pessoais                | Qualquer dado que identifique ou possa identificar um indivíduo.                 | nome, CPF, e-mail, endereço IP.                                       |
+| Pessoais Sensíveis      | Dado pessoal que, se tratado indevidamente, pode causar discriminação.           | origem racial, religião, opinião política, dados de saúde, biometria. |
+| Anonimizados            | Não identificam a pessoa, de forma irreversível.                                 |                                                                       |
+| Pseudonimizados         | Identificação removida, mas ainda reversível.                                    | Exige cuidados e pode ainda ser considerado dado pessoal.             |
+| Crianças e Adolescentes | Exigem consentimento específico dos pais/responsáveis.                           | Sujeitos a regras especiais de tratamento.                            |
+|                         |                                                                                  |                                                                       |
+| Públicos                | Sem restrições de acesso.                                                        |                                                                       |
+| Internos                | Uso restrito aos funcionários, mas sem causar grandes danos se vazados.          |                                                                       |
+| Confidenciais           | Vazamento pode causar impacto à operação, à reputação ou gerar sanções.          | contratos, informações financeiras.                                   |
+| Restritos / Sigilosos   | Críticos para a organização; requerem criptografia, controle de acesso rigoroso. | senhas, estratégias de segurança, P&D.                                |
+Podemos utilizar o conceito de  **Personally Identifiable Information (PII - Informações Pessoais Identificáveis)**, para qualquer dado que possa identificar direta ou indiretamente uma pessoa física viva.
+
+| **Categoria de Dados**  | **Tipo de Dado Pessoal (PII)**           | **Titular**       | **Finalidade do Tratamento**       | **Base Legal (LGPD)**              | **Onde está armazenado?**               | **Quem tem acesso?**      | **Prazo de Retenção**   | **Compartilhado com Terceiros?** | **Autorização do Titular?**     |
+| ----------------------- | ---------------------------------------- | ----------------- | ---------------------------------- | ---------------------------------- | --------------------------------------- | ------------------------- | ----------------------- | -------------------------------- | ------------------------------- |
+| Dados de clientes       | Nome, CPF, e-mail, telefone              | Cliente           | Cadastro e emissão de nota fiscal  | Execução de contrato               | Sistema ERP / Banco de dados / PaaS     | Financeiro, Atendimento   | Verificar temporalidade | Sim – Contabilidade externa      | Não aplicável                   |
+| Dados de funcionários   | RG, endereço, CTPS, salário              | Colaborador       | Registro trabalhista               | Obrigação legal                    | LG / SaaS                               | RH, Contabilidade         | Verificar temporalidade | Sim – Governo, eSocial           | Não aplicável (obrigação legal) |
+| Dados de candidatos     | Currículo, e-mail, telefone              | Candidato a vaga  | Processo seletivo                  | Consentimento                      | Plataforma de Recrutamento              | RH                        | Verificar temporalidade | Não                              | Sim (via formulário)            |
+| Dados de navegação      | IP, cookies, localização                 | Visitante do site | Analytics, remarketing             | Legítimo interesse / Consentimento | Google Analytics / CRM                  | Marketing, TI             | Verificar temporalidade | Sim – Ferramentas de análise     | Sim                             |
+| **Dados de benefícios** | Nome, CPF, matrícula, e-mail corporativo | Colaborador       | Ativação de convênio com TotalPass | Consentimento explícito            | Plataforma de RH / Gestão de Benefícios | RH, Parceiros autorizados | Verificar temporalidade | **Sim – Empresas de Convenios**  | **Sim (formulário de adesão)**  |
+
+
+Objetivando a criação de uma classificação simples, podemos pensar em formular perguntas simples do tipo:
+- [ ] Se os dados fossem divulgados acidentalmente, qual seria o dano causado?
+- [ ] Todos os seus ativos têm um nível de sensibilidade.
+- [ ] As fontes de dados são extraídas e enviadas para um catálogo de dados, usando rastreadores prontos para uso do catálogo de dados, armazenamentos de dados somente leitura (RDSs), APIs e streaming.
+- [ ] A estrutura de domínio tem três camadas que consistem em processos ou capacidades, fontes de dados e ativos.
+
+
+## Pesquisa em dados versus Pesquisa de dados
+- [ ] Pesquisar em dados é quando buscamos algo que queremos saber nos dados reais.
+	- [ ] Quantas pessoas visualizaram meu perfil no Linkedin? 100.
+- [ ] Pesquisar dados é quando procuramos as fontes que contêm os dados que precisamos.
+	- [ ] Onde podemos encontrar dados sobre o tráfego em nosso site?
+
+Fontes que devem ser olhadas:
+- [ ] [Data Management Body of Knowledge (DAMA-DMBOK)](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/)
+- [ ] [Introdução à Biblioteconomia e Ciência da Informação](https://csi.pressbooks.pub/lis/)
+
+
+
+
+```mermaid
+mindmap
+  root((Dados))
+    01.Domínio
+    02.Seleção de Ativos
+    03.Ativo Criado
+    04.Ativo Mantidos
+    05.Descrição do Ativo
+    06.Termos do Glossario
+    07.Linhagem
+    08.Gráfico
+    09.Ativo Publicado
+    10.Ativo Descoberto
+    11.Recurso Solicitado
+    12.Ativos Compartilhados
+    13.Novos Dados Criados
+    14.Nova Linhagem
+    15.Atualizar Descricao
+```
+
 ## Responsabilidades sobre os Dados
 É a **pessoa ou função responsável por garantir a qualidade, integridade, segurança e uso adequado dos dados mestres** em uma organização. O **Data Owner** não é apenas "dono" no sentido de posse, mas sim **responsável por decisões e políticas** relacionadas a esses dados. Suas funções incluem:
 
@@ -440,6 +651,8 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 ## Classificação dos Dados
 
 - [ ] **Dados Mestres (Master Data)**: Descrevem locais (estabelecimentos), entidades (pessoas (funcionários, parentescos, prestadores de serviço, temporários), clientes, fornecedores, instituição) e coisas que fazem parte de um contexto empresarial.
+
+<div class="mdx-columns2" markdown>
 	- [ ] Business Partner (Customer, Vendor)
 	- [ ] Material Master
 	- [ ] Chart of Accounts / G/L Account Master
@@ -450,12 +663,14 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 	- [ ] Plant / Storage Location / Company Code
 	- [ ] Pricing Conditions
 	- [ ] Project Definitions / WBS Elements
-	- [ ] **Viagens / Projetos**
-	- [ ] **Meios de pagamento (Cartões corporativos - CONCUR)**
-	- [ ] **Empregados (Estagiário, Prestador de Serviço, Funcionário Concursado, Cedido e outros)**
-	- [ ]
+	- [ ] Viagens / Projetos
+	- [ ] Meios de pagamento (Cartões corporativos - CONCUR)
+	- [ ] Empregados (Estagiário, Prestador de Serviço, Funcionário Concursado, Cedido e outros)
+</div>
 
 - [ ] **Dados de Referência (Reference Data)**: São um conjunto de valores ou esquemas de classificação que servem de apoio a um dado mestre;
+
+<div class="mdx-columns2" markdown>
 	- [ ] Unit of Measure
 	- [ ] Currencies
 	- [ ] Country / Region / Tax codes
@@ -463,17 +678,20 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 	- [ ] Payment Terms / Incoterms / Shipping Conditions
 	- [ ] Document Types
 	- [ ] Posting Periods / Fiscal Year Variants
-	- [ ]  **Códigos de despesa (Expense Types)**
-	- [ ] **Regras de política de viagem e despesas**
-	- [ ] **Supplier Profile / SLP**
-	- [ ] **Categorias de produtos (UNSPSC)**
-	- [ ] **Códigos fiscais**
-	- [ ] **Tipos de serviço**
-	- [ ] **Posições / Cargos**
-	- [ ] **Estrutura Organizacional**
-	- [ ] **Unidades de Negócio / Departamentos**
-	- [ ] **Benefícios / Registros de compensação**
+	- [ ]  Códigos de despesa (Expense Types)
+	- [ ] Regras de política de viagem e despesas
+	- [ ] Supplier Profile / SLP
+	- [ ] ategorias de produtos (UNSPSC)
+	- [ ] Códigos fiscais
+	- [ ] Tipos de serviço
+	- [ ] Posições / Cargos
+	- [ ] Estrutura Organizacional
+	- [ ] Unidades de Negócio / Departamentos
+	- [ ] Benefícios / Registros de compensação
+</div>
+
 - [ ] **Dados de referência externos**: APIs conectam os dados de referência a autoridades regulatórias externas, como agências governamentais ou conversores de moeda. Os dados recebidos são classificados e selecionados para se alinharem com os dados mestres estabelecidos.
+
 	- [ ]  **Tabela de Background-Check**
 		- [ ] A identificação de uma fonte segura para Dados Mestres/Referência e/ou a criação de estruturas de codificação faladas são fundamentais, para a iniciação de um processo de adaptação antes da migração de um sistema de Gestão. Estruturamos o levantamento das informações em QUATRO etapas:
 		- [ ] Em um cenário empresarial em constante evolução, a gestão eficaz de informações tornou-se um fator crucial para o sucesso das organizações. No centro dessa transformação,  que visa otimizar o relacionamento com padrões, responsáveis, interagir fornecedores e aprimorar o atendimento ao cliente.
@@ -488,10 +706,13 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 
 - [ ] **Dados de referência interna**: As definições e categorias permanecem relevantes para os processos de negócios atuais e atendem às necessidades de todas as disciplinas de negócios. Garanta que os administradores de dados permaneçam consistentes na criação e no gerenciamento de dados de referência.
 - [ ] **Dados transacionais**: São as informações operacionais cotidianas em seus bancos de dados de CRM, ERP e HCM. Como por exemplo: Notas Fiscais, Ordens de Compra, Lançamentos Financeiros e etc.
-	- [ ] **Contratos (Sourcing, Buying)**
-	- [ ]  **Materiais / Catálogos**
-	- [ ] **Regras de política de viagem e despesas**
-	- [ ] **Requisições / Ordens de Compra**
+
+<div class="mdx-columns2" markdown>
+	- [ ] Contratos (Sourcing, Buying)
+	- [ ]  Materiais / Catálogos
+	- [ ] Regras de política de viagem e despesas
+	- [ ] Requisições / Ordens de Compra
+</div>
 - [ ] **Dados não estruturados**: São dados de postagens em mídias sociais, e-mails, white papers ou chats de ajuda que são difíceis de categorizar.
 
 ## Pontos Chaves
@@ -615,7 +836,7 @@ O Data Quality Operations Center(DQOps) também usa dimensões de qualidade de d
 | **Integridade**                        | O grau em que os dados relacionais são estruturalmente corretos.                                                                                                                                                                                                                                                                              | A pesquisa por um valor de chave estrangeira não encontrou um registro correspondente em uma tabela de dimensão ou dicionário.                                                                                                                             |
 | **Razoabilidade**                      | O grau em que os valores dos dados são razoáveis ​​e fazem sentido.                                                                                                                                                                                                                                                                           | A soma dos valores em uma coluna agregável está dentro de um intervalo aceitável. Por exemplo, a receita total por dia está dentro de limites razoáveis.                                                                                                   |
 | **Pontualidade**                       | O grau em que o período entre o momento da criação do valor real e o momento em que o conjunto de dados está disponível é apropriado (os dados são atualizados).                                                                                                                                                                              | Os dados não estão atualizados. O registro mais recente não é mais antigo que um atraso aceito.                                                                                                                                                            |
-| **Singularidade                        | O grau em que os registros ocorrem apenas uma vez em um conjunto de dados e não são duplicados.                                                                                                                                                                                                                                               | Valores duplicados encontrados em uma coluna-chave que deve conter somente valores exclusivos.                                                                                                                                                             |
+| **Singularidade**                      | O grau em que os registros ocorrem apenas uma vez em um conjunto de dados e não são duplicados.                                                                                                                                                                                                                                               | Valores duplicados encontrados em uma coluna-chave que deve conter somente valores exclusivos.                                                                                                                                                             |
 | **Validade**                           | O grau em que os valores dos dados estão em conformidade com regras comerciais predefinidas, como formato, padrões, tipo e intervalo. Por exemplo, códigos postais e e-mails.                                                                                                                                                                 | Formato de telefone inválido. Valores que não correspondem aos padrões de expressões regulares.                                                                                                                                                            |
 
 # Definindo um Modelo
@@ -1749,8 +1970,70 @@ Solicitação → Validação → Aprovação → Publicação → Sincronizaç�
 	- [ ] Como os dados serão criptografados em trânsito ?
 
 # Fear of Missing Out (F.o.M.O.)
+<<<<<<< HEAD
 
 # Resumo
 A falta de governança fez com que os data lakes se transformassem em pântanos de dados — enormes espaços de armazenamento contendo dados cujo conteúdo e origem eram desconhecidos de todos e que ninguém sabia como usar.
 
 
+||||||| parent of 65849ab (<doc>: Ajustes na formatação.)
+=======
+
+
+# Alguns Exemplos
+
+##  Autorização para Compartilhamento de Dados Pessoais
+
+|                                                   |                                                 |
+| ------------------------------------------------- | ----------------------------------------------- |
+| Dados coletados:                                  | nome, CPF, matrícula, e-mail corporativo        |
+| Base legal:                                       | Consentimento do colaborador                    |
+| Terceiro autorizado:                              | CNPJ, Nome da Empresa, Contrato Assinado e etc. |
+| Registro do consentimento:                        | Formulário de adesão assinado digitalmente      |
+| Contrato com cláusula de proteção de dados (NDA): | Sim                                             |
+| Periodicidade de revisão                          |                                                 |
+| Período de Consentimento:                         | 99/99/9999 a 99/99/9999                         |
+| Ciencia da                                        |                                                 |
+## Revogação de Consentimento
+
+**Nome da Empresa]**
+**CNPJ:** [CNPJ da Empresa]
+**Endereço:** [Endereço da Empresa]
+**E-mail do DPO (Encarregado de Dados):** [e-mail de contato oficial]
+### **IDENTIFICAÇÃO DO TITULAR DOS DADOS**
+
+**Nome completo:** __________________________________________
+**CPF:** ________________________
+**E-mail:** __________________________________________
+**Telefone de contato:** ____________________________________
+### **OBJETO DA REVOGAÇÃO**
+Eu, [nome do titular], **revogo, de forma livre, informada e inequívoca**, o **consentimento anteriormente concedido** para o tratamento dos meus dados pessoais pela empresa [Nome da Empresa], conforme descrito no termo de consentimento assinado em [data do consentimento original]. Essa revogação refere-se ao tratamento dos seguintes dados (Relacionar aos dados concedidos e movimentaçoes)
+
+☐ Dado 1
+☐ Dado n
+☐ Outros (especificar): ____________________________________
+
+### **JUSTIFICATIVA (opcional)**
+
+### **CONSEQUÊNCIAS DA REVOGAÇÃO**
+Declaro estar ciente de que a **revogação do consentimento** poderá implicar na **impossibilidade de continuidade de determinados serviços ou benefícios**, caso esses dependam exclusivamente da base legal do consentimento, como:
+
+
+### **DESTINO DOS DADOS**
+
+☐ Solicito a exclusão completa dos dados tratados com base no consentimento.
+☐ Solicito apenas a interrupção do uso, mantendo os dados armazenados conforme prazos legais.
+☐ Outro (especificar): ___________________________________________
+
+### **ASSINATURA DO TITULAR DOS DADOS**
+
+**Cidade:** _________________________
+**Data:** _****/****_/________
+
+**Assinatura:** ___________________________________________
+### **RECEBIMENTO PELA EMPRESA**
+
+**Recebido por:** ___________________________________________
+**Cargo:** _________________________________________________
+**Data do recebimento:** _****/****_/________
+>>>>>>> 65849ab (<doc>: Ajustes na formatação.)
