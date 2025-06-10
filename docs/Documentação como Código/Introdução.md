@@ -1,3 +1,11 @@
+A documentação não é mais apenas uma ferramenta de suporte — é um verdadeiro ativo comercial. Documentos podem aumentar a satisfação do cliente e fazer com que as pessoas permaneçam, mas, no fundo, eles visam levar os usuários ao sucesso o mais rápido possível.
+
+A parte complicada? Comprovar o valor dos documentos quando o sucesso só pode ser demonstrado por problemas _que não_ acontecem.
+
+Todas as equipes entendem que os documentos servem como o primeiro ponto de contato para usuários que buscam suporte ou informações sobre produtos.
+
+Mas uma boa documentação não apenas dá suporte a um produto — ela melhora toda a experiência, desde o momento em que alguém ouve falar dele pela primeira vez, passando pela integração e pelo uso avançado. Então, como você mede o impacto real disso?
+
 O método de anotações do sociólogo alemão Niklas Luhmann, conhecido como _Zettelkasten_ (caixa de notas), como uma ferramenta poderosa para o desenvolvimento de ideias, escrita eficaz e aprendizado profundo.
 
 O nosso controle interno (força de vontade, autodisciplina) é limitado e que um sistema de organização externo, como o _Zettelkasten_, é crucial para o sucesso na escrita, aprendizagem e pensamento.
@@ -5,6 +13,9 @@ O nosso controle interno (força de vontade, autodisciplina) é limitado e que u
 Ahrens enfatiza que "o autocontrole e a autodisciplina têm muito mais a ver com o nosso ambiente do que conosco mesmos – e o ambiente pode ser mudado."
 
 Ele critica a excessiva dependência do planejamento e da força de vontade, defendendo uma abordagem mais orgânica e orientada por interesses.
+
+Acesse o Relatório: https://www.stateofdocs.com/2025/introduction-basic-stats
+
 ## **Cronologia**
 
 - [ ] **Década de 1960**: Niklas Luhmann, filho de um cervejeiro na Alemanha, trabalha em um escritório administrativo após formar-se em direito. Desinteressado em advocacia e inadequado para socializar no ambiente administrativo, ele dedica seu tempo livre à leitura e aos seus diversos interesses (filosofia, teoria organizacional e sociologia). Luhmann começa a **tomar notas** sobre seus estudos e pensamentos em pequenos pedaços de papel, numerando-os e guardando-os em uma caixa: **o slip-box (Zettelkasten)**.

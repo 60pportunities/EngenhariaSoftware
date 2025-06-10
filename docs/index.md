@@ -17,6 +17,13 @@
 ## **Configuração do Desktop**
 
 - [ ] [[Instalação]]
+
+## **Alguns Conceitos**
+
+<div class="mdx-columns2" markdown>
+- [ ] [[Noções Básicas de Especificação de TI]]
+</div>
+
 ## **Processos Internos**
 <div class="mdx-columns2" markdown>
 - [ ] [[Entrevistas]]

@@ -1,4 +1,10 @@
-Na última década, assistimos a um crescimento exponencial do volume de dados, impulsionado por avanços na conectividade sem fio, nuvem, proliferação de dispositivos de Internet das Coisas (IoT) e Inteligência Artificial.
+A gestão de dados é um tema emergente e disruptivo, impulsionado pela transformação digital e pela proliferação de dados em todos os setores.
+
+A quantidade e a complexidade dos dados gerados estão crescendo exponencialmente, impactando a gestão de dados devido a tendências como a adoção da nuvem, conectividade, ecossistemas, microserviços, dados abertos (open data), software como serviço (SaaS) e novos modelos de entrega de software.
+
+Essas tendências levam à fragmentação do cenário de dados, resultando em mais interfaces ponto a ponto, discussões sobre qualidade e propriedade dos dados, dilemas éticos e legais.
+
+A necessidade de agilidade e inovação rápida compete com a demanda por governança clara e estabilidade a longo prazo.
 
 Os dados impulsionam partes significativas de nossas vidas, desde recomendações até sistemas de inteligência artificial que identificam tratamentos médicos mais eficazes.
 
@@ -35,17 +41,11 @@ O mesmo se aplica aos negócios, que estão se tornando cada vez mais **orientad
 ## Negócio e suas queixas - Uma análise
 
 <div class="mdx-columns2" markdown>
-
 - [x] Times de Dados vs Times de Negócio;
-
 - [x] Dificuldade na obtenção de informações;
-
 - [x] Dados descentralizados;
-
 - [x] Negócio e suas queixas;
-
 - [x] Demora nas entregas da TI;
-
 </div>
 
 ## Times de Dados e suas queixas
@@ -93,7 +93,6 @@ Big Data **não é uma ferramenta**, é um **conceito** que envolve lidar com gr
 | **Variedade**  | Dados estruturados e não estruturados (texto, vídeo, IoT etc.) |
 | **Veracidade** | Qualidade e confiabilidade dos dados                           |
 | **Valor**      | Capacidade de gerar insights úteis                             |
-
 ## Quanto mais...
 
 - [ ] **Quanto mais dados mais desperdícios e este é um processo Lean**.
@@ -123,12 +122,18 @@ Big Data **não é uma ferramenta**, é um **conceito** que envolve lidar com gr
 	- [ ] Requer combinação de **Tecnologia**, **Processos bem definidos** e **Pessoas capacitadas**.
 
 # Estruturando a Ideia
-Porem cada vez menos empresas consideraram sistematicamente e começaram a abordar os aspectos éticos do gerenciamento de dados, o que pode ter amplas ramificações e responsabilidades.
+A velocidade da entrega de software também mudou com metodologias como DevOps e a adoção de microserviços, que exigem mais autonomia, comunicação aberta e equipes multifuncionais.  A proliferação de microserviços aumenta a complexidade e a necessidade de controlar melhor os dados.
 
+Preocupações com privacidade e segurança também se tornaram prioridade máxima devido ao volume e variedade crescentes de dados e à regulamentação mais rigorosa (Lei Geral de Proteção de Dados(LGPD), General Data Protection Regulation (GDPR) , Lei de Privacidade do Consumidor da Califórnia (CCPA)).
+
+Pontos de Reflexão:
+
+- [ ] A complexidade da regulamentação e da ética de dados contrasta com a necessidade de desenvolvimento de software rápido;
+- [ ] Empresas precisam de visibilidade e controle sobre dados pessoais, independentemente de onde estejam armazenados, isso exige governança interna mais forte e um ponto de vista mais defensivo sobre a gestão de dados;
 - [ ] Como as empresas devem começar a pensar sobre gerenciamento dados e ético de dados?
 - [ ] Quais medidas elas podem colocar em prática para garantir que estejam usando dados de consumidores, pacientes, RH, instalações e outras formas de dados apropriadamente em toda a cadeia de valor — da coleta à análise e insights?
 - [ ] Embora considerações de privacidade e ética sejam essenciais sempre que as empresas usam dados (incluindo aplicativos de inteligência artificial e aprendizado de máquina), elas geralmente não são a principal preocupação de alguns executivos.
-- [ ] Há bastante dados distorcidos ou tendenciosos durante a ingestão de dados, aumentando o tempo de disponibilização de análises?
+- [ ] Como  projetar uma arquiteturas e definir limites para determinar a propriedade?
 
 
 ```mermaid
@@ -238,6 +243,7 @@ DMBOK (Data Management Body of Knowledge) é o guia produzido pela DAMA que cons
 O foco do DMBOK é garantir que os dados da organização sejam gerenciados como um ativo estratégico.
 
 ![[../img/dama-data-governance.png]]{width="400" height="400" style="display: block; margin: 0 auto" }
+
 ### TOGAF e The Open Group
 The Open Group — um consórcio que promove padrões tecnológicos abertos.
 
@@ -256,10 +262,9 @@ TOGAF oferece uma abordagem estruturada para projetar, planejar, implementar e g
 
 ![[../img/togaf-data-governance.png]]{width="600" height="450" style="display: block; margin: 0 auto" }
 
-
 A comparação entre o **DMBOK (Data Management Body of Knowledge)** e o **TOGAF (The Open Group Architecture Framework)** no que tange à **Arquitetura de Dados** envolve entender como cada framework trata o tema, seus enfoques, escopos e aplicabilidades. Abaixo está uma análise comparativa:
 
-#### Visão Geral de Cada Framework
+### Unificando a visão
 
 | Aspecto            | **DMBOK**                                 | **TOGAF**                                                        |
 | ------------------ | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -295,46 +300,7 @@ A comparação entre o **DMBOK (Data Management Body of Knowledge)** e o **TOGAF
 |**Abordagem Prática**|Descritiva e orientada a processos de gestão|Metodológica e orientada a fases e desenvolvimento arquitetural|
 |**Aplicabilidade Organizacional**|Recomendado para organizações com maturidade em gestão de dados|Recomendado para organizações com visão integrada de arquitetura|
 
-# **Ideia Central: Centralização dos Cadastros**
-O tema de **GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO**, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
-
-- [ ] Gerenciar dados de forma eficiente exige um esforço conjunto, onde cada pessoa traz sua expertise, insights e experiências para enriquecer nossas estratégias.
-- [ ] O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado.
-- [ ] Cada um de nós lida com diferentes aspectos dos dados em nosso dia a dia – veja o ciclo de vida.
-- [ ] Essa diversidade de perspectivas é o que nos permitirá construir um sistema de GERENCIAMENTO DE DADOS, que seja robusto, flexível e capaz de atender às diversas demandas.
-- [ ] Por isso, convido todos a se engajarem nessa análise prepositiva, compartilhando suas experiências e ideias sobre como podemos aprimorar nossos processos de Gerenciamento de Dados.
-- [ ] Queremos ouvir suas sugestões sobre como garantir a qualidade dos dados, melhorar nossa governança e explorar novas formas de integrar e utilizar as informações de maneira eficaz.
-- [ ] Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados.
-- [ ] Junte-se a Modernização de Dados Mestres interseção do MDM/MDG (Master Data Management/Governance) com  Retrieval-Augmented Generation (RAG).
-
-# ODTA-C
-Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar nossos colaboradores de forma mais assertiva e colaborativa.
-
-| **Letra** | **Objeto**                             | **Razão**                                                       |
-| --------- | -------------------------------------- | --------------------------------------------------------------- |
-| **O**     | **OMNI** (abrangente, total)           | Omnipresença de dados e informações;                            |
-| **D**     | **DATA** (informação, análise)         | Dados para fundamentar decisões;                                |
-| **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                               |
-| **A**     | **Assertividade (confiança, clareza)** | Assertividade na comunicação e na execução de tarefas;          |
-| **C**     | **Conexão**                            | Conexão entre todos os elementos para atingir objetivos comuns. |
-
-- [ ] Assim, abre-se um conceito ou abordagem que integra e **unifica dados de diversas fontes e formatos**, proporcionando uma visão holística e abrangente das informações disponíveis.
-- [ ] Essa abordagem permite que organizações identifiquem, coletem, analisem e utilizem dados de maneira eficiente, favorecendo uma tomada de decisão mais informada e estratégica.
-
-ODTA-C representa uma abordagem estratégica para a gestão e utilização de dados, visando maximizar o valor das informações disponíveis e impulsionar a eficiência operacional e a inovação nas organizações, aplicando em toda a organização à maneira como os dados são obtidos, rastreados, usados, entregues e descartados.
-
-- [ ] Dados são um ativo estratégico e devem ser gerenciados.
-	- [ ] Se os dados não forem gerenciados, eles frequentemente **acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados**.
-	- [ ] Os dados exigem administração e responsabilização, este princípio exige que indivíduos sejam designados como **administradores e zeladores dos dados**.
-	- [ ] A administração de dados consiste nas pessoas, na organização e nos processos necessários para garantir que os administradores devidamente designados sejam responsáveis pela governança.
-
-## **Governado**
-O propósito de executar a Governança de Dados é mover dados de um **estado não governado para um estado governado**
-
-Dados governados são dados que são confiáveis e compreendidos e pelo qual, alguém é responsável por ambos os dados em si e para abordar questões sobre os dados.
-
-![](../img/dados-ciclo.png){width="600" height="450" style="display: block; margin: 0 auto" }
-## **Identificação do Problema**
+#  **Identificação do Problema**
 Registros com informações faltantes, duplicação de dados, risco de exposição de informações sensíveis, especialmente em conformidade com regulamentações como a LGPD, ausência de controles de acesso adequados, permitindo que usuários não autorizados acessem informações confidenciais, silos de dados (dificuldade em integrar dados de diferentes fontes, resultando em visões fragmentadas das informações), entre outros.
 
 Essa fragmentação de informações causa inconsistências com a análise de dados de atendimento, financeiro e administrativo, dificultando a comunicação com os fornecedores (prestadores de serviço, parceiros) e compromete a eficácia no atendimento ao cliente.
@@ -416,26 +382,34 @@ Tem que ser um espécie de protocolo de comunicação que traz diversos benefíc
 - [ ] Melhorar o COMPLIANCE da Organização;
 - [ ] Apoiar o desenvolvimento de modelos de IA modernizando as suas capacidades de dados.
 
+# **Governado**
+O propósito de executar a Governança de Dados é mover dados de um **estado não governado para um estado governado**
+
+Dados governados são dados que são confiáveis e compreendidos e pelo qual, alguém é responsável por ambos os dados em si e para abordar questões sobre os dados.
+
+![](../img/dados-ciclo.png){width="600" height="450" style="display: block; margin: 0 auto" }
 ## Catalogoção de Dados Empresariais
-A arquitetura técnica estava pronta. A promessa de inovação e criação de valor, no entanto, que havia sido o argumento inicial a favor de investimentos massivos nas infraestruturas das organizações, mal havia dado frutos, além de alguns casos de uso impulsionados por equipes pioneiras e entusiasmadas. Estas falhas possivelmente estariam vindo de diversas fontes de dados,
+A promessa de inovação e criação de valor, no entanto, que havia sido o argumento inicial a favor de investimentos massivos nas infraestruturas das organizações, mal havia dado frutos, além de alguns casos de uso impulsionados por equipes pioneiras e entusiasmadas. Estas falhas possivelmente estariam vindo de diversas fontes de dados,
 
 - [ ] Pântanos de dados com enormes espaços de armazenamento contendo dados cujo conteúdo e origem eram desconhecidos de todos e que ninguém sabia como usar;as organizações começaram a migrar (ou criar) suas infraestruturas analíticas;
 - [ ] Instituições migrando para a nuvem e a repensar a melhor forma de gerenciar volumes de dados que precisavam explorar;
 ### Como ?
 - [ ] O que as pessoas estão procurando?
 - [ ] O que um cientista de dados estaria procurando?
-- [ ] Um diretor de proteção de dados?
-- [ ] Um diretor de segurança da informação?
+- [ ] Gestor de proteção de dados?
+- [ ] Gestor de segurança da informação?
 
 ![[google.png]]{width="600" height="450" style="display: block; margin: 0 auto" }
 
-No fim das contas, todos nós estamos em busca de algo. E buscamos o tempo todo. O problema é que, no trabalho, é muito difícil procurar o que estamos tentando encontrar. E tomamos isso comoverdade, como algo que devemos simplesmente aceitar.
+No fim das contas, todos nós estamos em busca de algo. E buscamos o tempo todo. O problema é que, no trabalho, é muito difícil procurar o que estamos tentando encontrar. E tomamos isso como verdade, como algo que devemos simplesmente aceitar.
 
 ### Catálogo de Dados
 Em essência, um catálogo de dados é um inventário organizado dos dados da sua empresa. Fornece uma visão geral apenas no nível de metadados e, portanto, nenhum valor.
 de dados real é exposto. Então, podemos definir que um catálogo de dados é basicamente um banco de dados com metadados que foram obtidos ou enviados de fontes de dados no ambiente de TI de uma determinada empresa.
 
 O catálogo de dados são organizados em domínios que contêm ativos. Os ativos são representações de metadados de dados em sistemas de origem.
+
+Um catálogo de dados é uma ferramenta colaborativa. Ele só terá sucesso se muitas pessoas o utilizarem ativamente e de forma federada.
 
 |                        |                                                                                                                                                       |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -447,6 +421,7 @@ O catálogo de dados são organizados em domínios que contêm ativos. Os ativos
 | Descoberta de dados    | Permite que todos os funcionários pesquisem todos os dados da empresa.                                                                                |
 |                        | Análise de dados<br>                                                                                                                                  |
 |                        | Governança de dados: Capacidade de classificar todos os dados em seu ambiente de TI, tanto em termos de sensibilidade<br>quanto de confidencialidade. |
+
 ### Funções e responsabilidades do usuário final
 Os usuários finais de um catálogo de dados se enquadram em três categorias:
 
@@ -456,13 +431,13 @@ Os usuários finais de um catálogo de dados se enquadram em três categorias:
 
 Todos os usuários finais têm uma ou mais das seguintes funções e responsabilidades no catálogo de dados:
 
-|                                |                                                                                                                                  |
+| Quem                           | O que?                                                                                                                           |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | Proprietário da fonte de dados | Proprietário do sistema ou guardião dos dados no gerenciamento de dados tradicional.                                             |
 | Proprietário do domínio        | Define quais ativos pertencem ao domínio e quem deve ter as diferentes funções no domínio                                        |
 | Administrador de domínio       | Conduz entrevistas com futuros proprietários de fontes de dados, gerenciar a arquitetura de domínio e fornecer acesso aos dados. |
 | Proprietário do ativo          | Proprietário dos dados na fonte de dados                                                                                         |
-|                                |                                                                                                                                  |
+
 ### Organizando Domínios no Catálogo de Dados
 Um domínio agrupa ativos que logicamente pertencem juntos, cabendo aos proprietários dos domínios definir quais ativos serão incluídos em seus domínios.
 
@@ -562,6 +537,7 @@ A classificação de dados sob a perspectiva do CISO (**Chief Information Securi
 | Dados analisados | Todos os tipos de dados da empresa    | Apenas dados pessoais e sensíveis               |
 | Medidas comuns   | Controle de acesso, criptografia      | Consentimento, base legal, relatório de impacto |
 | Objetivo         | Proteger a informação                 | Proteger o titular de dados                     |
+
 Na perspectiva do DPO, podemos classificar os dados com foco em **privacidade, consentimento, base legal e direitos do titular** e pelo CISO
 
 | Tipo                    | Entenda                                                                          | Exemplo                                                               |
@@ -576,7 +552,12 @@ Na perspectiva do DPO, podemos classificar os dados com foco em **privacidade, c
 | Internos                | Uso restrito aos funcionários, mas sem causar grandes danos se vazados.          |                                                                       |
 | Confidenciais           | Vazamento pode causar impacto à operação, à reputação ou gerar sanções.          | contratos, informações financeiras.                                   |
 | Restritos / Sigilosos   | Críticos para a organização; requerem criptografia, controle de acesso rigoroso. | senhas, estratégias de segurança, P&D.                                |
+
 Podemos utilizar o conceito de  **Personally Identifiable Information (PII - Informações Pessoais Identificáveis)**, para qualquer dado que possa identificar direta ou indiretamente uma pessoa física viva.
+
+Uma das tarefas mais importantes ao projetar arquiteturas é **definir limites para determinar a propriedade**.
+
+Uma metodologia comum é o Domain-Driven Design (DDD),  em contextos Limitados (Bounded Contexts) são usados para definir limites lógicos que ajudam a gerenciar a complexidade, garantindo que as equipes saibam quais aspectos podem mudar de forma independente e quais são dependências compartilhadas que exigem coordenação.
 
 | **Categoria de Dados**  | **Tipo de Dado Pessoal (PII)**           | **Titular**       | **Finalidade do Tratamento**       | **Base Legal (LGPD)**              | **Onde está armazenado?**               | **Quem tem acesso?**      | **Prazo de Retenção**   | **Compartilhado com Terceiros?** | **Autorização do Titular?**     |
 | ----------------------- | ---------------------------------------- | ----------------- | ---------------------------------- | ---------------------------------- | --------------------------------------- | ------------------------- | ----------------------- | -------------------------------- | ------------------------------- |
@@ -586,13 +567,12 @@ Podemos utilizar o conceito de  **Personally Identifiable Information (PII - Inf
 | Dados de navegação      | IP, cookies, localização                 | Visitante do site | Analytics, remarketing             | Legítimo interesse / Consentimento | Google Analytics / CRM                  | Marketing, TI             | Verificar temporalidade | Sim – Ferramentas de análise     | Sim                             |
 | **Dados de benefícios** | Nome, CPF, matrícula, e-mail corporativo | Colaborador       | Ativação de convênio com TotalPass | Consentimento explícito            | Plataforma de RH / Gestão de Benefícios | RH, Parceiros autorizados | Verificar temporalidade | **Sim – Empresas de Convenios**  | **Sim (formulário de adesão)**  |
 
-
 Objetivando a criação de uma classificação simples, podemos pensar em formular perguntas simples do tipo:
-- [ ] Se os dados fossem divulgados acidentalmente, qual seria o dano causado?
-- [ ] Todos os seus ativos têm um nível de sensibilidade.
-- [ ] As fontes de dados são extraídas e enviadas para um catálogo de dados, usando rastreadores prontos para uso do catálogo de dados, armazenamentos de dados somente leitura (RDSs), APIs e streaming.
-- [ ] A estrutura de domínio tem três camadas que consistem em processos ou capacidades, fontes de dados e ativos.
 
+- [ ] Se os dados fossem divulgados acidentalmente, qual seria o dano causado?
+- [ ] Todos os seus ativos têm um nível de sensibilidade?
+- [ ] As fontes de dados são extraídas e enviadas para um catálogo de dados, usando rastreadores prontos para uso do catálogo de dados, armazenamentos de dados somente leitura (RDSs), APIs e streaming?
+- [ ] A estrutura de domínio tem três camadas que consistem em processos ou capacidades, fontes de dados e ativos?
 
 ## Pesquisa em dados versus Pesquisa de dados
 - [ ] Pesquisar em dados é quando buscamos algo que queremos saber nos dados reais.
@@ -601,9 +581,9 @@ Objetivando a criação de uma classificação simples, podemos pensar em formul
 	- [ ] Onde podemos encontrar dados sobre o tráfego em nosso site?
 
 Fontes que devem ser olhadas:
+
 - [ ] [Data Management Body of Knowledge (DAMA-DMBOK)](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/)
 - [ ] [Introdução à Biblioteconomia e Ciência da Informação](https://csi.pressbooks.pub/lis/)
-
 
 
 
@@ -627,7 +607,22 @@ mindmap
     15.Atualizar Descricao
 ```
 
-## Responsabilidades sobre os Dados
+
+### Produtos de Catálogo de Dados
+Ao escolher seu catálogo de dados, você deve primeiro considerar os recursos específicos da arquitetura corporativa, pois eles são mais permanentes do que a tecnologia que o executa.
+
+|                                                         |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Linhagem de dados                                       | Mapa sempre atualizado e preciso de como os dados realmente se movem                                                                                                                                                                                              | https://www.octopai.com/ e                                                                                                                                                                                                                                                                                                                                                                                             |
+| Compartilhamento de dados                               | Os contratos de dados e a qualidade dos dados compartilhados podem ser medidos para indicar em que medida os dados fornecidos pelo provedor de dados atendem às  demandas do consumidor de dados.                                                                 | https://github.com/great-expectations/great_expectations                                                                                                                                                                                                                                                                                                                                                               |
+| Construção personalizada                                | A construção personalizada também é uma opção — você pode criar seu próprio catálogo de dados.                                                                                                                                                                    | https://www.microsoft.com/pt-br/security/business/risk-management/microsoft-purview-data-governance/#overview ou https://cloud.google.com/data-catalog/docs/concepts/overview?hl=pt-br ou https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html ou https://www.sap.com/products/technology-platform/data-intelligence/features.html#data-catalog ou https://www.palantir.com/search?query=data%20catalog |
+| Inteligência de dados                                   | Caso de uso estratégico para catálogos de dados que exigem um vasto conjunto de componentes para funcionar.                                                                                                                                                       | https://www.collibra.com/ ou https://www.alation.com/lp/br-demo-request/                                                                                                                                                                                                                                                                                                                                               |
+| Governança de dados                                     | Concentra na governança de dados como sua principal capacidade deve monitorar e espelhar os requisitos apresentados  em padrões e regulamentações para governança de dados, por exemplo, a série ISO 27000 e LGPD.                                                | https://www.onetrust.com/solutions/data-use-governance/                                                                                                                                                                                                                                                                                                                                                                |
+| Catálogos de dados baseados em gráficos de conhecimento | gráficos de conhecimento permitem uma metamodelagem flexível, este  tipo de catálogo de dados permite modelar o universo de conhecimento da sua empresa em uma ontologia (**estudo ou conhecimento do ser**)                                                      | https://zeenea.com/ ou https://data.world/                                                                                                                                                                                                                                                                                                                                                                             |
+| Observabilidade de dados                                | Realizada com uma abordagem baseada em streaming para catálogos de dados, que permite aos usuários observar os dados em tempo real.                                                                                                                               | https://datahub.com/ ou https://www.acryldata.io/company ou https://www.acceldata.io/ ou https://www.anomalo.com/ ou https://www.ataccama.com/ ou https://www.bigeye.com/ ou https://www.kensu.io/ ou https://www.montecarlodata.com/ ou                                                                                                                                                                               |
+| Catálogo de catálogos                                   | Um catálogo que se sobrepõe a outros catálogos e expõe o conteúdo de todos eles. (Implementações isoladas e passadas de catálogos de dados ou Híbridos de catálogos de dados multicloud e locais ou  Recursos distintos e poderosos de vários catálogos de Dados) |                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+## Responsabilidades sobre os Dados - Federar Responsabilidades-Chave
 É a **pessoa ou função responsável por garantir a qualidade, integridade, segurança e uso adequado dos dados mestres** em uma organização. O **Data Owner** não é apenas "dono" no sentido de posse, mas sim **responsável por decisões e políticas** relacionadas a esses dados. Suas funções incluem:
 
 | Responsabilidade           | Descrição                                                                               |
@@ -648,46 +643,71 @@ mindmap
 | **Exemplos de funções**        | - Diretor Financeiro (dados contábeis)- Gerente de RH (dados de funcionários) | - Analista de Dados- Analista de Cadastro                    |
 | **Relação com a TI**           | Trabalha com áreas de negócio, toma decisões de alto nível                    | Trabalha com TI para aplicar regras de dados                 |
 
+## Contextos Limitados
+Limites lógicos no espaço de solução, focados no design de sistemas e aplicações, pode ser uma desde que sejam únicas, mutuamente exclusivas e coletivamente exaustivas. O conjunto dessas aplicações dentro dos limites da instância de capacidade forma um contexto limitado.
+
+Os domínios podem ser classificados com base nas características de distribuição e uso de dados:
+
+- [ ] Domínios alinhados a sistemas fonte - onde os dados se originam, tipicamente transacionais/operacionais;
+- [ ] Domínios alinhados a consumidores - que consomem e usam dados de outros domínios para casos de uso específicos;
+- [ ] Domínios agregados - combinam dados de diferentes domínios para si mesmos e outros;
+- [ ] Domínios construtores - criam novos dados com insights de negócio;
+
+## Master Data Management (MDM)
+O MDM é essencial em ambiente distribuído para consistência e confiança, focando em detectar e resolver inconsistencias, gerenciar governança, melhorar qualidade no hub.
+
+- [ ] Identificar dados únicos/confiáveis nas aplicações/sistemas (**golden source**), entendo o contexto, regras de negócio, formatos de cada fonte.
+- [ ] Projetar solução que harmonize/torne consistente
+- [ ] MDM: coletar, linkar, limpar, integrar, match, enriquecer, distribuir; remover duplicados, corrigir inconsistências; foco em entity consolidation, cluster reduction.
+
+Passos de design:
+
+- [ ] Identificar dados mestres/referência,
+- [ ] Escopo,
+- [ ] identificar fontes,
+- [ ] Definir modelo de dados (entidades, atributos, relações),
+- [ ] Definir regras de qualidade, distribuição de melhorias de volta à fonte, propriedade de dados criados, aprovação de mudanças,
+- [ ] Definições mestras no catálogo
 ## Classificação dos Dados
 
 - [ ] **Dados Mestres (Master Data)**: Descrevem locais (estabelecimentos), entidades (pessoas (funcionários, parentescos, prestadores de serviço, temporários), clientes, fornecedores, instituição) e coisas que fazem parte de um contexto empresarial.
 
 <div class="mdx-columns2" markdown>
-	- [ ] Business Partner (Customer, Vendor)
-	- [ ] Material Master
-	- [ ] Chart of Accounts / G/L Account Master
-	- [ ] Cost Center / Profit Center
-	- [ ] Work Center / Routing / BOM
-	- [ ] Asset Master
-	- [ ] Bank Master Data
-	- [ ] Plant / Storage Location / Company Code
-	- [ ] Pricing Conditions
-	- [ ] Project Definitions / WBS Elements
-	- [ ] Viagens / Projetos
-	- [ ] Meios de pagamento (Cartões corporativos - CONCUR)
-	- [ ] Empregados (Estagiário, Prestador de Serviço, Funcionário Concursado, Cedido e outros)
+- [ ] Business Partner (Customer, Vendor)
+- [ ] Material Master
+- [ ] Chart of Accounts / G/L Account Master
+- [ ] Cost Center / Profit Center
+- [ ] Work Center / Routing / BOM
+- [ ] Asset Master
+- [ ] Bank Master Data
+- [ ] Plant / Storage Location / Company Code
+- [ ] Pricing Conditions
+- [ ] Project Definitions / WBS Elements
+- [ ] Viagens / Projetos
+- [ ] Meios de pagamento (Cartões corporativos - CONCUR)
+- [ ] Empregados (Estagiário, Prestador de Serviço, Funcionário Concursado, Cedido e outros)
 </div>
 
-- [ ] **Dados de Referência (Reference Data)**: São um conjunto de valores ou esquemas de classificação que servem de apoio a um dado mestre;
+- [ ] **Dados de Referência (Reference Data)**: São um conjunto de valores ou esquemas de classificação que servem de apoio a um dado mestre; Isso parece contradizer Data Mesh, mas é necessário para conformação regulatória.
 
 <div class="mdx-columns2" markdown>
-	- [ ] Unit of Measure
-	- [ ] Currencies
-	- [ ] Country / Region / Tax codes
-	- [ ] Material Groups / Product Hierarchy
-	- [ ] Payment Terms / Incoterms / Shipping Conditions
-	- [ ] Document Types
-	- [ ] Posting Periods / Fiscal Year Variants
-	- [ ]  Códigos de despesa (Expense Types)
-	- [ ] Regras de política de viagem e despesas
-	- [ ] Supplier Profile / SLP
-	- [ ] ategorias de produtos (UNSPSC)
-	- [ ] Códigos fiscais
-	- [ ] Tipos de serviço
-	- [ ] Posições / Cargos
-	- [ ] Estrutura Organizacional
-	- [ ] Unidades de Negócio / Departamentos
-	- [ ] Benefícios / Registros de compensação
+- [ ] Unit of Measure
+- [ ] Currencies
+- [ ] Country / Region / Tax codes
+- [ ] Material Groups / Product Hierarchy
+- [ ] Payment Terms / Incoterms / Shipping Conditions
+- [ ] Document Types
+- [ ] Posting Periods / Fiscal Year Variants
+- [ ]  Códigos de despesa (Expense Types)
+- [ ] Regras de política de viagem e despesas
+- [ ] Supplier Profile / SLP
+- [ ] ategorias de produtos (UNSPSC)
+- [ ] Códigos fiscais
+- [ ] Tipos de serviço
+- [ ] Posições / Cargos
+- [ ] Estrutura Organizacional
+- [ ] Unidades de Negócio / Departamentos
+- [ ] Benefícios / Registros de compensação
 </div>
 
 - [ ] **Dados de referência externos**: APIs conectam os dados de referência a autoridades regulatórias externas, como agências governamentais ou conversores de moeda. Os dados recebidos são classificados e selecionados para se alinharem com os dados mestres estabelecidos.
@@ -708,10 +728,10 @@ mindmap
 - [ ] **Dados transacionais**: São as informações operacionais cotidianas em seus bancos de dados de CRM, ERP e HCM. Como por exemplo: Notas Fiscais, Ordens de Compra, Lançamentos Financeiros e etc.
 
 <div class="mdx-columns2" markdown>
-	- [ ] Contratos (Sourcing, Buying)
-	- [ ]  Materiais / Catálogos
-	- [ ] Regras de política de viagem e despesas
-	- [ ] Requisições / Ordens de Compra
+- [ ] Contratos (Sourcing, Buying)
+- [ ]  Materiais / Catálogos
+- [ ] Regras de política de viagem e despesas
+- [ ] Requisições / Ordens de Compra
 </div>
 - [ ] **Dados não estruturados**: São dados de postagens em mídias sociais, e-mails, white papers ou chats de ajuda que são difíceis de categorizar.
 
@@ -726,6 +746,7 @@ mindmap
 - [ ] Controle de Metadados;
 - [ ] Workflow;
 </div>
+
 
 # **CSC(Centro de Serviço Compartilhado) para uma CC(Central de Cadastro)**
 
@@ -748,6 +769,79 @@ mindmap
 | **Centralizado** | Em um estilo centralizado, os ERPs/CRMs e outros sistemas criam os dados mestres e os dissemina para outros sistemas ou aplicações. |
 | **Consolidação** | Criação de um **golden records**, os sistemas de origem alimentam dados em um hub central para golden records.                      |
 | **Coexistência** | Cria um hub de dados consolidado que então alimenta registros atualizados de volta para as fontes.                                  |
+
+### Provedores de Dados e Consumidores de Dados
+Todos os usuários que expõem seus dados em nível de metadados em um catálogo de dados são considerados provedores de dados: eles podem fornecer determinados dados mediante solicitação.
+
+
+```mermaid
+flowchart LR
+id02["Data Provider"] --> |Expose Metadata| id01["Data Catalog"]
+id03["Data Consumerr"] -->|Search e Request| id01
+id02 --> id03
+```
+
+
+| Abordagem | Entenda                                      | Descrição                                                                                                                                                                                                                                                                                        |
+| --------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ETL       | Extrair, Transformar e Carregar              | Os dados são extraídos de várias fontes, transformados de acordo com regras e lógica predefinidas e carregados em um destino de destino                                                                                                                                                          |
+| ELT       | Extrair, Carregar e Transformar              | Os dados são extraídos de várias fontes, carregados em um destino de destino sem qualquer transformação e transformados sob demanda usando o poder de processamento do destino.                                                                                                                  |
+| ETLT      | Extrair, Transformar, Carregar e Transformar | É uma abordagem híbrida de integração de dados, onde os dados são extraídos de várias fontes, transformados parcialmente de acordo com algumas regras básicas e lógicas, carregados em um destino de destino e transformados ainda mais sob demanda usando o poder de processamento do destino.  |
+
+- [ ] SAP Business Data Cloud
+
+#### Centralizado
+A abordagem centralizada utiliza um data warehouse ou um data lake para toda a empresa, tornando os dados consumíveis. O papel do catálogo de dados nessa configuração é atuar como uma camada de
+experiência para pesquisa sobre essa solução única e aprimorar a governança. Fontes de dados de toda a empresa são enviadas ou recebidas no catálogo de dados e, portanto, expostas em um nível de metadados no catálogo de dados.
+O que significa que os dados devem ser extraídos dos sistemas de origem através de um processo de ETL ou ELT ou ETLT.
+
+#### Descentralizada
+Utiliza diversos RDSs (Relational Database Services), APIs (Application Programming Interfaces) e tecnologias de streaming em cada domínio da empresa para tornar os dados consumíveis.
+As fontes de dados são expostas em um único catálogo global de dados, assim como na abordagem centralizada. Mas, na abordagem descentralizada, essas fontes de dados são disponibilizadas por meio das diversas tecnologias utilizadas pelos domínios. Isso significa que não há uma unidade de negócios centralizada nem uma tecnologia na qual os dados devam ser armazenados para que possam ser utilizados pelos usuários que os encontram no catálogo.
+
+- [ ] Data Mesh: Delivering Data-Driven Value at Scale por Zhamak Dehghani;
+- [ ] Data Management at Scale: Modern Data Architecture with Data Mesh and Data Fabric por Piethein Strengholt;
+
+
+O conceito de malha de dados é idealista e voltado para o futuro - Não encontrei  tecnologia consegue, ainda, atender completamente à ambição de uma malha de dados, embora seu núcleo seja previsto para se basear no compartilhamento de dados via APIs.
+
+#### Abordagem combinada
+É uma abordagem parcialmente centralizada e parcialmente descentralizada. Isso significa que certos domínios usam a solução centralizada para expor e compartilhar seus dados, enquanto outros dependem de suas próprias soluções.
+
+# **Ideia Central: Centralização dos Cadastros**
+O tema de **GERENCIAMENTO DE DADOS – CENTRAL DE CADASTRO**, sendo uma estratégia crucial, para reconhecermos que a eficácia desse processo, não depende apenas de ferramentas e tecnologias, mas sim da colaboração ativa de todos os envolvidos.
+
+- [ ] Gerenciar dados de forma eficiente exige um esforço conjunto, onde cada pessoa traz sua expertise, insights e experiências para enriquecer nossas estratégias;
+- [ ] O cenário atual nos desafia a sermos não apenas gestores, mas também inovadores, capazes de transformar dados em um ativo estratégico que impulsione nossas decisões e fortaleça nossa competitividade no mercado;
+- [ ] Cada um de nós lida com diferentes aspectos dos dados em nosso dia a dia – veja o ciclo de vida.
+- [ ] Essa diversidade de perspectivas é o que nos permitirá construir um sistema de GERENCIAMENTO DE DADOS, que seja robusto, flexível e capaz de atender às diversas demandas.
+- [ ] Por isso, convido todos a se engajarem nessa análise prepositiva, compartilhando suas experiências e ideias sobre como podemos aprimorar nossos processos de Gerenciamento de Dados.
+- [ ] Queremos ouvir suas sugestões sobre como garantir a qualidade dos dados, melhorar nossa governança e explorar novas formas de integrar e utilizar as informações de maneira eficaz.
+- [ ] Juntos, podemos construir uma abordagem inovadora, onde cada voz contribui para o fortalecimento do nosso gerenciamento de dados, resultando em melhores resultados.
+- [ ] Junte-se a Modernização de Dados Mestres interseção do MDM/MDG (Master Data Management/Governance) com  Retrieval-Augmented Generation (RAG).
+
+# ODTA-C
+Como gostamos de acrônimos, elaboramos o **ODAT-C**, como uma forma de engajar nossos colaboradores de forma mais assertiva e colaborativa.
+
+| **Letra** | **Objeto**                             | **Razão**                                                       |
+| --------- | -------------------------------------- | --------------------------------------------------------------- |
+| **O**     | **OMNI** (abrangente, total)           | Omnipresença de dados e informações;                            |
+| **D**     | **DATA** (informação, análise)         | Dados para fundamentar decisões;                                |
+| **T**     | **TRABALHO em CONJUNTO**               | Colaboração no sentido de Equipe;                               |
+| **A**     | **Assertividade (confiança, clareza)** | Assertividade na comunicação e na execução de tarefas;          |
+| **C**     | **Conexão**                            | Conexão entre todos os elementos para atingir objetivos comuns. |
+
+- [ ] Assim, abre-se um conceito ou abordagem que integra e **unifica dados de diversas fontes e formatos**, proporcionando uma visão holística e abrangente das informações disponíveis.
+- [ ] Essa abordagem permite que organizações identifiquem, coletem, analisem e utilizem dados de maneira eficiente, favorecendo uma tomada de decisão mais informada e estratégica.
+
+ODTA-C representa uma abordagem estratégica para a gestão e utilização de dados, visando maximizar o valor das informações disponíveis e impulsionar a eficiência operacional e a inovação nas organizações, aplicando em toda a organização à maneira como os dados são obtidos, rastreados, usados, entregues e descartados.
+
+- [ ] Dados são um ativo estratégico e devem ser gerenciados.
+	- [ ] Se os dados não forem gerenciados, eles frequentemente **acabam sendo duplicados, de baixa qualidade e não suportam os insights que são produtos valiosos de bons dados**.
+	- [ ] Os dados exigem administração e responsabilização, este princípio exige que indivíduos sejam designados como **administradores e zeladores dos dados**.
+	- [ ] A administração de dados consiste nas pessoas, na organização e nos processos necessários para garantir que os administradores devidamente designados sejam responsáveis pela governança.
+
+
 
 ## Exemplo de Fluxo de Categoria Sensível (Ideia)
 ```mermaid
@@ -884,68 +978,15 @@ flowchart LR
 ```
 
 
-# Mapeando das Aplicações SaaS, On-Premise
-Mapear as aplicações em um ambiente **SaaS (Software as a Service)** para validar o **consumo de dados** é uma prática crítica, tanto do ponto de vista **estratégico quanto operacional**.
-
-- [ ] Transparência sobre onde e como os dados são usados;
-	- [ ] Que dados estão sendo consumidos por cada aplicação?
-	- [ ] De onde esses dados vêm (fontes)? Com que frequência e volume?
-- [ ] Evitar redundância e desperdício tecnológico
-	- [ ] Conectores e integrações que **sobrecarregam APIs** ou bancos de dados.
-	- [ ] Soluções "shadow IT" usando dados críticos **sem controle da TI**.
-- [ ] Segurança e conformidade (GPDR, PCI DSS, LGPD e HIPAA)
-- [ ] Controle de custos e otimização de licenças/API
-	- [ ] Volume de chamadas API
-	- [ ] Quantidade de dados processados
-	- [ ] Licenças de usuários e conectores
-- [ ] Facilita projetos de migração, integração ou modernização
-	- [ ] Sem mapear os pontos de consumo de dados, qualquer mudança se torna um risco.
-
-## Exemplo Mapeamento das Aplicações
-
-| Nome da Aplicação     | Sigla | Descrição                                                               | Área Gestora (Negócio) | ANS Satisfação | Disponibilidade de Serviço | Níveis de Funcionamento do Serviço  | Datas de Importância                  | Tipo de Arquitetura | Linguagem  | Banco de Dados | Crescimento Anual do Banco (GB) | Tamanho Inicial do Banco (GB) |
-| --------------------- | ----- | ----------------------------------------------------------------------- | ---------------------- | -------------- | -------------------------- | ----------------------------------- | ------------------------------------- | ------------------- | ---------- | -------------- | ------------------------------- | ----------------------------- |
-| Gestão Corporativa    | GCORP | Aplicação monolítica para controle de processos administrativos         | Administrativo         | >= 85%         | 99,5%                      | Alta prioridade, operação 24x7      | Janeiro, Segunda-feira, 1-5           | Monolítica          | PHP e Java | Oracle         | 10                              | 10                            |
-| Serviço de Pagamentos | SPAG  | Microserviços para processamento de pagamentos e conciliação financeira | Financeiro             | >= 90%         | 99,9%                      | Critico, operação 24x7 com failover | Dezembro, Sexta-feira, 10,15,20,25,30 | Microserviços       | Java       | MongoDB        | 10                              | 10                            |
-
-## Exemplo Provisionamento de Aplicações
-O provisionamento das aplicações em modelo **SaaS (Software as a Service)** está sendo realizado de forma controlada e supervisionada pela **equipe de TI**, garantindo que o consumo esteja alinhado com os requisitos técnicos, de segurança e de governança definidos pela organização. Esse monitoramento segue os princípios da **especificação FOCUS (FinOps Open Cost and Usage Specification)**, promovendo **transparência, padronização e rastreabilidade dos custos e métricas de uso** das aplicações em nuvem. Através da coleta e análise contínua de dados de consumo, a TI assegura que as decisões de escalabilidade, licenciamento e descontinuidade de serviços estejam embasadas em dados precisos e comparáveis entre provedores.
-Buscando o equilíbrio **velocidade, controle e custo** no consumo de SaaS, com foco em **responsabilidade financeira compartilhada** entre áreas técnicas e de negócios.
-### Exemplo: PHP
-
-| **Componente**          | **Serviço AWS** | **Configuração**                                   | **Custo Mensal (USD)** | **Custo Anual (USD)** | **Observações**                     |
-| ----------------------- | --------------- | -------------------------------------------------- | ---------------------- | --------------------- | ----------------------------------- |
-| **Servidor Web (PHP)**  | EC2             | `t3.large` (4 vCPU, 8 GiB RAM) + EBS `gp3` (50 GB) |                        |                       | Auto Scaling para picos de demanda  |
-| **Servidor Java (App)** | EC2             | `t3.large` (4 vCPU, 8 GiB RAM)                     |                        |                       | Cluster com 2 instâncias            |
-| **Banco de Dados**      | RDS (Oracle)    | `db.t3.medium` (10 GB inicial) + 10 GB/ano         |                        |                       | Backup diário (7 dias retenção)     |
-| **Armazenamento**       | S3              | 100 GB (Standard)                                  |                        |                       | Dados estáticos e logs              |
-| **Balanceamento**       | ALB             | Application Load Balancer                          |                        |                       | Redirecionamento HTTP/HTTPS         |
-| **Monitoramento**       | CloudWatch      | Métricas customizadas + Logs                       |                        |                       | Alertas para latência > 500ms       |
-| **Segurança**           | WAF + Shield    | Proteção contra DDoS e vulnerabilidades            |                        |                       | Regras personalizadas para PHP/Java |
-| **Total Monolítico**    |                 |                                                    |                        |                       |                                     |
-
-### Exemplo: Java
-
-| **Componente**          | **Serviço AWS**    | **Configuração**                        | **Custo Mensal (USD)** | **Custo Anual (USD)** | **Observações**                     |
-| ----------------------- | ------------------ | --------------------------------------- | ---------------------- | --------------------- | ----------------------------------- |
-| **Contêineres Java**    | ECS Fargate        | 4 tarefas (2 vCPU, 4 GB RAM cada)       |                        |                       | Escalável horizontalmente           |
-| **Banco de Dados**      | MongoDB Atlas      | M10 Cluster (10 GB inicial) + 10 GB/ano |                        |                       | Replicação automática               |
-| **API Gateway**         | API Gateway        | 1M requisições/mês                      |                        |                       | Rate limiting e cache               |
-| **Monitoramento**       | CloudWatch + X-Ray | Rastreamento de microsserviços          |                        |                       | Análise de desempenho em tempo real |
-| **Armazenamento**       | S3                 | 50 GB (Intelligent-Tiering)             |                        |                       | Dados de configuração               |
-| **Total Microserviços** |                    |                                         |                        |                       |                                     |
-
-### **Projeção de Crescimento**
-
-| **Ano** | **Tamanho Oracle (GB)** | **Custo Oracle (USD/ano)** | **Tamanho MongoDB (GB)** | **Custo MongoDB (USD/ano)** |
-| ------- | ----------------------- | -------------------------- | ------------------------ | --------------------------- |
-| 1       | 10                      |                            | 10                       |                             |
-| 2       | 20                      |                            | 20                       |                             |
-| 3       | 30                      |                            | 30                       |                             |
-
-**Observação**: Previsão de uma taxa de crescimento de 10 GBytes Anuais
 
 ## Exemplo Mapeamento das Aplicações - Dados Mestre, Referencia
+Para projetar uma arquitetura,  utilizaremos a  Arquitetura de Negócios (Business Architecture), examinando os espaços de problema estratégicos. A arquitetura de negócios fornece visões multidimensionais de capacidades, entrega de valor, informação e estrutura organizacional.
+
+Um bloco de construção fundamental na arquitetura de negócios é a Capacidade de Negócios (Business Capability), que descreve o que a empresa faz para gerar valor para os clientes (ex: pagar funcionário, enviar produto).
+
+Modelos de capacidade de negócios fornecem uma visão holística e estruturada dos objetivos e atividades estratégicas da organização. Uma boa prática é que capacidades de negócios sejam únicas, mutuamente exclusivas e coletivamente exaustivas. A chave é alinhar capacidades de negócios, contextos limitados e aplicações.
+
+Princípios para Gestão de Dados Distribuída e Orientada a Domínios: Para garantir o sucesso da estratégia de dados distribuídos, alguns princípios são cruciais.
 
 | **Tipo de Dado Mestre**                        | **S/4HANA**         | **Concur** | **Ariba**    | **Fieldglass** | **Lugar de Gente** | OneSource     | Projurid | SGPS          |
 | ---------------------------------------------- | ------------------- | ---------- | ------------ | -------------- | ------------------ | ------------- | -------- | ------------- |
@@ -1437,6 +1478,15 @@ Aqui está um exemplo de como um ADR pode ser estruturado para estabelecer crit�
 | **Auditorias Regulares**                        | Poderá ser realizada auditorias de segurança regulares para garantir conformidade com as regulamentações de proteção de dados.                                                                                                                                                                                                |
 | **Plano de Resposta a Incidentes**              | Não foi escopo deste trabalho desenvolver um plano de Resposta a Incidentes, por isso, para cada integração, deverá ser desenvolvido e mantido com uma periodicidade não superior a 1(um) ano, um plano de resposta a incidentes para lidar com possíveis violações de dados.                                                 |
 
+# Advanced Analytics (MLOps)
+Aprendizado de máquina, inteligência artificial e computação cognitiva são palavras da moda. Todas se sobrepõem e se complementam. Inteligência artificial é o termo genérico para quando as máquinas trabalham de forma "inteligente" e realizam tarefas que normalmente são realizadas por humanos.
+
+Um resumo muito abreviado do sistema ASL é o seguinte:
+
+- ASL-1 se refere a sistemas que não representam nenhum risco catastrófico significativo, por exemplo, um LLM de 2018 ou um sistema de IA que só joga xadrez.
+- ASL-2 refere-se a sistemas que apresentam sinais precoces de capacidades perigosas – por exemplo, a capacidade de fornecer instruções sobre como construir armas biológicas – mas cujas informações ainda não são úteis devido à confiabilidade insuficiente ou à falta de informações que, por exemplo, um mecanismo de busca não conseguiria. Os LLMs atuais, incluindo Claude, parecem ser ASL-2.
+- ASL-3 se refere a sistemas que aumentam substancialmente o risco de uso indevido catastrófico em comparação com linhas de base não baseadas em IA (por exemplo, mecanismos de busca ou livros didáticos) OU que mostram capacidades autônomas de baixo nível.
+- ASL-4 e superior (ASL-5+) ainda não foram definidos, pois estão muito distantes dos sistemas atuais, mas provavelmente envolverão escalonamentos qualitativos no potencial de uso indevido catastrófico e na autonomia.
 # Dados Analíticos - Conceitos
 
 - [ ]  Quais métricas de negócios específicas (por exemplo, receita, retenção de clientes) melhoraram devido a iniciativas de dados nos últimos 12 meses e quanto?
@@ -1714,6 +1764,7 @@ Lid06@{ animate: true }
 Lid07@{ animate: true }
 ```
 
+
 # Estudo
 
 ## Algumas Ferramentas
@@ -1970,15 +2021,9 @@ Solicitação → Validação → Aprovação → Publicação → Sincronizaç�
 	- [ ] Como os dados serão criptografados em trânsito ?
 
 # Fear of Missing Out (F.o.M.O.)
-<<<<<<< HEAD
+
 
 # Resumo
-A falta de governança fez com que os data lakes se transformassem em pântanos de dados — enormes espaços de armazenamento contendo dados cujo conteúdo e origem eram desconhecidos de todos e que ninguém sabia como usar.
-
-
-||||||| parent of 65849ab (<doc>: Ajustes na formatação.)
-=======
-
 
 # Alguns Exemplos
 
@@ -2036,4 +2081,872 @@ Declaro estar ciente de que a **revogação do consentimento** poderá implicar 
 **Recebido por:** ___________________________________________
 **Cargo:** _________________________________________________
 **Data do recebimento:** _****/****_/________
->>>>>>> 65849ab (<doc>: Ajustes na formatação.)
+
+
+
+
+Source Control Management with Git (SC102)
+ Hide
+ Assignments
+ Notes
+SupportSign Out
+ Menu
+Exam
+Exam
+
+
+
+### **1. Conceitos Básicos**
+
+**Qual o propósito principal do `git stash`?**
+a) Salvar alterações não commitadas em uma pilha temporária
+b) Criar uma nova branch
+c) Excluir commits não desejados
+d) Sincronizar com o repositório remoto
+
+---
+
+### **2. Comandos Essenciais**
+
+**Qual comando mostra o histórico de commits com diferenças entre arquivos?**
+a) `git log -p`
+b) `git diff`
+c) `git status`
+d) `git show`
+
+---
+
+### **3. Branching e Merging**
+
+**Ao executar `git merge feature` na branch `main`, ocorre um conflito. Qual é o próximo passo?**
+a) Abortar o merge com `git merge --abort`
+b) Resolver manualmente os arquivos conflitantes, adicioná-los (`git add`) e completar o merge (`git commit`)
+c) Executar `git reset --hard HEAD`
+d) Usar `git revert` para desfazer o merge
+
+---
+
+### **4. Repositórios Remotos**
+
+**Qual comando adiciona um repositório remoto chamado "upstream" apontando para `https://github.com/user/repo.git`?**
+a) `git remote add upstream https://github.com/user/repo.git`
+b) `git add remote upstream https://github.com/user/repo.git`
+c) `git remote upstream https://github.com/user/repo.git`
+d) `git upstream add https://github.com/user/repo.git`
+
+---
+
+### **5. Desfazendo Alterações**
+
+**Qual comando descarta alterações locais não commitadas em um arquivo `script.js`?**
+a) `git checkout -- script.js`
+b) `git reset HEAD script.js`
+c) `git revert script.js`
+d) `git clean -f script.js`
+
+---
+
+### **6. Rebasing**
+
+**Qual é uma diferença crítica entre `merge` e `rebase`?**
+a) `rebase` reescreve o histórico de commits; `merge` preserva o histórico original
+b) `merge` é mais adequado para branches públicas
+c) `rebase` cria um novo commit de merge
+d) `merge` só funciona em repositórios locais
+
+---
+
+### **7. Tags**
+
+**Como criar uma tag anotada chamada `v2.0`?**
+a) `git tag v2.0`
+b) `git tag -a v2.0 -m "Versão 2.0"`
+c) `git create tag v2.0`
+d) `git --tag v2.0`
+
+---
+
+### **8. Configuração**
+
+**Qual comando define um alias global `co` para `checkout`?**
+a) `git config --global alias.co checkout`
+b) `git alias co checkout`
+c) `git config --global co checkout`
+d) `git checkout --alias co`
+
+---
+
+### **9. Fluxo de Trabalho**
+
+**O que `git fetch origin` realiza?**
+a) Baixa alterações do remoto, mas não atualiza o branch local
+b) Mescla automaticamente as alterações remotas no branch atual
+c) Exclui branches locais desatualizadas
+d) Envia commits locais para `origin`
+
+---
+
+### **10. Resolução de Problemas**
+
+**Qual comando lista branches que já foram mescladas à branch atual?**
+a) `git branch --merged`
+b) `git log --merges`
+c) `git branch -d`
+d) `git merge --list`
+
+---
+
+### **11. .gitignore**
+
+**Como ignorar todos os arquivos com extensão `.log` em qualquer diretório?**
+a) Adicionar `*.log` no `.gitignore`
+b) Adicionar `/*.log` no `.gitignore`
+c) Executar `git ignore *.log`
+d) Usar `git rm --cached *.log`
+
+---
+
+### **12. Staging Area**
+
+**Qual comando remove um arquivo da staging area, mantendo as alterações no diretório de trabalho?**
+a) `git reset HEAD arquivo.txt`
+b) `git rm --cached arquivo.txt`
+c) `git checkout -- arquivo.txt`
+d) `git restore --staged arquivo.txt`
+
+---
+
+### **13. Diferenças entre Commits**
+
+**Como ver as alterações introduzidas no commit `abc123`?**
+a) `git diff abc123~ abc123`
+b) `git show abc123`
+c) `git log -1 -p abc123`
+d) `git patch abc123`
+
+---
+
+### **14. Reflog**
+
+**Qual é a utilidade do `git reflog`?**
+a) Auditoria de operações locais (ex.: commits, resets)
+b) Listar branches remotas
+c) Verificar o histórico remoto
+d) Gerenciar tags
+
+---
+
+### **15. Pull vs. Fetch**
+
+**Qual afirmação sobre `git pull` é correta?**
+a) É equivalente a `git fetch + git merge`
+b) Rejeita automaticamente conflitos
+c) Sincroniza apenas branches locais
+d) Ignora o histórico remoto
+
+---
+
+### **Respostas:**
+
+1. **a**
+
+2. **a**
+
+3. **b**
+
+4. **a**
+
+5. **a** ou **d** (depende do contexto)
+
+6. **a**
+
+7. **b**
+
+8. **a**
+
+9. **a**
+
+10. **a**
+
+11. **a**
+
+12. **a** ou **d**
+
+13. **b** ou **c**
+
+14. **a**
+
+15. **a**
+
+- **Qual comando do Git é usado para criar um novo repositório?**
+
+    - a) `git start`
+
+    - b) `git init`
+
+    - c) `git create`
+
+    - d) `git new`
+
+    - **Resposta correta:** b) `git init`
+
+- **Qual comando é utilizado para clonar um repositório remoto para a máquina local?**
+
+    - a) `git clone`
+
+    - b) `git pull`
+
+    - c) `git fetch`
+
+    - d) `git copy`
+
+    - **Resposta correta:** a) `git clone`
+
+- **O que é um "merge conflict" no Git?**
+
+    - a) Quando há um erro de sintaxe no código
+
+    - b) Quando duas alterações conflitantes são feitas no mesmo trecho de código em branches diferentes
+
+    - c) Quando o repositório está corrompido
+
+    - d) Quando um commit é perdido
+
+    - **Resposta correta:** b) Quando duas alterações conflitantes são feitas no mesmo trecho de código em branches diferentes
+
+- **Qual comando é usado para visualizar o histórico de commits no Git?**
+
+    - a) `git history`
+
+    - b) `git show`
+
+    - c) `git log`
+
+    - d) `git status`
+
+    - **Resposta correta:** c) `git log`
+
+- **O que é o arquivo `.gitignore`?**
+
+    - a) Um arquivo que contém configurações do Git
+
+    - b) Um arquivo que lista arquivos e diretórios que o Git deve ignorar
+
+    - c) Um arquivo que armazena mensagens de commit
+
+    - d) Um arquivo que contém o histórico de commits
+
+    - **Resposta correta:** b) Um arquivo que lista arquivos e diretórios que o Git deve ignorar
+
+- **Qual comando do Git é usado para adicionar alterações ao índice (staging area)?**
+
+    - a) `git add`
+
+    - b) `git commit`
+
+    - c) `git push`
+
+    - d) `git stage`
+
+    - **Resposta correta:** a) `git add`
+
+- **Qual comando é utilizado para enviar commits locais para um repositório remoto?**
+
+    - a) `git push`
+
+    - b) `git pull`
+
+    - c) `git fetch`
+
+    - d) `git send`
+
+    - **Resposta correta:** a) `git push`
+
+- **O que faz o comando `git pull`?**
+
+    - a) Baixa alterações do repositório remoto e as integra ao branch atual
+
+    - b) Cria um novo branch
+
+    - c) Exclui o repositório remoto
+
+    - d) Mostra o status do repositório
+
+    - **Resposta correta:** a) Baixa alterações do repositório remoto e as integra ao branch atual
+
+- **Qual comando é usado para criar um novo branch no Git?**
+
+    - a) `git branch`
+
+    - b) `git checkout`
+
+    - c) `git create`
+
+    - d) `git new-branch`
+
+    - **Resposta correta:** a) `git branch`
+
+- **Qual comando é utilizado para alternar entre branches no Git?**
+
+    - a) `git switch`
+
+    - b) `git checkout`
+
+    - c) Ambos os anteriores
+
+    - d) Nenhum dos anteriores
+
+    - **Resposta correta:** c) Ambos os anteriores
+
+- **O que é o HEAD no Git?**
+
+    - a) O primeiro commit do repositório
+
+    - b) O ponteiro para o commit atual no branch atual
+
+    - c) O último commit do repositório
+
+    - d) O nome do branch atual
+
+    - **Resposta correta:** b) O ponteiro para o commit atual no branch atual
+
+- **Qual comando é usado para excluir um branch local no Git?**
+
+    - a) `git branch -d`
+
+    - b) `git branch -r`
+
+    - c) `git delete branch`
+
+    - d) `git remove branch`
+
+    - **Resposta correta:** a) `git branch -d`
+
+- **Qual comando é utilizado para excluir um branch remoto no Git?**
+
+    - a) `git push origin --delete`
+
+    - b) `git branch -d`
+
+    - c) `git remote remove`
+
+    - d) `git delete branch`
+
+    - **Resposta correta:** a) `git push origin --delete`
+
+- **O que faz o comando `git fetch`?**
+
+    - a) Baixa alterações do repositório remoto sem integrá-las ao branch atual
+
+    - b) Cria um novo branch
+
+    - c) Exclui o repositório remoto
+
+    - d) Mostra o status do repositório
+
+    - **Resposta correta:** a) Baixa alterações do repositório remoto sem integrá-las ao branch atual
+
+- **Qual comando é usado para visualizar as diferenças entre o estado atual e o último commit?**
+
+    - a) `git diff`
+
+    - b) `git status`
+
+    - c) `git log`
+
+    - d) `git show`
+
+    - **Resposta correta:** a) `git diff`
+
+- **O que faz o comando `git reset`?**
+
+    - a) Restaura o repositório para um estado anterior
+
+    - b) Exclui o repositório
+
+    - c) Cria um novo branch
+
+    - d) Mostra o status do repositório
+
+    - **Resposta correta:** a) Restaura o repositório para um estado anterior
+
+- **Qual comando é usado para renomear um branch no Git?**
+
+    - a) `git branch -m`
+
+    - b) `git rename branch`
+
+    - c) `git move branch`
+
+    - d) `git change branch`
+
+    - **Resposta correta:** a) `git branch -m`
+
+- **O que é um "fork" no contexto do Git?**
+
+    - a) Uma cópia de um repositório que permite modificações independentes
+
+    - b) Um tipo de branch
+
+    - c) Um comando para mesclar branches
+
+    - d) Um tipo de commit
+
+    - **Resposta correta:** a) Uma cópia de um repositório que permite modificações independentes
+
+- **Qual comando é utilizado para adicionar um repositório remoto no Git?**
+
+    - a) `git remote add`
+
+    - b) `git remote set-url`
+
+    - c) `git remote create`
+
+    - d) `git add remote`
+
+    - **Resposta correta:** a) `git remote add`
+
+- **O que é um "submodule" no Git?**
+
+    - a) Um repositório dentro de outro repositório
+
+    - b) Um tipo de branch
+
+    - c) Um comando para mesclar branches
+
+#### **1. Como criar um novo repositório Git em um diretório já existente?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git init`
+
+Esse comando inicializa um novo repositório Git no diretório atual.
+
+---
+
+#### **2. Como adicionar todos os arquivos modificados para o "staging area"?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git add .`
+
+Adiciona todos os arquivos modificados e novos arquivos ao stage.
+
+---
+
+#### **3. Como fazer um commit com a mensagem “inicializando o projeto”?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git commit -m "inicializando o projeto"`
+
+---
+
+#### **4. Como criar uma nova branch chamada `feature/login`?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git branch feature/login`
+
+---
+
+#### **5. Como alternar para a branch `feature/login`?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git checkout feature/login`
+
+ou, mais moderno:
+
+bash
+
+CopiarEditar
+
+`git switch feature/login`
+
+---
+
+#### **6. Como clonar um repositório remoto para a sua máquina local?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git clone https://github.com/usuario/repositorio.git`
+
+---
+
+#### **7. Como mesclar a branch `feature/login` na branch `main`?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git checkout main git merge feature/login`
+
+---
+
+#### **8. Como enviar os commits locais para o repositório remoto?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git push origin main`
+
+---
+
+#### **9. Como verificar o histórico de commits de maneira resumida?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git log --oneline`
+
+---
+
+#### **10. Como visualizar a diferença entre o arquivo atual e o último commit?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git diff nome-do-arquivo`
+
+---
+
+#### **11. Como remover um arquivo da "staging area", mas sem apagá-lo do disco?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git reset nome-do-arquivo`
+
+---
+
+#### **12. Como ignorar um diretório chamado `logs/`?**
+
+**Solução:** Adicione ao arquivo `.gitignore`:
+
+CopiarEditar
+
+`logs/`
+
+---
+
+#### **13. Como listar todas as branches (locais e remotas)?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git branch -a`
+
+---
+
+#### **14. Como excluir uma branch local chamada `bugfix/footer`?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git branch -d bugfix/footer`
+
+---
+
+#### **15. Como verificar quais arquivos foram modificados desde o último commit?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git status`
+
+---
+
+#### **16. Como desfazer o último commit, mas manter as alterações no diretório de trabalho?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git reset --soft HEAD~1`
+
+---
+
+#### **17. Como restaurar um arquivo para o estado do último commit?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git checkout HEAD -- nome-do-arquivo`
+
+---
+
+#### **18. Como reverter um commit específico sem reescrever o histórico?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git revert <ID-do-commit>`
+
+---
+
+#### **19. Como adicionar um repositório remoto com o nome `origin`?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git remote add origin https://github.com/usuario/repositorio.git`
+
+---
+
+#### **20. Como ver quem alterou cada linha de um arquivo?**
+
+**Solução:**
+
+bash
+
+CopiarEditar
+
+`git blame nome-do-arquivo`
+
+
+### **1. Inicialização e Configuração**
+
+Você criou um novo diretório `projeto-app`. Como:
+a) Inicializa um repositório Git aqui?
+b) Define seu email (`user@exemplo.com`) como configuração global?
+
+**Resposta:**
+a) `git init`
+b) `git config --global user.email "user@exemplo.com"`
+
+---
+
+### **2. Primeiro Commit**
+
+Adicionou os arquivos `index.html` e `styles.css` ao diretório. Como:
+a) Adiciona apenas `index.html` à _staging area_?
+b) Realiza o primeiro commit com a mensagem "Setup inicial"?
+
+**Resposta:**
+a) `git add index.html`
+b) `git commit -m "Setup inicial"`
+
+---
+
+### **3. Branch de Emergência**
+
+Precisa corrigir um bug crítico na branch `main`. Qual comando:
+a) Cria e muda para uma nova branch `hotfix`?
+b) Retorna para `main` após concluir o _hotfix_?
+
+**Resposta:**
+a) `git checkout -b hotfix`
+b) `git checkout main`
+
+---
+
+### **4. Merge Conflituoso**
+
+Ao mesclar `feature-login` em `main`, ocorreu conflito em `auth.js`. Como:
+a) Aborta o merge?
+b) Após resolver manualmente o conflito, finaliza o merge?
+
+**Resposta:**
+a) `git merge --abort`
+b) `git add auth.js && git commit`
+
+---
+
+### **5. Descartar Alterações Locais**
+
+Modificou `script.js` experimentalmente, mas quer descartar as mudanças. Qual comando:
+a) Remove as alterações do diretório de trabalho?
+b) Remove o arquivo da _staging area_ (se foi adicionado por engano)?
+
+**Resposta:**
+a) `git restore script.js`
+b) `git restore --staged script.js`
+
+---
+
+### **6. Atualizar do Repositório Remoto**
+
+Colegas atualizaram o branch `develop` no `origin`. Como:
+a) Baixa as alterações remotas **sem** mesclar localmente?
+b) Mescla as alterações remotas no seu branch local `develop`?
+
+**Resposta:**
+a) `git fetch origin develop`
+b) `git merge origin/develop`
+
+---
+
+### **7. Stash de Emergência**
+
+Está editando `app.js` quando precisa urgentemente mudar para `main`. Como:
+a) Armazena temporariamente as alterações não commitadas?
+b) Recupera essas alterações ao voltar para o branch original?
+
+**Resposta:**
+a) `git stash`
+b) `git stash pop`
+
+---
+
+### **8. Tags de Release**
+
+O commit `a1b2c3d` representa a versão 2.0.0. Como:
+a) Cria uma tag anotada `v2.0.0`?
+b) Envia essa tag para o repositório remoto `origin`?
+
+**Resposta:**
+a) `git tag -a v2.0.0 -m "Release oficial" a1b2c3d`
+b) `git push origin v2.0.0`
+
+---
+
+### **9. .gitignore**
+
+Deseja ignorar:
+
+- Todos os arquivos `.log`
+
+- A pasta `node_modules/`
+
+- Arquivos temporários `~` do Vim.
+    O que adicionar ao `.gitignore`?
+
+
+**Resposta:**
+
+plaintext
+
+Copy
+
+Download
+
+*.log
+node_modules/
+*~
+
+---
+
+### **10. Cherry-pick**
+
+Um commit `d4e5f6a` da branch `experimental` é crucial para `main`. Como aplicá-lo apenas em `main`?
+
+**Resposta:**
+
+bash
+
+Copy
+
+Download
+
+git checkout main
+git cherry-pick d4e5f6a
+
+---
+
+### **11. Rebasing**
+
+Você tem 3 commits não publicados em `feature`. Como:
+a) Reaplica esses commits sobre a `main` atualizada?
+b) Resolve conflitos durante o _rebase_?
+
+**Resposta:**
+a) `git rebase main` (dentro de `feature`)
+b) `git add [arquivo]` → `git rebase --continue`
+
+---
+
+### **12. Reverter Commit**
+
+O commit `f00b4r` introduziu um bug crítico em `main`. Como desfazê-lo **sem** apagar o histórico?
+
+**Resposta:**
+`git revert f00b4r`
+
+---
+
+### **13. Limpeza de Branches**
+
+Como:
+a) Listar branches locais já mescladas à `main`?
+b) Excluir a branch `hotfix` localmente?
+
+**Resposta:**
+a) `git branch --merged main`
+b) `git branch -d hotfix`
+
+---
+
+### **14. Recuperação de Commit Perdido**
+
+Você acidentalmente resetou um commit importante. Como listar operações recentes para encontrar seu hash?
+
+**Resposta:**
+`git reflog`
+
+---
+
+### **15. Diff entre Branches**
+
+Como verificar as diferenças entre o último commit de `feature` e `main`?
+
+**Resposta:**
+`git diff main..feature`

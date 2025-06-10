@@ -393,3 +393,110 @@ https://prod-174.westus.logic.azure.com:443/workflows/a6e5b201ddc749e6951f949b31
 
 
 https://prod-174.westus.logic.azure.com:443/workflows/a6e5b201ddc749e6951f949b3180c3a3/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vhFhXEgnsCwkcZ87ehwyvbTamXLg-enKKkprt3w9LiE
+
+
+|     |                                        |                                                                  |
+| --- | -------------------------------------- | ---------------------------------------------------------------- |
+| CFO | Diretor(a) financeiro                  | Chief Financial Officer                                          |
+| CIO | Diretor(a) de tecnologia da informação | Chief Information Officer                                        |
+| CEO | Chefe executivo do escritório          | Chief Executive Officer                                          |
+| CTO | Diretor(a) de tecnologia               | Chief Technology Officer                                         |
+| CPO | Diretor(a) de produtos                 | Chief Product Officer                                            |
+| CLO | Diretor(a) jurídico                    | Chief Legal Officer / Learning Officer                           |
+| CCO | Diretor(a) de comunicação              | Chief Compliance Officer / Commercial Officer / Customer Officer |
+| CKO | Diretor(a) de conhecimento             | Chief Knowledge Officer                                          |
+| CBO | Diretor(a) de negócios                 | Chief Business Officer                                           |
+| CVO | Diretor(a) de consultoria              | Chief Visionary Officer                                          |
+
+#  SAP Cloud Identity Access Governance (IAG)
+A solução de **SAP Cloud Identity Access Governance (IAG)** é projetada para oferecer **gestão centralizada de identidades e acessos**, integrando-se de forma fluida com aplicações SAP e não SAP no ambiente da empresa.
+Ela possibilita **controle automatizado, seguro e em conformidade** com políticas de governança, riscos e compliance (GRC).
+
+#### **Componentes Principais da Solução:**
+
+- **SAP IAG (Identity Access Governance):**
+
+    - Gerencia solicitações e aprovações de acesso.
+    - Automatiza análise de riscos de segregação do funções (SoD).
+    - Suporte à conformidade com auditorias e normas regulatórias.
+    - Integração nativa com SAP S/4HANA, SAP SuccessFactors e SAP Ariba.
+
+#### **Integração com Aplicações da BBTs:**
+
+- **Conectores customizados e APIs** permitem a integração do SAP IAG com os sistemas internos da BBTs, como:
+    - Sistemas legados de RH e ERP não SAP.
+    - Soluções próprias de BI e Data Analytics.
+    - Ferramentas internas de ticketing e workflow (como Jira, ServiceNow ou equivalentes).
+- **Fluxos unificados de provisionamento e desprovisionamento de usuários**, garantindo que as permissões corretas sejam aplicadas automaticamente com base em regras de negócios e cargos.
+- **Monitoramento contínuo e auditoria** por meio de dashboards integrados, com alertas proativos para acessos indevidos ou riscos de conformidade.
+
+#### **Benefícios da Solução Integrada:**
+
+- **Redução de riscos operacionais e de compliance.**
+- **Automatização de processos manuais**, com ganhos de eficiência.
+- **Experiência unificada para gestores e usuários finais.**
+- **Adoção mais ágil de políticas de segurança e conformidade.**
+- **Escalabilidade e preparação para ambiente multi-cloud.**
+
+
+
+```mermaid
+flowchart TD
+    A[Usuário solicita acesso<br>via Portal]
+    B[Solicitação é enviada<br>para o SAP IAG]
+    C[Análise de riscos SoD - segregation of duties<br>e políticas de compliance]
+    D{Acesso aprovado?}
+    E1[Acesso negado<br>Notificação enviada]
+    E2[Acesso aprovado<br>Provisionamento automático]
+    F[Integração com<br>SAP S/4HANA, SuccessFactors, Ariba]
+    G[Integração com<br>aplicações internas da BBTs]
+    H[Auditoria e monitoramento<br>via dashboards e alertas]
+
+    A --> B
+    B --> C
+    C --> D
+    D -- Não --> E1
+    D -- Sim --> E2
+    E2 --> F
+    E2 --> G
+    F --> H
+    G --> H
+
+```
+
+
+
+Olá Time BBTS, Boa Tarde!
+
+Seguem as dúvidas respondidas, caso persistam, favor me avisar.
+
+- As questões relacionadas ao controle de acesso, definição e atribuição de role aos usuários, substituição temporária de usuários (recebendo os perfis de acesso da pessoa que sairá de férias, por exemplo), já está embutido no licenciamento do IaM que está no nosso bom ou seria outro SKU (ex: GRC AC)?
+
+- No SAP IAG são definidas as “Business Roles”, nesta função desenhamos as BR (com base em definição de negócio) e fazemos a ligação delas com as roles técnicas replicadas dos sistemas origem.
+- No Escopo da BB Tecnologia não estamos considerando o SAP S/4HANA for access control, e posicionamos apenas o **SAP Cloud Identity Access Governance (IAG)**.
+-
+- As principais diferenças entre os dois são:
+
+Principais diferenças sumaridas:
+
+|   |   |   |
+|---|---|---|
+|**Feature**|**SAP S/4HANA for Access Control**|**SAP Cloud Identity Access Governance (IAG)**|
+|Deployment|On-premises or Private Cloud|Cloud-based|
+|Scope|Complete SAP S/4HANA system|Access Governance and Compliance for SAP and Non-SAP systems|
+|Access Control|Managed within S/4HANA|Centralized, role-based, and risk-based|
+|Security|Business manages own security and compliance|SAP provides the platform, customer manages policies|
+|Integration|Business manages integration with other systems|Integrates with SAP and non-SAP systems through connectors|
+
+- **Portanto, o SAP IAG cobre a Gestão de acessos em todas as aplicações SAP e não – SAP ( podendo ser estendida para aplicações não SAP que não tenham conectores nativos).**
+- O SAP S/4HANA for Access Control, basicamente cobre SOD para S/4HANA e para o SAP SuccessFactors.
+
+- Para substituição temporária é parametrizado em tempo de projeto  a funcionalidade denominada Privileged Access Management  (PAM). Segue abaixo a  documentação do Privileged Access Management
+
+[https://help.sap.com/docs/SAP_CLOUD_IDENTITY_ACCESS_GOVERNANCE/37bacb728d75468c92b1f1e20d5afbe2/cee1cb62728f469bb027ec60a543f499.html?version=CLOUDFOUNDRY](https://help.sap.com/docs/SAP_CLOUD_IDENTITY_ACCESS_GOVERNANCE/37bacb728d75468c92b1f1e20d5afbe2/cee1cb62728f469bb027ec60a543f499.html?version=CLOUDFOUNDRY "https://help.sap.com/docs/SAP_CLOUD_IDENTITY_ACCESS_GOVERNANCE/37bacb728d75468c92b1f1e20d5afbe2/cee1cb62728f469bb027ec60a543f499.html?version=CLOUDFOUNDRY")
+
+- A questão de controle de fraudes, avaliando os perfis de usuários e sugerindo possíveis riscos e problemas de "compliance" estão neste SKU do IaM?
+
+- Com relação ao processo de monitoramento de riscos de acesso contínuo, está incluso no produto SAP IAG. Na documentação abaixo, na página 16, mostra o passo a passo de como efetuar este monitoramento.
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://help.sap.com/doc/e9d1aeae5c5f42b9a02ae0ed9f4a8bda/1902/en-US/IAG%20Access%20Analysis_Integration.pdf

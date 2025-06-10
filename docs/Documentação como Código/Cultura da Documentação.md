@@ -1,4 +1,4 @@
-[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 <p align="justify">Todos os produtos de desenvolvimento de software, sejam eles criados por uma pequena equipe ou por uma grande corporação, exigem alguma documentação relacionada e os difetentes tipos de documentos são criados ao longo de todo o ciclo de vida de desenvolvimento de software (SDLC).</p>
 <p align="justify">O método Agile não requerem documentações abrangentes no início - "Software funcional em vez de documentação abrangente”, logo aideia é produzir documentação com informações essenciais para avançar quando fizer mais sentido. </p>
