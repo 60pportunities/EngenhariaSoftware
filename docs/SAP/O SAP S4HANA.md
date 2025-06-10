@@ -704,3 +704,31 @@ Migração de dados refere-se à seleção, preparação, extração e transform
    - 1-5 dias: R$ X/dia
    - 6-10 dias: R$ 1,5X/dia
    - +10 dias: Acionar garantias contratuais
+
+```mermaid
+flowchart TD
+    A[Microsoft Entra ID SSO Autenticação] -->|SAML 2.0| B[SAP Concur]
+    subgraph "Sistemas Corporativos"
+        C[ERP Legado</br>-Centros de Custo</br>-Contas Contábeis</br>-Impostos] -->|API OData| B
+        D[Sistema de RH</br>-Colaboradores</br>-Hierarquias] -->|REST API| B
+        E[Base de Terceiros</br>-Fornecedores</br>-Contratados] -->|REST API| B
+    end
+
+    subgraph "Serviços Externos"
+        F[BBTur Reservas de Viagens] -->|REST API| B
+        G[Uber for Business]         -->|REST API| B
+    end
+
+    %% ========== SAÍDAS ==========
+    B -->|Lançamentos Contábeis| H[Oracle General Ledger]
+    B -->|Integração Pagamento| I[Oracle Account Payables]
+
+    %% ========== LEGENDA ==========
+    subgraph "Legenda"
+    
+        A2[Autenticação] -.-> A
+        B2[Oracle General</br>Ledger] -.-> H
+        C2[Oracle PeopleSoft] -.-> D
+        D2[Integração de Pagamento] -.-> I
+    end
+```
