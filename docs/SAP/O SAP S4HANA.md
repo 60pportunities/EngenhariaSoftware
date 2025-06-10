@@ -1,3 +1,108 @@
+Projetos de transformação empresarial bem-sucedidos – incluindo transformações de ERP, modernizações de aplicativos e  migrações para a nuvem – exigem que os negócios e a TI colaborem efetivamente.
+
+## **PROJETO BÁSICO PARA CONTRATAÇÃO DE SOFTWARES SAP**  
+*(S/4HANA RISE, CONCUR, ARIBA, FIELDGLASS, SERVICE E BUSINESS DATA CLOUD)*  
+
+---
+
+### **1. OBJETO**  
+Contratação de licenças e serviços para implantação dos softwares:  
+- **SAP S/4HANA (RISE)** – Módulos FI, CO, MM, SD, PP, PM, HCM.  
+- **SAP Concur** – Gestão de despesas e viagens.  
+- **SAP Ariba** – Procurement e sourcing.  
+- **SAP Fieldglass** – Gestão de workforce externa.  
+- **SAP Service** – Gestão de serviços.  
+- **SAP Business Data Cloud (DAC)** – Integração de dados analíticos.  
+
+**Metodologias**:  
+- **SAP Activate** (implantação ágil).  
+- **Clean Core** (evitar customizações no core).  
+- **RICEFW** (padrão para desenvolvimentos).  
+
+---
+
+### **2. CRONOGRAMA FÍSICO-FINANCEIRO (18 MESES)**  
+#### **Fases e Marcos Principais**  
+| **Fase**               | **Duração** | **Entregas**                              |  
+|-------------------------|-------------|------------------------------------------|  
+| **1. SAP Concur**       | 3 meses     | Integração RH + Contas a Pagar legado.   |  
+| **2. SAP S/4HANA + Ariba + Fieldglass + Service** | 12 meses | Go-live módulos financeiros, compras e serviços. |  
+| **3. SAP Business Data Cloud** | 3 meses | Modelagem de dados e dashboards. |  
+
+#### **Gráfico de Gantt (Mermaid)**  
+```mermaid
+gantt
+    title Cronograma de Implantação SAP (18 meses)
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b '%y
+    
+    section SAP Concur
+    Kick-off           :done,    des1, 2025-01-01, 15d
+    Integração RH     :active,  des2, 2025-01-16, 45d
+    Integração CAP    :         des3, 2025-03-01, 30d
+    Go-live Concur    :         des4, 2025-04-01, 5d
+
+    section SAP S/4HANA + Ariba + Fieldglass + Service
+    Discover/Prepare  :         s4h1, 2025-04-06, 60d
+    Explore (Blueprint):        s4h2, 2025-06-05, 90d
+    Realize (Build)   :         s4h3, 2025-09-03, 120d
+    Deploy (Testing)  :         s4h4, 2026-01-01, 60d
+    Go-live S/4HANA   :         s4h5, 2026-03-01, 10d
+
+    section SAP Business Data Cloud
+    Modelagem de Dados :        bdc1, 2026-03-11, 45d
+    Dashboards        :         bdc2, 2026-04-25, 45d
+    Go-live BDC      :         bdc3, 2026-06-10, 5d
+```
+
+---
+
+### **3. ALOCAÇÃO FINANCEIRA (ESTIMATIVA)**  
+| **Fase**               | **Custo (R$)** | % do Orçamento |  
+|-------------------------|----------------|----------------|  
+| SAP Concur             | R$ 1,2M        | 15%            |  
+| SAP S/4HANA + Ariba + Fieldglass + Service | R$ 5,5M | 65% |  
+| SAP Business Data Cloud | R$ 1,3M        | 20%            |  
+| **Total**              | **R$ 8,0M**    | **100%**       |  
+
+*(Valores hipotéticos – ajustar conforme licenciamento e escopo real)*  
+
+---
+
+### **4. METODOLOGIAS**  
+#### **4.1 SAP Activate**  
+- **Fase 1 (Concur)**:  
+  - **Discover**: Mapeamento de processos de RH e CAP.  
+  - **Realize**: Configuração + integração via SAP PI/PO.  
+- **Fase 2 (S/4HANA)**:  
+  - **Explore**: Workshops para definição de Clean Core.  
+  - **Deploy**: Testes UAT com usuários-chave.  
+
+#### **4.2 Clean Core**  
+- Uso de **extensões** (BAdIs, APIs) no lugar de modificações no core.  
+- Personalizações via **SAP BTP** (ex.: apps em SAP Build).  
+
+#### **4.3 RICEFW**  
+- Exemplos:  
+  - **Reports**: Custos por centro de lucro.  
+  - **Interfaces**: Concur → S/4HANA (CAP).  
+  - **Workflows**: Aprovação de requisições Ariba.  
+
+---
+
+### **5. GESTÃO DE RISCOS**  
+| **Risco**                  | **Mitigação**                          |  
+|-----------------------------|---------------------------------------|  
+| Atraso na integração legada | Time dedicado + buffer no cronograma. |  
+| Customizações excessivas    | Validação pelo comitê de Clean Core.  |  
+
+---  
+**Próximos Passos**:  
+- Refinar escopo com SAP Partner.  
+- Validar infraestrutura cloud (RISE).  
+
+---  
+**Observação**: O cronograma assume paralelismo entre módulos após o Go-live do Concur. Ajustar prazos conforme complexidade das integrações.
 
 SAP FIori não era da SAP e passou a ser do SAP FIori - Ele é, na verdade, **uma abordagem de design de interface e uma coleção de aplicações SAP com foco na experiência do usuário**.
 
@@ -71,6 +176,60 @@ PMW -
 |Controle de custo/lucro|OU / Cost Center|BU / Cost Center|Cost Center / Profit Ctr|
 |Unidade de estoque|Inventory Org|Inventory Org|Plant|
 |Gerenciamento centralizado|Limitado|Sim|Sim|
+
+```mermaid
+flowchart LR
+    A[Requisição de Desenvolvimento] --> B[Análise Técnica]
+    B --> C{Clean Core?}
+    C -->|Sim| D[Desenvolvimento Padrão SAP]
+    C -->|Não| E[Proposta de Extensão via BTP/APIs]
+    E --> F[Validação do Comitê de Clean Core]
+    F -->|Aprovado| G[Desenvolvimento da Extensão]
+    F -->|Rejeitado| H[Redesenho da Solução]  
+    D --> I[Testes Unitários]
+    G --> I
+    I --> J[Documentação RICEFW]
+    J --> K[Revisão pelo Time Funcional]
+    K --> L[Testes de Integração/UAT]
+    L --> M{Aprovado?}
+    M -->|Sim| N[Transporte para Produção]
+    M -->|Não| O[Correções e Reteste]
+    N --> P[Monitoramento Pós-Go-Live]
+    
+    subgraph "Governança do Clean Core"
+        F -->|Registra Decisão| Q[(Repositório de Decisões)]
+        Q --> R[Auditoria Trimestral]
+    end
+```
+
+### **Legenda do Fluxo**:
+1. **Análise Técnica**: Classifica se o desenvolvimento requer modificação no core.
+2. **Comitê de Clean Core**:  
+   - Avalia soluções alternativas (BTP, APIs, User Exits).  
+   - Mantém um repositório de decisões para auditoria.  
+3. **Documentação RICEFW**: Inclui specs técnicas e manuais do usuário.
+4. **Validações**:  
+   - Testes unitários/integração.  
+   - Aprovação funcional antes do transporte.  
+5. **Pós-Go-Live**: Monitoramento de performance e ajustes.  
+
+### **Regras do Comitê de Clean Core**:
+- **Entrada**: Formulário padrão com justificativa de necessidade.  
+- **Saída**:  
+  - ✅ Aprovação com registro no repositório.  
+  - ❌ Rejeição com recomendação de redesign.  
+- **Frequência**: Reuniões semanais para demandas críticas.  
+
+---
+
+**Exemplo Prático**:  
+- **Cenário**: Customização de relatório financeiro.  
+- **Decisão do Comitê**:  
+  - ✖ **Negado**: Modificar tabela padrão do SAP.  
+  - ✔ **Aprovado**: Desenvolver app no SAP Analytics Cloud via BTP.  
+
+--- 
+**Saída do Mermaid**: Gere o diagrama em ferramentas como [Mermaid Live Editor](https://mermaid.live/) para visualização interativa.
 
 
 ```
@@ -155,6 +314,7 @@ flowchart TD
         end
       end
 ```
+
 
 
 
@@ -500,3 +660,47 @@ Principais diferenças sumaridas:
 - Com relação ao processo de monitoramento de riscos de acesso contínuo, está incluso no produto SAP IAG. Na documentação abaixo, na página 16, mostra o passo a passo de como efetuar este monitoramento.
 
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://help.sap.com/doc/e9d1aeae5c5f42b9a02ae0ed9f4a8bda/1902/en-US/IAG%20Access%20Analysis_Integration.pdf
+
+Mantenha o foco no alvo
+Todos os membros relevantes da equipe podem acessar e atualizar sua fonte compartilhada de verdade, garantindo que as pessoas certas entendam a situação atual e as perspectivas futuras.
+
+Exibir fluxos de dados e dependências
+Tanto as partes interessadas de TI quanto as de negócios podem usar o intuitivo Diagramas para visualizar conexões e fluxos de dados entre aplicativos e processos. Aprofunde-se no contexto de negócios de sua escolha e entenda todas as dependências.
+
+O que é migração de dados?
+Migração de dados refere-se à seleção, preparação, extração e transformação de dados e sua transferência permanente entre sistemas de armazenamento, formatos de dados ou sistemas computacionais. Quando os dados são transferidos de um local para outro ou de uma aplicação para outra, isso geralmente envolve novas tecnologias ou mudanças nos negócios.
+
+
+
+
+[CÁLCULO DE DESCUMPRIMENTO DE ENTREGAS - SAP]
+-----------------------------------------------------------------
+| FASE               | MARCO PRINCIPAL       | DATA PLANEJADA | DATA REAL | DIAS DE ATRASO | PENALIDADE/DIA | VALOR TOTAL | LINK COM PROJETO |
+|--------------------|-----------------------|----------------|-----------|----------------|----------------|-------------|------------------|
+| SAP Concur         | Go-live Concur        | 01/04/2025     |           | =MAX(0,D5-C5)  | R$ 2.500,00    | =E5*F5      | Hyperlink         |
+| SAP S/4HANA        | Go-live Financeiro    | 01/03/2026     |           | =MAX(0,D6-C6)  | R$ 5.000,00    | =E6*F6      | Hyperlink         |
+| SAP Ariba          | Go-live Procurement   | 15/03/2026     |           | =MAX(0,D7-C7)  | R$ 3.000,00    | =E7*F7      | Hyperlink         |
+| SAP Fieldglass     | Go-live VMS           | 30/03/2026     |           | =MAX(0,D8-C8)  | R$ 3.000,00    | =E8*F8      | Hyperlink         |
+| SAP BDC            | Go-live Analytics     | 10/06/2026     |           | =MAX(0,D9-C9)  | R$ 1.500,00    | =E9*F9      | Hyperlink         |
+-----------------------------------------------------------------
+
+[RESUMO FINANCEIRO]
+-------------------------------------------
+| TOTAL DIAS ATRASO: =SUM(E5:E9)          |
+| TOTAL PENALIDADES: =SUM(G5:G9)          |
+| % ATRASO PROJETO: =E10/540*100          |
+-------------------------------------------
+
+[LEGENDA]
+1. Fórmula "=MAX(0,D5-C5)": Calcula apenas atrasos (ignora adiantamentos)
+2. Penalidades devem constar no Contrato (ex.: 0,1% do valor da fase/dia)
+3. Links direcionam para o cronograma físico do projeto
+4. 540 dias = 18 meses (duração total projetada)
+
+[INSTRUÇÕES]
+1. Preencher apenas a coluna "Data Real" quando ocorrerem entregas
+2. Valores de penalidade devem refletir o contrato original
+3. Para projetos críticos, sugerir escala progressiva:
+   - 1-5 dias: R$ X/dia
+   - 6-10 dias: R$ 1,5X/dia
+   - +10 dias: Acionar garantias contratuais
