@@ -93,11 +93,11 @@ Big Data **não é uma ferramenta**, é um **conceito** que envolve lidar com gr
 | **Variedade**  | Dados estruturados e não estruturados (texto, vídeo, IoT etc.) |
 | **Veracidade** | Qualidade e confiabilidade dos dados                           |
 | **Valor**      | Capacidade de gerar insights úteis                             |
-## Quanto mais...
+## Mas, não se esqueça quanto mais...
 
-- [ ] **Quanto mais dados mais desperdícios e este é um processo Lean**.
+- [ ] **Quanto mais dados mais desperdícios e este é um processo Lean**;
 - [ ] **Combustível é refinado - O petróleo é o DADO.. A informação é o COMBUSTÍVEL**;
-- [ ] Se os dados são mal geridos, não importa o tamanho — **é só confusão em escala**.
+- [ ] Se os dados são mal geridos, não importa o tamanho — **é só confusão em escala**;
 	- [ ]  **Mais importante do que ter Big Data é ter um "Big Insight".**
 # **Data Mess** (Bagunça de Dados)
 É um termo usado informalmente para descrever uma situação onde os dados de uma organização estão em **estado caótico ou bagunçados** — ou seja, desorganizados, mal gerenciados e difíceis de usar de forma eficiente, sem uma fonte única da verdade, ou seja, WSSOT - Without a Single Source of Truth (WSSOT).
@@ -1101,9 +1101,11 @@ flowchart TD
           bancodobrasil01[("Dados do Mestre")]
           bancodobrasil02[("Parque Contratado")]
           bancodobrasil03[("Feriados Bancários")]
+          bancodobrasil04[("Pagamentos")]
+          bancodobrasil05[("Recebíveis")]
         end
-    end
 
+    end
 
      BB                <--> Business_Layer
      Business_Layer    <--> Technology_Layer
@@ -1111,6 +1113,8 @@ flowchart TD
      Application_Layer <--> Data_Layer
      Data_Layer        <--> Data_Products
      Data_Products     <--> SAAS_Products
+
+
 
 ```
 
@@ -1122,7 +1126,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    BB[BBTS]
+    BB[Instituição]
     subgraph outras ["Outras Apps"]
          direction LR
         outras01["CMS-Content Management System - WordPress"]
@@ -1145,9 +1149,15 @@ flowchart TD
         lgsaas03["Gestão de Pessoas"]
         lgsaas04["Remuneração"]
       end
+      subgraph msc ["Microsoft EntraID"]
+        direction LR
+        msc01["usuários corporativos"]
+        msc02["Usuários externos"]
+        msc03["Políticas de senha,MFA,FIDO2, biometria"]
+        msc04["Privileged Identity Management"]
+      end
     end
       subgraph lgsaas ["Lugar de Gente"]
-
         lgsaas01["Estratégia Organizacional"]
         lgsaas02["Desenvolvimento Organizacional"]
         lgsaas03["Gestão de Pessoas"]
@@ -1170,14 +1180,22 @@ flowchart TD
       SERVICES[SAP Services Cloud<br/>CX / CRM]
     end
     subgraph bancobrasil ["Contrato BB"]
-      direction LR
       Mestre01["Arquivo Mestre"]
       Mestre02["Parque Instalado"]
       Mestre03["Chamados"]
+      Mestre04["Recebíveis"]
+      Mestre05["Pagadoria"]
     end
-
+    subgraph vanbbts ["Van Bancária"]
+       vanbbts01["bbts-pgt"]
+    end
+    projurid <--> msc
+    lgsaas <--> msc
     BB <--> outras & saas & sapapp & saasaz
-    sapapp <--> bancobrasil
+    saasaz  <--> vanbbts
+    saasaz <--> sapapp
+    sapapp <-->  bancobrasil
+    sapapp <--> vanbbts <-->  bancobrasil
 ```
 
 **Observação**: Para melhor compreensão deverá se medir o consumo de dados pela especificação **FOCUS**.
@@ -2083,870 +2101,20 @@ Declaro estar ciente de que a **revogação do consentimento** poderá implicar 
 **Data do recebimento:** _****/****_/________
 
 
-
-
-Source Control Management with Git (SC102)
- Hide
- Assignments
- Notes
-SupportSign Out
- Menu
-Exam
-Exam
-
-
-
-### **1. Conceitos Básicos**
-
-**Qual o propósito principal do `git stash`?**
-a) Salvar alterações não commitadas em uma pilha temporária
-b) Criar uma nova branch
-c) Excluir commits não desejados
-d) Sincronizar com o repositório remoto
-
----
-
-### **2. Comandos Essenciais**
-
-**Qual comando mostra o histórico de commits com diferenças entre arquivos?**
-a) `git log -p`
-b) `git diff`
-c) `git status`
-d) `git show`
-
----
-
-### **3. Branching e Merging**
-
-**Ao executar `git merge feature` na branch `main`, ocorre um conflito. Qual é o próximo passo?**
-a) Abortar o merge com `git merge --abort`
-b) Resolver manualmente os arquivos conflitantes, adicioná-los (`git add`) e completar o merge (`git commit`)
-c) Executar `git reset --hard HEAD`
-d) Usar `git revert` para desfazer o merge
-
----
-
-### **4. Repositórios Remotos**
-
-**Qual comando adiciona um repositório remoto chamado "upstream" apontando para `https://github.com/user/repo.git`?**
-a) `git remote add upstream https://github.com/user/repo.git`
-b) `git add remote upstream https://github.com/user/repo.git`
-c) `git remote upstream https://github.com/user/repo.git`
-d) `git upstream add https://github.com/user/repo.git`
-
----
-
-### **5. Desfazendo Alterações**
-
-**Qual comando descarta alterações locais não commitadas em um arquivo `script.js`?**
-a) `git checkout -- script.js`
-b) `git reset HEAD script.js`
-c) `git revert script.js`
-d) `git clean -f script.js`
-
----
-
-### **6. Rebasing**
-
-**Qual é uma diferença crítica entre `merge` e `rebase`?**
-a) `rebase` reescreve o histórico de commits; `merge` preserva o histórico original
-b) `merge` é mais adequado para branches públicas
-c) `rebase` cria um novo commit de merge
-d) `merge` só funciona em repositórios locais
-
----
-
-### **7. Tags**
-
-**Como criar uma tag anotada chamada `v2.0`?**
-a) `git tag v2.0`
-b) `git tag -a v2.0 -m "Versão 2.0"`
-c) `git create tag v2.0`
-d) `git --tag v2.0`
-
----
-
-### **8. Configuração**
-
-**Qual comando define um alias global `co` para `checkout`?**
-a) `git config --global alias.co checkout`
-b) `git alias co checkout`
-c) `git config --global co checkout`
-d) `git checkout --alias co`
-
----
-
-### **9. Fluxo de Trabalho**
-
-**O que `git fetch origin` realiza?**
-a) Baixa alterações do remoto, mas não atualiza o branch local
-b) Mescla automaticamente as alterações remotas no branch atual
-c) Exclui branches locais desatualizadas
-d) Envia commits locais para `origin`
-
----
-
-### **10. Resolução de Problemas**
-
-**Qual comando lista branches que já foram mescladas à branch atual?**
-a) `git branch --merged`
-b) `git log --merges`
-c) `git branch -d`
-d) `git merge --list`
-
----
-
-### **11. .gitignore**
-
-**Como ignorar todos os arquivos com extensão `.log` em qualquer diretório?**
-a) Adicionar `*.log` no `.gitignore`
-b) Adicionar `/*.log` no `.gitignore`
-c) Executar `git ignore *.log`
-d) Usar `git rm --cached *.log`
-
----
-
-### **12. Staging Area**
-
-**Qual comando remove um arquivo da staging area, mantendo as alterações no diretório de trabalho?**
-a) `git reset HEAD arquivo.txt`
-b) `git rm --cached arquivo.txt`
-c) `git checkout -- arquivo.txt`
-d) `git restore --staged arquivo.txt`
-
----
-
-### **13. Diferenças entre Commits**
-
-**Como ver as alterações introduzidas no commit `abc123`?**
-a) `git diff abc123~ abc123`
-b) `git show abc123`
-c) `git log -1 -p abc123`
-d) `git patch abc123`
-
----
-
-### **14. Reflog**
-
-**Qual é a utilidade do `git reflog`?**
-a) Auditoria de operações locais (ex.: commits, resets)
-b) Listar branches remotas
-c) Verificar o histórico remoto
-d) Gerenciar tags
-
----
-
-### **15. Pull vs. Fetch**
-
-**Qual afirmação sobre `git pull` é correta?**
-a) É equivalente a `git fetch + git merge`
-b) Rejeita automaticamente conflitos
-c) Sincroniza apenas branches locais
-d) Ignora o histórico remoto
-
----
-
-### **Respostas:**
-
-1. **a**
-
-2. **a**
-
-3. **b**
-
-4. **a**
-
-5. **a** ou **d** (depende do contexto)
-
-6. **a**
-
-7. **b**
-
-8. **a**
-
-9. **a**
-
-10. **a**
-
-11. **a**
-
-12. **a** ou **d**
-
-13. **b** ou **c**
-
-14. **a**
-
-15. **a**
-
-- **Qual comando do Git é usado para criar um novo repositório?**
-
-    - a) `git start`
-
-    - b) `git init`
-
-    - c) `git create`
-
-    - d) `git new`
-
-    - **Resposta correta:** b) `git init`
-
-- **Qual comando é utilizado para clonar um repositório remoto para a máquina local?**
-
-    - a) `git clone`
-
-    - b) `git pull`
-
-    - c) `git fetch`
-
-    - d) `git copy`
-
-    - **Resposta correta:** a) `git clone`
-
-- **O que é um "merge conflict" no Git?**
-
-    - a) Quando há um erro de sintaxe no código
-
-    - b) Quando duas alterações conflitantes são feitas no mesmo trecho de código em branches diferentes
-
-    - c) Quando o repositório está corrompido
-
-    - d) Quando um commit é perdido
-
-    - **Resposta correta:** b) Quando duas alterações conflitantes são feitas no mesmo trecho de código em branches diferentes
-
-- **Qual comando é usado para visualizar o histórico de commits no Git?**
-
-    - a) `git history`
-
-    - b) `git show`
-
-    - c) `git log`
-
-    - d) `git status`
-
-    - **Resposta correta:** c) `git log`
-
-- **O que é o arquivo `.gitignore`?**
-
-    - a) Um arquivo que contém configurações do Git
-
-    - b) Um arquivo que lista arquivos e diretórios que o Git deve ignorar
-
-    - c) Um arquivo que armazena mensagens de commit
-
-    - d) Um arquivo que contém o histórico de commits
-
-    - **Resposta correta:** b) Um arquivo que lista arquivos e diretórios que o Git deve ignorar
-
-- **Qual comando do Git é usado para adicionar alterações ao índice (staging area)?**
-
-    - a) `git add`
-
-    - b) `git commit`
-
-    - c) `git push`
-
-    - d) `git stage`
-
-    - **Resposta correta:** a) `git add`
-
-- **Qual comando é utilizado para enviar commits locais para um repositório remoto?**
-
-    - a) `git push`
-
-    - b) `git pull`
-
-    - c) `git fetch`
-
-    - d) `git send`
-
-    - **Resposta correta:** a) `git push`
-
-- **O que faz o comando `git pull`?**
-
-    - a) Baixa alterações do repositório remoto e as integra ao branch atual
-
-    - b) Cria um novo branch
-
-    - c) Exclui o repositório remoto
-
-    - d) Mostra o status do repositório
-
-    - **Resposta correta:** a) Baixa alterações do repositório remoto e as integra ao branch atual
-
-- **Qual comando é usado para criar um novo branch no Git?**
-
-    - a) `git branch`
-
-    - b) `git checkout`
-
-    - c) `git create`
-
-    - d) `git new-branch`
-
-    - **Resposta correta:** a) `git branch`
-
-- **Qual comando é utilizado para alternar entre branches no Git?**
-
-    - a) `git switch`
-
-    - b) `git checkout`
-
-    - c) Ambos os anteriores
-
-    - d) Nenhum dos anteriores
-
-    - **Resposta correta:** c) Ambos os anteriores
-
-- **O que é o HEAD no Git?**
-
-    - a) O primeiro commit do repositório
-
-    - b) O ponteiro para o commit atual no branch atual
-
-    - c) O último commit do repositório
-
-    - d) O nome do branch atual
-
-    - **Resposta correta:** b) O ponteiro para o commit atual no branch atual
-
-- **Qual comando é usado para excluir um branch local no Git?**
-
-    - a) `git branch -d`
-
-    - b) `git branch -r`
-
-    - c) `git delete branch`
-
-    - d) `git remove branch`
-
-    - **Resposta correta:** a) `git branch -d`
-
-- **Qual comando é utilizado para excluir um branch remoto no Git?**
-
-    - a) `git push origin --delete`
-
-    - b) `git branch -d`
-
-    - c) `git remote remove`
-
-    - d) `git delete branch`
-
-    - **Resposta correta:** a) `git push origin --delete`
-
-- **O que faz o comando `git fetch`?**
-
-    - a) Baixa alterações do repositório remoto sem integrá-las ao branch atual
-
-    - b) Cria um novo branch
-
-    - c) Exclui o repositório remoto
-
-    - d) Mostra o status do repositório
-
-    - **Resposta correta:** a) Baixa alterações do repositório remoto sem integrá-las ao branch atual
-
-- **Qual comando é usado para visualizar as diferenças entre o estado atual e o último commit?**
-
-    - a) `git diff`
-
-    - b) `git status`
-
-    - c) `git log`
-
-    - d) `git show`
-
-    - **Resposta correta:** a) `git diff`
-
-- **O que faz o comando `git reset`?**
-
-    - a) Restaura o repositório para um estado anterior
-
-    - b) Exclui o repositório
-
-    - c) Cria um novo branch
-
-    - d) Mostra o status do repositório
-
-    - **Resposta correta:** a) Restaura o repositório para um estado anterior
-
-- **Qual comando é usado para renomear um branch no Git?**
-
-    - a) `git branch -m`
-
-    - b) `git rename branch`
-
-    - c) `git move branch`
-
-    - d) `git change branch`
-
-    - **Resposta correta:** a) `git branch -m`
-
-- **O que é um "fork" no contexto do Git?**
-
-    - a) Uma cópia de um repositório que permite modificações independentes
-
-    - b) Um tipo de branch
-
-    - c) Um comando para mesclar branches
-
-    - d) Um tipo de commit
-
-    - **Resposta correta:** a) Uma cópia de um repositório que permite modificações independentes
-
-- **Qual comando é utilizado para adicionar um repositório remoto no Git?**
-
-    - a) `git remote add`
-
-    - b) `git remote set-url`
-
-    - c) `git remote create`
-
-    - d) `git add remote`
-
-    - **Resposta correta:** a) `git remote add`
-
-- **O que é um "submodule" no Git?**
-
-    - a) Um repositório dentro de outro repositório
-
-    - b) Um tipo de branch
-
-    - c) Um comando para mesclar branches
-
-#### **1. Como criar um novo repositório Git em um diretório já existente?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git init`
-
-Esse comando inicializa um novo repositório Git no diretório atual.
-
----
-
-#### **2. Como adicionar todos os arquivos modificados para o "staging area"?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git add .`
-
-Adiciona todos os arquivos modificados e novos arquivos ao stage.
-
----
-
-#### **3. Como fazer um commit com a mensagem “inicializando o projeto”?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git commit -m "inicializando o projeto"`
-
----
-
-#### **4. Como criar uma nova branch chamada `feature/login`?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git branch feature/login`
-
----
-
-#### **5. Como alternar para a branch `feature/login`?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git checkout feature/login`
-
-ou, mais moderno:
-
-bash
-
-CopiarEditar
-
-`git switch feature/login`
-
----
-
-#### **6. Como clonar um repositório remoto para a sua máquina local?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git clone https://github.com/usuario/repositorio.git`
-
----
-
-#### **7. Como mesclar a branch `feature/login` na branch `main`?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git checkout main git merge feature/login`
-
----
-
-#### **8. Como enviar os commits locais para o repositório remoto?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git push origin main`
-
----
-
-#### **9. Como verificar o histórico de commits de maneira resumida?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git log --oneline`
-
----
-
-#### **10. Como visualizar a diferença entre o arquivo atual e o último commit?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git diff nome-do-arquivo`
-
----
-
-#### **11. Como remover um arquivo da "staging area", mas sem apagá-lo do disco?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git reset nome-do-arquivo`
-
----
-
-#### **12. Como ignorar um diretório chamado `logs/`?**
-
-**Solução:** Adicione ao arquivo `.gitignore`:
-
-CopiarEditar
-
-`logs/`
-
----
-
-#### **13. Como listar todas as branches (locais e remotas)?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git branch -a`
-
----
-
-#### **14. Como excluir uma branch local chamada `bugfix/footer`?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git branch -d bugfix/footer`
-
----
-
-#### **15. Como verificar quais arquivos foram modificados desde o último commit?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git status`
-
----
-
-#### **16. Como desfazer o último commit, mas manter as alterações no diretório de trabalho?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git reset --soft HEAD~1`
-
----
-
-#### **17. Como restaurar um arquivo para o estado do último commit?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git checkout HEAD -- nome-do-arquivo`
-
----
-
-#### **18. Como reverter um commit específico sem reescrever o histórico?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git revert <ID-do-commit>`
-
----
-
-#### **19. Como adicionar um repositório remoto com o nome `origin`?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git remote add origin https://github.com/usuario/repositorio.git`
-
----
-
-#### **20. Como ver quem alterou cada linha de um arquivo?**
-
-**Solução:**
-
-bash
-
-CopiarEditar
-
-`git blame nome-do-arquivo`
-
-
-### **1. Inicialização e Configuração**
-
-Você criou um novo diretório `projeto-app`. Como:
-a) Inicializa um repositório Git aqui?
-b) Define seu email (`user@exemplo.com`) como configuração global?
-
-**Resposta:**
-a) `git init`
-b) `git config --global user.email "user@exemplo.com"`
-
----
-
-### **2. Primeiro Commit**
-
-Adicionou os arquivos `index.html` e `styles.css` ao diretório. Como:
-a) Adiciona apenas `index.html` à _staging area_?
-b) Realiza o primeiro commit com a mensagem "Setup inicial"?
-
-**Resposta:**
-a) `git add index.html`
-b) `git commit -m "Setup inicial"`
-
----
-
-### **3. Branch de Emergência**
-
-Precisa corrigir um bug crítico na branch `main`. Qual comando:
-a) Cria e muda para uma nova branch `hotfix`?
-b) Retorna para `main` após concluir o _hotfix_?
-
-**Resposta:**
-a) `git checkout -b hotfix`
-b) `git checkout main`
-
----
-
-### **4. Merge Conflituoso**
-
-Ao mesclar `feature-login` em `main`, ocorreu conflito em `auth.js`. Como:
-a) Aborta o merge?
-b) Após resolver manualmente o conflito, finaliza o merge?
-
-**Resposta:**
-a) `git merge --abort`
-b) `git add auth.js && git commit`
-
----
-
-### **5. Descartar Alterações Locais**
-
-Modificou `script.js` experimentalmente, mas quer descartar as mudanças. Qual comando:
-a) Remove as alterações do diretório de trabalho?
-b) Remove o arquivo da _staging area_ (se foi adicionado por engano)?
-
-**Resposta:**
-a) `git restore script.js`
-b) `git restore --staged script.js`
-
----
-
-### **6. Atualizar do Repositório Remoto**
-
-Colegas atualizaram o branch `develop` no `origin`. Como:
-a) Baixa as alterações remotas **sem** mesclar localmente?
-b) Mescla as alterações remotas no seu branch local `develop`?
-
-**Resposta:**
-a) `git fetch origin develop`
-b) `git merge origin/develop`
-
----
-
-### **7. Stash de Emergência**
-
-Está editando `app.js` quando precisa urgentemente mudar para `main`. Como:
-a) Armazena temporariamente as alterações não commitadas?
-b) Recupera essas alterações ao voltar para o branch original?
-
-**Resposta:**
-a) `git stash`
-b) `git stash pop`
-
----
-
-### **8. Tags de Release**
-
-O commit `a1b2c3d` representa a versão 2.0.0. Como:
-a) Cria uma tag anotada `v2.0.0`?
-b) Envia essa tag para o repositório remoto `origin`?
-
-**Resposta:**
-a) `git tag -a v2.0.0 -m "Release oficial" a1b2c3d`
-b) `git push origin v2.0.0`
-
----
-
-### **9. .gitignore**
-
-Deseja ignorar:
-
-- Todos os arquivos `.log`
-
-- A pasta `node_modules/`
-
-- Arquivos temporários `~` do Vim.
-    O que adicionar ao `.gitignore`?
-
-
-**Resposta:**
-
-plaintext
-
-Copy
-
-Download
-
-*.log
-node_modules/
-*~
-
----
-
-### **10. Cherry-pick**
-
-Um commit `d4e5f6a` da branch `experimental` é crucial para `main`. Como aplicá-lo apenas em `main`?
-
-**Resposta:**
-
-bash
-
-Copy
-
-Download
-
-git checkout main
-git cherry-pick d4e5f6a
-
----
-
-### **11. Rebasing**
-
-Você tem 3 commits não publicados em `feature`. Como:
-a) Reaplica esses commits sobre a `main` atualizada?
-b) Resolve conflitos durante o _rebase_?
-
-**Resposta:**
-a) `git rebase main` (dentro de `feature`)
-b) `git add [arquivo]` → `git rebase --continue`
-
----
-
-### **12. Reverter Commit**
-
-O commit `f00b4r` introduziu um bug crítico em `main`. Como desfazê-lo **sem** apagar o histórico?
-
-**Resposta:**
-`git revert f00b4r`
-
----
-
-### **13. Limpeza de Branches**
-
-Como:
-a) Listar branches locais já mescladas à `main`?
-b) Excluir a branch `hotfix` localmente?
-
-**Resposta:**
-a) `git branch --merged main`
-b) `git branch -d hotfix`
-
----
-
-### **14. Recuperação de Commit Perdido**
-
-Você acidentalmente resetou um commit importante. Como listar operações recentes para encontrar seu hash?
-
-**Resposta:**
-`git reflog`
-
----
-
-### **15. Diff entre Branches**
-
-Como verificar as diferenças entre o último commit de `feature` e `main`?
-
-**Resposta:**
-`git diff main..feature`
+# Querido Diário
+
+```mermaid
+flowchart TD
+id1[[Diário Oficial]] --> spider@{ shape: procs, label: "Spiders/Raspadores"}
+spider --> meta@{ shape: cyl, label: "Metadados" }
+meta --> mt@{ shape: cyl, label: "Index </br>Motor Busca" }
+spider --> jornal@{ shape: docs, label: "Arquivo Bruto"}
+jornal --> processo@{ shape: dbl-circ, label: "Proc" }
+processo --> texto@{ shape: docs, label: "Texto Bruto"}
+texto --> mt
+dscenso@{ shape: cyl, label: "Dados do Censo" }
+dscenso --> api@{ shape: dbl-circ, label: "API" }
+mt --> api
+api --> input@{ shape: lean-r, label: "Plataforma</br>Visualização" }
+input --> usuario@{ shape: rect, label: "Usuário" }
+```
