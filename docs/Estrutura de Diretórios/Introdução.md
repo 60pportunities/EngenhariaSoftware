@@ -58,7 +58,10 @@ Estruturas do maven, possui vários archetypes e cada um com a sua estrutura.
 - [ ] **Versionamento Eficiente**: Evita conflitos no Git.
 - [ ] **Portabilidade**: Projetos funcionam em diferentes sistemas operacionais.
 - [ ] **Manutenibilidade**: Encontrar arquivos rapidamente em cenários de debug ou escalabilidade.
-Essas estruturas são **sugestões baseadas em boas práticas**, mas podem ser adaptadas conforme as necessidades do projeto ou convenções da equipe. Consulte a [[Estruturas Base]].
+
+Essas estruturas são **sugestões baseadas em boas práticas**, mas podem ser adaptadas conforme as necessidades do projeto ou convenções da equipe.
+
+#### Consulte a [[Estruturas Base]].
 
 ## Nomenclatura de Arquivos
 Aqui estão as melhores práticas, a meu ver,  para nomear arquivos no **Windows** e **Linux**, considerando as particularidades de cada sistema:

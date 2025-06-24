@@ -70,6 +70,70 @@ graph LR
   K --> K2[Microsoft Teams]
 
 ```
+## Estrutura de Projetos de Sistemas Integrados
+
+```mermaid
+graph LR
+  A[Projeto_SAP_Transformacao]
+
+  A1[01_Governanca] --> A11[Charter_Projeto]
+  A1 --> A12[Plano_Gerenciamento_Projeto]
+  A1 --> A13[Matriz_Riscos]
+  A1 --> A14[Acordos SLA]
+  A1 --> A15[Comitês e Reuniões]
+  A --> A1
+
+  A2[02_Arquitetura] --> A21[Arquitetura_Sistemas]
+  A2 --> A22[Integração_Pontos]
+  A2 --> A23[Infraestrutura Cloud, VPN, Redes]
+  A2 --> A24[Segurança e Acessos]
+  A --> A2
+
+  A3[03_Processos] --> A31[P2P Procure to Pay]
+  A3 --> A32[O2C Order to Cash]
+  A3 --> A33[HCM RH]
+  A3 --> A34[FI/CO Financeiro]
+  A3 --> A35[Outros macroprocessos]
+  A --> A3
+
+  A4[04_Desenvolvimento] --> A41[BTP Business Technology Platform]
+  A4 --> A42[Extensões SAPUI5 / Fiori]
+  A4 --> A43[Integrações PI/PO/CPI]
+  A --> A4
+
+  A5[05_Dados_Mestres] --> A51[Cadastro_Materiais]
+  A5 --> A52[Cadastro_Clientes]
+  A5 --> A53[Cadastro_Fornecedores]
+  A5 --> A54[Master Data Governance]
+  A5 --> A55[Data Migration Cockpit]
+  A --> A5
+
+  A6[06_Testes] --> A61[Estratégia de Testes]
+  A6 --> A62[Casos de Teste]
+  A6 --> A63[Evidências de Teste]
+  A6 --> A64[Defeitos e Rastreabilidade]
+  A --> A6
+
+  A7[07_Treinamento] --> A71[Plano de Treinamento]
+  A7 --> A72[Manuais de Usuário]
+  A7 --> A73[Trilhas de Capacitação SAP Learning Hub]
+  A --> A7
+
+  A8[08_Cutover_GoLive] --> A81[Plano Cutover]
+  A8 --> A82[Validação Pós-Go-Live]
+  A8 --> A83[Lições Aprendidas]
+  A --> A8
+
+  A9[09_Suporte_Pós_Projeto] --> A91[Base de Conhecimento]
+  A9 --> A92[Procedimentos de Suporte]
+  A --> A9
+
+  A10[10_Documentação_Técnica] --> A101[Blueprinting Funcional]
+  A10 --> A102[Especificações Técnicas]
+  A10 --> A103[Objetos Desenvolvidos]
+  A --> A10
+
+```
 
 
 ```mermaid

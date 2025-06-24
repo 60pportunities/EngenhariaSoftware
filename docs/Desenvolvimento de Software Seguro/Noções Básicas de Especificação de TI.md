@@ -1,6 +1,11 @@
-No mundo atual, impulsionado pela tecnologia, especificações de TI claras e eficazes são essenciais para o sucesso da execução de projetos. "Noções Básicas de Especificações de TI para Novos Desenvolvedores" foi elaborado para fornecer o conhecimento básico e as habilidades práticas necessárias para criar especificações de TI precisas, acionáveis ​​e alinhadas a objetivos. Você aprenderá a definir requisitos funcionais e não funcionais, colaborar com as partes interessadas e manter as especificações por meio de feedback iterativo. Com exercícios práticos e exemplos reais, você ganhará confiança no desenvolvimento e gerenciamento de documentação técnica.
+![](../img/sdlc-moderno.jpg){width="600" height="450" style="display: block; margin: 0 auto" }
+No mundo atual, impulsionado pela tecnologia, especificações de TI claras e eficazes são essenciais para o sucesso da execução de projetos. "Noções Básicas de Especificações de TI para Novos Desenvolvedores" foi elaborado para fornecer o conhecimento básico e as habilidades práticas necessárias para criar especificações de TI precisas, acionáveis ​​e alinhadas a objetivos.
 
-À medida que as equipes trabalham cada vez mais em plataformas e tecnologias globais, especificações de TI precisas são mais cruciais do que nunca. Este curso ajuda você a lidar com desafios como falhas de comunicação, atrasos em projetos e expectativas pouco claras, ensinando como elaborar documentação que promova uma implementação tranquila e minimize riscos. Você também explorará os padrões e as melhores práticas do setor para garantir que seu trabalho atenda às demandas técnicas modernas.
+Você aprenderá a definir requisitos funcionais e não funcionais, colaborar com as partes interessadas e manter as especificações por meio de feedback iterativo. Com exercícios práticos e exemplos reais, você ganhará confiança no desenvolvimento e gerenciamento de documentação técnica.
+
+À medida que as equipes trabalham cada vez mais em plataformas e tecnologias globais, especificações de TI precisas são mais cruciais do que nunca.
+
+Este curso ajuda você a lidar com desafios como falhas de comunicação, atrasos em projetos e expectativas pouco claras, ensinando como elaborar documentação que promova uma implementação tranquila e minimize riscos. Você também explorará os padrões e as melhores práticas do setor para garantir que seu trabalho atenda às demandas técnicas modernas.
 
 Concluir este curso lhe dará mais do que apenas conhecimento técnico — ele fortalecerá seu papel dentro de uma equipe. Habilidades em especificação de TI são altamente valorizadas pelos empregadores, pois impactam diretamente o sucesso dos projetos. Ao dominar essas habilidades, você se posicionará como um colaborador essencial que traz clareza e estrutura a projetos complexos, abrindo portas para o crescimento profissional e novas oportunidades na área.
 
@@ -115,6 +120,7 @@ Familiarize-se com o propósito fundamental e a importância das especificaçõe
 O OpenEduConnect é uma plataforma de educação on-line projetada para se integrar perfeitamente a vários Sistemas de Gestão de Aprendizagem (LMS), como Google Classroom e Moodle.
 
 Os principais objetivos do OpenEduConnect são:
+
 - [ ] **Acessibilidade aprimorada**:  Garanta que a plataforma seja acessível a todos os usuários, incluindo pessoas com deficiência, cumprindo as WCAG (Diretrizes de Acessibilidade para Conteúdo da Web).
 - [ ] **Interoperabilidade**: Permita a integração suave com várias plataformas LMS para oferecer suporte a uma ampla gama de instituições educacionais.
 - [ ] **Escalabilidade**: Garanta que o sistema possa lidar com milhares de usuários simultâneos sem degradação do desempenho.
@@ -165,7 +171,6 @@ b .Especificação do processo
 c .Especificação do sistema
     Correto! As especificações do sistema são responsáveis ​​por definir como os componentes de hardware e software interagem dentro de uma infraestrutura de TI, garantindo a interoperabilidade e a integração em uma rede.
 d .Especificação de certificação
-
 
 ### No contexto do desenvolvimento de especificações de TI, qual grupo de partes interessadas normalmente é responsável por garantir que a especificação esteja de acordo com os requisitos regulatórios e os padrões do setor (por exemplo, 3GPP em telecomunicações)?
 

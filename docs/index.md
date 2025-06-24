@@ -1,5 +1,5 @@
-## **Configuração**
-<div class="mdx-columns2" markdown>
+# **Configuração**
+<div class="mdx-columns3" markdown>
 - [ ] [[Licenca]]
 - [ ] [[Changelog]]
 - [ ] [[Contribuição]]
@@ -8,21 +8,96 @@
 - [ ] [[Políticas]]
 - [ ] [[docs/Configuração/Segurança|Segurança]]
 </div>
-
 ## **Estrutura de Diretórios**
+
 <div class="mdx-columns2" markdown>
 - [ ] [[docs/Estrutura de Diretórios/Introdução|Introdução]]
 - [ ] [[Estruturas Base]]
-</div>
-## **Configuração do Desktop**
-
 - [ ] [[Instalação]]
+</div>
+## **Fundamentos da Engenharia de Software Ágil**
 
+- [ ] [[O que é Engenharia de Software
+- [ ] Manifesta Ágil e seus 12 Princípios
+- [ ] Diferenças entre Métodos Tradicionais e Ágeis
+- [ ] Principais Metodologias Ágeis (Scrum, Kanban, XP, SAFe)
+## **Documentação em Ambientes Ágeis**
+
+- [ ] Documentação Ágil: conceito e práticas
+- [ ] Documentos essenciais em projetos ágeis
+- [ ] Just Enough Documentation
+- [ ] Ferramentas para documentação colaborativa (ex: Confluence, Markdown, Notion)
+## **ADR – Architecture Decision Records**
+
+- [ ] O que são ADRs e por que usá-los
+- [ ] Estrutura de um ADR
+- [ ]  Boas práticas na escrita de ADRs
+- [ ] Ferramentas e templates para ADRs
+- [ ] Integração de ADRs com versionamento (Git)
+## **Arquitetura de Software Ágil**
+
+- [ ] Visão geral da arquitetura ágil
+- [ ] Arquitetura emergente vs. arquitetura deliberada
+- [ ] Design evolutivo
+- [ ] Padrões arquiteturais em ambientes ágeis (Microservices, Clean Architecture)
+- [ ] Arquitetura como prática contínua no time
+## **Levantamento e Gerenciamento de Requisitos**
+
+- [ ] Requisitos ágeis: histórias de usuário, épicos e temas
+- [ ] Técnicas de levantamento de requisitos (entrevistas, workshops, persona, MVP)
+- [ ] Ferramentas de apoio (Jira, Trello, Azure Boards)
+- [ ]  Backlog do Produto: construção e priorização
+- [ ] Critérios de aceitação e definição de pronto (Definition of Done)
+## **Versionamento de Código com Git**
+
+- [ ] Conceitos básicos de Git e GitHub
+- [ ] Fluxos de trabalho em Git: Git Flow, Trunk-Based, GitHub Flow
+- [ ] Branches e Pull Requests em times ágeis
+- [ ] Integração com CI/CD e DevOps
+- [ ] Boas práticas de commits e documentação de alterações
+## **Integração Contínua, Entrega Contínua e DevOps**
+
+- [ ] Conceitos de CI/CD
+- [ ] Ferramentas populares (GitHub Actions, Jenkins, GitLab CI, CircleCI)
+- [ ] Automação de builds, testes e deploy
+- [ ] Cultura DevOps e colaboração entre times
+- [ ] Monitoramento e feedback contínuo
+## **Qualidade e Testes de Software**
+
+- [ ] Estratégias de testes em ambientes ágeis
+- [ ] Pirâmide de testes: unitários, integração, E2E
+- [ ] Test Driven Development (TDD)
+- [ ] Ferramentas de automação de testes
+- [ ] ntegração de testes no pipeline de CI/CD
+## **Inteligência Artificial Aplicada à Engenharia de Software**
+
+- [ ]  Introdução à IA em desenvolvimento de software
+- [ ] Ferramentas de IA para geração de código (ex: GitHub Copilot, ChatGPT)
+- [ ] IA no auxílio à escrita de testes
+- [ ] Análise preditiva para planejamento ágil
+- [ ] Riscos, ética e limitações da IA em times ágeis
+## **Estudos de Caso e Projetos Práticos**
+
+- [ ]  Aplicação dos conceitos em um projeto real
+- [ ]  Ciclo completo de um projeto ágil: do requisito à entrega
+- [ ]  Revisão de práticas, retrospectiva e melhoria contínua
+- [ ]  Avaliação por pares e aprendizado coletivo
+## **Arquitetura**
+<div class="mdx-columns2" markdown>
+- [ ] [[docs/Arquitetura/Introdução|Introdução]]
+- [ ] [[Delivery Deploy e Release]]
+- [ ] [[Gestão de Dados em Microsserviços]]
+</div>
 ## **Alguns Conceitos**
 
 <div class="mdx-columns2" markdown>
 - [ ] [[Noções Básicas de Especificação de TI]]
 </div>
+
+## **Computação em Nuvem**
+
+- [ ] [[docs/Computação em Nuvem/Introdução|Introdução]]
+
 
 ## **Processos Internos**
 <div class="mdx-columns2" markdown>
@@ -115,15 +190,7 @@
 - [ ] [[Revisão de Código]]
 </div>
 
-## **Computação em Nuvem**
 
-- [ ] [[docs/Computação em Nuvem/Introdução|Introdução]]
-
-## **Arquitetura**
-
-- [ ] [[docs/Arquitetura/Introdução|Introdução]]
-- [ ] [[Delivery Deploy e Release]]
-- [ ] [[Gestão de Dados em Microsserviços]]
 ### **Arquitetura e Projeto de Software**
 <div class="mdx-columns2" markdown>
 - [ ] Introdução;  

@@ -1,10 +1,8 @@
 ## Hadoop v.3.4.1
 
-/usr/libexec/java_home -V
-
-> brew install hadoop
-
-> hadoop version
+- [ ]  /usr/libexec/java_home -V
+- [ ]  brew install hadoop
+- [ ] hadoop version
 
 
 

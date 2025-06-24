@@ -7,7 +7,6 @@
 | Scrum Master    | O Scrum Master garante que o Product Owner e os Desenvolvedores sejam funcionais e produtivos, fornecendo orientação e suporte necessários. Comprometido com a eficácia do time, responsabilizando-se com que os eventos do Scrum sejam positivos e produtivos, e não apenas que sigam o Scrum. |
 | Stakeholders    | Embora não seja um papel definido no Guia do Scrum, as partes interessadas incluem todos os outros envolvidos ou interessados no desenvolvimento do produto.                                                                                                                                    |
 | Scrum of Scrums | Não será abordado nesta Metodologia.                                                                                                                                                                                                                                                            |
-
 ## _Líder Técnico (Tech Lead)_
 
 Líder Técnico é um profissional que tem o papel de liderar uma equipe de desenvolvimento de software. Precisa orientar a equipe e manter a comunicação fluida com outras equipes, sobre sua área de conhecimento.
@@ -160,6 +159,13 @@ Para que isso seja possível o gerenciamento de projeto deve contemplar pelo men
    - [ ] Tarefas: Para decompor PBIs em atividades técnicas, o que é necessário para realizar o PBI. 
 
 Essa organização proporciona clareza e flexibilidade ao time, garantindo que o esforço esteja concentrado nas entregas prioritárias. 
+
+| Item                 | Descrição                                                                                                                                                                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ÉPICO                | O PO  define os objetivos estratégicos amplos e captura a visão do projeto. Este é o "panorama geral" que define a direção. \|                                                                                                                                           |
+| FEATURE/RECURSOS     | O PO  pega esses objetivos de alto nível e os divide em grupos funcionais ou recursos, que ajudam a estruturar as entregas gerais                                                                                                                                        |
+| HISTÓRIAS DE USUÁRIO | Nesta fase, as Histórias de Usuário são criadas. São pedaços menores de trabalho, do tamanho de um sprint, que agregam valor ao usuário. O PO  garante que os critérios de conformidade sejam claros e ajuda a equipe a entender exatamente o que precisa ser alcançado. |
+| TAREFA               | Uma vez definidas as Histórias de Usuário, a equipe as divide em tarefas específicas, como trabalho técnico ou testes de QA. O PO garante que as prioridades sejam claras e pode ajudar a refinar quaisquer detalhes restantes.                                          |
 #### **Abordagem Iterativa e Incremental** 
 
 - [ ] Uso de ciclos iterativos curtos (sprints) para permitir ajustes rápidos com base no feedback do cliente: 

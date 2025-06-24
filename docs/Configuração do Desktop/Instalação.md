@@ -3,10 +3,10 @@
 ## IDE
 
 
- $ [MELD](https://meldmerge.org/)
- $ [VSCode](https://code.visualstudio.com/download)
- $ [OASP Theat Dragon](https://owasp.org/www-project-threat-dragon/)
- $ [SLSA-Verifier](https://github.com/slsa-framework/slsa-verifier#installation)
+- [ ]  $ [MELD](https://meldmerge.org/)
+ - [ ] $ [VSCode](https://code.visualstudio.com/download)
+ - [ ] $ [OASP Theat Dragon](https://owasp.org/www-project-threat-dragon/)
+ - [ ] $ [SLSA-Verifier](https://github.com/slsa-framework/slsa-verifier#installation)
 
 ## Gerenciamento de Pacotes
 

@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"28ea1fb98092cbdd","type":"text","text":"Gestão Ágil de Projetos","x":-660,"y":-740,"width":250,"height":60},
-		{"id":"7778f70edd2b2e7a","type":"text","text":"Programação Orientada a Objetos","x":-380,"y":-740,"width":250,"height":60},
-		{"id":"039bc0b97c9bc632","x":-100,"y":-740,"width":250,"height":60,"type":"text","text":"Banco de Dados"}
-	],
-	"edges":[]
-}

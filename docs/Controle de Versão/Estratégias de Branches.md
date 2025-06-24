@@ -132,3 +132,21 @@ commit id: "Performance tweaks"
 checkout main
 merge release/2024-06 id: "Release June" tag: "v2.6.0"
 ```
+
+```mermaid
+gitGraph
+    commit id: "A" tag: "main (trunk)"
+    branch feature/my-feature
+    checkout feature/my-feature
+    commit id: "B" tag: "feat start"
+    commit id: "C"
+    checkout main
+    merge feature/my-feature id: "D" tag: "merge rápido"
+    commit id: "E" tag: "integração contínua" tag: "v1.0.0"
+    commit id: "F" tag: "novo desenvolvimento"
+    branch hotfix/v1.0.1
+    checkout hotfix/v1.0.1
+    commit id: "G" tag: "hotfix crítico"
+    checkout main
+    merge hotfix/v1.0.1 id: "H" tag: "v1.0.1"
+```

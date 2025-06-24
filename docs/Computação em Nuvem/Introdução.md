@@ -36,8 +36,11 @@ A ideia central da computação em nuvem remonta à **década de 1960**, com vi
 | **Alocação de Recursos** | Recursos fixos (subutilização ou falta de capacidade comum).        | Recursos sob demanda (evita desperdício).                     |
 | **Inovação**             | Lentidão para adotar novas tecnologias (ciclos longos).             | Acesso imediato a tecnologias emergentes (ex.: IA, Big Data). |
 | **Risco Financeiro**     | Alto risco de investimento em ativos que podem se tornar obsoletos. | Risco reduzido (custos alinhados ao crescimento do negócio).  |
+
 ### **Planejamento de Negócios**
 É avaliar os níveis de serviço e os indicadores de desempenho de aplicativos e sistemas de TI.
+
+
 
 | Indicador                         | Métrica Exemplo                   | Objetivo                                                                                                                                                               |
 | --------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,8 +52,10 @@ A ideia central da computação em nuvem remonta à **década de 1960**, com vi
 | **BC(Business Continuity)**       | Alta disponibilidade, redundância | Manutenção da operação durante eventos críticos                                                                                                                        |
 | **DR (Short Distance)**           | < 1 min failover                  | Alta disponibilidade dentro de uma mesma região                                                                                                                        |
 | **DR (Long Distance)**            | Failover em horas                 | Garantia de recuperação mesmo com desastre em região inteira                                                                                                           |
+
 ### Modelos de Serviços
 
+<div class="center-table" markdown>
 | Modelo                            | Entenda                                                                                                                                               |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IaaS(Infrastructure as a Service) | As empresas realizam um "lift and shift" de suas máquinas (virtuais) para recursos hospedados na nuvem.                                               |
@@ -63,6 +68,7 @@ A ideia central da computação em nuvem remonta à **década de 1960**, com vi
 | CaaS(Credit as a Service)         | É um modelo financeiro que permite a empresas oferecer crédito como um serviço, sem a necessidade de operar como bancos tradicionais.                 |
 | XaaS (Anything as a Service)      | Termo usado para expressar a ideia de que os usuários podem ter tudo<br>como um serviço.                                                              |
 |                                   | O conceito é amplamente difundido, por exemplo, com Hardware como Serviço (HaaS), Desktop como Serviço (DaaS) ou Banco de Dados como Serviço (DBaaS). |
+</div>
 ### Analogia ao Telefone Móvel
 Não precisa se preocupar com atualizações, sistema operacional será atualizado automaticamente, maioria dos aplicativos instalados continuará funcionando perfeitamente e caso não funcione, imediatamente, logo/logo estará em funcionamento.
 
@@ -160,6 +166,7 @@ Todas essas empresas descobriram que o desenvolvimento de aplicativos era muito 
 ### Método de Desenvolvimento de Arquitetura
 O princípio básico do Método de Desenvolvimento de Arquitetura é o BDAT: o ciclo de negócios, dados, aplicações e tecnologia.
 
+<div class="center-table" markdown>
 
 ```mermaid
 graph TD
@@ -174,8 +181,9 @@ graph TD
     I --> J[Requisitos de Gerenciamento]
     J --> B
     J -->|Pode voltar a| A
-
 ```
+</div>
+
 Um único provedor pode não ser capaz de fornecer todos os serviços necessários, por isso, essas empresas buscam soluções multi-nuvem e de ponta para atender a esses requisitos.
 
 - [ ] Reunindo requisitos para multi-cloud
@@ -246,6 +254,7 @@ utilização (PAYG - Pay as you go)** e **freemium** (é um modelo de negócio b
 	- [ ] Em termos simples, este fluxo de valor visa facilitar a vida dos clientes finais dos serviços implantados. de custo mais baixo.
 	- [ ] Fluxo permite o monitoramento, o gerenciamento, a correção e outros aspectos operacionais que impulsionam essas mudanças;
 
+<div class="center-table" markdown>
 ```mermaid
 flowchart LR
     A[Strategy to Portfolio S2P]
@@ -287,8 +296,8 @@ flowchart LR
         D4[Update Knowledge]
         D1 --> D2 --> D3 --> D4
     end
-
 ```
+</div>
 
 - [ ] Há três aspectos importantes que devem ser considerados ao gerenciar a arquitetura de nuvem:
 	- [ ] Arquitetura de base;
@@ -327,19 +336,23 @@ flowchart LR
 
 ![[Pasted image 20250512182610.png]]
 
+
 DESAFIOS DO CLIENTE
+
 - [ ] Complexidade da arquitetura e dívida técnica
 - [ ] Incerteza sobre a arquitetura-alvo desejada e seu próprio roteiro.
 - [ ] Nenhuma ligação clara entre o planejamento da arquitetura e a estratégia e os objetivos do negócio
 - [ ] Aproveite os recursos e inovações da nuvem
 
 ABORDAGEM DE ENGAJAMENTO PREMIUM
+
 - [ ]  Orientação para Transformação Holística
 - [ ] Cobertura de todos os Domínios da Arquitetura Corporativa
 - [ ] Abordagem modular e iterativa baseada no SAP Enterprise Architecture Framework
 - [ ] Ferramentas, modelos e aceleradores para as melhores práticas de arquitetura corporativa
 
 RESULTADOS DE NEGÓCIOS
+
 - [ ] Estratégia de transformação claramente definida e roteiro plurianual para acelerar a adoção da nuvem
 - [ ] Arquitetura preparada para o futuro para a transformação em uma empresa inteligente
 - [ ] Supere a complexidade da arquitetura com escolhas consistentes de cenários
@@ -355,7 +368,7 @@ RESULTADOS DE NEGÓCIOS
 | 5    | Estratégia de Extensibilidade e Integração | Alavanque estratégias de extensão baseadas nas melhores práticas, otimize a estratégia de gerenciamento de mudanças de software e impulsione o DevOps Transformação | Integração corporativa e estratégia de extensibilidade com base nas melhores práticas da SAP;<br>Otimize sua estratégia de gerenciamento de mudanças de software para cenários híbridos ou centrados na nuvem;                                  |
 | 6    | Cadeia de Ferramentas, UX e Segurança      | Desenvolva uma estratégia de UX clara, incorporando Segurança e conformidade à arquitetura geral. Crie um conceito sólido de Gestão do Ciclo de Vida de Aplicações  | Conceito claro sobre como utilizar as ferramentas SAP Cloud ALM em sua transformação;<br>Adoção das melhores práticas para arquitetura SAP Fiori e segurança cibernética;                                                                       |
 
-
+<div class="center-table" markdown>
 
 ```mermaid
 flowchart TD
@@ -391,8 +404,9 @@ flowchart TD
     D1 --> D2 --> D3 --> B2
     T1 --> T2 --> T3 --> T4 --> B2
 ```
+</div>
 
-
+<div class="center-table" markdown>
 ```mermaid
 gantt
     title Estudo de Migração
@@ -416,6 +430,7 @@ gantt
     section Integrações
        definir                 : d1, 2025-06-01,  24d
 ```
+</div>
 
 ### Configurando Conectividade
 Ao contratar o serviços no Azure, AWS, GCP ou qualquer outra nuvem pública, você está estendendo seu data center para essa nuvem, sendo necessário uma conexão entre seu data center e essa extensão na nuvem pública. Há pelo menos três opções para habilitar essa conexão:
@@ -425,6 +440,3 @@ Ao contratar o serviços no Azure, AWS, GCP ou qualquer outra nuvem pública, vo
 	- [ ]  **Cliente to Site(C2S)** é uma conexão VPN que permite que um dispositivo remoto se conecte a uma rede privada, como uma rede empresarial. Nesse tipo de conexão, o dispositivo remoto age como um cliente da VPN, e a rede privada age como o servidor da VPN. Essa conexão é geralmente configurada através de um software cliente VPN.
 - [ ] Conexões diretas;
 - [ ] Serviço de corretagem totalmente gerenciado de uma empresa de telecomunicações ou parceiro de conectividade;
-
-
-você começaria a construir um data center simplesmente comprando um prédio e obtendo um cabo Ethernet e um rack de servidores? Claro que não.

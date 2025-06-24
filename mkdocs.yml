@@ -3,13 +3,12 @@ site_name: 60portunities
 site_description: Documentação 60pportunities
 site_author: Horacio Vasconcellos
 site_url: https://60pportunities.com.br
-repo_name: documentacao
-repo_url: https://github.com/60pportunities/
-edit_uri: tree/master/docs
+repo_url: https://github.com/60pportunities/EngenhariaSoftware
 docs_dir: docs
 copyright:  >
    Copyright &copy; 2024 Documentação
    <a href="#__consent">Change cookie settings</a>
+
 extra_css:
   - styles/app-theme.css
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
@@ -23,7 +22,9 @@ validation:
   absolute_links: ignore
   unrecognized_links: ignore
   anchors: ignore
+
 theme:
+  name: material
   icon:
     repo: fontawesome/brands/git-alt
   custom_dir: theme
@@ -31,15 +32,21 @@ theme:
   features:
     - announce.dismiss
     - commit
+    - content.code.annotate
     - content.code.annotation
     - content.code.copy
+    - content.footnote.tooltips
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.prune
+    - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - version
-    - content.footnote.tooltips
   favicon: img/favicon.ico
-  name: material
   palette:
    # Palette toggle for light mode
    - media: "(prefers-color-scheme: light)"
@@ -66,7 +73,7 @@ plugins:
       repository: https://github.com/60pportunities/EngenhariaSoftware
       branch: main
       #token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
-      token:  !!python/object/apply:os.getenv ["GIT_AUTH_TOKEN"]
+      #token:  !!python/object/apply:os.getenv ["GIT_AUTH_TOKEN"]
   - git-authors
   - git-revision-date-localized:
       type: timeago
@@ -79,19 +86,10 @@ plugins:
           - index.md
       enabled: true
       strict: true
-# - blog:
-#      blog_dir: .
   - search
   - awesome-pages
   - autorefs
-#  - mkdocstrings:
-#      handlers:
-#        python:
-#          options:
-#            docstring_style: sphinx
-#  - monorepo
   - include-markdown:
-      #encoding: ascii
       preserve_includer_indent: false
       dedent: false
       trailing_newlines: true
@@ -102,6 +100,8 @@ plugins:
       end: <!--end-->
   - table-reader
   - glightbox:
+      skip_classes:
+        - glightbox-ignored-image
       touchNavigation: true
       loop: true
       height: auto
@@ -121,15 +121,15 @@ markdown_extensions:
       base_path: .
   - admonition
   - attr_list
-  - pymdownx.extra:
-      pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #- pymdownx.extra:
+  #    pymdownx.superfences:
+  #      custom_fences:
+  #        - name: mermaid
+  #          class: mermaid
+  #          format: !!python/name:pymdownx.superfences.fence_code_format
+  #- pymdownx.emoji:
+      #emoji_index: !!python/name:material.extensions.emoji.twemoji
+      #emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - admonition
   - abbr
@@ -146,21 +146,23 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.keys
+  - pymdownx.snippets
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: squidfunk
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.tabbed:
-      alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
+  #- pymdownx.tabbed:
+  #    alternate_style: true
+  #    combine_header_slug: true
+  #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+  #      kwds:
+  #        case: lower
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
